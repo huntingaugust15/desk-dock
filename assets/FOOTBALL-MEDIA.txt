@@ -1,0 +1,13 @@
+Football player portraits
+
+Photos are loaded from FotMob image resources or from a headshot URL explicitly supplied by ESPN. Match lineup identities continue to use ESPN athlete IDs.
+
+ESPN-to-FotMob ID crosswalk: withqwerty/reep, data/people.csv (CC0-1.0). This frozen ID crosswalk was retrieved 2026-11-14; it is used only for stable identity mapping, not squad membership or match results.
+https://github.com/withqwerty/reep
+
+Arsenal identity updates were cross-checked against the public FotMob squad listing and existing Arsenal match rosters. Unavailable or failed photos show initials.
+https://www.fotmob.com/teams/9825/squad/arsenal
+
+Recent opponent identity updates were also cross-checked against these public squad snapshots:
+https://www.fotmob.com/teams/8667/squad/hull-city
+https://www.fotmob.com/teams/45723/squad/fleetwood-town
