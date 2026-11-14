@@ -24,3 +24,6 @@ GitHub 官方說明：https://docs.github.com/en/pages/getting-started-with-gith
 F1 首頁格包含下一站的賽道輪廓縮圖，依 Circuit ID 自動選擇。SVG 存放 assets/circuits/，資產來源及授權見該資料夾的 SOURCE.txt。
 
 F1 積分及成績按需從 Jolpica F1 載入，依賽季、資料類型及賽站分開快取；詳情開啟後會隨原有 F1 更新週期重新檢查。未公布成績、更新失敗及已存資料會顯示簡短狀態。
+
+F1 詳情新增衝刺排位賽 SQ1／SQ2／SQ3（OpenF1 歷史成績）及衝刺賽名次／時間／圈數／積分（Jolpica SprintResults），均在頁內顯示。衝刺分頁只列出本季衝刺週末，賽站選擇與一般排位／正賽分開保存。OpenF1 場次會以賽季及賽程日期核對；沒有陣列分段圈速的資料不會推算 SQ 分段。
+足球首頁格已固定標題／狀態列及賽事所需高度，避免較矮螢幕時內容重疊；必要時頁面可垂直捲動。
