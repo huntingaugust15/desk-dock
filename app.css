@@ -5,3 +5,5 @@
 
 /* A live clock replaces the page branding. */
 .topbar{height:60px;margin-bottom:13px}.clock-block{display:flex;flex-direction:column;gap:5px}.clock-line{display:flex;align-items:baseline;gap:7px}.clock-line time{font-size:25px;font-weight:650;letter-spacing:.6px;font-variant-numeric:tabular-nums;line-height:1.15}.time-zone{font-size:9px;letter-spacing:1px;color:var(--muted)}.clock-date{font-size:10px;color:var(--muted);letter-spacing:.3px}.tools{align-self:center}.market-note{font-size:8px}
+
+.fixture-row{min-width:0}.fixture-competition{font-size:8px;letter-spacing:.3px;color:var(--orange);margin-bottom:5px;line-height:1.2}.football-content{gap:9px}.fixture-heading{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;font-size:10px}.competition-tag{display:inline-block;border:1px solid #47535c;border-radius:4px;padding:3px 6px;font-size:9px;color:var(--orange)}.cards{grid-template-rows:minmax(226px,1.12fr) minmax(185px,.94fr) minmax(180px,.94fr)}.app{min-height:calc(735px + env(safe-area-inset-top) + env(safe-area-inset-bottom))}
