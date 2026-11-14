@@ -1,0 +1,17 @@
+{
+  "name": "Desk Dock｜股票・足球・F1",
+  "short_name": "Desk Dock",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101214",
+  "theme_color": "#101214",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
