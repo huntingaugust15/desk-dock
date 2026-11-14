@@ -150,7 +150,7 @@ $('#wake').onclick=async()=>{if(wakeWanted){wakeWanted=false;if(wakeLock)await w
 document.addEventListener('visibilitychange',()=>{if(document.hidden){hiddenAt=Date.now();return}tick();if(wakeWanted&&(!wakeLock||wakeLock.released))requestWake();reconnectQuotes();hiddenAt=0;maintainConnections()});
 window.addEventListener('online',()=>{footballFailures=0;f1Failures=0;tick();quoteWasOffline=true;reconnectQuotes();refresh()});window.addEventListener('offline',()=>{quoteWasOffline=true;tick()});
 window.addEventListener('pageshow',ev=>{if(ev.persisted){tick();reconnectQuotes();maintainConnections()}});
-prefs.night=DockFeatures.nightSettings(prefs.night);prefs.displayMode=DockExtras.displayMode(prefs.displayMode);applyDisplayMode();prefs.spoilerMode=prefs.spoilerMode===true;updateReplayControl();setupReading();tick();setInterval(tick,1000);renderStocks();refresh();startNews();
+prefs.night=DockFeatures.nightSettings(prefs.night);prefs.displayMode=DockExtras.displayMode(prefs.displayMode);applyDisplayMode();prefs.spoilerMode=prefs.spoilerMode===true;updateReplayControl();setupReading();tick();setInterval(tick,1000);renderStocks();refresh();startNews();setupNavigation();
 
 document.addEventListener('error',ev=>{if(ev.target instanceof HTMLImageElement&&ev.target.classList.contains('circuit-outline'))ev.target.closest('.circuit-thumb')?.remove()},true);
 

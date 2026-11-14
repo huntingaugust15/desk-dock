@@ -82,3 +82,6 @@ body[data-display-mode="large"] .card h1,body[data-display-mode="large"] .card h
 
 /* Keep the close control available without scrolling away from the article. */
 #detail .sheet-head{position:sticky;top:-20px;z-index:5;background:#191d20;padding:8px 0 12px;margin-top:-8px;border-bottom:1px solid #303940}
+
+/* Parent navigation stays accessible in the detail header. */
+.sheet-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}.sheet-back{border:1px solid #485159;border-radius:8px;background:#242a2f;padding:8px 10px;font-size:11px;letter-spacing:0;min-height:34px;white-space:nowrap}.sheet-back[hidden]{display:none}
