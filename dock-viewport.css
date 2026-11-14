@@ -1,0 +1,82 @@
+/* Fit the three primary widgets inside the small viewport, with news below. */
+.app,body[data-display-mode] .app{
+  --dock-safe-top:env(safe-area-inset-top,0px);
+  --dock-safe-bottom:env(safe-area-inset-bottom,0px);
+  --dock-primary-height:calc(100svh - var(--dock-safe-top) - var(--dock-safe-bottom) - 80px);
+  --dock-stock-height:clamp(236px,30svh,252px);
+  --dock-sport-height:calc((var(--dock-primary-height) - var(--dock-stock-height) - 16px)/2);
+  height:auto;min-height:0;
+  padding:calc(10px + var(--dock-safe-top)) 14px calc(10px + var(--dock-safe-bottom));
+}
+.topbar,body[data-display-mode] .topbar{height:50px;margin-bottom:10px}
+.cards,body[data-display-mode] .cards{
+  flex:none;gap:8px;
+  grid-template-rows:var(--dock-stock-height) var(--dock-sport-height) var(--dock-sport-height) minmax(260px,auto);
+}
+.cards>.card:not(.news),body[data-display-mode] .cards>.card:not(.news){min-height:0;padding:10px 14px 8px;border-radius:17px}
+.cards>.news{margin-top:calc(10px + var(--dock-safe-bottom));min-height:260px}
+.cards>.card:not(.news) .card-head{min-height:28px;gap:6px}
+.cards>.card:not(.news) .detail-link{min-height:28px;padding-top:4px;padding-bottom:4px}
+.cards>.card:not(.news) .card-foot,body[data-display-mode] .cards>.card:not(.news) .card-foot{min-height:16px;margin-top:4px;line-height:1.4}
+.cards>.card:not(.news) .card-source,.cards>.card:not(.news) .card-check{font-size:9px}
+.cards>.card:not(.news) .content-button,body[data-display-mode] .cards>.card:not(.news) .content-button{flex:1 1 0;min-height:0}
+.market-session,body[data-display-mode] .market-session{min-height:18px;font-size:9px}
+.market .quote-box{min-height:138px;gap:3px}
+.market .stock-bottom{min-height:19px;padding-top:2px;gap:2px 6px}
+.market .market-note,body[data-display-mode] .market .market-note,.market .source-mini,body[data-display-mode] .market .source-mini{font-size:8px;line-height:1.4}
+.football .section-meta,body[data-display-mode] .football .section-meta{min-height:16px;margin:1px 0 3px;font-size:9px;line-height:1.35;gap:6px}
+.football .football-content,body[data-display-mode] .football .football-content{min-height:0;gap:0;justify-content:center}
+.football .fixture-competition,body[data-display-mode] .football .fixture-competition{font-size:9px;margin-bottom:6px;line-height:1.3}
+.football .match,body[data-display-mode] .football .match{min-height:0;grid-template-columns:minmax(0,1fr) 90px minmax(0,1fr);gap:6px}
+.football .club,.football .club.away{gap:5px}
+.football .club img,body[data-display-mode] .football .club img{width:clamp(28px,5svh,44px);height:clamp(28px,5svh,44px)}
+.football .club span,body[data-display-mode] .football .club span{font-size:clamp(12px,1.85svh,15px);line-height:1.2;-webkit-line-clamp:2}
+.football .score,body[data-display-mode] .football .score{font-size:clamp(21px,3svh,26px);line-height:1.1}
+.football .score small,body[data-display-mode] .football .score small{font-size:clamp(10px,1.5svh,13px);margin-top:5px;line-height:1.25}
+.racing .race-content,body[data-display-mode] .racing .race-content{min-height:0;justify-content:center}
+.racing .race-kicker,body[data-display-mode] .racing .race-kicker{font-size:9px;margin:0 0 6px;line-height:1.3;letter-spacing:.5px}
+.racing .race-hero{gap:8px}
+.racing .race-hero .race-name,body[data-display-mode] .racing .race-hero .race-name{font-size:clamp(22px,3.3svh,29px);line-height:1.1;letter-spacing:-.5px}
+.racing .race-place,body[data-display-mode] .racing .race-place{font-size:9px;line-height:1.35;margin-top:5px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.racing .circuit-thumb,body[data-display-mode] .racing .circuit-thumb{width:clamp(80px,13svh,110px);height:clamp(58px,10svh,84px);flex-basis:clamp(80px,13svh,110px);min-height:0;padding:4px}
+.racing .race-bottom{margin-top:7px;gap:6px;flex-wrap:wrap}
+.racing .race-date,body[data-display-mode] .racing .race-date{font-size:clamp(11px,1.65svh,13px);line-height:1.3}
+.racing .countdown,.football .fixture-countdown,body[data-display-mode] .racing .countdown,body[data-display-mode] .football .fixture-countdown{font-size:10px;font-weight:400;line-height:1.3;color:var(--orange)}
+body[data-display-mode="large"] .cards>.card:not(.news) h1,body[data-display-mode="large"] .cards>.card:not(.news) h2{font-size:15px}
+body[data-display-mode="large"] .football .club span{font-size:clamp(13px,2svh,16px)}
+body[data-display-mode="large"] .racing .race-hero .race-name{font-size:clamp(23px,3.6svh,31px)}
+body[data-display-mode="large"] .clock-line time{font-size:27px}
+body[data-display-mode="large"] .clock-date{font-size:11px}
+@media(max-height:740px){
+  .cards>.card:not(.news),body[data-display-mode] .cards>.card:not(.news){padding-top:7px;padding-bottom:7px}
+  .cards>.card:not(.news) .card-head{min-height:25px}
+  .cards>.card:not(.news) .detail-link{min-height:25px}
+  .cards>.card:not(.news) h1,.cards>.card:not(.news) h2,body[data-display-mode] .cards>.card:not(.news) h1,body[data-display-mode] .cards>.card:not(.news) h2{font-size:13px}
+  .football .club img,body[data-display-mode] .football .club img{width:30px;height:30px}
+  .football .club span,body[data-display-mode] .football .club span{font-size:12px}
+  .football .club,.football .club.away{gap:4px}
+  .football .score small,body[data-display-mode] .football .score small{font-size:11px;margin-top:4px}
+  .football .fixture-competition,body[data-display-mode] .football .fixture-competition{margin-bottom:4px}
+  .racing .circuit-thumb,body[data-display-mode] .racing .circuit-thumb{width:82px;height:60px;flex-basis:82px}
+  .racing .race-hero .race-name,body[data-display-mode] .racing .race-hero .race-name{font-size:23px}
+  .racing .race-kicker,body[data-display-mode] .racing .race-kicker{margin-bottom:4px;font-size:8px}
+  .racing .race-bottom{margin-top:5px}
+  .racing .race-date,body[data-display-mode] .racing .race-date{font-size:11px}
+  .football .status,.football .lineup-notice,body[data-display-mode] .football .status,body[data-display-mode] .football .lineup-notice{font-size:8px}
+}
+
+@media(max-height:650px){
+  .app,body[data-display-mode] .app{--dock-stock-height:224px}
+  .racing .circuit-thumb,body[data-display-mode] .racing .circuit-thumb{width:78px;height:56px;flex-basis:78px}
+  .racing .race-hero .race-name,body[data-display-mode] .racing .race-hero .race-name{font-size:22px}
+  .football .club img,body[data-display-mode] .football .club img{width:28px;height:28px}
+}
+@media(orientation:landscape) and (max-height:600px){
+  .cards,body[data-display-mode] .cards{grid-template-rows:236px 190px 200px minmax(260px,auto)}
+}
+
+@media(max-height:630px){
+  .racing .circuit-thumb,body[data-display-mode] .racing .circuit-thumb{width:76px;height:52px;flex-basis:76px}
+  .racing .race-kicker,body[data-display-mode] .racing .race-kicker{margin-bottom:3px}
+  .racing .race-bottom{margin-top:4px}
+}
