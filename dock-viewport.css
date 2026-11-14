@@ -80,3 +80,10 @@ body[data-display-mode="large"] .clock-date{font-size:11px}
   .racing .race-kicker,body[data-display-mode] .racing .race-kicker{margin-bottom:3px}
   .racing .race-bottom{margin-top:4px}
 }
+
+/* Use the actual allocated row, including safe areas, for the circuit image. */
+.racing .circuit-thumb,body[data-display-mode] .racing .circuit-thumb{
+  height:clamp(45px,calc(var(--dock-sport-height) - 96px),84px);
+  width:clamp(76px,calc((var(--dock-sport-height) - 96px)*1.3),110px);
+  flex-basis:clamp(76px,calc((var(--dock-sport-height) - 96px)*1.3),110px);
+}
