@@ -1,0 +1,10 @@
+F1 identity images
+
+Team logo URLs: Formula 1 official 2026 team listing
+https://www.formula1.com/en/teams
+
+Driver portraits: media.formula1.com URLs from OpenF1 driver metadata, matched to Jolpica driver IDs by player names; Rafael Camara image from the official driver listing.
+https://openf1.org/docs/#drivers
+https://www.formula1.com/en/drivers
+
+Image references captured 2026-11-14. Images are loaded from their source CDN and are not copied into this repository. Missing or failed images retain name initials. Match result team identities are preserved independently of portraits.
