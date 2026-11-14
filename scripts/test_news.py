@@ -50,5 +50,11 @@ class NewsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             news.parse_feed(b'<!DOCTYPE rss><rss/>', news.SOURCES[0], NOW)
 
+    def test_technology_categories_exclude_lifestyle_and_science_only(self):
+        self.assertFalse(news.TECH_CATEGORIES.search('自然科學 科技趣聞 Gaia'))
+        self.assertFalse(news.TECH_CATEGORIES.search('生物科技 素食貓糧'))
+        self.assertTrue(news.TECH_CATEGORIES.search('AI 人工智慧 醫療科技'))
+        self.assertTrue(news.TECH_CATEGORIES.search('Nvidia 半導體'))
+
 if __name__ == '__main__':
     unittest.main()

@@ -19,7 +19,7 @@ SOURCES = [
     {'id': 'ithome', 'name': 'iThome', 'url': 'https://www.ithome.com.tw/rss', 'host': 'ithome.com.tw', 'timezone': 8},
 ]
 UTC = dt.timezone.utc
-TECH_CATEGORIES = re.compile(r'AI|人工智|3C|半導體|晶片|處理器|軟體|軟件|硬體|網路|資安|資訊安全|機器人|電動車|能源科技|電力儲存|電池|數位|數碼|手機|電腦|穿戴|智慧|科技趣聞|Microsoft|Nvidia|Apple|Google|Meta|Amazon|OpenAI|Arm', re.I)
+TECH_CATEGORIES = re.compile(r'\b(?:AI|3C|Microsoft|Nvidia|Apple|Google|Meta|Amazon|OpenAI|Arm)\b|人工智|半導體|晶片|處理器|軟體|軟件|硬體|網路|資安|資訊安全|機器人|電動車|能源科技|電力儲存|電池|數位|數碼|手機|電腦|穿戴|智慧', re.I)
 
 def iso(value):
     return value.astimezone(UTC).isoformat(timespec='seconds').replace('+00:00', 'Z')

@@ -1,31 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T18:56:24Z",
+  "generatedAt": "2026-11-14T18:57:03Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-14T18:56:24Z",
+      "lastSuccess": "2026-11-14T18:57:03Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-14T18:56:24Z",
+      "lastSuccess": "2026-11-14T18:57:03Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "12ccb47af07e23f0",
-      "title": "就算從未誕生生命，地球仍能靠地質循環維持數十億年宜居環境",
-      "url": "https://technews.tw/2026/11/15/scientists-simulated-what-earth-would-be-like-if-life-never-existed/",
-      "publishedAt": "2026-11-14T16:00:34Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報"
-    },
     {
       "id": "19bd6733a0421ca3",
       "title": "AI 問診漸成主流但侵蝕大眾信任感，醫病關係仍是最重要核心",
