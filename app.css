@@ -32,3 +32,6 @@
 
 /* Player portraits retain their initials if the source has no usable image. */
 .player-portrait{position:relative;display:flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;border-radius:50%;overflow:hidden;background:#2b3339;border:1px solid #3b464f;color:#b8c8d2;font-size:10px}.player-portrait img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
+
+/* Give the single home fixture a larger, balanced layout. */
+.football .fixture-competition{margin-bottom:8px}.football .match{grid-template-columns:minmax(0,1fr) 92px minmax(0,1fr);gap:8px;min-height:82px;font-size:14px}.football .club,.football .club.away{flex-direction:column;justify-content:center;gap:7px;text-align:center}.football .club img{width:40px;height:40px}.football .club span{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;font-size:14px;font-weight:550;line-height:1.25}.football .score{font-size:24px;line-height:1.15}.football .score small{margin:8px 0 0;font-size:12px;font-weight:500;line-height:1.4;letter-spacing:0}
