@@ -1,0 +1,4 @@
+Circuit outline source: MasterPlay007/F1-Track-Layouts-SVG
+https://github.com/MasterPlay007/F1-Track-Layouts-SVG
+License: CC0-1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Bundled 2026-11-14. Modified stroke color and width for the dashboard.

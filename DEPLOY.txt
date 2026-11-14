@@ -20,3 +20,5 @@ iPhone：用 Safari 開啟網站 > 分享 > 加入主畫面；按右上角 ☼ �
 網站程式沒有 ChatGPT 驗證功能。先前的登入畫面由 Sites 私人託管層提供，此套件不含該託管層，也不含 .openai 設定、帳戶憑證或 Git metadata。
 
 GitHub 官方說明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+F1 首頁格包含下一站的賽道輪廓縮圖，依 Circuit ID 自動選擇。SVG 存放 assets/circuits/，資產來源及授權見該資料夾的 SOURCE.txt。
