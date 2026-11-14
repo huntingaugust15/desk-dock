@@ -1,6 +1,7 @@
 /* Remember selections and stable reading anchors, never result/reveal state. */
 let readingState={version:1,selections:{},positions:{}},readingRenderedKey='',readingDepth=0,readingSaveTimer=0;
 const readingPending=new Map();
+function readingLayout(){return [$('#detail').clientWidth,document.body.dataset.displayMode,[...$('#detail').querySelectorAll('[data-reading-anchor]')].map(e=>e.dataset.readingAnchor+':'+e.textContent.length).join('|')].join(':')}
 function footballReadingScope(){return [prefs.footballMode,prefs.league,prefs.team||''].join('|')}
 function readingKey(){
   const kind=$('#detail').dataset.kind;
@@ -13,7 +14,7 @@ function captureReadingPosition(){
   const dialog=$('#detail'),top=dialog.getBoundingClientRect().top;
   const anchors=[...dialog.querySelectorAll('[data-reading-anchor]')];
   const anchor=anchors.find(e=>e.getBoundingClientRect().bottom>top+24);
-  return {top:dialog.scrollTop,anchor:anchor?.dataset.readingAnchor||'',offset:anchor?anchor.getBoundingClientRect().top-top:0,expanded:[...dialog.querySelectorAll('details[open][data-reading-open]')].map(e=>e.dataset.readingOpen),at:Date.now()};
+  return {top:dialog.scrollTop,anchor:anchor?.dataset.readingAnchor||'',offset:anchor?anchor.getBoundingClientRect().top-top:0,layout:readingLayout(),expanded:[...dialog.querySelectorAll('details[open][data-reading-open]')].map(e=>e.dataset.readingOpen),at:Date.now()};
 }
 function storeReadingPosition(){if($('#detail').open&&readingRenderedKey&&!readingPending.has(readingRenderedKey))readingState.positions[readingRenderedKey]=captureReadingPosition()}
 function saveReadingState(){
@@ -48,7 +49,7 @@ function applyReadingPosition(position,key){
   for(const item of dialog.querySelectorAll('details[data-reading-open]'))item.open=(state.expanded||[]).includes(item.dataset.readingOpen);
   const anchor=[...dialog.querySelectorAll('[data-reading-anchor]')].find(e=>e.dataset.readingAnchor===state.anchor);
   if(!anchor&&state.top>dialog.scrollHeight-dialog.clientHeight+2)readingPending.set(key,state);else readingPending.delete(key);
-  dialog.scrollTop=anchor?dialog.scrollTop+anchor.getBoundingClientRect().top-dialog.getBoundingClientRect().top-state.offset:state.top||0;
+  dialog.scrollTop=anchor&&state.layout!==readingLayout()?dialog.scrollTop+anchor.getBoundingClientRect().top-dialog.getBoundingClientRect().top-state.offset:state.top||0;
 }
 function renderRemembering(render){
   if(readingDepth||!$('#detail').open)return render();
