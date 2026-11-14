@@ -1,0 +1,259 @@
+{
+  "year": 2026,
+  "checkedAt": "2026-11-14T17:25:06.374Z",
+  "circuits": {
+    "albert_park": {
+      "id": "albert_park",
+      "year": 2026,
+      "lengthKm": 5.278,
+      "laps": 58,
+      "distanceKm": 306.124,
+      "corners": 14,
+      "source": "https://www.formula1.com/en/racing/2026/australia",
+      "checkedAt": "2026-11-14T17:25:02.798Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-australian-gp"
+    },
+    "shanghai": {
+      "id": "shanghai",
+      "year": 2026,
+      "lengthKm": 5.451,
+      "laps": 56,
+      "distanceKm": 305.066,
+      "corners": 16,
+      "source": "https://www.formula1.com/en/racing/2026/china",
+      "checkedAt": "2026-11-14T17:25:03.070Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-chinese-gp"
+    },
+    "suzuka": {
+      "id": "suzuka",
+      "year": 2026,
+      "lengthKm": 5.807,
+      "laps": 53,
+      "distanceKm": 307.471,
+      "corners": 18,
+      "source": "https://www.formula1.com/en/racing/2026/japan",
+      "checkedAt": "2026-11-14T17:25:02.604Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-japanese-gp"
+    },
+    "miami": {
+      "id": "miami",
+      "year": 2026,
+      "lengthKm": 5.412,
+      "laps": 57,
+      "distanceKm": 308.326,
+      "corners": 19,
+      "source": "https://www.formula1.com/en/racing/2026/miami",
+      "checkedAt": "2026-11-14T17:25:06.374Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-miami-gp"
+    },
+    "villeneuve": {
+      "id": "villeneuve",
+      "year": 2026,
+      "lengthKm": 4.361,
+      "laps": 70,
+      "distanceKm": 305.27,
+      "corners": 14,
+      "source": "https://www.formula1.com/en/racing/2026/canada",
+      "checkedAt": "2026-11-14T17:25:04.360Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-canadian-gp"
+    },
+    "monaco": {
+      "id": "monaco",
+      "year": 2026,
+      "lengthKm": 3.337,
+      "laps": 78,
+      "distanceKm": 260.286,
+      "corners": 19,
+      "source": "https://www.formula1.com/en/racing/2026/monaco",
+      "checkedAt": "2026-11-14T17:25:04.096Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-monaco-gp"
+    },
+    "catalunya": {
+      "id": "catalunya",
+      "year": 2026,
+      "lengthKm": 4.657,
+      "laps": 66,
+      "distanceKm": 307.236,
+      "corners": 14,
+      "source": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+      "checkedAt": "2026-11-14T17:25:04.084Z",
+      "cornersSource": "https://media.mercedes-benz.com/en/article/04ca6a61-1544-4574-9720-7ba2bd05fa06"
+    },
+    "red_bull_ring": {
+      "id": "red_bull_ring",
+      "year": 2026,
+      "lengthKm": 4.326,
+      "laps": 71,
+      "distanceKm": 307.026,
+      "corners": 10,
+      "source": "https://www.formula1.com/en/racing/2026/austria",
+      "checkedAt": "2026-11-14T17:25:04.266Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-austrian-gp"
+    },
+    "silverstone": {
+      "id": "silverstone",
+      "year": 2026,
+      "lengthKm": 5.891,
+      "laps": 52,
+      "distanceKm": 306.198,
+      "corners": 18,
+      "source": "https://www.formula1.com/en/racing/2026/great-britain",
+      "checkedAt": "2026-11-14T17:25:03.069Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-british-gp"
+    },
+    "spa": {
+      "id": "spa",
+      "year": 2026,
+      "lengthKm": 7.004,
+      "laps": 44,
+      "distanceKm": 308.054,
+      "corners": 19,
+      "source": "https://www.formula1.com/en/racing/2026/belgium",
+      "checkedAt": "2026-11-14T17:25:02.988Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-belgian-gp"
+    },
+    "hungaroring": {
+      "id": "hungaroring",
+      "year": 2026,
+      "lengthKm": 4.381,
+      "laps": 70,
+      "distanceKm": 306.63,
+      "corners": 14,
+      "source": "https://www.formula1.com/en/racing/2026/hungary",
+      "checkedAt": "2026-11-14T17:25:03.179Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-hungarian-gp"
+    },
+    "zandvoort": {
+      "id": "zandvoort",
+      "year": 2026,
+      "lengthKm": 4.259,
+      "laps": 72,
+      "distanceKm": 306.592,
+      "corners": 14,
+      "source": "https://www.formula1.com/en/racing/2026/netherlands",
+      "checkedAt": "2026-11-14T17:25:03.344Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-dutch-gp"
+    },
+    "monza": {
+      "id": "monza",
+      "year": 2026,
+      "lengthKm": 5.793,
+      "laps": 53,
+      "distanceKm": 306.72,
+      "corners": 11,
+      "source": "https://www.formula1.com/en/racing/2026/italy",
+      "checkedAt": "2026-11-14T17:25:03.126Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-italian-gp"
+    },
+    "madring": {
+      "id": "madring",
+      "year": 2026,
+      "lengthKm": 5.414,
+      "laps": 57,
+      "distanceKm": 308.399,
+      "corners": 22,
+      "source": "https://www.formula1.com/en/racing/2026/spain",
+      "checkedAt": "2026-11-14T17:25:04.153Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-spanish-gp"
+    },
+    "baku": {
+      "id": "baku",
+      "year": 2026,
+      "lengthKm": 6.003,
+      "laps": 51,
+      "distanceKm": 306.042,
+      "corners": 20,
+      "source": "https://www.formula1.com/en/racing/2026/azerbaijan",
+      "checkedAt": "2026-11-14T17:25:04.165Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-azerbaijan-gp"
+    },
+    "sepang": {
+      "id": "sepang",
+      "year": 2026,
+      "lengthKm": 5.543,
+      "laps": 56,
+      "distanceKm": 310.417,
+      "corners": 15,
+      "source": "https://www.formula1.com/en/racing/2026/bahrain",
+      "checkedAt": "2026-11-14T17:25:04.097Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-bahrain-gp"
+    },
+    "marina_bay": {
+      "id": "marina_bay",
+      "year": 2026,
+      "lengthKm": 4.927,
+      "laps": 62,
+      "distanceKm": 305.337,
+      "corners": 19,
+      "source": "https://www.formula1.com/en/racing/2026/singapore",
+      "checkedAt": "2026-11-14T17:25:04.266Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-singapore-gp"
+    },
+    "americas": {
+      "id": "americas",
+      "year": 2026,
+      "lengthKm": 5.513,
+      "laps": 56,
+      "distanceKm": 308.432,
+      "corners": 20,
+      "source": "https://www.formula1.com/en/racing/2026/united-states",
+      "checkedAt": "2026-11-14T17:25:03.035Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-united-states-gp"
+    },
+    "rodriguez": {
+      "id": "rodriguez",
+      "year": 2026,
+      "lengthKm": 4.304,
+      "laps": 71,
+      "distanceKm": 305.354,
+      "corners": 17,
+      "source": "https://www.formula1.com/en/racing/2026/mexico",
+      "checkedAt": "2026-11-14T17:25:03.643Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-mexico-city-gp"
+    },
+    "interlagos": {
+      "id": "interlagos",
+      "year": 2026,
+      "lengthKm": 4.309,
+      "laps": 71,
+      "distanceKm": 305.879,
+      "corners": 15,
+      "source": "https://www.formula1.com/en/racing/2026/brazil",
+      "checkedAt": "2026-11-14T17:25:03.751Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-sao-paulo-gp"
+    },
+    "vegas": {
+      "id": "vegas",
+      "year": 2026,
+      "lengthKm": 6.201,
+      "laps": 50,
+      "distanceKm": 309.958,
+      "corners": 17,
+      "source": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "checkedAt": "2026-11-14T17:25:02.655Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-las-vegas-gp"
+    },
+    "losail": {
+      "id": "losail",
+      "year": 2026,
+      "lengthKm": 5.419,
+      "laps": 57,
+      "distanceKm": 308.611,
+      "corners": 16,
+      "source": "https://www.formula1.com/en/racing/2026/qatar",
+      "checkedAt": "2026-11-14T17:25:04.038Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-qatar-gp"
+    },
+    "yas_marina": {
+      "id": "yas_marina",
+      "year": 2026,
+      "lengthKm": 5.281,
+      "laps": 58,
+      "distanceKm": 306.188,
+      "corners": 16,
+      "source": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
+      "checkedAt": "2026-11-14T17:25:02.987Z",
+      "cornersSource": "https://www.astonmartinf1.com/api/races/2026-abu-dhabi-gp"
+    }
+  }
+}
