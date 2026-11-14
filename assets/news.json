@@ -1,19 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T18:57:37Z",
+  "generatedAt": "2026-11-14T19:13:09Z",
+  "contentUpdatedAt": "2026-11-14T18:57:37Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-14T18:57:37Z",
+      "lastSuccess": "2026-11-14T19:13:09Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-14T18:57:37Z",
+      "lastSuccess": "2026-11-14T19:13:09Z",
       "ok": true
     }
   ],
@@ -24,7 +25,9 @@
       "url": "https://technews.tw/2026/11/15/in-the-ai-era-can-we-preserve-humanity-in-healthcare/",
       "publishedAt": "2026-11-14T16:00:06Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "19bd6733a0421ca3",
+      "related": []
     },
     {
       "id": "f68416c73f90739f",
@@ -32,7 +35,9 @@
       "url": "https://technews.tw/2026/11/14/the-biggest-threat-to-teslas-home-battery-business-is-its-ex-chief/",
       "publishedAt": "2026-11-14T09:00:12Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "f68416c73f90739f",
+      "related": []
     },
     {
       "id": "84cbf580679df169",
@@ -40,7 +45,9 @@
       "url": "https://technews.tw/2026/11/14/microsoft-365-fax-machine-phone-call-bluetooth/",
       "publishedAt": "2026-11-14T08:36:14Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "84cbf580679df169",
+      "related": []
     },
     {
       "id": "ca32b718658235a1",
@@ -48,7 +55,9 @@
       "url": "https://finance.technews.tw/2026/11/14/chinese-media-state-machinery-targets-jensen-huang-personal-conduct-political-persecution/",
       "publishedAt": "2026-11-14T08:30:56Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "ca32b718658235a1",
+      "related": []
     },
     {
       "id": "d8d9b232bbaacdf9",
@@ -56,7 +65,9 @@
       "url": "https://finance.technews.tw/2026/11/14/nvidia-arm-rene-haas/",
       "publishedAt": "2026-11-14T07:21:00Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "d8d9b232bbaacdf9",
+      "related": []
     },
     {
       "id": "e61438753fac54ff",
@@ -64,7 +75,9 @@
       "url": "https://finance.technews.tw/2026/11/14/elon-musk-jensen-huang/",
       "publishedAt": "2026-11-14T07:10:31Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "e61438753fac54ff",
+      "related": []
     },
     {
       "id": "f9be733ec037128b",
@@ -72,7 +85,9 @@
       "url": "https://technews.tw/2026/11/14/ai-could-help-us-live-much-longer/",
       "publishedAt": "2026-11-14T07:00:51Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "f9be733ec037128b",
+      "related": []
     },
     {
       "id": "92485facee6053ff",
@@ -80,7 +95,9 @@
       "url": "https://technews.tw/2026/11/14/quanta-liang-cizhen-sees-no-impact-on-ai-from-jensen-huang-controversy/",
       "publishedAt": "2026-11-14T06:30:49Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "92485facee6053ff",
+      "related": []
     },
     {
       "id": "46d25b2b7df0d918",
@@ -88,7 +105,9 @@
       "url": "https://infosecu.technews.tw/2026/11/14/caim1-ai-anti-counterfeiting-camera/",
       "publishedAt": "2026-11-14T06:00:12Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "46d25b2b7df0d918",
+      "related": []
     },
     {
       "id": "8aeebd442b3ea8ea",
@@ -96,7 +115,9 @@
       "url": "https://technews.tw/2026/11/14/akihabara-deploys-smart-bins-that-automatically-compress-waste/",
       "publishedAt": "2026-11-14T05:30:29Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "8aeebd442b3ea8ea",
+      "related": []
     },
     {
       "id": "1101d47f907ee261",
@@ -104,7 +125,9 @@
       "url": "https://technews.tw/2026/11/14/these-robotic-arms-are-powered-by-algae/",
       "publishedAt": "2026-11-14T05:00:25Z",
       "sourceId": "technews",
-      "sourceName": "科技新報"
+      "sourceName": "科技新報",
+      "clusterId": "1101d47f907ee261",
+      "related": []
     },
     {
       "id": "8b422d3b9d96816b",
@@ -112,7 +135,9 @@
       "url": "https://www.ithome.com.tw/news/180507",
       "publishedAt": "2026-11-14T03:11:39Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "8b422d3b9d96816b",
+      "related": []
     },
     {
       "id": "89af737d67bd00a6",
@@ -120,7 +145,9 @@
       "url": "https://www.ithome.com.tw/news/180490",
       "publishedAt": "2026-11-13T04:11:45Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "89af737d67bd00a6",
+      "related": []
     },
     {
       "id": "c5ae84ef501541be",
@@ -128,7 +155,9 @@
       "url": "https://www.ithome.com.tw/news/180489",
       "publishedAt": "2026-11-13T04:11:12Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "c5ae84ef501541be",
+      "related": []
     },
     {
       "id": "20239f1f29361b01",
@@ -136,7 +165,9 @@
       "url": "https://www.ithome.com.tw/news/180488",
       "publishedAt": "2026-11-13T03:11:37Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "20239f1f29361b01",
+      "related": []
     },
     {
       "id": "7af88869fb73daca",
@@ -144,7 +175,9 @@
       "url": "https://www.ithome.com.tw/news/180484",
       "publishedAt": "2026-11-13T02:11:54Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "7af88869fb73daca",
+      "related": []
     },
     {
       "id": "7c0ca808be7fcc1f",
@@ -152,7 +185,9 @@
       "url": "https://www.ithome.com.tw/news/180477",
       "publishedAt": "2026-11-13T02:11:39Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "7c0ca808be7fcc1f",
+      "related": []
     },
     {
       "id": "69a5a7c901c46fba",
@@ -160,7 +195,9 @@
       "url": "https://www.ithome.com.tw/news/180482",
       "publishedAt": "2026-11-13T02:11:33Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "69a5a7c901c46fba",
+      "related": []
     },
     {
       "id": "9ab2f975963a1280",
@@ -168,7 +205,9 @@
       "url": "https://www.ithome.com.tw/news/180487",
       "publishedAt": "2026-11-13T02:11:30Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "9ab2f975963a1280",
+      "related": []
     },
     {
       "id": "5bcccb8615eda156",
@@ -176,7 +215,9 @@
       "url": "https://www.ithome.com.tw/news/180485",
       "publishedAt": "2026-11-13T02:11:16Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "5bcccb8615eda156",
+      "related": []
     },
     {
       "id": "ba19103e424713c4",
@@ -184,7 +225,9 @@
       "url": "https://www.ithome.com.tw/news/180481",
       "publishedAt": "2026-11-13T02:11:06Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "ba19103e424713c4",
+      "related": []
     },
     {
       "id": "c4c1e1aeda67fef4",
@@ -192,7 +235,9 @@
       "url": "https://www.ithome.com.tw/news/180478",
       "publishedAt": "2026-11-13T02:11:04Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "c4c1e1aeda67fef4",
+      "related": []
     },
     {
       "id": "52b6d3b14e7bca95",
@@ -200,7 +245,9 @@
       "url": "https://www.ithome.com.tw/news/180497",
       "publishedAt": "2026-11-13T01:11:59Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "52b6d3b14e7bca95",
+      "related": []
     },
     {
       "id": "8409717d8be575ba",
@@ -208,7 +255,9 @@
       "url": "https://www.ithome.com.tw/news/180475",
       "publishedAt": "2026-11-13T01:11:57Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "8409717d8be575ba",
+      "related": []
     },
     {
       "id": "b42bca7728150209",
@@ -216,7 +265,9 @@
       "url": "https://www.ithome.com.tw/news/180473",
       "publishedAt": "2026-11-13T01:11:33Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "b42bca7728150209",
+      "related": []
     },
     {
       "id": "14db645d78ac2110",
@@ -224,7 +275,9 @@
       "url": "https://www.ithome.com.tw/news/180474",
       "publishedAt": "2026-11-13T01:11:25Z",
       "sourceId": "ithome",
-      "sourceName": "iThome"
+      "sourceName": "iThome",
+      "clusterId": "14db645d78ac2110",
+      "related": []
     }
   ]
 }

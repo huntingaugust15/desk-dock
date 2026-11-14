@@ -1,6 +1,7 @@
 """Collect publisher RSS headlines for the static personal Dock. Stdlib only."""
 import concurrent.futures
 import datetime as dt
+import difflib
 import email.utils
 import hashlib
 import html
@@ -79,6 +80,41 @@ def fetch_source(source, now):
     with urllib.request.urlopen(request, timeout=20) as response:
         return parse_feed(response.read(2_000_001), source, now)
 
+def flat_articles(articles):
+    return [{k: a[k] for k in ('id', 'title', 'url', 'publishedAt', 'sourceId', 'sourceName')} for group in articles for a in [group, *group.get('related', [])]]
+
+def headline_key(title):
+    title = re.sub(r'nvidia|英偉達|輝達', 'nvidia', title, flags=re.I)
+    title = re.sub(r'microsoft|微軟', 'microsoft', title, flags=re.I)
+    return re.sub(r'[\W_]+', '', title).casefold()
+
+def same_story(a, b):
+    # Conservative headline matching, not a claim that reporting is verified.
+    if abs((parse_date(a['publishedAt']) - parse_date(b['publishedAt'])).total_seconds()) > 36 * 3600:
+        return False
+    left, right = headline_key(a['title']), headline_key(b['title'])
+    if left == right:
+        return True
+    if min(len(left), len(right)) < 14:
+        return False
+    if set(re.findall(r'\d+(?:\.\d+)?', left)) != set(re.findall(r'\d+(?:\.\d+)?', right)):
+        return False
+    grams = lambda s: {s[i:i+2] for i in range(len(s)-1)}
+    first, second = grams(left), grams(right)
+    overlap = 2 * len(first & second) / max(1, len(first) + len(second))
+    return overlap >= .62 and difflib.SequenceMatcher(None, left, right, autojunk=False).ratio() >= .62
+
+def group_stories(articles, previous):
+    groups = []
+    old_ids = {a['url']: group.get('clusterId', group['id']) for group in previous for a in [group, *group.get('related', [])]}
+    for article in articles:
+        group = next((g for g in groups if same_story(g, article)), None)
+        if group:
+            group['related'].append(article)
+        else:
+            groups.append({**article, 'clusterId': old_ids.get(article['url'], article['id']), 'related': []})
+    return groups
+
 def collect(now=None, fetcher=fetch_source, previous=None):
     now = now or dt.datetime.now(UTC)
     previous = previous or {}
@@ -94,7 +130,7 @@ def collect(now=None, fetcher=fetch_source, previous=None):
                 successes += 1
             except Exception as error:
                 print(source['id'] + ': ' + type(error).__name__, file=sys.stderr)
-                articles.extend(a for a in previous.get('articles', []) if a.get('sourceId') == source['id'])
+                articles.extend(a for a in flat_articles(previous.get('articles', [])) if a.get('sourceId') == source['id'])
                 statuses.append({'id': source['id'], 'name': source['name'], 'url': source['url'], 'lastSuccess': old.get('lastSuccess'), 'ok': False})
     if not successes:
         raise RuntimeError('All news feeds failed; keeping existing data')
@@ -104,7 +140,7 @@ def collect(now=None, fetcher=fetch_source, previous=None):
             source = next(s for s in SOURCES if s['id'] == article['sourceId'])
             url = canonical_url(article['url'], source)
             date = parse_date(article['publishedAt'])
-            title_key = re.sub(r'\W+', '', article['title']).casefold()
+            title_key = (source['id'], re.sub(r'\W+', '', article['title']).casefold())
             if date < now - dt.timedelta(days=7) or date > now + dt.timedelta(minutes=10) or url in seen_urls or title_key in seen_titles or counts.get(source['id'], 0) >= 15:
                 continue
             article = {**article, 'url': url, 'title': clean_title(article['title']), 'sourceName': source['name']}
@@ -114,7 +150,11 @@ def collect(now=None, fetcher=fetch_source, previous=None):
             counts[source['id']] = counts.get(source['id'], 0) + 1
         except (KeyError, ValueError, StopIteration):
             continue
-    return {'version': 1, 'generatedAt': iso(now), 'sources': statuses, 'articles': unique}
+    groups = group_stories(unique, previous.get('articles', []))
+    fingerprint = lambda values: sorted((a['url'], a['title'], a['publishedAt']) for a in flat_articles(values))
+    changed = fingerprint(groups) != fingerprint(previous.get('articles', []))
+    changed_at = iso(now) if changed else previous.get('contentUpdatedAt', previous.get('generatedAt', iso(now)))
+    return {'version': 1, 'generatedAt': iso(now), 'contentUpdatedAt': changed_at, 'sources': statuses, 'articles': groups}
 
 def main():
     try:

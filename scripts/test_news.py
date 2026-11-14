@@ -33,7 +33,7 @@ class NewsTests(unittest.TestCase):
                 raise TimeoutError()
             return []
         result = news.collect(NOW, fetch, old)
-        self.assertEqual(result['articles'], [article])
+        self.assertEqual(news.flat_articles(result['articles']), [article])
         self.assertFalse(result['sources'][1]['ok'])
         self.assertEqual(result['sources'][1]['lastSuccess'], old['sources'][0]['lastSuccess'])
 
@@ -55,6 +55,24 @@ class NewsTests(unittest.TestCase):
         self.assertFalse(news.TECH_CATEGORIES.search('生物科技 素食貓糧'))
         self.assertTrue(news.TECH_CATEGORIES.search('AI 人工智慧 醫療科技'))
         self.assertTrue(news.TECH_CATEGORIES.search('Nvidia 半導體'))
+
+    def test_related_coverage_groups_without_losing_original_links(self):
+        first = {'id': 'one', 'title': '微軟 Microsoft 365 全球當機，多項服務無法使用', 'url': 'https://technews.tw/outage', 'publishedAt': '2026-11-14T10:00:00Z', 'sourceId': 'technews', 'sourceName': '科技新報'}
+        second = {**first, 'id': 'two', 'title': 'Microsoft 365 全球當機，多項服務無法使用，微軟調查中', 'url': 'https://www.ithome.com.tw/news/321', 'sourceId': 'ithome', 'sourceName': 'iThome'}
+        groups = news.group_stories([first, second], [])
+        self.assertEqual(len(groups), 1)
+        self.assertEqual(groups[0]['related'][0]['url'], second['url'])
+        self.assertFalse(news.same_story(first, {**second, 'title': '微軟發表新一代 AI 晶片，預計明年進入量產'}))
+        self.assertFalse(news.same_story(first, {**second, 'publishedAt': '2026-11-10T10:00:00Z'}))
+        self.assertFalse(news.same_story({**first, 'title': 'Nvidia 第 2 季營收創新高，AI 晶片需求持續增長'}, {**second, 'title': 'Nvidia 第 3 季營收創新高，AI 晶片需求持續增長'}))
+
+    def test_unchanged_collection_keeps_content_change_time(self):
+        article = {'id': 'one', 'title': 'Test headline', 'url': 'https://technews.tw/story', 'publishedAt': '2026-11-14T10:00:00Z', 'sourceId': 'technews', 'sourceName': '科技新報'}
+        fetch = lambda source, now: [article] if source['id'] == 'technews' else []
+        first = news.collect(NOW, fetch, {})
+        later = news.collect(NOW + dt.timedelta(minutes=30), fetch, first)
+        self.assertNotEqual(first['generatedAt'], later['generatedAt'])
+        self.assertEqual(first['contentUpdatedAt'], later['contentUpdatedAt'])
 
 if __name__ == '__main__':
     unittest.main()
