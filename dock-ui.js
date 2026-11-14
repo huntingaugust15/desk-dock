@@ -58,7 +58,7 @@ function updateDataHealth(now=Date.now()){
   $('#connection').textContent=!navigator.onLine?'離線 · 自動重連':foot.stale||race.stale||quotes.stale?'部份資料待更新':'ONLINE';
   $('#connection').classList.toggle('data-stale',foot.stale||race.stale||quotes.stale);
 }
-function updateDockFeatures(now=Date.now()){updateNightMode(now);updateMarketStatus(now);updateF1Home(now);updateEventHighlights(now);updateDataHealth(now)}
+function updateDockFeatures(now=Date.now()){updateNightMode(now);updateMarketStatus(now);updateF1Home(now);updateEventHighlights(now);updateDataHealth(now);syncHomeLineupBadge()}
 function scheduleRefresh(kind){
   if(kind==='football'){footballFailures=footballError?footballFailures+1:0;footballNextAt=Date.now()+DockFeatures.retryDelay(footballFailures,60000)}
   else {f1Failures=f1Error?f1Failures+1:0;f1NextAt=Date.now()+DockFeatures.retryDelay(f1Failures,900000)}
@@ -66,6 +66,7 @@ function scheduleRefresh(kind){
 function maintainConnections(){
   if(document.hidden||!navigator.onLine)return;const now=Date.now();
   const kinds=[];if(now>=footballNextAt)kinds.push('football');if(now>=f1NextAt)kinds.push('f1');if(kinds.length&&!busy)refresh(kinds);
+  pollHomeLineup();
   const q=currentQuoteHealth(now);if(now-lastQuoteConnection>=(q.stale?30000:300000))reconnectQuotes();
 }
 function showNightSettings(){const n=DockFeatures.nightSettings(prefs.night);$('#night-enabled').checked=n.enabled;$('#night-start').value=n.start;$('#night-end').value=n.end;$('#night-brightness').value=n.brightness;$('#night-brightness-value').textContent=n.brightness+'%'}
