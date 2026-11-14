@@ -49,14 +49,14 @@ function updateEventHighlights(now=Date.now()){
   else{$('#football-state').textContent=health.stale?'資料待更新':'賽程 / 賽果';$('#football-state').classList.remove('live')}
 }
 function updateDataHealth(now=Date.now()){
-  const foot=DockFeatures.freshness(football?.at,180000,navigator.onLine,footballError,football?.partial,now),race=DockFeatures.freshness(f1?.at,1800000,navigator.onLine,f1Error,false,now),quotes=currentQuoteHealth(now);
+  const foot=DockFeatures.freshness(football?.at,180000,navigator.onLine,footballError,football?.partial,now),race=DockFeatures.freshness(f1?.at,1800000,navigator.onLine,f1Error,false,now),quotes=currentQuoteHealth(now),newsNeedsUpdate=newsStale(now);updateNewsHealth(now);
   for(const [selector,name,data,health,error] of [['#football-time','ESPN',football,foot,footballError],['#f1-time','Jolpica F1',f1,race,f1Error]]){
     const node=$(selector);node.textContent=name+' · '+(data?stamp(data.at):'未取得資料')+(health.label?' · '+health.label:'');node.classList.toggle('data-stale',health.stale);node.title=error||'';
   }
   $('#quote-health').textContent=quotes.label;$('#quote-health').classList.toggle('data-stale',quotes.stale);
   $('#quote-health').title=lastQuoteConnection?'報價頁面重連於 '+fmt(lastQuoteConnection,{hour:'2-digit',minute:'2-digit',hour12:false})+'；價格時間以圖表為準。':'';
-  $('#connection').textContent=!navigator.onLine?'離線 · 自動重連':foot.stale||race.stale||quotes.stale?'部份資料待更新':'ONLINE';
-  $('#connection').classList.toggle('data-stale',foot.stale||race.stale||quotes.stale);
+  $('#connection').textContent=!navigator.onLine?'離線 · 自動重連':foot.stale||race.stale||quotes.stale||newsNeedsUpdate?'部份資料待更新':'ONLINE';
+  $('#connection').classList.toggle('data-stale',foot.stale||race.stale||quotes.stale||newsNeedsUpdate);
 }
 function updateDockFeatures(now=Date.now()){updateNightMode(now);updateMarketStatus(now);updateF1Home(now);updateEventHighlights(now);updateDataHealth(now);syncHomeLineupBadge()}
 function scheduleRefresh(kind){

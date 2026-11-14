@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-14T18:55:21Z",
+  "sources": [
+    {
+      "id": "technews",
+      "name": "科技新報",
+      "url": "https://technews.tw/tn-rss/",
+      "lastSuccess": "2026-11-14T18:55:21Z",
+      "ok": true
+    },
+    {
+      "id": "ithome",
+      "name": "iThome",
+      "url": "https://www.ithome.com.tw/rss",
+      "lastSuccess": "2026-11-14T18:55:21Z",
+      "ok": true
+    }
+  ],
+  "articles": [
+    {
+      "id": "12ccb47af07e23f0",
+      "title": "就算從未誕生生命，地球仍能靠地質循環維持數十億年宜居環境",
+      "url": "https://technews.tw/2026/11/15/scientists-simulated-what-earth-would-be-like-if-life-never-existed/",
+      "publishedAt": "2026-11-14T16:00:34Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "19bd6733a0421ca3",
+      "title": "AI 問診漸成主流但侵蝕大眾信任感，醫病關係仍是最重要核心",
+      "url": "https://technews.tw/2026/11/15/in-the-ai-era-can-we-preserve-humanity-in-healthcare/",
+      "publishedAt": "2026-11-14T16:00:06Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "f68416c73f90739f",
+      "title": "特斯拉前能源主管創立 Lunar Energy，以可堆疊電池與雙向充電器挑戰 Powerwall",
+      "url": "https://technews.tw/2026/11/14/the-biggest-threat-to-teslas-home-battery-business-is-its-ex-chief/",
+      "publishedAt": "2026-11-14T09:00:12Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "84cbf580679df169",
+      "title": "微軟全球當機，傳真機、電話、藍牙成企業救命三寶",
+      "url": "https://technews.tw/2026/11/14/microsoft-365-fax-machine-phone-call-bluetooth/",
+      "publishedAt": "2026-11-14T08:36:14Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "ca32b718658235a1",
+      "title": "宛如 40 年前賈伯斯遭逼宮重演：黃仁勳深陷地緣政治風暴，輝達帝國面臨權力危機",
+      "url": "https://finance.technews.tw/2026/11/14/chinese-media-state-machinery-targets-jensen-huang-personal-conduct-political-persecution/",
+      "publishedAt": "2026-11-14T08:30:56Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "d8d9b232bbaacdf9",
+      "title": "Nvidia 接班人傳鎖定 Arm 執行長，昔日收購對象如今成救兵？",
+      "url": "https://finance.technews.tw/2026/11/14/nvidia-arm-rene-haas/",
+      "publishedAt": "2026-11-14T07:21:00Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "e61438753fac54ff",
+      "title": "馬斯克加入聲援黃仁勳行列，表態簽署請願書盼重返 Nvidia",
+      "url": "https://finance.technews.tw/2026/11/14/elon-musk-jensen-huang/",
+      "publishedAt": "2026-11-14T07:10:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "f9be733ec037128b",
+      "title": "AI 加速長壽研究，科學家從血液與基因中找出延緩老化的線索",
+      "url": "https://technews.tw/2026/11/14/ai-could-help-us-live-much-longer/",
+      "publishedAt": "2026-11-14T07:00:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "92485facee6053ff",
+      "title": "廣達梁次震看 AI 後市：無懼黃仁勳風波與政策變數，投資建設「箭在弦上」",
+      "url": "https://technews.tw/2026/11/14/quanta-liang-cizhen-sees-no-impact-on-ai-from-jensen-huang-controversy/",
+      "publishedAt": "2026-11-14T06:30:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "46d25b2b7df0d918",
+      "title": "CAIM1 與 Lutra 推「防偽相機」，以區塊鏈為照片建立數位身分證",
+      "url": "https://infosecu.technews.tw/2026/11/14/caim1-ai-anti-counterfeiting-camera/",
+      "publishedAt": "2026-11-14T06:00:12Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "8aeebd442b3ea8ea",
+      "title": "日本秋葉原設智慧垃圾桶，可自動壓縮垃圾體積縮防爆滿",
+      "url": "https://technews.tw/2026/11/14/akihabara-deploys-smart-bins-that-automatically-compress-waste/",
+      "publishedAt": "2026-11-14T05:30:29Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "1101d47f907ee261",
+      "title": "靠藻類呼吸與光合作用驅動，迷你機械手臂可抓球、放橡膠圈",
+      "url": "https://technews.tw/2026/11/14/these-robotic-arms-are-powered-by-algae/",
+      "publishedAt": "2026-11-14T05:00:25Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報"
+    },
+    {
+      "id": "8b422d3b9d96816b",
+      "title": "AI趨勢周報第294期：AI Agent不只要會看圖，Google新Benchmark直接考專業工作實戰",
+      "url": "https://www.ithome.com.tw/news/180507",
+      "publishedAt": "2026-11-14T03:11:39Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "89af737d67bd00a6",
+      "title": "Apache修補網頁伺服器HTTP/2模組的重大漏洞，64%雲端環境恐曝險",
+      "url": "https://www.ithome.com.tw/news/180490",
+      "publishedAt": "2026-11-13T04:11:45Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "c5ae84ef501541be",
+      "title": "Rust 1.100允許延後採用新套件，Never Type歷經10年正式穩定",
+      "url": "https://www.ithome.com.tw/news/180489",
+      "publishedAt": "2026-11-13T04:11:12Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "20239f1f29361b01",
+      "title": "美而快電商系統遭異常存取，部分請求涉及會員訂單API",
+      "url": "https://www.ithome.com.tw/news/180488",
+      "publishedAt": "2026-11-13T03:11:37Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "7af88869fb73daca",
+      "title": "長榮物流部分資訊系統遭攻擊，啟動資安防禦與復原機制",
+      "url": "https://www.ithome.com.tw/news/180484",
+      "publishedAt": "2026-11-13T02:11:54Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "7c0ca808be7fcc1f",
+      "title": "泰航與芬蘭航空各因Amadeus資安事件外洩逾6萬筆與11萬筆旅客資訊",
+      "url": "https://www.ithome.com.tw/news/180477",
+      "publishedAt": "2026-11-13T02:11:39Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "69a5a7c901c46fba",
+      "title": "大金空調零件線上商城委外廠商發生資安事件，141筆訂單資料受波及、132筆個資遭未經授權存取",
+      "url": "https://www.ithome.com.tw/news/180482",
+      "publishedAt": "2026-11-13T02:11:33Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "9ab2f975963a1280",
+      "title": "大聯大發生資安事件，部分員工姓名與公務電子郵件遭未經授權存取",
+      "url": "https://www.ithome.com.tw/news/180487",
+      "publishedAt": "2026-11-13T02:11:30Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "5bcccb8615eda156",
+      "title": "憂AI助長網攻及生物武器風險，美國非營利組織控告OpenAI等5家業者",
+      "url": "https://www.ithome.com.tw/news/180485",
+      "publishedAt": "2026-11-13T02:11:16Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "ba19103e424713c4",
+      "title": "AI讓攻擊進入自動化時代，Google：企業更要管好Agent權限",
+      "url": "https://www.ithome.com.tw/news/180481",
+      "publishedAt": "2026-11-13T02:11:06Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "c4c1e1aeda67fef4",
+      "title": "正能量智能子公司電商資料庫遭未經授權存取，已通知受影響消費者並啟動資安應變",
+      "url": "https://www.ithome.com.tw/news/180478",
+      "publishedAt": "2026-11-13T02:11:04Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "52b6d3b14e7bca95",
+      "title": "Visual Studio C++動態除錯正式推出，可逐行檢查最佳化程式",
+      "url": "https://www.ithome.com.tw/news/180497",
+      "publishedAt": "2026-11-13T01:11:59Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "8409717d8be575ba",
+      "title": "蘋果將永久關閉產品支援社群，鼓勵用戶到官方網站尋求資訊",
+      "url": "https://www.ithome.com.tw/news/180475",
+      "publishedAt": "2026-11-13T01:11:57Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "b42bca7728150209",
+      "title": "Google攜三星推出AI智慧眼鏡，挑戰市場龍頭Meta",
+      "url": "https://www.ithome.com.tw/news/180473",
+      "publishedAt": "2026-11-13T01:11:33Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    },
+    {
+      "id": "14db645d78ac2110",
+      "title": "微軟Microsoft 365服務異常，影響全球多項服務",
+      "url": "https://www.ithome.com.tw/news/180474",
+      "publishedAt": "2026-11-13T01:11:25Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome"
+    }
+  ]
+}
