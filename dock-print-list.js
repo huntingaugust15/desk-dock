@@ -4,7 +4,7 @@
   const root=document.querySelector('#print-list');
   if(!root)return;
   const key='dock-print-list-v1';
-  const form=root.querySelector('form'),input=root.querySelector('#print-item-text');
+  const form=root.querySelector('.print-form'),input=root.querySelector('#print-item-text');
   const pending=root.querySelector('#print-pending'),finished=root.querySelector('#print-finished');
   const completed=root.querySelector('#print-completed'),status=root.querySelector('#print-status');
   let items=[],editing=null,deleted=null;
@@ -39,9 +39,19 @@
     const check=document.createElement('input');check.type='checkbox';check.checked=item.done;check.dataset.toggleId=item.id;
     const text=document.createElement('span');text.className='print-item-text';text.textContent=item.text;
     label.append(check,text);
-    const controls=document.createElement('div');controls.className='print-actions';
+    const controls=document.createElement('div');controls.className='print-row-actions';
     controls.append(button('修改','edit',item.id),button('刪除','delete',item.id));
-    li.classList.toggle('is-done',item.done);li.append(label,controls);return li;
+    const swipe=document.createElement('div');swipe.className='print-swipe';
+    const front=document.createElement('div');front.className='print-front';
+    const menu=button('⋯','menu',item.id);menu.className='print-menu';menu.setAttribute('aria-label','顯示事項操作');menu.setAttribute('aria-expanded','false');
+    controls.id='print-actions-'+item.id;menu.setAttribute('aria-controls',controls.id);
+    front.append(label,menu);swipe.append(front,controls);
+    swipe.addEventListener('scroll',()=>{
+      menu.setAttribute('aria-expanded',String(swipe.scrollLeft>20));
+      if(swipe.scrollLeft>4)for(const other of root.querySelectorAll('.print-swipe'))if(other!==swipe&&other.scrollLeft>0)other.scrollLeft=0;
+    },{passive:true});
+    swipe.addEventListener('keydown',ev=>{if(ev.key==='Escape'){swipe.scrollTo({left:0,behavior:'smooth'});menu.focus()}});
+    li.classList.toggle('is-done',item.done);li.append(swipe);return li;
   }
   function render(){
     pending.replaceChildren();finished.replaceChildren();
@@ -73,6 +83,9 @@
   root.addEventListener('click',ev=>{
     const target=ev.target.closest('[data-print-action]');if(!target)return;
     const action=target.dataset.printAction,id=target.dataset.itemId;
+    if(action==='menu'){
+      const swipe=target.closest('.print-swipe');swipe.scrollTo({left:swipe.scrollLeft>20?0:swipe.scrollWidth-swipe.clientWidth,behavior:'smooth'});return;
+    }
     if(action==='edit'){editing=id;render();root.querySelector('.print-edit textarea')?.focus()}
     if(action==='cancel'){editing=null;render()}
     if(action==='delete'){

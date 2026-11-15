@@ -1,13 +1,22 @@
 .cards>.print-list,body[data-display-mode] .cards>.print-list{min-height:260px;padding:16px;border-radius:17px;overflow:visible}
 .print-list .card-head{flex-wrap:wrap;gap:10px;margin-bottom:16px}
 .print-list #print-count{color:var(--orange);font-size:11px;white-space:nowrap}
-.print-list .print-form{display:grid;gap:8px}
+.print-list .print-form{display:grid;gap:8px;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
 .print-list .print-form label{margin:0;font-size:12px;font-weight:500;color:#c5ccd0}
 .print-list textarea{margin:0;min-height:78px;max-height:260px;font-size:16px;line-height:1.5;resize:vertical}
 .print-list .print-form button{justify-self:end;border:0;border-radius:9px;padding:11px 18px;min-height:44px;background:var(--orange);color:#21160f;font-weight:650}
 .print-list .print-local-note{font-size:10px;color:var(--muted);margin:14px 0 0;line-height:1.5}
 .print-list ul{list-style:none;margin:14px 0 0;padding:0}
 .print-list .print-item{padding:12px 0;border-top:1px solid var(--line);min-width:0}
+.print-list .print-item:first-child{border-top:0}
+.print-list .print-swipe{display:flex;width:100%;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:9px;-webkit-overflow-scrolling:touch}
+.print-list .print-swipe::-webkit-scrollbar{display:none}
+.print-list .print-front{display:flex;align-items:center;gap:6px;flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;background:var(--card);padding:5px 0}
+.print-list .print-front .print-check{flex:1;min-width:0;align-items:center}
+.print-list .print-menu{flex:0 0 36px;align-self:center;min-height:44px;padding:0;border:0;border-radius:8px;background:transparent;color:var(--muted);font-size:24px;line-height:1}
+.print-list .print-row-actions{display:flex;flex:0 0 128px;min-height:54px;scroll-snap-align:end;scroll-snap-stop:always;padding-left:8px;gap:4px}
+.print-list .print-row-actions button{flex:1;min-width:0;min-height:44px;border:0;border-radius:8px;background:#574127;font-size:12px;padding:8px 4px;color:#ffdaab}
+.print-list .print-row-actions button[data-print-action="delete"]{background:#713536;color:#fff0f0}
 .print-list .print-check{display:flex;align-items:flex-start;gap:10px;margin:0;cursor:pointer;min-height:32px}
 .print-list .print-check input{width:22px;height:22px;flex:0 0 22px;margin:0;accent-color:var(--orange);cursor:pointer}
 .print-list .print-item-text{display:block;min-width:0;margin:0;color:var(--text);font-size:14px;font-weight:400;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
