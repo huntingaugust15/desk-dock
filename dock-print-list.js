@@ -7,7 +7,7 @@
   const form=root.querySelector('.print-form'),input=root.querySelector('#print-item-text');
   const pending=root.querySelector('#print-pending'),finished=root.querySelector('#print-finished');
   const completed=root.querySelector('#print-completed'),status=root.querySelector('#print-status');
-  let items=[],editing=null,deleted=null;
+  let items=[],editing=null,deleted=null,drag=null,ignoreClickUntil=0;
   const say=(text,error=false)=>{status.textContent=text;status.classList.toggle('print-error',error)};
   try{
     const raw=localStorage.getItem(key);
@@ -45,6 +45,10 @@
     const front=document.createElement('div');front.className='print-front';
     const menu=button('⋯','menu',item.id);menu.className='print-menu';menu.setAttribute('aria-label','顯示事項操作');menu.setAttribute('aria-expanded','false');
     controls.id='print-actions-'+item.id;menu.setAttribute('aria-controls',controls.id);
+    if(!item.done){
+      const handle=button('⠿','drag',item.id);handle.className='print-drag-handle';handle.disabled=editing!==null;
+      handle.setAttribute('aria-label','拖曳排序：'+item.text.slice(0,60));handle.title='拖曳排序，或使用上下方向鍵';front.append(handle);
+    }
     front.append(label,menu);swipe.append(front,controls);
     swipe.addEventListener('scroll',()=>{
       menu.setAttribute('aria-expanded',String(swipe.scrollLeft>20));
@@ -63,6 +67,62 @@
     completed.hidden=!done;completed.querySelector('summary').textContent='已完成（'+done+'）';
     root.querySelector('#print-undo').hidden=!deleted;
   }
+  function pendingOrder(){return items.filter(x=>!x.done).map(x=>x.id)}
+  function saveOrder(order){
+    const before=pendingOrder();
+    if(order.length!==before.length||new Set(order).size!==before.length||order.some(id=>!before.includes(id)))return false;
+    const byId=new Map(items.map(x=>[x.id,x]));let position=0;
+    return save(items.map(x=>x.done?x:byId.get(order[position++])),'已儲存打印次序。');
+  }
+  function placeDraggedRow(){
+    if(!drag)return;
+    const before=[...pending.querySelectorAll('.print-item')].find(li=>li!==drag.row&&drag.y<li.getBoundingClientRect().top+li.getBoundingClientRect().height/2);
+    if(drag.row.nextElementSibling!==(before||null))pending.insertBefore(drag.row,before||null);
+    drag.ghost.style.top=(drag.y-drag.offset)+'px';
+  }
+  function scrollDrag(){
+    if(!drag)return;
+    const edge=64,height=window.innerHeight;
+    const delta=drag.y<edge?-Math.ceil((edge-drag.y)/5):drag.y>height-edge?Math.ceil((drag.y-height+edge)/5):0;
+    if(delta){window.scrollBy(0,Math.max(-14,Math.min(14,delta)));placeDraggedRow()}
+    drag.frame=requestAnimationFrame(scrollDrag);
+  }
+  function finishDrag(cancel=false){
+    if(!drag)return;
+    const active=drag;drag=null;cancelAnimationFrame(active.frame);active.ghost.remove();active.row.classList.remove('is-dragging');root.classList.remove('is-sorting');
+    if(root.hasPointerCapture(active.pointerId))root.releasePointerCapture(active.pointerId);
+    ignoreClickUntil=Date.now()+250;
+    const order=[...pending.querySelectorAll('.print-item')].map(li=>li.dataset.itemId);
+    if(cancel){render();return}
+    if(order.join('|')!==pendingOrder().join('|')&&!saveOrder(order))render();
+  }
+  root.addEventListener('pointerdown',ev=>{
+    const handle=ev.target.closest('.print-drag-handle');
+    if(!handle||handle.disabled||drag||!ev.isPrimary||ev.button!==0)return;
+    ev.preventDefault();
+    for(const swipe of root.querySelectorAll('.print-swipe'))swipe.scrollLeft=0;
+    const row=handle.closest('.print-item'),rect=row.getBoundingClientRect();
+    const ghost=document.createElement('div');ghost.className='print-drag-ghost';ghost.setAttribute('aria-hidden','true');ghost.textContent=row.querySelector('.print-item-text').textContent;
+    ghost.style.left=rect.left+'px';ghost.style.top=rect.top+'px';ghost.style.width=rect.width+'px';root.append(ghost);
+    drag={row,ghost,pointerId:ev.pointerId,y:ev.clientY,offset:ev.clientY-rect.top,frame:0};
+    row.classList.add('is-dragging');root.classList.add('is-sorting');root.setPointerCapture(ev.pointerId);drag.frame=requestAnimationFrame(scrollDrag);
+  });
+  root.addEventListener('pointermove',ev=>{if(drag&&ev.pointerId===drag.pointerId){ev.preventDefault();drag.y=ev.clientY;placeDraggedRow()}});
+  root.addEventListener('pointerup',ev=>{if(drag&&ev.pointerId===drag.pointerId)finishDrag()});
+  root.addEventListener('pointercancel',ev=>{if(drag&&ev.pointerId===drag.pointerId)finishDrag(true)});
+  root.addEventListener('lostpointercapture',()=>{if(drag)finishDrag(true)});
+  window.addEventListener('blur',()=>finishDrag(true));
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)finishDrag(true)});
+  root.addEventListener('click',ev=>{if(drag||Date.now()<ignoreClickUntil){ev.preventDefault();ev.stopImmediatePropagation()}},true);
+  root.addEventListener('keydown',ev=>{
+    const handle=ev.target.closest('.print-drag-handle');
+    if(ev.key==='Escape'&&drag){ev.preventDefault();finishDrag(true);return}
+    if(!handle||handle.disabled||!['ArrowUp','ArrowDown'].includes(ev.key))return;
+    ev.preventDefault();const order=pendingOrder(),at=order.indexOf(handle.dataset.itemId),next=at+(ev.key==='ArrowUp'?-1:1);
+    if(at<0||next<0||next>=order.length)return;
+    [order[at],order[next]]=[order[next],order[at]];
+    if(saveOrder(order))for(const button of pending.querySelectorAll('.print-drag-handle'))if(button.dataset.itemId===handle.dataset.itemId){button.focus();break}
+  });
   form.addEventListener('submit',ev=>{
     ev.preventDefault();const text=input.value.trim();if(!text){input.setCustomValidity('請輸入待打印事項');input.reportValidity();return}
     const id=typeof crypto.randomUUID==='function'?crypto.randomUUID():Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);

@@ -13,6 +13,11 @@
 .print-list .print-swipe::-webkit-scrollbar{display:none}
 .print-list .print-front{display:flex;align-items:center;gap:6px;flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;background:var(--card);padding:5px 0}
 .print-list .print-front .print-check{flex:1;min-width:0;align-items:center}
+.print-list .print-drag-handle{flex:0 0 28px;width:28px;min-height:44px;padding:0;border:0;border-radius:6px;background:transparent;color:#a6b0b8;font-size:24px;line-height:1;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.print-list .print-drag-handle:disabled{opacity:.3;cursor:default}
+.print-list .is-dragging{opacity:.3;border:1px dashed var(--orange);border-radius:9px}
+.print-list.is-sorting,.print-list.is-sorting *{cursor:grabbing;user-select:none;-webkit-user-select:none}
+.print-list .print-drag-ghost{position:fixed;z-index:100;pointer-events:none;background:#2a3035;border:1px solid var(--orange);border-radius:10px;box-shadow:0 10px 30px #0008;padding:16px;font-size:14px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;opacity:.96}
 .print-list .print-menu{flex:0 0 36px;align-self:center;min-height:44px;padding:0;border:0;border-radius:8px;background:transparent;color:var(--muted);font-size:24px;line-height:1}
 .print-list .print-row-actions{display:flex;flex:0 0 128px;min-height:54px;scroll-snap-align:end;scroll-snap-stop:always;padding-left:8px;gap:4px}
 .print-list .print-row-actions button{flex:1;min-width:0;min-height:44px;border:0;border-radius:8px;background:#574127;font-size:12px;padding:8px 4px;color:#ffdaab}
