@@ -18,7 +18,7 @@
 .cards>.card:not(.news),body[data-display-mode] .cards>.card:not(.news){padding:8px 12px;border-radius:16px}
 .cards .card-head{gap:8px}
 .cards .card-head .number,.cards .card-head h1>small,.cards .card-head h2>small{display:none}
-.cards>.card h1,.cards>.card h2,body[data-display-mode] .cards>.card h1,body[data-display-mode] .cards>.card h2{font-size:18px;font-weight:750;letter-spacing:0}
+.cards>.card h1,.cards>.card h2,body[data-display-mode] .cards>.card:not(.news) h1,body[data-display-mode] .cards>.card:not(.news) h2,body[data-display-mode] .cards>.news h2{font-size:18px;font-weight:750;letter-spacing:0}
 .cards>.card:not(.news) .card-head{min-height:28px}
 .cards>.card:not(.news) .detail-link{font-size:15px;min-height:28px;padding:3px 0 3px 6px;color:#d5dce0}
 .cards>.market .market-session,body[data-display-mode] .cards>.market .market-session{font-size:15px;min-height:22px;color:#d1d9df;gap:6px}
