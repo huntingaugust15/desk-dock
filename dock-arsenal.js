@@ -29,7 +29,7 @@
   }
   function size(){
     const group=viewport.querySelector('.arsenal-group');
-    if(group)root.style.setProperty('--arsenal-duration',Math.max(24,group.getBoundingClientRect().width/32)+'s');
+    if(group)root.style.setProperty('--arsenal-duration',Math.max(32,group.getBoundingClientRect().width/24)+'s');
   }
   function render(){
     if(data)data=valid(data);
