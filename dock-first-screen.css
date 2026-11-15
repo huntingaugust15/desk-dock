@@ -1,7 +1,7 @@
 /* Keep the clock, transfer strip and three primary cards in one visible screen. */
 .app,body[data-display-mode] .app{
   --dock-view-height:100vh;
-  --dock-top-offset:12px;
+  --dock-top-offset:32px;
   --dock-header-space:120px;
   --dock-stock-height:250px;
   --dock-primary-height:calc(var(--dock-view-height) - var(--dock-safe-top) - var(--dock-safe-bottom) - 20px - var(--dock-top-offset) - var(--dock-header-space));
