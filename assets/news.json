@@ -1,32 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T22:11:40Z",
-  "contentUpdatedAt": "2026-11-15T22:11:40Z",
+  "generatedAt": "2026-11-15T23:13:31Z",
+  "contentUpdatedAt": "2026-11-15T23:13:31Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-15T22:11:40Z",
+      "lastSuccess": "2026-11-15T23:13:31Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-15T22:11:40Z",
+      "lastSuccess": "2026-11-15T23:13:31Z",
       "ok": true
     }
   ],
   "articles": [
     {
-      "id": "f286133eba4c1a6b",
-      "title": "BBC「黑天計畫」揭密，英政府籲全民儲備 3 日救命糧水",
-      "url": "https://technews.tw/2026/11/15/bbc-black-swan-plan-major-power-outage-secret-underground-broadcast-3-days-no-supplies/",
-      "publishedAt": "2026-11-15T05:30:35Z",
+      "id": "481f5ecbaa881a51",
+      "title": "訓練資料爭奪戰升溫，Memories.ai 推打工平台付錢請大家拍影片給機器人看",
+      "url": "https://technews.tw/2026/11/15/memories-ai-launches-memories-upload-a-gig-work-platform-for-robot-training-data/",
+      "publishedAt": "2026-11-15T09:00:43Z",
       "sourceId": "technews",
       "sourceName": "科技新報",
-      "clusterId": "f286133eba4c1a6b",
+      "clusterId": "481f5ecbaa881a51",
+      "related": []
+    },
+    {
+      "id": "57af10e2ed52129a",
+      "title": "從方芳到黃樂，FBI 揭密中國間諜案：日常私交如何淪為情報破口",
+      "url": "https://infosecu.technews.tw/2026/11/15/fbi-reveals-how-personal-relationships-become-espionage-risks/",
+      "publishedAt": "2026-11-15T08:30:27Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "57af10e2ed52129a",
+      "related": []
+    },
+    {
+      "id": "6cdf6f99765efae4",
+      "title": "四成主管認 AI 無法取代專業、「AI 回歸」比例達 19%，逾五成勞工喊漲薪資",
+      "url": "https://technews.tw/2026/11/15/ai-re-hiring-trend-companies-acknowledge-ai-limits/",
+      "publishedAt": "2026-11-15T08:00:33Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6cdf6f99765efae4",
+      "related": []
+    },
+    {
+      "id": "ca3196ddbd465420",
+      "title": "AI 重整組織打擊員工士氣，科技主管點出導致轉型失敗最常見錯誤",
+      "url": "https://finance.technews.tw/2026/11/15/what-tech-leaders-get-wrong-about-ai-restructuring-and-morale/",
+      "publishedAt": "2026-11-15T06:00:46Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "ca3196ddbd465420",
       "related": []
     },
     {
@@ -41,7 +71,7 @@
     },
     {
       "id": "a17a64901c161cd8",
-      "title": "黃仁勳去職後首場輝達財報說明會 法人看 AI 展望牽動台股",
+      "title": "黃仁勳去職後首場輝達財報說明會，法人看 AI 展望牽動台股",
       "url": "https://finance.technews.tw/2026/11/15/nvidia-earnings-call-post-jensen-huang-departure-ai-outlook-impacts-taiwan-stocks/",
       "publishedAt": "2026-11-15T04:56:33Z",
       "sourceId": "technews",
@@ -61,52 +91,12 @@
     },
     {
       "id": "9f4cc0d708a63e5b",
-      "title": "台灣首顆 GPGPU 獲飛行履歷 捷揚太空代工轉攻研發拓商機",
+      "title": "台灣首顆 GPGPU 獲飛行履歷，捷揚太空代工轉攻研發拓商機",
       "url": "https://technews.tw/2026/11/15/taiwan-first-gpgpu-flight-heritage-jasc-aerospace-shifts-oem-rd-business-expansion/",
       "publishedAt": "2026-11-15T03:22:29Z",
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "9f4cc0d708a63e5b",
-      "related": []
-    },
-    {
-      "id": "2e92fa6bc12e8d34",
-      "title": "AI 加劇記憶體供需失衡！擷發科：短缺是長期結構性問題，AI 只是觸發點",
-      "url": "https://technews.tw/2026/11/15/microip-talk-about-memory/",
-      "publishedAt": "2026-11-15T02:25:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "2e92fa6bc12e8d34",
-      "related": []
-    },
-    {
-      "id": "6123b51783dff9f4",
-      "title": "準確率再高也不夠，AI 財務應用的關鍵在「例外處理」",
-      "url": "https://finance.technews.tw/2026/11/15/why-exception-handling-is-the-new-finance-discipline/",
-      "publishedAt": "2026-11-15T01:30:31Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6123b51783dff9f4",
-      "related": []
-    },
-    {
-      "id": "c1257c7097b1f0f7",
-      "title": "搶攻歐美邊緣 AI 市場！擷發科鎖定無人機、車載等應用，美 IPO 最快估明年 Q1 底上市",
-      "url": "https://technews.tw/2026/11/15/microip-us-and-eu-edge-ai-and-us-ipo/",
-      "publishedAt": "2026-11-15T01:08:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c1257c7097b1f0f7",
-      "related": []
-    },
-    {
-      "id": "4cc3826f0b806136",
-      "title": "光電整合進入「打群架」時代，聯發科侯上勇：CPO路線未定，良率才是關鍵",
-      "url": "https://technews.tw/2026/11/15/cpo-mediatek-hou-shang-yong-optoelectronic-integration-battleground-tech-choices-not-just-cost/",
-      "publishedAt": "2026-11-15T01:00:35Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4cc3826f0b806136",
       "related": []
     },
     {
