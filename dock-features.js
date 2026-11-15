@@ -40,7 +40,8 @@ const DockFeatures=(()=>{
   }
   function sessionCountdown(s,now=Date.now()){return !s||s.at===null?'時間待定':s.state==='scheduled'?'預定進行中':'倒數 '+shortCountdown(s.at-now)}
   function footballAlert(ev,now=Date.now(),fresh=true){if(!ev||!fresh)return '';const stat=ev.status?.type||ev.competitions?.[0]?.status?.type||{};if(/CANCEL|ABANDON|POSTPON|SUSPEND|DELAY/.test(stat.name||''))return '';if(stat.state==='in')return 'live';if(stat.state==='post'||ev.timeValid===false||ev.competitions?.[0]?.timeValid===false)return '';const remaining=Date.parse(ev.date)-now;return remaining>0&&remaining<=30*minute?'soon':''}
+  function startAlert(at,now=Date.now(),fresh=true){const remaining=at-now;return fresh&&Number.isFinite(at)&&remaining>0&&remaining<=10*minute?(remaining<=minute?'urgent':'notice'):''}
   function freshness(at,maxAge,online,error=false,partial=false,now=Date.now()){if(!online)return {stale:true,label:at?'離線 · 已存資料':'離線 · 未有資料'};if(!at)return {stale:true,label:'未取得資料'};if(partial)return {stale:true,label:'部份資料過期'};if(error||now-at>maxAge)return {stale:true,label:'資料可能過期'};return {stale:false,label:''}}
   function retryDelay(failures,normal){return failures?Math.min(300000,30000*2**Math.min(failures-1,4)):normal}
-  return {nightSettings,isNight,marketStatus,shortCountdown,sessions,nextSession,sessionCountdown,footballAlert,freshness,retryDelay};
+  return {nightSettings,isNight,marketStatus,shortCountdown,sessions,nextSession,sessionCountdown,footballAlert,startAlert,freshness,retryDelay};
 })();

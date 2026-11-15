@@ -29,6 +29,12 @@ function updateMarketStatus(now=Date.now()){
   host.title='紐約時間 · 已核對 2026–2028 交易日曆；不包含臨時停市。';
 }
 function homeSessionKey(s){return s?s.id+':'+s.state:'none'}
+function updateStartAlert(card,kind,state){
+  card.classList.toggle('event-starting',!!state);card.classList.toggle('event-urgent',state==='urgent');
+  const node=card.querySelector('.start-notice');if(!node)return;
+  const label=state==='urgent'?'最後 1 分鐘':state?(kind==='football'?'10 分鐘內開賽':'10 分鐘內開始'):'';
+  if(node.textContent!==label)node.textContent=label;node.hidden=!state;
+}
 function updateF1Home(now=Date.now()){
   const s=DockFeatures.nextSession(f1?.races,now),key=homeSessionKey(s);
   if(key!==f1HomeKey)renderF1();
@@ -36,12 +42,14 @@ function updateF1Home(now=Date.now()){
   const fresh=!raceHealth(now).stale;
   const soon=fresh&&s?.state==='upcoming'&&s.at-now<=1800000;
   const active=fresh&&s?.state==='scheduled';
+  updateStartAlert($('.racing'),'f1',s?.state==='upcoming'?DockFeatures.startAlert(s.at,now,fresh):'');
   $('.racing').classList.toggle('event-soon',soon);$('.racing').classList.toggle('event-scheduled',active);
   const flag=$('#f1-event-flag');if(flag){flag.textContent=active?'按賽程':soon?'即將開始':'';flag.hidden=!active&&!soon}
 }
 function updateEventHighlights(now=Date.now()){
   const health=footballHealth(now);
-  const alert=DockFeatures.footballAlert(rankedGames()[0],now,!health.stale);
+  const ev=rankedGames()[0],alert=DockFeatures.footballAlert(ev,now,!health.stale);
+  updateStartAlert($('.football'),'football',alert==='soon'?DockFeatures.startAlert(Date.parse(ev.date),now,true):'');
   $('.football').classList.toggle('event-soon',alert==='soon');$('.football').classList.toggle('event-live',alert==='live');
   if(alert==='soon'){$('#football-state').textContent='30 分鐘內開賽';$('#football-state').classList.remove('live')}
   else if(alert==='live'){$('#football-state').textContent='進行中';$('#football-state').classList.add('live')}
