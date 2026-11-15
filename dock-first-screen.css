@@ -26,16 +26,16 @@
 .primary-cards .market #quote-health{font-size:10px}
 .primary-cards .market:has(.stock-bottom .data-stale) #market-countdown{display:none}
 .primary-cards .market #quote-health.data-stale{font-size:13px}
-.primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:24px}
-.primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{display:block;width:40px;height:40px}
+.primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:16px;font-weight:600}
+.primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{display:block;width:56px;height:56px}
 .primary-cards .football .score small,body[data-display-mode] .primary-cards .football .score small{font-size:26px}
 .primary-cards .football .score-value{font-size:34px}
 .primary-cards .racing .race-hero .race-name,body[data-display-mode] .primary-cards .racing .race-hero .race-name{font-size:clamp(29px,calc(var(--dock-sport-height) * .19),38px)}
 .primary-cards .racing .circuit-thumb,body[data-display-mode] .primary-cards .racing .circuit-thumb{width:96px;flex-basis:96px;height:clamp(40px,calc(var(--dock-sport-height) - 130px),72px)}
 .primary-cards .racing .race-date,body[data-display-mode] .primary-cards .racing .race-date{font-size:24px}
 @container dock-sport (max-height:180px){
-  .primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:22px}
-  .primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{width:28px;height:28px}
+  .primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:15px}
+  .primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{width:50px;height:50px}
   .primary-cards .football .club,.primary-cards .football .club.away{gap:3px}
   .primary-cards .football .match,body[data-display-mode] .primary-cards .football .match{row-gap:3px}
   .primary-cards .football .score small,body[data-display-mode] .primary-cards .football .score small{font-size:24px;line-height:1.1;margin-top:0}
@@ -52,8 +52,8 @@
   .primary-cards .market #market-countdown{bottom:7px;font-size:10px}
 }
 @container dock-sport (max-height:145px){
-  .primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:20px}
-  .primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{width:24px;height:24px}
+  .primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:14px}
+  .primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{width:42px;height:42px}
   .primary-cards .football .score small,body[data-display-mode] .primary-cards .football .score small{font-size:22px}
   .primary-cards .football .score-value{font-size:30px}
   .primary-cards .football .fixture-competition,body[data-display-mode] .primary-cards .football .fixture-competition{margin-bottom:2px}
@@ -62,7 +62,16 @@
   .primary-cards .racing .race-date,body[data-display-mode] .primary-cards .racing .race-date{font-size:20px}
 }
 @container dock-sport (max-height:125px){
-  .primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{display:none}
+  .primary-cards .football .club img,body[data-display-mode] .primary-cards .football .club img{display:block;width:30px;height:30px}
+  .primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{font-size:12px;line-height:1.15}
+  .primary-cards .football .club,.primary-cards .football .club.away{gap:1px}
+  .primary-cards .football .match,body[data-display-mode] .primary-cards .football .match{row-gap:2px}
+  .primary-cards .football .score small,body[data-display-mode] .primary-cards .football .score small{font-size:20px}
+  .primary-cards .football .score-value{font-size:26px}
+  .primary-cards .football .fixture-competition,body[data-display-mode] .primary-cards .football .fixture-competition{margin-bottom:1px}
+}
+@container dock-sport (max-height:105px){
+  .primary-cards .football .club span,body[data-display-mode] .primary-cards .football .club span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 }
 @media(orientation:landscape) and (max-height:600px){
   .dock-primary{height:auto;min-height:calc(var(--dock-view-height) - 20px - var(--dock-top-offset))}
