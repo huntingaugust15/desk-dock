@@ -1,24 +1,114 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T11:38:17Z",
-  "contentUpdatedAt": "2026-11-15T10:42:37Z",
+  "generatedAt": "2026-11-15T12:48:09Z",
+  "contentUpdatedAt": "2026-11-15T12:48:09Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-15T11:38:17Z",
+      "lastSuccess": "2026-11-15T12:48:09Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-15T11:38:17Z",
+      "lastSuccess": "2026-11-15T12:48:09Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "f286133eba4c1a6b",
+      "title": "BBC「黑天計畫」揭密，英政府籲全民儲備 3 日救命糧水",
+      "url": "https://technews.tw/2026/11/15/bbc-black-swan-plan-major-power-outage-secret-underground-broadcast-3-days-no-supplies/",
+      "publishedAt": "2026-11-15T05:30:35Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f286133eba4c1a6b",
+      "related": []
+    },
+    {
+      "id": "d555ac2e6b1b863f",
+      "title": "燃煤電廠的第二人生，德國提出以鐵粉取代煤炭的循環發電構想",
+      "url": "https://technews.tw/2026/11/15/scientists-uncover-a-potential-game-changer-for-clean-energy/",
+      "publishedAt": "2026-11-15T05:00:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d555ac2e6b1b863f",
+      "related": []
+    },
+    {
+      "id": "a17a64901c161cd8",
+      "title": "黃仁勳去職後首場輝達財報說明會 法人看 AI 展望牽動台股",
+      "url": "https://finance.technews.tw/2026/11/15/nvidia-earnings-call-post-jensen-huang-departure-ai-outlook-impacts-taiwan-stocks/",
+      "publishedAt": "2026-11-15T04:56:33Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a17a64901c161cd8",
+      "related": []
+    },
+    {
+      "id": "45137674336421dd",
+      "title": "歐盟領袖將舉行首次 AI 會談，輝達案未列正式議程",
+      "url": "https://technews.tw/2026/11/15/eu-leaders-first-ai-talks-nvidia-case-not-official-agenda/",
+      "publishedAt": "2026-11-15T03:48:24Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "45137674336421dd",
+      "related": []
+    },
+    {
+      "id": "9f4cc0d708a63e5b",
+      "title": "台灣首顆 GPGPU 獲飛行履歷 捷揚太空代工轉攻研發拓商機",
+      "url": "https://technews.tw/2026/11/15/taiwan-first-gpgpu-flight-heritage-jasc-aerospace-shifts-oem-rd-business-expansion/",
+      "publishedAt": "2026-11-15T03:22:29Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9f4cc0d708a63e5b",
+      "related": []
+    },
+    {
+      "id": "2e92fa6bc12e8d34",
+      "title": "AI 加劇記憶體供需失衡！擷發科：短缺是長期結構性問題，AI 只是觸發點",
+      "url": "https://technews.tw/2026/11/15/microip-talk-about-memory/",
+      "publishedAt": "2026-11-15T02:25:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2e92fa6bc12e8d34",
+      "related": []
+    },
+    {
+      "id": "6123b51783dff9f4",
+      "title": "準確率再高也不夠，AI 財務應用的關鍵在「例外處理」",
+      "url": "https://finance.technews.tw/2026/11/15/why-exception-handling-is-the-new-finance-discipline/",
+      "publishedAt": "2026-11-15T01:30:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6123b51783dff9f4",
+      "related": []
+    },
+    {
+      "id": "c1257c7097b1f0f7",
+      "title": "搶攻歐美邊緣 AI 市場！擷發科鎖定無人機、車載等應用，美 IPO 最快估明年 Q1 底上市",
+      "url": "https://technews.tw/2026/11/15/microip-us-and-eu-edge-ai-and-us-ipo/",
+      "publishedAt": "2026-11-15T01:08:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c1257c7097b1f0f7",
+      "related": []
+    },
+    {
+      "id": "4cc3826f0b806136",
+      "title": "光電整合進入「打群架」時代，聯發科侯上勇：CPO路線未定，良率才是關鍵",
+      "url": "https://technews.tw/2026/11/15/cpo-mediatek-hou-shang-yong-optoelectronic-integration-battleground-tech-choices-not-just-cost/",
+      "publishedAt": "2026-11-15T01:00:35Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4cc3826f0b806136",
+      "related": []
+    },
     {
       "id": "4bf8c8b94973151d",
       "title": "兆勤科技防火牆整合Bitdefender端點安全資訊，2027年將擴大跨平臺防禦協作",
@@ -27,116 +117,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "4bf8c8b94973151d",
-      "related": []
-    },
-    {
-      "id": "19bd6733a0421ca3",
-      "title": "AI 問診漸成主流但侵蝕大眾信任感，醫病關係仍是最重要核心",
-      "url": "https://technews.tw/2026/11/15/in-the-ai-era-can-we-preserve-humanity-in-healthcare/",
-      "publishedAt": "2026-11-14T16:00:06Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "19bd6733a0421ca3",
-      "related": []
-    },
-    {
-      "id": "f68416c73f90739f",
-      "title": "特斯拉前能源主管創立 Lunar Energy，以可堆疊電池與雙向充電器挑戰 Powerwall",
-      "url": "https://technews.tw/2026/11/14/the-biggest-threat-to-teslas-home-battery-business-is-its-ex-chief/",
-      "publishedAt": "2026-11-14T09:00:12Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f68416c73f90739f",
-      "related": []
-    },
-    {
-      "id": "84cbf580679df169",
-      "title": "微軟全球當機，傳真機、電話、藍牙成企業救命三寶",
-      "url": "https://technews.tw/2026/11/14/microsoft-365-fax-machine-phone-call-bluetooth/",
-      "publishedAt": "2026-11-14T08:36:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "84cbf580679df169",
-      "related": []
-    },
-    {
-      "id": "ca32b718658235a1",
-      "title": "宛如 40 年前賈伯斯遭逼宮重演：黃仁勳深陷地緣政治風暴，輝達帝國面臨權力危機",
-      "url": "https://finance.technews.tw/2026/11/14/chinese-media-state-machinery-targets-jensen-huang-personal-conduct-political-persecution/",
-      "publishedAt": "2026-11-14T08:30:56Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ca32b718658235a1",
-      "related": []
-    },
-    {
-      "id": "d8d9b232bbaacdf9",
-      "title": "Nvidia 接班人傳鎖定 Arm 執行長，昔日收購對象如今成救兵？",
-      "url": "https://finance.technews.tw/2026/11/14/nvidia-arm-rene-haas/",
-      "publishedAt": "2026-11-14T07:21:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d8d9b232bbaacdf9",
-      "related": []
-    },
-    {
-      "id": "e61438753fac54ff",
-      "title": "馬斯克加入聲援黃仁勳行列，表態簽署請願書盼重返 Nvidia",
-      "url": "https://finance.technews.tw/2026/11/14/elon-musk-jensen-huang/",
-      "publishedAt": "2026-11-14T07:10:31Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "e61438753fac54ff",
-      "related": []
-    },
-    {
-      "id": "f9be733ec037128b",
-      "title": "AI 加速長壽研究，科學家從血液與基因中找出延緩老化的線索",
-      "url": "https://technews.tw/2026/11/14/ai-could-help-us-live-much-longer/",
-      "publishedAt": "2026-11-14T07:00:51Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f9be733ec037128b",
-      "related": []
-    },
-    {
-      "id": "92485facee6053ff",
-      "title": "廣達梁次震看 AI 後市：無懼黃仁勳風波與政策變數，投資建設「箭在弦上」",
-      "url": "https://technews.tw/2026/11/14/quanta-liang-cizhen-sees-no-impact-on-ai-from-jensen-huang-controversy/",
-      "publishedAt": "2026-11-14T06:30:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "92485facee6053ff",
-      "related": []
-    },
-    {
-      "id": "46d25b2b7df0d918",
-      "title": "CAIM1 與 Lutra 推「防偽相機」，以區塊鏈為照片建立數位身分證",
-      "url": "https://infosecu.technews.tw/2026/11/14/caim1-ai-anti-counterfeiting-camera/",
-      "publishedAt": "2026-11-14T06:00:12Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "46d25b2b7df0d918",
-      "related": []
-    },
-    {
-      "id": "8aeebd442b3ea8ea",
-      "title": "日本秋葉原設智慧垃圾桶，可自動壓縮垃圾體積縮防爆滿",
-      "url": "https://technews.tw/2026/11/14/akihabara-deploys-smart-bins-that-automatically-compress-waste/",
-      "publishedAt": "2026-11-14T05:30:29Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8aeebd442b3ea8ea",
-      "related": []
-    },
-    {
-      "id": "1101d47f907ee261",
-      "title": "靠藻類呼吸與光合作用驅動，迷你機械手臂可抓球、放橡膠圈",
-      "url": "https://technews.tw/2026/11/14/these-robotic-arms-are-powered-by-algae/",
-      "publishedAt": "2026-11-14T05:00:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "1101d47f907ee261",
       "related": []
     },
     {
