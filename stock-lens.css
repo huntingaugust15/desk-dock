@@ -1,28 +1,36 @@
-/* Enlarge the live quote column while keeping independent symbol labels. */
-@media (min-height:800px) and (min-width:360px) and (max-width:480px) and (orientation:portrait){
- .app:has(#stock-quote[data-count="2"]),body[data-display-mode] .app:has(#stock-quote[data-count="2"]){--dock-stock-height:340px}
- .primary-cards .market:has(#stock-quote[data-count="2"]),body[data-display-mode] .primary-cards .market:has(#stock-quote[data-count="2"]){--quote-zoom:2.2}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-box{overflow:hidden;gap:2px;justify-content:center}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-tile{position:relative;height:138px;min-height:138px;overflow:hidden;padding-top:0}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-symbol{display:flex;flex-direction:column;align-items:center;gap:8px;position:absolute;left:0;top:30px;width:60px;font-size:20px;line-height:26px;font-weight:750;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;z-index:1}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-embed{position:absolute;right:0;top:0;width:calc((100% - 64px) * .8461538462);height:138px;min-height:138px;overflow:hidden}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-embed .tradingview-widget-container{position:absolute;right:0;top:0;width:280px!important;transform:scale(2.2);transform-origin:top right}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-embed iframe{max-width:none}
- .primary-cards .market:has(#stock-quote[data-count="2"]) .quote-embed>.empty{position:relative;font-size:14px;line-height:1.35}
+/* Two live quotes, with stable source dimensions and independent symbol labels. */
+.app.stock-pair-mode,body[data-display-mode] .app.stock-pair-mode{
+ --dock-stock-height:clamp(220px,calc(var(--dock-primary-height) - 236px),340px);
+ --quote-row-height:calc((var(--dock-stock-height) - 64px)/2);
 }
-/* Keep the existing three-card fit in smaller viewports. */
-@container dock-sport (max-height:110px){
- .primary-cards .racing .card-head,body[data-display-mode] .primary-cards .racing .card-head{min-height:24px}
- .primary-cards .racing .race-kicker,body[data-display-mode] .primary-cards .racing .race-kicker{font-size:12px;line-height:14px;margin-bottom:2px}
- .primary-cards .racing .race-hero .race-name,body[data-display-mode] .primary-cards .racing .race-hero .race-name{font-size:27px;line-height:1}
- .primary-cards .racing .circuit-thumb,body[data-display-mode] .primary-cards .racing .circuit-thumb{height:28px;width:62px;flex-basis:62px}
- .primary-cards .racing .race-bottom{margin-top:3px;gap:2px 6px}
- .primary-cards .racing .race-date,body[data-display-mode] .primary-cards .racing .race-date{font-size:18px;line-height:21px}
- .primary-cards .racing .countdown,body[data-display-mode] .primary-cards .racing .countdown{font-size:14px;line-height:18px}
-}
-
-.primary-cards .market:has(#stock-quote[data-count="2"]) .quote-symbol .quote-logo{display:block;width:38px;height:38px;object-fit:contain;border-radius:50%;flex:none}
-
-.primary-cards .market .quote-symbol>span{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis}
-.primary-cards .market .quote-logo{box-shadow:0 0 0 1px #ffffff12}
-.primary-cards .market .quote-logo[src$="/nvidia.svg"]{border-radius:10px}
+.stock-pair-mode .primary-cards .market,body[data-display-mode] .stock-pair-mode .primary-cards .market{--quote-zoom:2.2;--quote-offset:0px}
+.stock-pair-mode .market .quote-box{overflow:hidden;gap:2px;justify-content:center}
+.stock-pair-mode .market .quote-tile{position:relative;height:var(--quote-row-height);min-height:var(--quote-row-height);overflow:hidden;padding-top:0}
+.stock-pair-mode .market .quote-symbol{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;position:absolute;left:0;top:0;width:60px;height:100%;font-size:20px;line-height:26px;font-weight:750;color:#fff;white-space:nowrap;z-index:1}
+.stock-pair-mode .market .quote-symbol>span{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+.stock-pair-mode .market .quote-symbol .quote-logo{display:block;width:38px;height:38px;object-fit:contain;border-radius:50%;flex:none;box-shadow:0 0 0 1px #ffffff12}
+.stock-pair-mode .market .quote-logo[src$="/nvidia.svg"]{border-radius:10px}
+.stock-pair-mode .market .quote-embed{position:absolute;right:0;top:0;width:calc(108px * var(--quote-zoom));max-width:calc(100% - 72px);height:100%;min-height:0;overflow:hidden}
+.stock-pair-mode .market .quote-embed .tradingview-widget-container{position:absolute;right:0;top:calc(0px - var(--quote-offset));width:280px!important;transform:scale(var(--quote-zoom));transform-origin:top right}
+.stock-pair-mode .market .quote-embed iframe{max-width:none}
+.stock-pair-mode .market .quote-embed>.empty{position:relative;font-size:14px;line-height:1.35}
+/* Keep the sporting essentials readable when Safari's bars reduce available height. */
+.app.stock-pair-mode.dock-tight-sports .primary-cards>.football,
+.app.stock-pair-mode.dock-tight-sports .primary-cards>.racing{padding-top:6px;padding-bottom:6px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .card-head,
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .card-head{min-height:22px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .detail-link,
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .detail-link{min-height:22px;font-size:14px;line-height:18px;padding-top:2px;padding-bottom:2px}
+.stock-pair-mode.dock-tight-sports .primary-cards .card .start-notice{font-size:20px;line-height:22px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition{font-size:13px;line-height:16px;margin-bottom:0}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .match{row-gap:2px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .club img{display:block;width:28px;height:28px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .club span{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .score-value{font-size:24px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .score small{font-size:20px;line-height:22px;margin-top:0}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker{font-size:12px;line-height:14px;margin:0 0 2px;letter-spacing:0}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-hero .race-name{font-size:27px;line-height:1}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .circuit-thumb{height:28px;width:62px;flex-basis:62px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{margin-top:3px;gap:2px 6px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-date{font-size:18px;line-height:21px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .countdown{font-size:14px;line-height:18px}
