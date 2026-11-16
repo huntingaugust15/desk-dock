@@ -1,0 +1,24 @@
+/* Enlarge the live quote column while keeping independent symbol labels. */
+@media (min-height:800px) and (max-width:480px) and (orientation:portrait){
+ .app,body[data-display-mode] .app{--dock-stock-height:340px}
+ .primary-cards .market,body[data-display-mode] .primary-cards .market{--quote-zoom:2.2}
+ .primary-cards .market .quote-box{overflow:hidden;gap:2px;justify-content:center}
+ .primary-cards .market .quote-tile{position:relative;height:138px;min-height:138px;overflow:hidden;padding-top:0}
+ .primary-cards .market .quote-symbol{display:flex;flex-direction:column;align-items:center;gap:8px;position:absolute;left:0;top:30px;width:60px;font-size:20px;line-height:26px;font-weight:750;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;z-index:1}
+ .primary-cards .market .quote-embed{position:absolute;right:0;top:0;width:calc((100% - 64px) * .8461538462);height:138px;min-height:138px;overflow:hidden}
+ .primary-cards .market .quote-embed .tradingview-widget-container{position:absolute;right:0;top:0;width:280px!important;transform:scale(2.2);transform-origin:top right}
+ .primary-cards .market .quote-embed iframe{max-width:none}
+ .primary-cards .market .quote-embed>.empty{position:relative;font-size:14px;line-height:1.35}
+}
+/* Keep the existing three-card fit in smaller viewports. */
+@container dock-sport (max-height:110px){
+ .primary-cards .racing .card-head,body[data-display-mode] .primary-cards .racing .card-head{min-height:24px}
+ .primary-cards .racing .race-kicker,body[data-display-mode] .primary-cards .racing .race-kicker{font-size:12px;line-height:14px;margin-bottom:2px}
+ .primary-cards .racing .race-hero .race-name,body[data-display-mode] .primary-cards .racing .race-hero .race-name{font-size:27px;line-height:1}
+ .primary-cards .racing .circuit-thumb,body[data-display-mode] .primary-cards .racing .circuit-thumb{height:28px;width:62px;flex-basis:62px}
+ .primary-cards .racing .race-bottom{margin-top:3px;gap:2px 6px}
+ .primary-cards .racing .race-date,body[data-display-mode] .primary-cards .racing .race-date{font-size:18px;line-height:21px}
+ .primary-cards .racing .countdown,body[data-display-mode] .primary-cards .racing .countdown{font-size:14px;line-height:18px}
+}
+
+.primary-cards .market .quote-symbol .quote-logo{display:block;width:38px;height:38px;object-fit:contain;border-radius:50%;flex:none}
