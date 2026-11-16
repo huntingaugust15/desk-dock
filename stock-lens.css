@@ -24,13 +24,37 @@
 .stock-pair-mode.dock-tight-sports .primary-cards .card .start-notice{font-size:20px;line-height:22px}
 .stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition{font-size:13px;line-height:16px;margin-bottom:0}
 .stock-pair-mode.dock-tight-sports .primary-cards .football .match{row-gap:2px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .club img{display:block;width:28px;height:28px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .club img{display:block;width:44px;height:44px}
 .stock-pair-mode.dock-tight-sports .primary-cards .football .club span{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .stock-pair-mode.dock-tight-sports .primary-cards .football .score-value{font-size:24px}
 .stock-pair-mode.dock-tight-sports .primary-cards .football .score small{font-size:20px;line-height:22px;margin-top:0}
 .stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker{font-size:12px;line-height:14px;margin:0 0 2px;letter-spacing:0}
 .stock-pair-mode.dock-tight-sports .primary-cards .racing .race-hero .race-name{font-size:27px;line-height:1}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .circuit-thumb{height:28px;width:62px;flex-basis:62px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .circuit-thumb{position:absolute;right:12px;bottom:8px;height:64px;width:100px;flex-basis:100px;padding:4px}
 .stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{margin-top:3px;gap:2px 6px}
 .stock-pair-mode.dock-tight-sports .primary-cards .racing .race-date{font-size:18px;line-height:21px}
 .stock-pair-mode.dock-tight-sports .primary-cards .racing .countdown{font-size:14px;line-height:18px}
+
+/* Reuse the heading row and a separate image column to keep larger logos in view. */
+.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition{display:contents}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition>span:first-child{display:none}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-countdown{position:absolute;top:6px;right:70px;max-width:calc(100% - 126px);font-size:14px;line-height:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stock-pair-mode.dock-tight-sports .primary-cards .football .score-value{align-self:center}
+.stock-pair-mode.dock-tight-sports .primary-cards .football.event-starting .score-value{visibility:hidden}
+.stock-pair-mode.dock-tight-sports .primary-cards .football.event-starting .fixture-countdown{left:50%;right:auto;top:40px;transform:translateX(-50%);max-width:none}
+.stock-pair-mode.dock-tight-sports .primary-cards .football:has(.card-foot .data-stale) .fixture-countdown{visibility:hidden}
+.stock-pair-mode.dock-tight-sports .primary-cards .football #lineup-notice{left:12px;right:auto;top:auto;bottom:8px;min-height:18px;padding:2px 4px;font-size:0;line-height:14px}
+.stock-pair-mode.dock-tight-sports .primary-cards .football #lineup-notice::after{content:'正選';font-size:11px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker{position:absolute;left:110px;right:70px;top:6px;min-width:0;height:22px;line-height:22px;margin:0;font-size:11px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker>span:first-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing.event-starting .race-kicker{left:148px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing.event-starting #f1-event-flag{display:none}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-hero,
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{padding-right:112px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{flex-direction:column;align-items:flex-start;gap:1px;margin-top:2px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-date{line-height:20px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .countdown{line-height:16px}
+.stock-pair-mode.dock-tight-sports .primary-cards .racing .circuit-outline{width:100%;height:100%;object-fit:contain}
+
+.stock-pair-mode.dock-tight-sports .primary-cards .racing:has(.card-foot .data-stale) .race-kicker{visibility:hidden}
