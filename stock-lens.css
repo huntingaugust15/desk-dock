@@ -1,6 +1,6 @@
 /* Two live quotes, with stable source dimensions and independent symbol labels. */
 .app.stock-pair-mode,body[data-display-mode] .app.stock-pair-mode{
- --dock-stock-height:clamp(220px,calc(var(--dock-primary-height) - 236px),340px);
+ --dock-stock-height:clamp(220px,calc(var(--dock-primary-height) - 236px),316px);
  --quote-row-height:calc((var(--dock-stock-height) - 64px)/2);
 }
 .stock-pair-mode .primary-cards .market,body[data-display-mode] .stock-pair-mode .primary-cards .market{--quote-zoom:2.2;--quote-offset:0px}
@@ -14,47 +14,68 @@
 .stock-pair-mode .market .quote-embed .tradingview-widget-container{position:absolute;right:0;top:calc(0px - var(--quote-offset));width:280px!important;transform:scale(var(--quote-zoom));transform-origin:top right}
 .stock-pair-mode .market .quote-embed iframe{max-width:none}
 .stock-pair-mode .market .quote-embed>.empty{position:relative;font-size:14px;line-height:1.35}
-/* Keep the sporting essentials readable when Safari's bars reduce available height. */
-.app.stock-pair-mode.dock-tight-sports .primary-cards>.football,
-.app.stock-pair-mode.dock-tight-sports .primary-cards>.racing{padding-top:6px;padding-bottom:6px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .card-head,
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .card-head{min-height:22px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .detail-link,
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .detail-link{min-height:22px;font-size:14px;line-height:18px;padding-top:2px;padding-bottom:2px}
-.stock-pair-mode.dock-tight-sports .primary-cards .card .start-notice{font-size:20px;line-height:22px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition{font-size:13px;line-height:16px;margin-bottom:0}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .match{row-gap:2px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .club img{display:block;width:44px;height:44px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .club span{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .score-value{font-size:24px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .score small{font-size:20px;line-height:22px;margin-top:0}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker{font-size:12px;line-height:14px;margin:0 0 2px;letter-spacing:0}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-hero .race-name{font-size:27px;line-height:1}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .circuit-thumb{position:absolute;right:12px;bottom:8px;height:64px;width:100px;flex-basis:100px;padding:4px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{margin-top:3px;gap:2px 6px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-date{font-size:18px;line-height:21px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .countdown{font-size:14px;line-height:18px}
 
-/* Reuse the heading row and a separate image column to keep larger logos in view. */
-.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition{display:contents}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-competition>span:first-child{display:none}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .fixture-countdown{position:absolute;top:6px;right:70px;max-width:calc(100% - 126px);font-size:14px;line-height:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.stock-pair-mode.dock-tight-sports .primary-cards .football .score-value{align-self:center}
-.stock-pair-mode.dock-tight-sports .primary-cards .football.event-starting .score-value{visibility:hidden}
-.stock-pair-mode.dock-tight-sports .primary-cards .football.event-starting .fixture-countdown{left:50%;right:auto;top:40px;transform:translateX(-50%);max-width:none}
-.stock-pair-mode.dock-tight-sports .primary-cards .football:has(.card-foot .data-stale) .fixture-countdown{visibility:hidden}
-.stock-pair-mode.dock-tight-sports .primary-cards .football #lineup-notice{left:12px;right:auto;top:auto;bottom:8px;min-height:18px;padding:2px 4px;font-size:0;line-height:14px}
-.stock-pair-mode.dock-tight-sports .primary-cards .football #lineup-notice::after{content:'正選';font-size:11px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker{position:absolute;left:110px;right:70px;top:6px;min-width:0;height:22px;line-height:22px;margin:0;font-size:11px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-kicker>span:first-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing.event-starting .race-kicker{left:148px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing.event-starting #f1-event-flag{display:none}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-hero,
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{padding-right:112px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-bottom{flex-direction:column;align-items:flex-start;gap:1px;margin-top:2px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .race-date{line-height:20px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .countdown{line-height:16px}
-.stock-pair-mode.dock-tight-sports .primary-cards .racing .circuit-outline{width:100%;height:100%;object-fit:contain}
-
-.stock-pair-mode.dock-tight-sports .primary-cards .racing:has(.card-foot .data-stale) .race-kicker{visibility:hidden}
+/* Shared spacing, typography and image columns across the three primary cards. */
+body .app.stock-pair-mode{
+ --dock-card-gap:10px;
+ --dock-sport-height:calc((var(--dock-primary-height) - var(--dock-stock-height) - 20px)/2);
+ --dock-crest-size:clamp(44px,calc(var(--dock-sport-height) * .38),64px);
+ --dock-circuit-width:clamp(100px,calc(var(--dock-sport-height) * .88),128px);
+ --dock-race-title-size:30px;
+ --dock-race-title-line:32px;
+}
+body .app.stock-pair-mode.dock-tight-sports{
+ --dock-crest-size:clamp(44px,calc(var(--dock-sport-height) - 62px),56px);
+ --dock-race-title-size:26px;
+ --dock-race-title-line:26px;
+}
+body .app.stock-pair-mode .cards.primary-cards{gap:var(--dock-card-gap)}
+body .app.stock-pair-mode .primary-cards>.card{padding:6px 12px;border-radius:16px}
+body .app.stock-pair-mode .primary-cards>.card .card-head{min-height:24px;gap:8px}
+body .app.stock-pair-mode .primary-cards .card-head h1,
+body .app.stock-pair-mode .primary-cards .card-head h2{font-size:18px;line-height:24px;font-weight:750;letter-spacing:0}
+body .app.stock-pair-mode .primary-cards>.card .detail-link{font-size:14px;line-height:20px;min-height:24px;padding:2px 0 2px 6px}
+body .app.stock-pair-mode .primary-cards .start-notice{font-size:20px;line-height:24px}
+body .app.stock-pair-mode .primary-cards .market #market-state{top:6px;font-size:13px;line-height:24px}
+/* Flatten the fixture wrappers into one grid: crests, score, competition, time. */
+body .app.stock-pair-mode .primary-cards .football .fixture-row{display:grid;grid-template-columns:minmax(0,1fr) 80px minmax(0,1fr);grid-template-rows:auto auto auto;gap:2px 8px;align-items:center;text-align:center}
+body .app.stock-pair-mode .primary-cards .football .fixture-competition,
+body .app.stock-pair-mode .primary-cards .football .match,
+body .app.stock-pair-mode .primary-cards .football .score{display:contents}
+body .app.stock-pair-mode .primary-cards .football .club,
+body .app.stock-pair-mode .primary-cards .football .club.away{grid-column:1;grid-row:1/3;align-self:center;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}
+body .app.stock-pair-mode .primary-cards .football .club.away{grid-column:3}
+body .app.stock-pair-mode .primary-cards .football .club img{display:block;width:var(--dock-crest-size);height:var(--dock-crest-size);object-fit:contain}
+body .app.stock-pair-mode .primary-cards .football .club span{position:static;width:100%;height:auto;margin:0;clip-path:none;font-size:14px;line-height:16px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
+body .app.stock-pair-mode.dock-tight-sports .primary-cards .football .club span{position:absolute;width:1px;height:1px;margin:-1px;clip-path:inset(50%);overflow:hidden}
+body .app.stock-pair-mode .primary-cards .football .score-value{grid-column:2;grid-row:1;align-self:end;font-size:26px;line-height:28px}
+body .app.stock-pair-mode .primary-cards .football .fixture-competition>span:first-child{grid-column:2;grid-row:2;align-self:start;max-width:100%;font-size:12px;line-height:14px;color:#aab4bd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body .app.stock-pair-mode .primary-cards .football .score small{grid-column:1/-1;grid-row:3;margin:0;font-size:20px;line-height:22px;font-weight:750;white-space:nowrap}
+/* Both countdowns share the same heading position and visual weight. */
+body .app.stock-pair-mode .primary-cards .football .fixture-countdown,
+body .app.stock-pair-mode .primary-cards .racing .countdown{position:absolute;top:6px;right:70px;max-width:calc(100% - 126px);font-size:16px;line-height:24px;font-weight:650;white-space:nowrap;color:#ffad78}
+body .app.stock-pair-mode .primary-cards .football .replay-inline{position:absolute;top:6px;right:70px;margin:0;min-height:24px;padding:0 6px;font-size:12px;line-height:22px}
+body .app.stock-pair-mode .primary-cards .football #lineup-notice{left:12px;right:auto;top:auto;bottom:8px;min-height:18px;padding:2px 4px;font-size:0;line-height:14px}
+body .app.stock-pair-mode .primary-cards .football #lineup-notice::after{content:'正選';font-size:11px}
+/* F1 uses an independent right image column and three aligned text rows. */
+body .app.stock-pair-mode .primary-cards .racing .race-content{display:grid;grid-template-columns:minmax(0,1fr) var(--dock-circuit-width);grid-template-rows:16px var(--dock-race-title-line) 22px;gap:2px 12px;align-content:center;justify-content:normal;min-height:0}
+body .app.stock-pair-mode .primary-cards .racing .race-hero,
+body .app.stock-pair-mode .primary-cards .racing .race-summary,
+body .app.stock-pair-mode .primary-cards .racing .race-bottom{display:contents}
+body .app.stock-pair-mode .primary-cards .racing .race-kicker{position:static;grid-column:1;grid-row:1;min-width:0;height:auto;margin:0;padding:0;font-size:12px;line-height:16px;letter-spacing:0;gap:6px}
+body .app.stock-pair-mode .primary-cards .racing .race-kicker>span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body .app.stock-pair-mode .primary-cards .racing .race-round{color:#aab4bd}
+body .app.stock-pair-mode .primary-cards .racing .race-name{grid-column:1;grid-row:2;min-width:0;font-size:var(--dock-race-title-size);line-height:var(--dock-race-title-line);font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal;letter-spacing:-.3px}
+body .app.stock-pair-mode .primary-cards .racing .race-date{grid-column:1;grid-row:3;font-size:20px;line-height:22px;font-weight:750;white-space:nowrap}
+body .app.stock-pair-mode .primary-cards .racing .circuit-thumb{position:static;grid-column:2;grid-row:1/4;align-self:center;width:var(--dock-circuit-width);height:clamp(64px,calc(var(--dock-sport-height) - 50px),88px);min-height:0;padding:4px;border-radius:10px}
+body .app.stock-pair-mode .primary-cards .racing .circuit-outline{width:100%;height:100%;object-fit:contain}
+/* Keep warning countdowns in the content area when the heading becomes a notice. */
+body .app.stock-pair-mode .primary-cards .football.event-starting .score-value,
+body .app.stock-pair-mode .primary-cards .football.event-starting .fixture-competition>span:first-child{visibility:hidden}
+body .app.stock-pair-mode .primary-cards .football.event-starting .fixture-countdown{position:static;grid-column:2;grid-row:1/3;align-self:center;justify-self:center;max-width:none;transform:none}
+body .app.stock-pair-mode .primary-cards .racing.event-starting .race-date{visibility:hidden}
+body .app.stock-pair-mode .primary-cards .racing.event-starting .countdown{position:static;grid-column:1;grid-row:3;align-self:center;max-width:none;line-height:22px}
+body .app.stock-pair-mode .primary-cards .racing.event-starting #f1-event-flag{display:none}
+body .app.stock-pair-mode .primary-cards .card.event-urgent .countdown{color:#ff7f8b;font-weight:800}
+body .app.stock-pair-mode .primary-cards .football:has(.card-foot .data-stale) .fixture-countdown,
+body .app.stock-pair-mode .primary-cards .racing:has(.card-foot .data-stale) .countdown{visibility:hidden}

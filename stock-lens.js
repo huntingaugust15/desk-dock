@@ -18,7 +18,7 @@ const DockStockLens=(()=>{
   function fitSports(){
     const app=document.querySelector('.app');if(!app)return;
     const cards=[...document.querySelectorAll('.primary-cards>.football,.primary-cards>.racing')];
-    const tight=app.classList.contains('stock-pair-mode')&&cards.some(card=>card.getBoundingClientRect().height<128);
+    const tight=app.classList.contains('stock-pair-mode')&&cards.some(card=>card.getBoundingClientRect().height<144);
     app.classList.toggle('dock-tight-sports',tight);
   }
   const observer=typeof ResizeObserver==='function'?new ResizeObserver(entries=>{
