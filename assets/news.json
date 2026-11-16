@@ -1,24 +1,154 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T15:03:33Z",
-  "contentUpdatedAt": "2026-11-16T15:03:33Z",
+  "generatedAt": "2026-11-16T16:41:52Z",
+  "contentUpdatedAt": "2026-11-16T16:41:52Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-16T15:03:33Z",
+      "lastSuccess": "2026-11-16T16:41:52Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-16T15:03:33Z",
+      "lastSuccess": "2026-11-16T16:41:52Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "076a4641ab611b97",
+      "title": "台灣科技業力挺黃仁勳，台北 101 今晚點燈傳遞支持",
+      "url": "https://finance.technews.tw/2026/11/16/taipei-101-jensen-huang/",
+      "publishedAt": "2026-11-16T09:19:45Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "076a4641ab611b97",
+      "related": []
+    },
+    {
+      "id": "ced085c49304e5b3",
+      "title": "東方風能看好 3-4 期開發，至少 3 家風電商有意投入",
+      "url": "https://technews.tw/2026/11/16/oriental-wind-power-phase-3-4-development-attracts-3-developers/",
+      "publishedAt": "2026-11-16T09:18:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "ced085c49304e5b3",
+      "related": []
+    },
+    {
+      "id": "5b66d3ae6c84733c",
+      "title": "當科技遇上坂本龍一，蘋果設備如何讓聲音、光影與藝術交融",
+      "url": "https://technews.tw/2026/11/16/sakamoto-ryuichi-apple/",
+      "publishedAt": "2026-11-16T09:15:11Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5b66d3ae6c84733c",
+      "related": []
+    },
+    {
+      "id": "5de8428d36bf9476",
+      "title": "Google DeepMind 推 AlphaGenome 2 模型，捕捉疾病基因變異根源",
+      "url": "https://technews.tw/2026/11/16/google-deepmind-announces-alphagenome-2/",
+      "publishedAt": "2026-11-16T09:14:40Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5de8428d36bf9476",
+      "related": []
+    },
+    {
+      "id": "0fac6a69621192bb",
+      "title": "對輝達晶片輸中「放水」？盧特尼克遭爆料：東南亞資料中心是家族企業客戶",
+      "url": "https://technews.tw/2026/11/16/lutnick-chip-rules-and-family-business/",
+      "publishedAt": "2026-11-16T09:09:28Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0fac6a69621192bb",
+      "related": []
+    },
+    {
+      "id": "7a6c3290f6e3cad1",
+      "title": "黃仁勳醜聞衝擊東南亞，中國取得美國 AI 算力的後門恐將關閉",
+      "url": "https://technews.tw/2026/11/16/how-jensen-huang-built-the-backdoor-route-that-keeps-beijing-in-the-ai-race/",
+      "publishedAt": "2026-11-16T09:00:10Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7a6c3290f6e3cad1",
+      "related": []
+    },
+    {
+      "id": "230e1a002be4b0ac",
+      "title": "挾 10 億訂單布局自主式微電網！凱智綠能預計 11/20 登錄興櫃",
+      "url": "https://finance.technews.tw/2026/11/16/autonomous-microgrid/",
+      "publishedAt": "2026-11-16T08:52:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "230e1a002be4b0ac",
+      "related": []
+    },
+    {
+      "id": "0b31c7dcfe226b42",
+      "title": "大摩：GPU 供應若收緊，阿里雲業務收入恐承壓",
+      "url": "https://technews.tw/2026/11/16/tighter-gpu-supply-could-weigh-on-alibaba-cloud-revenue/",
+      "publishedAt": "2026-11-16T08:50:42Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0b31c7dcfe226b42",
+      "related": []
+    },
+    {
+      "id": "9043915488dde4b6",
+      "title": "CIP 加速渢妙二期開發，力拚 2027 年第二季末完成融資",
+      "url": "https://technews.tw/2026/11/16/cip-accelerates-fengmiao-phase-2-development-targets-financing-q2-2027/",
+      "publishedAt": "2026-11-16T08:35:18Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9043915488dde4b6",
+      "related": []
+    },
+    {
+      "id": "f2eab45a14b3efbe",
+      "title": "輝達風波未平仍獲美力挺，傳將列 AI 國家冠軍企業",
+      "url": "https://technews.tw/2026/11/16/trump-still-plans-to-make-nvidia-americas-ai-champion/",
+      "publishedAt": "2026-11-16T07:50:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f2eab45a14b3efbe",
+      "related": []
+    },
+    {
+      "id": "a4a2f938cfc1e9dc",
+      "title": "DeepSeek 自承算力不足，近日設定多種限制引議",
+      "url": "https://technews.tw/2026/11/16/deepseek-compute-power-shortage-multiple-restrictions-controversy/",
+      "publishedAt": "2026-11-16T07:40:53Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a4a2f938cfc1e9dc",
+      "related": []
+    },
+    {
+      "id": "ed7d6a81c99b5808",
+      "title": "歐美大廠停產爆轉單潮！常廣「電燒沖洗管」明年日本市場大爆發",
+      "url": "https://finance.technews.tw/2026/11/16/da-vinci-robot/",
+      "publishedAt": "2026-11-16T07:36:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "ed7d6a81c99b5808",
+      "related": []
+    },
+    {
+      "id": "2181dfdc45988e71",
+      "title": "漢測與德國設備大廠 ficonTEC 深化合作，搶攻矽光子測試商機",
+      "url": "https://technews.tw/2026/11/16/htsi-ficontec-cpo-cooperation/",
+      "publishedAt": "2026-11-16T07:15:56Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2181dfdc45988e71",
+      "related": []
+    },
     {
       "id": "e9a967ae6bb8d955",
       "title": "CISA警告Check Point權限提升漏洞遭積極利用",
@@ -120,26 +250,6 @@
       "related": []
     },
     {
-      "id": "a2e7441b0dcf2fb0",
-      "title": "OpenAI 解散獨立機器人團隊，轉向「通用模型」加速研發進程",
-      "url": "https://technews.tw/2026/11/16/openai-disbands-its-stand-alone-robotics-team-as-its-general-models-start-running-robots/",
-      "publishedAt": "2026-11-16T02:30:22Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a2e7441b0dcf2fb0",
-      "related": []
-    },
-    {
-      "id": "7236df14c26b442d",
-      "title": "研究找到 DeepSeek、Kimi 等六款中國 AI 模型以受管制輝達 Blackwell 晶片訓練痕跡",
-      "url": "https://technews.tw/2026/11/16/top-chinese-frontier-ai-models-carry-the-fingerprint-of-export-controlled-nvidia-blackwell-gpus/",
-      "publishedAt": "2026-11-16T02:20:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7236df14c26b442d",
-      "related": []
-    },
-    {
       "id": "097ba0eccf6d9066",
       "title": "長榮物流資安事故調查結果出爐，員工個資及營業資料外洩",
       "url": "https://www.ithome.com.tw/news/180512",
@@ -177,106 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "3b892574f6f93c5f",
-      "related": []
-    },
-    {
-      "id": "493bec527cd8c260",
-      "title": "首屆 AI 音樂獎揭曉，虛擬歌手 Xania Monet 奪多項大獎",
-      "url": "https://technews.tw/2026/11/16/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "publishedAt": "2026-11-16T02:10:54Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "493bec527cd8c260",
-      "related": []
-    },
-    {
-      "id": "27e8d59d0ef0991a",
-      "title": "黃仁勳黯然下台，紐約時報：台灣社會錯愕又難以置信",
-      "url": "https://technews.tw/2026/11/16/jensen-huang-steps-down-new-york-times-taiwan-society-shocked-disbelief/",
-      "publishedAt": "2026-11-16T02:00:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "27e8d59d0ef0991a",
-      "related": []
-    },
-    {
-      "id": "ca1c1c9a37cf3d09",
-      "title": "騏億鑫上櫃掛牌首日盤中飆近 2 成！宣示稱霸國際廠務工程跨系統整合",
-      "url": "https://finance.technews.tw/2026/11/16/factory-engineering/",
-      "publishedAt": "2026-11-16T01:58:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ca1c1c9a37cf3d09",
-      "related": []
-    },
-    {
-      "id": "3ac78101c95c3b73",
-      "title": "早已知情？黃仁勳醜聞爆發前，輝達董事出售 420 萬股、套現 10 億美元",
-      "url": "https://finance.technews.tw/2026/11/16/nvidia-sell-stock-before-jensen-huang-scandal/",
-      "publishedAt": "2026-11-16T01:53:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3ac78101c95c3b73",
-      "related": []
-    },
-    {
-      "id": "7e3ea23d33d1d057",
-      "title": "美財長 10 天最後通牒，促輝達說明是否縱容最先進晶片走私中國",
-      "url": "https://technews.tw/2026/11/16/us-treasury-chief-wants-answers-soon-from-nvidia/",
-      "publishedAt": "2026-11-16T01:50:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7e3ea23d33d1d057",
-      "related": []
-    },
-    {
-      "id": "b95a9f5041850475",
-      "title": "ASIC、GPU 雙引擎帶動成長，高盛重申緯穎買進、目標價 4,000 元",
-      "url": "https://finance.technews.tw/2026/11/16/wiwynn-4000-target-price/",
-      "publishedAt": "2026-11-16T01:48:33Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b95a9f5041850475",
-      "related": []
-    },
-    {
-      "id": "66023a1fae4c9ac1",
-      "title": "美國及盟友簽署舊金山宣言，聯手強化 AI 供應鏈防堵中國",
-      "url": "https://technews.tw/2026/11/16/us-and-allies-sign-accord-to-protect-ai-supply-chains-from-china/",
-      "publishedAt": "2026-11-16T01:45:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "66023a1fae4c9ac1",
-      "related": []
-    },
-    {
-      "id": "525c6ec8f4dc9788",
-      "title": "台達電 SST 新系統亮相 RE+，2027 年底啟動美國 PCS 生產",
-      "url": "https://technews.tw/2026/11/16/delta-electronics-new-sst-system-debuts-re-us-pcs-production-starts-end-2027/",
-      "publishedAt": "2026-11-16T01:41:07Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "525c6ec8f4dc9788",
-      "related": []
-    },
-    {
-      "id": "1344ca25b51c1780",
-      "title": "彭博：輝達曾就員工涉嫌對中國走私晶片案求助台灣官員",
-      "url": "https://technews.tw/2026/11/16/bloomberg-nvidia-sought-assistance-taiwanese-officials-employee-suspected-chip-smuggling-china/",
-      "publishedAt": "2026-11-16T01:40:09Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "1344ca25b51c1780",
-      "related": []
-    },
-    {
-      "id": "3554f1e04ce65efe",
-      "title": "特斯拉開放部分客戶購買 Cybercab，29,900 美元開賣",
-      "url": "https://technews.tw/2026/11/16/tesla-cybercab-open-for-limited-customer/",
-      "publishedAt": "2026-11-16T01:40:03Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3554f1e04ce65efe",
       "related": []
     },
     {
