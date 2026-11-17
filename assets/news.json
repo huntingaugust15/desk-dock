@@ -1,34 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T17:34:00Z",
-  "contentUpdatedAt": "2026-11-17T17:34:00Z",
+  "generatedAt": "2026-11-17T18:25:09Z",
+  "contentUpdatedAt": "2026-11-17T18:25:09Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-17T17:34:00Z",
+      "lastSuccess": "2026-11-17T18:25:09Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-17T17:34:00Z",
+      "lastSuccess": "2026-11-17T18:25:09Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "f6a03231bf898d41",
-      "title": "美中俄三方會談成 APEC 重頭戲，貿易俄烏與核武受關注",
-      "url": "https://technews.tw/2026/11/17/what-issues-do-leaders-face-at-the-apec-summit/",
-      "publishedAt": "2026-11-17T04:20:08Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f6a03231bf898d41",
-      "related": []
-    },
     {
       "id": "f784c0ff32fbeb8e",
       "title": "公開網路上存在逾3,800個AI攻擊框架執行個體，臺灣也有20個",
@@ -60,116 +50,6 @@
       "related": []
     },
     {
-      "id": "f9abda481661277d",
-      "title": "美擴大先進半導體出口管制，新加坡：持續與美溝通、協助企業因應",
-      "url": "https://technews.tw/2026/11/17/us-expands-advanced-semiconductor-export-controls-singapore-us-communication-company-adaptation/",
-      "publishedAt": "2026-11-17T04:05:22Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f9abda481661277d",
-      "related": []
-    },
-    {
-      "id": "e2cf7dab4965b4cd",
-      "title": "從 GTC 大會到 APEC 都不見人影，黃仁勳去職後公開行程全面大縮水",
-      "url": "https://technews.tw/2026/11/17/jensen-huang-resignation-schedule-canceled/",
-      "publishedAt": "2026-11-17T04:00:20Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "e2cf7dab4965b4cd",
-      "related": []
-    },
-    {
-      "id": "73eb68a193a241c0",
-      "title": "AI 作弊案震撼韓國！大考前夕緊急升級防弊，眼鏡也要查",
-      "url": "https://technews.tw/2026/11/17/ai-cheating-scandal-south-korea-national-exams/",
-      "publishedAt": "2026-11-17T03:50:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "73eb68a193a241c0",
-      "related": []
-    },
-    {
-      "id": "a4f9c48c80f4ba62",
-      "title": "AI 加速器投資預測遭大砍 SanDisk 股價摔 8.6%",
-      "url": "https://finance.technews.tw/2026/11/17/sandisk-shares-tumbling/",
-      "publishedAt": "2026-11-17T03:40:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a4f9c48c80f4ba62",
-      "related": []
-    },
-    {
-      "id": "c56bcae38371d934",
-      "title": "特斯拉柏林廠擴建，砸 30 億歐元準備生產 Cybercab",
-      "url": "https://technews.tw/2026/11/17/tesla-giga-berlin-ready-for-cybercab/",
-      "publishedAt": "2026-11-17T03:35:40Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c56bcae38371d934",
-      "related": []
-    },
-    {
-      "id": "d7031054f7d7cd02",
-      "title": "以色列經濟成長一半靠輝達，科技強國也憂黃仁勳風暴",
-      "url": "https://technews.tw/2026/11/17/half-of-israels-economic-growth-is-driven-by-nvidia-even-this-tech-powerhouse-worries-about-the-jensen-huang-effect/",
-      "publishedAt": "2026-11-17T03:35:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d7031054f7d7cd02",
-      "related": []
-    },
-    {
-      "id": "4cf064a6f97073b6",
-      "title": "AI 自主攻擊引發資安疑慮，加州檢察長起訴 OpenAI",
-      "url": "https://infosecu.technews.tw/2026/11/17/ai-autonomous-attacks-spark-cybersecurity-concerns-california-attorney-general-sues-openai/",
-      "publishedAt": "2026-11-17T03:30:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4cf064a6f97073b6",
-      "related": []
-    },
-    {
-      "id": "5baf684e30e7242b",
-      "title": "慧榮展示新一代企業級儲存解決方案，加速代理式 AI 基礎設施發展",
-      "url": "https://technews.tw/2026/11/17/silicon-motion-showcases-its-next-generation-enterprise-class-storage-solutions/",
-      "publishedAt": "2026-11-17T03:30:22Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5baf684e30e7242b",
-      "related": []
-    },
-    {
-      "id": "d1ed9663c7544eab",
-      "title": "王文洋父女登胡潤百富榜第 61 名！黃世聰：宏和、宏昌搭上 AI 浪潮",
-      "url": "https://finance.technews.tw/2026/11/17/2026-hurun-rich-list/",
-      "publishedAt": "2026-11-17T03:28:35Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d1ed9663c7544eab",
-      "related": []
-    },
-    {
-      "id": "55d8036c35d35344",
-      "title": "COP31 AI 減碳承諾遇冷！僅九國簽署，美中未加入",
-      "url": "https://technews.tw/2026/11/17/cop31-ai-decarbonization-pledge-cold-reception-9-nations-signed-us-china-absent/",
-      "publishedAt": "2026-11-17T03:25:40Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "55d8036c35d35344",
-      "related": []
-    },
-    {
-      "id": "c4fcc9d36ac50123",
-      "title": "AI 踩煞車？調查機構下修支出預估、輝達承壓",
-      "url": "https://finance.technews.tw/2026/11/17/ai-slowdown-research-firms-downgrade-spending-forecasts-nvidia-under-pressure/",
-      "publishedAt": "2026-11-17T03:25:08Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c4fcc9d36ac50123",
-      "related": []
-    },
-    {
       "id": "79ce13a2b3d1c35f",
       "title": "漏洞濫用速度加快，Anthropic將重大漏洞揭露靜默期由90天縮短為30天",
       "url": "https://www.ithome.com.tw/news/180557",
@@ -197,6 +77,86 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "cb811342cc03e9c6",
+      "related": []
+    },
+    {
+      "id": "2f0f6e440879c2b8",
+      "title": "韓國 Melon 榜單首見 AI 冠軍曲，霸榜三天寫下樂壇新紀錄",
+      "url": "https://technews.tw/2026/11/17/ai-assisted-song-tops-k-pop-idols-to-reach-no-1-on-south-korean-chart/",
+      "publishedAt": "2026-11-17T02:45:03Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2f0f6e440879c2b8",
+      "related": []
+    },
+    {
+      "id": "2e7e26530b69567e",
+      "title": "防範 AI 武器化，中國科技巨頭主動削弱新模型「網攻能力」",
+      "url": "https://infosecu.technews.tw/2026/11/17/chinese-ai-companies-voluntarily-limit-cyberattack-capabilities/",
+      "publishedAt": "2026-11-17T02:40:59Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2e7e26530b69567e",
+      "related": []
+    },
+    {
+      "id": "c03688a20b7bd48c",
+      "title": "主打原生 FP64 雙精度，英特爾 D270 GPU 鎖定 HPC 與 AI 推論市場",
+      "url": "https://technews.tw/2026/11/17/the-case-for-intel-gpu-d270-in-high-performance-computing/",
+      "publishedAt": "2026-11-17T02:35:24Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c03688a20b7bd48c",
+      "related": []
+    },
+    {
+      "id": "f111dc7b467c2ec9",
+      "title": "日本超級電腦遭不當存取，日媒：企業機密恐外洩",
+      "url": "https://infosecu.technews.tw/2026/11/17/japans-supercomputer-suffers-unauthorized-access/",
+      "publishedAt": "2026-11-17T02:30:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f111dc7b467c2ec9",
+      "related": []
+    },
+    {
+      "id": "6a9c55baf213b6bf",
+      "title": "港警啟用監視器 AI 人臉辨識，人權團體憂政治打壓能力升級",
+      "url": "https://infosecu.technews.tw/2026/11/17/hk-police-ai-facial-recognition-surveillance-rights-groups-fear-political-suppression-upgrade/",
+      "publishedAt": "2026-11-17T02:20:44Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6a9c55baf213b6bf",
+      "related": []
+    },
+    {
+      "id": "3322d72b81327830",
+      "title": "全球最快超級電腦出爐！中國蟬聯、美國緊追，AMD 市占衝破 4 成",
+      "url": "https://technews.tw/2026/11/17/november-2026-top500/",
+      "publishedAt": "2026-11-17T02:20:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "3322d72b81327830",
+      "related": []
+    },
+    {
+      "id": "19d8aa55c22c313e",
+      "title": "COP31 聚焦 AI 能耗，環境部推綠電、儲能與智慧電網布局",
+      "url": "https://technews.tw/2026/11/17/cop31-ai-energy-consumption-ministry-of-environment-green-power-energy-storage-smart-grid/",
+      "publishedAt": "2026-11-17T02:17:08Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "19d8aa55c22c313e",
+      "related": []
+    },
+    {
+      "id": "28bbaad035d2786b",
+      "title": "Google 擴大前沿 AI 模型早期存取，日本政府與關鍵基礎設施優先使用",
+      "url": "https://infosecu.technews.tw/2026/11/17/google-to-give-japan-early-access-to-frontier-ai-for-cybersecurity/",
+      "publishedAt": "2026-11-17T02:15:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "28bbaad035d2786b",
       "related": []
     },
     {
@@ -247,6 +207,56 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "1c1d3966e6708480",
+      "related": []
+    },
+    {
+      "id": "c3dc4b8d97b08d80",
+      "title": "黃仁勳醜聞早有跡象，紐時去年揭黃樂關係企業疑助晶片轉運中國",
+      "url": "https://finance.technews.tw/2026/11/17/jensen-huang-scandal-early-signs-nyt-revealed-affiliated-companies-chip-transshipment-china/",
+      "publishedAt": "2026-11-17T02:10:44Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c3dc4b8d97b08d80",
+      "related": []
+    },
+    {
+      "id": "bc419ec5979c6cac",
+      "title": "AI 資料中心往哪蓋？電力正成為選址關鍵",
+      "url": "https://technews.tw/2026/11/17/ai-data-center-power-location/",
+      "publishedAt": "2026-11-17T02:00:20Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "bc419ec5979c6cac",
+      "related": []
+    },
+    {
+      "id": "256f697f7f76f591",
+      "title": "逾 17 萬人連署，籲恢復黃仁勳輝達執行長職務",
+      "url": "https://finance.technews.tw/2026/11/17/170k-sign-petition-restore-jensen-huang-nvidia-ceo/",
+      "publishedAt": "2026-11-17T01:50:19Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "256f697f7f76f591",
+      "related": []
+    },
+    {
+      "id": "1dbbefeaf6c9c771",
+      "title": "美國聯航技術故障延誤航班，已排除問題且無網攻跡象",
+      "url": "https://technews.tw/2026/11/17/united-airlines-resolves-system-outage-that-affected-departing-flights/",
+      "publishedAt": "2026-11-17T01:45:28Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1dbbefeaf6c9c771",
+      "related": []
+    },
+    {
+      "id": "7492ac061b45e32f",
+      "title": "美國多間大型銀行 App 異常，摩根大通稱軟體漏洞所致",
+      "url": "https://infosecu.technews.tw/2026/11/17/jpmorgan-says-software-bug-slows-its-transactions/",
+      "publishedAt": "2026-11-17T01:40:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7492ac061b45e32f",
       "related": []
     },
     {
