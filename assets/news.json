@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T01:00:05Z",
-  "contentUpdatedAt": "2026-11-17T01:00:05Z",
+  "generatedAt": "2026-11-17T02:11:29Z",
+  "contentUpdatedAt": "2026-11-17T02:11:29Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-17T01:00:05Z",
+      "lastSuccess": "2026-11-17T02:11:29Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-17T01:00:05Z",
+      "lastSuccess": "2026-11-17T02:11:29Z",
       "ok": true
     }
   ],
@@ -67,16 +67,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "72523ccd692b2be2",
-      "related": []
-    },
-    {
-      "id": "f737b74b4b344279",
-      "title": "黃仁勳去職，中媒：催化國產晶片自研與替代進程",
-      "url": "https://finance.technews.tw/2026/11/16/jensen-huang-resignation-chinese-media-accelerates-domestic-chip-rd-substitution/",
-      "publishedAt": "2026-11-16T09:30:55Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f737b74b4b344279",
       "related": []
     },
     {
@@ -177,6 +167,36 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "f2eab45a14b3efbe",
+      "related": []
+    },
+    {
+      "id": "a4a2f938cfc1e9dc",
+      "title": "DeepSeek 自承算力不足，近日設定多種限制引議",
+      "url": "https://technews.tw/2026/11/16/deepseek-compute-power-shortage-multiple-restrictions-controversy/",
+      "publishedAt": "2026-11-16T07:40:53Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a4a2f938cfc1e9dc",
+      "related": []
+    },
+    {
+      "id": "ed7d6a81c99b5808",
+      "title": "歐美大廠停產爆轉單潮！常廣「電燒沖洗管」明年日本市場大爆發",
+      "url": "https://finance.technews.tw/2026/11/16/da-vinci-robot/",
+      "publishedAt": "2026-11-16T07:36:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "ed7d6a81c99b5808",
+      "related": []
+    },
+    {
+      "id": "2181dfdc45988e71",
+      "title": "漢測與德國設備大廠 ficonTEC 深化合作，搶攻矽光子測試商機",
+      "url": "https://technews.tw/2026/11/16/htsi-ficontec-cpo-cooperation/",
+      "publishedAt": "2026-11-16T07:15:56Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2181dfdc45988e71",
       "related": []
     },
     {
