@@ -1,24 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T23:41:39Z",
-  "contentUpdatedAt": "2026-11-16T23:41:39Z",
+  "generatedAt": "2026-11-17T01:00:05Z",
+  "contentUpdatedAt": "2026-11-17T01:00:05Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-16T23:41:39Z",
+      "lastSuccess": "2026-11-17T01:00:05Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-16T23:41:39Z",
+      "lastSuccess": "2026-11-17T01:00:05Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "785cfe17b5046e67",
+      "title": "微軟揭露Microsoft 365全球當機原因，潛伏3個月的程式錯誤釀禍",
+      "url": "https://www.ithome.com.tw/news/180549",
+      "publishedAt": "2026-11-17T00:11:06Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "785cfe17b5046e67",
+      "related": []
+    },
+    {
+      "id": "40868db9f48389b1",
+      "title": "歐盟網路安全局示警漏洞公開後數分鐘內恐遭利用，AI與供應鏈依賴加劇資安風險",
+      "url": "https://www.ithome.com.tw/news/180493",
+      "publishedAt": "2026-11-17T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "40868db9f48389b1",
+      "related": []
+    },
+    {
+      "id": "dbae805427830788",
+      "title": "OWASP公布AI資料中心十大資安風險，韌體遭竄改、高速網路防護不足列重大風險",
+      "url": "https://www.ithome.com.tw/news/180526",
+      "publishedAt": "2026-11-17T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "dbae805427830788",
+      "related": []
+    },
+    {
+      "id": "e16b4cee40d349ff",
+      "title": "美國查扣北韓駭客FaceStealer攻擊基礎設施，另凍結逾27億美元Binance遭竊資產",
+      "url": "https://www.ithome.com.tw/news/180495",
+      "publishedAt": "2026-11-17T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e16b4cee40d349ff",
+      "related": []
+    },
+    {
+      "id": "72523ccd692b2be2",
+      "title": "英法發布商業網路入侵產業指引，籲業者審查客戶、必要時停止銷售工具",
+      "url": "https://www.ithome.com.tw/news/180491",
+      "publishedAt": "2026-11-17T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "72523ccd692b2be2",
+      "related": []
+    },
     {
       "id": "f737b74b4b344279",
       "title": "黃仁勳去職，中媒：催化國產晶片自研與替代進程",
@@ -227,56 +277,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "074c4faaa7097b0a",
-      "related": []
-    },
-    {
-      "id": "097ba0eccf6d9066",
-      "title": "長榮物流資安事故調查結果出爐，員工個資及營業資料外洩",
-      "url": "https://www.ithome.com.tw/news/180512",
-      "publishedAt": "2026-11-16T02:11:41Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "097ba0eccf6d9066",
-      "related": []
-    },
-    {
-      "id": "254a9a4f8ceb486d",
-      "title": "OpenAI推出ChatGPT Wallet，讓AI代理人代購付款",
-      "url": "https://www.ithome.com.tw/news/180515",
-      "publishedAt": "2026-11-16T02:11:23Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "254a9a4f8ceb486d",
-      "related": []
-    },
-    {
-      "id": "7fbb6423cc69798a",
-      "title": "Mozilla發布Firefox 160改版，修補99個安全漏洞，涵蓋沙箱逃逸與權限提升",
-      "url": "https://www.ithome.com.tw/news/180514",
-      "publishedAt": "2026-11-16T02:11:05Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "7fbb6423cc69798a",
-      "related": []
-    },
-    {
-      "id": "3b892574f6f93c5f",
-      "title": "韓國企業協作平臺Dooray!遭駭恐波及多家企業，已證實部分客戶資料外洩，緊急停用API服務",
-      "url": "https://www.ithome.com.tw/news/180513",
-      "publishedAt": "2026-11-16T02:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "3b892574f6f93c5f",
-      "related": []
-    },
-    {
-      "id": "610c88930493b170",
-      "title": "微軟Microsoft 365全球當機逾30小時，禍因網路升級瑕疵",
-      "url": "https://www.ithome.com.tw/news/180511",
-      "publishedAt": "2026-11-16T01:11:48Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "610c88930493b170",
       "related": []
     }
   ]
