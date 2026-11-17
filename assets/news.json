@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T21:52:30Z",
-  "contentUpdatedAt": "2026-11-17T21:52:30Z",
+  "generatedAt": "2026-11-17T22:53:02Z",
+  "contentUpdatedAt": "2026-11-17T22:53:02Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-17T21:52:30Z",
+      "lastSuccess": "2026-11-17T22:53:02Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-17T21:52:30Z",
+      "lastSuccess": "2026-11-17T22:53:02Z",
       "ok": true
     }
   ],
@@ -107,16 +107,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "8496a9d63830484e",
-      "related": []
-    },
-    {
-      "id": "8a89f5a4c0524de4",
-      "title": "OpenAI 奧特曼談黃仁勳：英雄並不完美，強勁市場需求將支撐 AI 產業發展",
-      "url": "https://technews.tw/2026/11/17/sam-altman-speaks-at-silicon-valley-and-the-world-2/",
-      "publishedAt": "2026-11-17T08:14:47Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8a89f5a4c0524de4",
       "related": []
     },
     {
