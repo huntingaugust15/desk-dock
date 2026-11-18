@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T22:24:06Z",
-  "contentUpdatedAt": "2026-11-18T22:24:06Z",
+  "generatedAt": "2026-11-18T23:24:09Z",
+  "contentUpdatedAt": "2026-11-18T23:24:09Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-18T22:24:06Z",
+      "lastSuccess": "2026-11-18T23:24:09Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-18T22:24:06Z",
+      "lastSuccess": "2026-11-18T23:24:09Z",
       "ok": true
     }
   ],
@@ -117,16 +117,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "ed46f59e527b23e8",
-      "related": []
-    },
-    {
-      "id": "3459506176d01f01",
-      "title": "迪士尼第四季財報優於預期，2029 年前每年省 30 億美元並繼續裁員",
-      "url": "https://finance.technews.tw/2026/11/18/disney-fr-26q4/",
-      "publishedAt": "2026-11-18T08:00:05Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3459506176d01f01",
       "related": []
     },
     {
