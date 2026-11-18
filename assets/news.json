@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T06:35:25Z",
-  "contentUpdatedAt": "2026-11-18T06:35:25Z",
+  "generatedAt": "2026-11-18T07:52:02Z",
+  "contentUpdatedAt": "2026-11-18T07:52:02Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-18T06:35:25Z",
+      "lastSuccess": "2026-11-18T07:52:02Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-18T06:35:25Z",
+      "lastSuccess": "2026-11-18T07:52:02Z",
       "ok": true
     }
   ],
@@ -100,26 +100,6 @@
       "related": []
     },
     {
-      "id": "5edd88669b94a1d1",
-      "title": "Google 更新 Gemini 隱私設定，聊天紀錄與 AI 訓練控制權正式脫鉤",
-      "url": "https://technews.tw/2026/11/18/gemini-separates-history-from-ai-training-but-keeps-chats-longer/",
-      "publishedAt": "2026-11-18T02:30:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5edd88669b94a1d1",
-      "related": []
-    },
-    {
-      "id": "043651691c93de10",
-      "title": "Meta 高層出奇招，「深偽」OpenAI 執行長幫自家產品宣傳惹議",
-      "url": "https://technews.tw/2026/11/18/meta-executives-mock-sam-altman-raising-ai-concerns/",
-      "publishedAt": "2026-11-18T02:20:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "043651691c93de10",
-      "related": []
-    },
-    {
       "id": "f826673e5dfc5c62",
       "title": "Optimizely供應鏈攻擊波及BBC、GitLab、IKEA等178個組織網站，匯豐臺灣也名列其中",
       "url": "https://www.ithome.com.tw/news/180588",
@@ -160,106 +140,6 @@
       "related": []
     },
     {
-      "id": "5d72d2f146a474c8",
-      "title": "Zoom 等 178 網站遭惡意程式波及，第三方軟體成資安隱憂",
-      "url": "https://infosecu.technews.tw/2026/11/18/popular-websites-compromised-in-bid-to-steal-crypto-target-iphone-users/",
-      "publishedAt": "2026-11-18T02:10:36Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5d72d2f146a474c8",
-      "related": []
-    },
-    {
-      "id": "5c419db8610415b8",
-      "title": "美媒揭川普帳戶輝達股票交易，重返白宮後買賣逾百次",
-      "url": "https://finance.technews.tw/2026/11/18/trumps-accounts-traded-up-to-97-5-million-in-nvidia-as-huang-gained-white-house-access/",
-      "publishedAt": "2026-11-18T02:00:07Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5c419db8610415b8",
-      "related": []
-    },
-    {
-      "id": "234e0fd3d25b0ebc",
-      "title": "Anthropic IPO 超搶手 傳最終定價高於 80 美元",
-      "url": "https://finance.technews.tw/2026/11/18/anthropic-plans-to-raise-ipo-price-after-strong-demand/",
-      "publishedAt": "2026-11-18T01:55:56Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "234e0fd3d25b0ebc",
-      "related": []
-    },
-    {
-      "id": "767ee11c5a8de883",
-      "title": "果粉哀號！iCloud、App Store 全掛點，蘋果揪出元兇：不是網路攻擊",
-      "url": "https://infosecu.technews.tw/2026/11/18/apple-massive-system-outage/",
-      "publishedAt": "2026-11-18T01:50:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "767ee11c5a8de883",
-      "related": []
-    },
-    {
-      "id": "7a458a6b2c4deeb0",
-      "title": "路透：川普政府擬限制中國資料中心設備，科技巨頭遊說未果",
-      "url": "https://technews.tw/2026/11/18/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying/",
-      "publishedAt": "2026-11-18T01:45:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7a458a6b2c4deeb0",
-      "related": []
-    },
-    {
-      "id": "6d5dab223a5983f4",
-      "title": "矽品與輝達簽署數十億美元協議，擴建台灣先進封裝產能達三倍",
-      "url": "https://technews.tw/2026/11/18/spil-and-nvidia-sign-multi-billion-dollar-agreement/",
-      "publishedAt": "2026-11-18T01:40:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6d5dab223a5983f4",
-      "related": []
-    },
-    {
-      "id": "6019328a43e6ebba",
-      "title": "美國會：黃仁勳 12/1 赴眾議院委員會接受約談",
-      "url": "https://technews.tw/2026/11/18/former-nvidia-ceo-to-appear-before-congress-in-december/",
-      "publishedAt": "2026-11-18T01:30:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6019328a43e6ebba",
-      "related": []
-    },
-    {
-      "id": "88055b726b89925e",
-      "title": "Google 再簽 50MW 地熱購電協議，超高溫地熱最快 2030 年供電",
-      "url": "https://technews.tw/2026/11/18/google-50mw-geothermal-ppa-ultra-high-temperature-power-2030/",
-      "publishedAt": "2026-11-18T01:29:51Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "88055b726b89925e",
-      "related": []
-    },
-    {
-      "id": "97242859c69f1518",
-      "title": "ABF、CCL 殺過頭迎估值重置！美銀重申市場過度悲觀喊買欣興、台光電",
-      "url": "https://finance.technews.tw/2026/11/18/valuation-reset/",
-      "publishedAt": "2026-11-18T01:19:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "97242859c69f1518",
-      "related": []
-    },
-    {
-      "id": "df820267713580b3",
-      "title": "資料缺乏上下文，AI 代理人恐從「無法存取」變成「帶著風險運作」",
-      "url": "https://technews.tw/2026/11/18/why-fragmented-data-estates-can-drain-leaders-ai-budgets/",
-      "publishedAt": "2026-11-18T01:15:11Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "df820267713580b3",
-      "related": []
-    },
-    {
       "id": "6f4b8e213785edcc",
       "title": "Redshift支援Iceberg資料表多陳述式交易，避免讀取未完成更新",
       "url": "https://www.ithome.com.tw/news/180576",
@@ -280,16 +160,6 @@
       "related": []
     },
     {
-      "id": "f2d4bbffbefe47d9",
-      "title": "三大因素衝擊信驊營運上調空間有限，瑞銀大砍目標價至 10,000 元",
-      "url": "https://finance.technews.tw/2026/11/18/three-factors-limit-aspeeds-room-for-upward-adjustment-of-operating-rates/",
-      "publishedAt": "2026-11-18T01:00:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f2d4bbffbefe47d9",
-      "related": []
-    },
-    {
       "id": "04ed3d97327cbf08",
       "title": "駭客利用Microsoft 365當機事件發動釣魚攻擊，謊稱郵件將遭刪除誘騙點擊連結",
       "url": "https://www.ithome.com.tw/news/180577",
@@ -297,6 +167,126 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "04ed3d97327cbf08",
+      "related": []
+    },
+    {
+      "id": "f6a03231bf898d41",
+      "title": "美中俄三方會談成 APEC 重頭戲，貿易俄烏與核武受關注",
+      "url": "https://technews.tw/2026/11/17/what-issues-do-leaders-face-at-the-apec-summit/",
+      "publishedAt": "2026-11-17T04:20:08Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f6a03231bf898d41",
+      "related": []
+    },
+    {
+      "id": "f9abda481661277d",
+      "title": "美擴大先進半導體出口管制，新加坡：持續與美溝通、協助企業因應",
+      "url": "https://technews.tw/2026/11/17/us-expands-advanced-semiconductor-export-controls-singapore-us-communication-company-adaptation/",
+      "publishedAt": "2026-11-17T04:05:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f9abda481661277d",
+      "related": []
+    },
+    {
+      "id": "e2cf7dab4965b4cd",
+      "title": "從 GTC 大會到 APEC 都不見人影，黃仁勳去職後公開行程全面大縮水",
+      "url": "https://technews.tw/2026/11/17/jensen-huang-resignation-schedule-canceled/",
+      "publishedAt": "2026-11-17T04:00:20Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e2cf7dab4965b4cd",
+      "related": []
+    },
+    {
+      "id": "73eb68a193a241c0",
+      "title": "AI 作弊案震撼韓國！大考前夕緊急升級防弊，眼鏡也要查",
+      "url": "https://technews.tw/2026/11/17/ai-cheating-scandal-south-korea-national-exams/",
+      "publishedAt": "2026-11-17T03:50:48Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "73eb68a193a241c0",
+      "related": []
+    },
+    {
+      "id": "a4f9c48c80f4ba62",
+      "title": "AI 加速器投資預測遭大砍 SanDisk 股價摔 8.6%",
+      "url": "https://finance.technews.tw/2026/11/17/sandisk-shares-tumbling/",
+      "publishedAt": "2026-11-17T03:40:32Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a4f9c48c80f4ba62",
+      "related": []
+    },
+    {
+      "id": "c56bcae38371d934",
+      "title": "特斯拉柏林廠擴建，砸 30 億歐元準備生產 Cybercab",
+      "url": "https://technews.tw/2026/11/17/tesla-giga-berlin-ready-for-cybercab/",
+      "publishedAt": "2026-11-17T03:35:40Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c56bcae38371d934",
+      "related": []
+    },
+    {
+      "id": "d7031054f7d7cd02",
+      "title": "以色列經濟成長一半靠輝達，科技強國也憂黃仁勳風暴",
+      "url": "https://technews.tw/2026/11/17/half-of-israels-economic-growth-is-driven-by-nvidia-even-this-tech-powerhouse-worries-about-the-jensen-huang-effect/",
+      "publishedAt": "2026-11-17T03:35:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d7031054f7d7cd02",
+      "related": []
+    },
+    {
+      "id": "4cf064a6f97073b6",
+      "title": "AI 自主攻擊引發資安疑慮，加州檢察長起訴 OpenAI",
+      "url": "https://infosecu.technews.tw/2026/11/17/ai-autonomous-attacks-spark-cybersecurity-concerns-california-attorney-general-sues-openai/",
+      "publishedAt": "2026-11-17T03:30:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4cf064a6f97073b6",
+      "related": []
+    },
+    {
+      "id": "5baf684e30e7242b",
+      "title": "慧榮展示新一代企業級儲存解決方案，加速代理式 AI 基礎設施發展",
+      "url": "https://technews.tw/2026/11/17/silicon-motion-showcases-its-next-generation-enterprise-class-storage-solutions/",
+      "publishedAt": "2026-11-17T03:30:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5baf684e30e7242b",
+      "related": []
+    },
+    {
+      "id": "d1ed9663c7544eab",
+      "title": "王文洋父女登胡潤百富榜第 61 名！黃世聰：宏和、宏昌搭上 AI 浪潮",
+      "url": "https://finance.technews.tw/2026/11/17/2026-hurun-rich-list/",
+      "publishedAt": "2026-11-17T03:28:35Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d1ed9663c7544eab",
+      "related": []
+    },
+    {
+      "id": "55d8036c35d35344",
+      "title": "COP31 AI 減碳承諾遇冷！僅九國簽署，美中未加入",
+      "url": "https://technews.tw/2026/11/17/cop31-ai-decarbonization-pledge-cold-reception-9-nations-signed-us-china-absent/",
+      "publishedAt": "2026-11-17T03:25:40Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "55d8036c35d35344",
+      "related": []
+    },
+    {
+      "id": "c4fcc9d36ac50123",
+      "title": "AI 踩煞車？調查機構下修支出預估、輝達承壓",
+      "url": "https://finance.technews.tw/2026/11/17/ai-slowdown-research-firms-downgrade-spending-forecasts-nvidia-under-pressure/",
+      "publishedAt": "2026-11-17T03:25:08Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c4fcc9d36ac50123",
       "related": []
     }
   ]
