@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T05:34:47Z",
-  "contentUpdatedAt": "2026-11-18T05:34:47Z",
+  "generatedAt": "2026-11-18T06:35:25Z",
+  "contentUpdatedAt": "2026-11-18T06:35:25Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-18T05:34:47Z",
+      "lastSuccess": "2026-11-18T06:35:25Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-18T05:34:47Z",
+      "lastSuccess": "2026-11-18T06:35:25Z",
       "ok": true
     }
   ],
@@ -37,6 +37,16 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "504ee7a642d72d49",
+      "related": []
+    },
+    {
+      "id": "ee4a1e434b4fa72a",
+      "title": "Chrome 158正式推出，修補204個資安漏洞",
+      "url": "https://www.ithome.com.tw/news/180609",
+      "publishedAt": "2026-11-18T04:11:17Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "ee4a1e434b4fa72a",
       "related": []
     },
     {
@@ -287,16 +297,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "04ed3d97327cbf08",
-      "related": []
-    },
-    {
-      "id": "8bf4acbc5111fb14",
-      "title": "AI加速嵌入式設備漏洞挖掘，研究人員90小時找出66項TCP/IP協定堆疊新漏洞",
-      "url": "https://www.ithome.com.tw/news/180564",
-      "publishedAt": "2026-11-18T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "8bf4acbc5111fb14",
       "related": []
     }
   ]
