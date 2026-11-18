@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T04:33:20Z",
-  "contentUpdatedAt": "2026-11-18T04:33:20Z",
+  "generatedAt": "2026-11-18T05:34:47Z",
+  "contentUpdatedAt": "2026-11-18T05:34:47Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-18T04:33:20Z",
+      "lastSuccess": "2026-11-18T05:34:47Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-18T04:33:20Z",
+      "lastSuccess": "2026-11-18T05:34:47Z",
       "ok": true
     }
   ],
@@ -37,6 +37,26 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "504ee7a642d72d49",
+      "related": []
+    },
+    {
+      "id": "8fa93014d2d7052b",
+      "title": "資安署揭露某機關平臺忘記帳號功能存在身分驗證漏洞，而被新增34組異常帳號",
+      "url": "https://www.ithome.com.tw/news/180607",
+      "publishedAt": "2026-11-18T04:11:08Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "8fa93014d2d7052b",
+      "related": []
+    },
+    {
+      "id": "acd2071881872f0b",
+      "title": "Node.js修補16個漏洞，包括可能導致伺服器當機與洩漏連線資料的HTTP/2漏洞",
+      "url": "https://www.ithome.com.tw/news/180608",
+      "publishedAt": "2026-11-18T04:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "acd2071881872f0b",
       "related": []
     },
     {
@@ -67,6 +87,26 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "7498b44889c8d01d",
+      "related": []
+    },
+    {
+      "id": "5edd88669b94a1d1",
+      "title": "Google 更新 Gemini 隱私設定，聊天紀錄與 AI 訓練控制權正式脫鉤",
+      "url": "https://technews.tw/2026/11/18/gemini-separates-history-from-ai-training-but-keeps-chats-longer/",
+      "publishedAt": "2026-11-18T02:30:26Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5edd88669b94a1d1",
+      "related": []
+    },
+    {
+      "id": "043651691c93de10",
+      "title": "Meta 高層出奇招，「深偽」OpenAI 執行長幫自家產品宣傳惹議",
+      "url": "https://technews.tw/2026/11/18/meta-executives-mock-sam-altman-raising-ai-concerns/",
+      "publishedAt": "2026-11-18T02:20:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "043651691c93de10",
       "related": []
     },
     {
@@ -110,6 +150,106 @@
       "related": []
     },
     {
+      "id": "5d72d2f146a474c8",
+      "title": "Zoom 等 178 網站遭惡意程式波及，第三方軟體成資安隱憂",
+      "url": "https://infosecu.technews.tw/2026/11/18/popular-websites-compromised-in-bid-to-steal-crypto-target-iphone-users/",
+      "publishedAt": "2026-11-18T02:10:36Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5d72d2f146a474c8",
+      "related": []
+    },
+    {
+      "id": "5c419db8610415b8",
+      "title": "美媒揭川普帳戶輝達股票交易，重返白宮後買賣逾百次",
+      "url": "https://finance.technews.tw/2026/11/18/trumps-accounts-traded-up-to-97-5-million-in-nvidia-as-huang-gained-white-house-access/",
+      "publishedAt": "2026-11-18T02:00:07Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5c419db8610415b8",
+      "related": []
+    },
+    {
+      "id": "234e0fd3d25b0ebc",
+      "title": "Anthropic IPO 超搶手 傳最終定價高於 80 美元",
+      "url": "https://finance.technews.tw/2026/11/18/anthropic-plans-to-raise-ipo-price-after-strong-demand/",
+      "publishedAt": "2026-11-18T01:55:56Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "234e0fd3d25b0ebc",
+      "related": []
+    },
+    {
+      "id": "767ee11c5a8de883",
+      "title": "果粉哀號！iCloud、App Store 全掛點，蘋果揪出元兇：不是網路攻擊",
+      "url": "https://infosecu.technews.tw/2026/11/18/apple-massive-system-outage/",
+      "publishedAt": "2026-11-18T01:50:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "767ee11c5a8de883",
+      "related": []
+    },
+    {
+      "id": "7a458a6b2c4deeb0",
+      "title": "路透：川普政府擬限制中國資料中心設備，科技巨頭遊說未果",
+      "url": "https://technews.tw/2026/11/18/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying/",
+      "publishedAt": "2026-11-18T01:45:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7a458a6b2c4deeb0",
+      "related": []
+    },
+    {
+      "id": "6d5dab223a5983f4",
+      "title": "矽品與輝達簽署數十億美元協議，擴建台灣先進封裝產能達三倍",
+      "url": "https://technews.tw/2026/11/18/spil-and-nvidia-sign-multi-billion-dollar-agreement/",
+      "publishedAt": "2026-11-18T01:40:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6d5dab223a5983f4",
+      "related": []
+    },
+    {
+      "id": "6019328a43e6ebba",
+      "title": "美國會：黃仁勳 12/1 赴眾議院委員會接受約談",
+      "url": "https://technews.tw/2026/11/18/former-nvidia-ceo-to-appear-before-congress-in-december/",
+      "publishedAt": "2026-11-18T01:30:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6019328a43e6ebba",
+      "related": []
+    },
+    {
+      "id": "88055b726b89925e",
+      "title": "Google 再簽 50MW 地熱購電協議，超高溫地熱最快 2030 年供電",
+      "url": "https://technews.tw/2026/11/18/google-50mw-geothermal-ppa-ultra-high-temperature-power-2030/",
+      "publishedAt": "2026-11-18T01:29:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "88055b726b89925e",
+      "related": []
+    },
+    {
+      "id": "97242859c69f1518",
+      "title": "ABF、CCL 殺過頭迎估值重置！美銀重申市場過度悲觀喊買欣興、台光電",
+      "url": "https://finance.technews.tw/2026/11/18/valuation-reset/",
+      "publishedAt": "2026-11-18T01:19:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "97242859c69f1518",
+      "related": []
+    },
+    {
+      "id": "df820267713580b3",
+      "title": "資料缺乏上下文，AI 代理人恐從「無法存取」變成「帶著風險運作」",
+      "url": "https://technews.tw/2026/11/18/why-fragmented-data-estates-can-drain-leaders-ai-budgets/",
+      "publishedAt": "2026-11-18T01:15:11Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "df820267713580b3",
+      "related": []
+    },
+    {
       "id": "6f4b8e213785edcc",
       "title": "Redshift支援Iceberg資料表多陳述式交易，避免讀取未完成更新",
       "url": "https://www.ithome.com.tw/news/180576",
@@ -130,6 +270,16 @@
       "related": []
     },
     {
+      "id": "f2d4bbffbefe47d9",
+      "title": "三大因素衝擊信驊營運上調空間有限，瑞銀大砍目標價至 10,000 元",
+      "url": "https://finance.technews.tw/2026/11/18/three-factors-limit-aspeeds-room-for-upward-adjustment-of-operating-rates/",
+      "publishedAt": "2026-11-18T01:00:26Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f2d4bbffbefe47d9",
+      "related": []
+    },
+    {
       "id": "04ed3d97327cbf08",
       "title": "駭客利用Microsoft 365當機事件發動釣魚攻擊，謊稱郵件將遭刪除誘騙點擊連結",
       "url": "https://www.ithome.com.tw/news/180577",
@@ -147,116 +297,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "8bf4acbc5111fb14",
-      "related": []
-    },
-    {
-      "id": "b9480801833eac29",
-      "title": "Google揭駭客利用多代理AI框架發動攻擊，另有工具可自動發掘及利用漏洞",
-      "url": "https://www.ithome.com.tw/news/180563",
-      "publishedAt": "2026-11-18T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "b9480801833eac29",
-      "related": []
-    },
-    {
-      "id": "79abf03d862a4901",
-      "title": "Arara郵件服務遭駭，日本大阪市確認逾107萬筆電子郵件地址外洩",
-      "url": "https://www.ithome.com.tw/news/180555",
-      "publishedAt": "2026-11-18T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "79abf03d862a4901",
-      "related": []
-    },
-    {
-      "id": "fe184f656123803b",
-      "title": "美嚴控先進 AI 晶片出口，集邦：部分訂單可能遞延",
-      "url": "https://finance.technews.tw/2026/11/17/us-tightens-control-advanced-ai-chip-exports-orders-delayed/",
-      "publishedAt": "2026-11-17T10:30:40Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "fe184f656123803b",
-      "related": []
-    },
-    {
-      "id": "8edf2f4e88b775e9",
-      "title": "美祭 AI 晶片出口新規防轉運，廣達、緯創評估不受影響",
-      "url": "https://finance.technews.tw/2026/11/17/us-ai-chip-export-rules-prevent-transshipment-quanta-wistron-no-impact/",
-      "publishedAt": "2026-11-17T09:50:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8edf2f4e88b775e9",
-      "related": []
-    },
-    {
-      "id": "279a3cf19562e6b5",
-      "title": "馴服 AI 吞電怪獸！雲鑠攜緯創導入 WATS 架構開拓 AIDC 商機",
-      "url": "https://finance.technews.tw/2026/11/17/yunova/",
-      "publishedAt": "2026-11-17T09:32:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "279a3cf19562e6b5",
-      "related": []
-    },
-    {
-      "id": "6d24c63b8ecbc55f",
-      "title": "晶片散熱迎接新解方：科學家將玻璃拉至「單原子寬」，意外解鎖極限熱傳導",
-      "url": "https://technews.tw/2026/11/17/single-atom-glass-revolutionizes-chip-cooling/",
-      "publishedAt": "2026-11-17T08:50:33Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6d24c63b8ecbc55f",
-      "related": []
-    },
-    {
-      "id": "6955262df9b39234",
-      "title": "從 CAD 跨足高階 CAE！實威憑 SIMULIA 切入 AI 與網通供應鏈商機",
-      "url": "https://finance.technews.tw/2026/11/17/simulia/",
-      "publishedAt": "2026-11-17T08:42:34Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6955262df9b39234",
-      "related": []
-    },
-    {
-      "id": "a148cc98c95ae3be",
-      "title": "黃仁勳去職牽動 AI 建設布局，輝達融資平台恐趨保守",
-      "url": "https://finance.technews.tw/2026/11/17/nvidia-financing-platform-may-turn-more-cautious/",
-      "publishedAt": "2026-11-17T08:30:51Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a148cc98c95ae3be",
-      "related": []
-    },
-    {
-      "id": "7be087ca7272339b",
-      "title": "醜聞風暴前夕布局？黃仁勳 3 月就將逾 105 億美元輝達股票轉入家族信託",
-      "url": "https://finance.technews.tw/2026/11/17/jensen-huang-and-wife-transferred-more-than-10-5-billion-to-family-trust-in-march-2026/",
-      "publishedAt": "2026-11-17T08:25:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7be087ca7272339b",
-      "related": []
-    },
-    {
-      "id": "6c3d4d4653fa25ea",
-      "title": "倉和看好 2027 年美國市場，次世代網版預計第三季推出",
-      "url": "https://technews.tw/2026/11/17/canghe-2027-us-market-next-gen-screen-plates-q3-launch/",
-      "publishedAt": "2026-11-17T08:24:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6c3d4d4653fa25ea",
-      "related": []
-    },
-    {
-      "id": "8496a9d63830484e",
-      "title": "紐時：黃仁勳女兒黃敏珊在輝達呼風喚雨，強勢管理風格惹議",
-      "url": "https://finance.technews.tw/2026/11/17/nyt-jensen-huang-daughter-madison-huang-nvidia-influence-assertive-management-style-criticism/",
-      "publishedAt": "2026-11-17T08:20:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8496a9d63830484e",
       "related": []
     }
   ]
