@@ -1,112 +1,72 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T23:48:54Z",
-  "contentUpdatedAt": "2026-11-17T22:53:02Z",
+  "generatedAt": "2026-11-18T01:08:08Z",
+  "contentUpdatedAt": "2026-11-18T01:08:08Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-17T23:48:54Z",
+      "lastSuccess": "2026-11-18T01:08:08Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-17T23:48:54Z",
+      "lastSuccess": "2026-11-18T01:08:08Z",
       "ok": true
     }
   ],
   "articles": [
     {
-      "id": "fe184f656123803b",
-      "title": "美嚴控先進 AI 晶片出口，集邦：部分訂單可能遞延",
-      "url": "https://finance.technews.tw/2026/11/17/us-tightens-control-advanced-ai-chip-exports-orders-delayed/",
-      "publishedAt": "2026-11-17T10:30:40Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "fe184f656123803b",
+      "id": "04ed3d97327cbf08",
+      "title": "駭客利用Microsoft 365當機事件發動釣魚攻擊，謊稱郵件將遭刪除誘騙點擊連結",
+      "url": "https://www.ithome.com.tw/news/180577",
+      "publishedAt": "2026-11-18T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "04ed3d97327cbf08",
       "related": []
     },
     {
-      "id": "8edf2f4e88b775e9",
-      "title": "美祭 AI 晶片出口新規防轉運，廣達、緯創評估不受影響",
-      "url": "https://finance.technews.tw/2026/11/17/us-ai-chip-export-rules-prevent-transshipment-quanta-wistron-no-impact/",
-      "publishedAt": "2026-11-17T09:50:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8edf2f4e88b775e9",
+      "id": "8bf4acbc5111fb14",
+      "title": "AI加速嵌入式設備漏洞挖掘，研究人員90小時找出66項TCP/IP協定堆疊新漏洞",
+      "url": "https://www.ithome.com.tw/news/180564",
+      "publishedAt": "2026-11-18T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "8bf4acbc5111fb14",
       "related": []
     },
     {
-      "id": "279a3cf19562e6b5",
-      "title": "馴服 AI 吞電怪獸！雲鑠攜緯創導入 WATS 架構開拓 AIDC 商機",
-      "url": "https://finance.technews.tw/2026/11/17/yunova/",
-      "publishedAt": "2026-11-17T09:32:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "279a3cf19562e6b5",
+      "id": "b9480801833eac29",
+      "title": "Google揭駭客利用多代理AI框架發動攻擊，另有工具可自動發掘及利用漏洞",
+      "url": "https://www.ithome.com.tw/news/180563",
+      "publishedAt": "2026-11-18T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "b9480801833eac29",
       "related": []
     },
     {
-      "id": "6d24c63b8ecbc55f",
-      "title": "晶片散熱迎接新解方：科學家將玻璃拉至「單原子寬」，意外解鎖極限熱傳導",
-      "url": "https://technews.tw/2026/11/17/single-atom-glass-revolutionizes-chip-cooling/",
-      "publishedAt": "2026-11-17T08:50:33Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6d24c63b8ecbc55f",
+      "id": "79abf03d862a4901",
+      "title": "Arara郵件服務遭駭，日本大阪市確認逾107萬筆電子郵件地址外洩",
+      "url": "https://www.ithome.com.tw/news/180555",
+      "publishedAt": "2026-11-18T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "79abf03d862a4901",
       "related": []
     },
     {
-      "id": "6955262df9b39234",
-      "title": "從 CAD 跨足高階 CAE！實威憑 SIMULIA 切入 AI 與網通供應鏈商機",
-      "url": "https://finance.technews.tw/2026/11/17/simulia/",
-      "publishedAt": "2026-11-17T08:42:34Z",
+      "id": "f6a03231bf898d41",
+      "title": "美中俄三方會談成 APEC 重頭戲，貿易俄烏與核武受關注",
+      "url": "https://technews.tw/2026/11/17/what-issues-do-leaders-face-at-the-apec-summit/",
+      "publishedAt": "2026-11-17T04:20:08Z",
       "sourceId": "technews",
       "sourceName": "科技新報",
-      "clusterId": "6955262df9b39234",
-      "related": []
-    },
-    {
-      "id": "a148cc98c95ae3be",
-      "title": "黃仁勳去職牽動 AI 建設布局，輝達融資平台恐趨保守",
-      "url": "https://finance.technews.tw/2026/11/17/nvidia-financing-platform-may-turn-more-cautious/",
-      "publishedAt": "2026-11-17T08:30:51Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a148cc98c95ae3be",
-      "related": []
-    },
-    {
-      "id": "7be087ca7272339b",
-      "title": "醜聞風暴前夕布局？黃仁勳 3 月就將逾 105 億美元輝達股票轉入家族信託",
-      "url": "https://finance.technews.tw/2026/11/17/jensen-huang-and-wife-transferred-more-than-10-5-billion-to-family-trust-in-march-2026/",
-      "publishedAt": "2026-11-17T08:25:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7be087ca7272339b",
-      "related": []
-    },
-    {
-      "id": "6c3d4d4653fa25ea",
-      "title": "倉和看好 2027 年美國市場，次世代網版預計第三季推出",
-      "url": "https://technews.tw/2026/11/17/canghe-2027-us-market-next-gen-screen-plates-q3-launch/",
-      "publishedAt": "2026-11-17T08:24:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6c3d4d4653fa25ea",
-      "related": []
-    },
-    {
-      "id": "8496a9d63830484e",
-      "title": "紐時：黃仁勳女兒黃敏珊在輝達呼風喚雨，強勢管理風格惹議",
-      "url": "https://finance.technews.tw/2026/11/17/nyt-jensen-huang-daughter-madison-huang-nvidia-influence-assertive-management-style-criticism/",
-      "publishedAt": "2026-11-17T08:20:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8496a9d63830484e",
+      "clusterId": "f6a03231bf898d41",
       "related": []
     },
     {
@@ -137,6 +97,116 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "53b669a4bc374001",
+      "related": []
+    },
+    {
+      "id": "f9abda481661277d",
+      "title": "美擴大先進半導體出口管制，新加坡：持續與美溝通、協助企業因應",
+      "url": "https://technews.tw/2026/11/17/us-expands-advanced-semiconductor-export-controls-singapore-us-communication-company-adaptation/",
+      "publishedAt": "2026-11-17T04:05:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f9abda481661277d",
+      "related": []
+    },
+    {
+      "id": "e2cf7dab4965b4cd",
+      "title": "從 GTC 大會到 APEC 都不見人影，黃仁勳去職後公開行程全面大縮水",
+      "url": "https://technews.tw/2026/11/17/jensen-huang-resignation-schedule-canceled/",
+      "publishedAt": "2026-11-17T04:00:20Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e2cf7dab4965b4cd",
+      "related": []
+    },
+    {
+      "id": "73eb68a193a241c0",
+      "title": "AI 作弊案震撼韓國！大考前夕緊急升級防弊，眼鏡也要查",
+      "url": "https://technews.tw/2026/11/17/ai-cheating-scandal-south-korea-national-exams/",
+      "publishedAt": "2026-11-17T03:50:48Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "73eb68a193a241c0",
+      "related": []
+    },
+    {
+      "id": "a4f9c48c80f4ba62",
+      "title": "AI 加速器投資預測遭大砍 SanDisk 股價摔 8.6%",
+      "url": "https://finance.technews.tw/2026/11/17/sandisk-shares-tumbling/",
+      "publishedAt": "2026-11-17T03:40:32Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a4f9c48c80f4ba62",
+      "related": []
+    },
+    {
+      "id": "c56bcae38371d934",
+      "title": "特斯拉柏林廠擴建，砸 30 億歐元準備生產 Cybercab",
+      "url": "https://technews.tw/2026/11/17/tesla-giga-berlin-ready-for-cybercab/",
+      "publishedAt": "2026-11-17T03:35:40Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c56bcae38371d934",
+      "related": []
+    },
+    {
+      "id": "d7031054f7d7cd02",
+      "title": "以色列經濟成長一半靠輝達，科技強國也憂黃仁勳風暴",
+      "url": "https://technews.tw/2026/11/17/half-of-israels-economic-growth-is-driven-by-nvidia-even-this-tech-powerhouse-worries-about-the-jensen-huang-effect/",
+      "publishedAt": "2026-11-17T03:35:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d7031054f7d7cd02",
+      "related": []
+    },
+    {
+      "id": "4cf064a6f97073b6",
+      "title": "AI 自主攻擊引發資安疑慮，加州檢察長起訴 OpenAI",
+      "url": "https://infosecu.technews.tw/2026/11/17/ai-autonomous-attacks-spark-cybersecurity-concerns-california-attorney-general-sues-openai/",
+      "publishedAt": "2026-11-17T03:30:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4cf064a6f97073b6",
+      "related": []
+    },
+    {
+      "id": "5baf684e30e7242b",
+      "title": "慧榮展示新一代企業級儲存解決方案，加速代理式 AI 基礎設施發展",
+      "url": "https://technews.tw/2026/11/17/silicon-motion-showcases-its-next-generation-enterprise-class-storage-solutions/",
+      "publishedAt": "2026-11-17T03:30:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5baf684e30e7242b",
+      "related": []
+    },
+    {
+      "id": "d1ed9663c7544eab",
+      "title": "王文洋父女登胡潤百富榜第 61 名！黃世聰：宏和、宏昌搭上 AI 浪潮",
+      "url": "https://finance.technews.tw/2026/11/17/2026-hurun-rich-list/",
+      "publishedAt": "2026-11-17T03:28:35Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d1ed9663c7544eab",
+      "related": []
+    },
+    {
+      "id": "55d8036c35d35344",
+      "title": "COP31 AI 減碳承諾遇冷！僅九國簽署，美中未加入",
+      "url": "https://technews.tw/2026/11/17/cop31-ai-decarbonization-pledge-cold-reception-9-nations-signed-us-china-absent/",
+      "publishedAt": "2026-11-17T03:25:40Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "55d8036c35d35344",
+      "related": []
+    },
+    {
+      "id": "c4fcc9d36ac50123",
+      "title": "AI 踩煞車？調查機構下修支出預估、輝達承壓",
+      "url": "https://finance.technews.tw/2026/11/17/ai-slowdown-research-firms-downgrade-spending-forecasts-nvidia-under-pressure/",
+      "publishedAt": "2026-11-17T03:25:08Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c4fcc9d36ac50123",
       "related": []
     },
     {
@@ -217,46 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "1c1d3966e6708480",
-      "related": []
-    },
-    {
-      "id": "785cfe17b5046e67",
-      "title": "微軟揭露Microsoft 365全球當機原因，潛伏3個月的程式錯誤釀禍",
-      "url": "https://www.ithome.com.tw/news/180549",
-      "publishedAt": "2026-11-17T00:11:06Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "785cfe17b5046e67",
-      "related": []
-    },
-    {
-      "id": "40868db9f48389b1",
-      "title": "歐盟網路安全局示警漏洞公開後數分鐘內恐遭利用，AI與供應鏈依賴加劇資安風險",
-      "url": "https://www.ithome.com.tw/news/180493",
-      "publishedAt": "2026-11-17T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "40868db9f48389b1",
-      "related": []
-    },
-    {
-      "id": "dbae805427830788",
-      "title": "OWASP公布AI資料中心十大資安風險，韌體遭竄改、高速網路防護不足列重大風險",
-      "url": "https://www.ithome.com.tw/news/180526",
-      "publishedAt": "2026-11-17T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "dbae805427830788",
-      "related": []
-    },
-    {
-      "id": "e16b4cee40d349ff",
-      "title": "美國查扣北韓駭客FaceStealer攻擊基礎設施，另凍結逾27億美元Binance遭竊資產",
-      "url": "https://www.ithome.com.tw/news/180495",
-      "publishedAt": "2026-11-17T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "e16b4cee40d349ff",
       "related": []
     }
   ]
