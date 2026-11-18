@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T14:21:08Z",
-  "contentUpdatedAt": "2026-11-18T09:58:49Z",
+  "generatedAt": "2026-11-18T15:27:09Z",
+  "contentUpdatedAt": "2026-11-18T15:27:09Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-18T14:21:08Z",
+      "lastSuccess": "2026-11-18T15:27:09Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-18T14:21:08Z",
+      "lastSuccess": "2026-11-18T15:27:09Z",
       "ok": true
     }
   ],
@@ -120,6 +120,16 @@
       "related": []
     },
     {
+      "id": "99dfdba78b40101a",
+      "title": "NuGet.org新增套件上架核准機制，降低自動化憑證遭濫用風險",
+      "url": "https://www.ithome.com.tw/news/180626",
+      "publishedAt": "2026-11-18T02:11:59Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "99dfdba78b40101a",
+      "related": []
+    },
+    {
       "id": "f826673e5dfc5c62",
       "title": "Optimizely供應鏈攻擊波及BBC、GitLab、IKEA等178個組織網站，匯豐臺灣也名列其中",
       "url": "https://www.ithome.com.tw/news/180588",
@@ -137,6 +147,16 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "d3233658f01c3e9f",
+      "related": []
+    },
+    {
+      "id": "f014b7137226d02b",
+      "title": "前端框架Solid 2.0統一處理非同步資料與畫面更新，減少競態問題",
+      "url": "https://www.ithome.com.tw/news/180634",
+      "publishedAt": "2026-11-18T02:11:38Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "f014b7137226d02b",
       "related": []
     },
     {
@@ -270,16 +290,6 @@
       "related": []
     },
     {
-      "id": "4033d421b0d70df1",
-      "title": "Nvidia營收翻倍，黃仁勳首度表態願回任Nvidia執行長",
-      "url": "https://www.ithome.com.tw/news/180587",
-      "publishedAt": "2026-11-18T01:11:35Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "4033d421b0d70df1",
-      "related": []
-    },
-    {
       "id": "f2d4bbffbefe47d9",
       "title": "三大因素衝擊信驊營運上調空間有限，瑞銀大砍目標價至 10,000 元",
       "url": "https://finance.technews.tw/2026/11/18/three-factors-limit-aspeeds-room-for-upward-adjustment-of-operating-rates/",
@@ -287,16 +297,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "f2d4bbffbefe47d9",
-      "related": []
-    },
-    {
-      "id": "04ed3d97327cbf08",
-      "title": "駭客利用Microsoft 365當機事件發動釣魚攻擊，謊稱郵件將遭刪除誘騙點擊連結",
-      "url": "https://www.ithome.com.tw/news/180577",
-      "publishedAt": "2026-11-18T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "04ed3d97327cbf08",
       "related": []
     }
   ]
