@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T07:12:30Z",
-  "contentUpdatedAt": "2026-11-19T07:12:30Z",
+  "generatedAt": "2026-11-19T08:42:06Z",
+  "contentUpdatedAt": "2026-11-19T08:42:06Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-19T07:12:30Z",
+      "lastSuccess": "2026-11-19T08:42:06Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-19T07:12:30Z",
+      "lastSuccess": "2026-11-19T08:42:06Z",
       "ok": true
     }
   ],
@@ -170,6 +170,16 @@
       "related": []
     },
     {
+      "id": "f74dcaeb347ed165",
+      "title": "機器人握得住手卻給不了安慰，共感是 AI 學不會的人類超能力",
+      "url": "https://technews.tw/2026/11/19/sensitivity-ai-will-never-learn/",
+      "publishedAt": "2026-11-18T23:20:59Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f74dcaeb347ed165",
+      "related": []
+    },
+    {
       "id": "56abc35bb5c7e191",
       "title": "無密碼登入更安全，LINE「通行金鑰」設定快速上手",
       "url": "https://infosecu.technews.tw/2026/11/18/how-to-register-a-passkey-in-the-line-app/",
@@ -247,26 +257,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "b99e4213c1c8b159",
-      "related": []
-    },
-    {
-      "id": "2f30abe3e55947b5",
-      "title": "400 家製造業客戶規劃 118 條新產線，Profet AI 推五大 Domain Twin 補擴產人力缺口",
-      "url": "https://technews.tw/2026/11/18/profet-ai-unveils-twin-accelerator-with-five-domain-twin-applications/",
-      "publishedAt": "2026-11-18T08:09:06Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "2f30abe3e55947b5",
-      "related": []
-    },
-    {
-      "id": "ed46f59e527b23e8",
-      "title": "獨家「水解膠帶」卡位 AI 封裝！碩正科技預計 12 月中掛牌上櫃",
-      "url": "https://finance.technews.tw/2026/11/18/3d-foplp/",
-      "publishedAt": "2026-11-18T08:02:50Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ed46f59e527b23e8",
       "related": []
     }
   ]
