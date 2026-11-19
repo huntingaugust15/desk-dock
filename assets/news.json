@@ -1,24 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T02:51:15Z",
-  "contentUpdatedAt": "2026-11-19T02:51:15Z",
+  "generatedAt": "2026-11-19T03:55:47Z",
+  "contentUpdatedAt": "2026-11-19T03:55:47Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-19T02:51:15Z",
+      "lastSuccess": "2026-11-19T03:55:47Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-19T02:51:15Z",
+      "lastSuccess": "2026-11-19T03:55:47Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "c19ffff319cfc91f",
+      "title": "Google升級Gemini Tasks，新增AI代打電話、購物付款功能，首度開放免費使用",
+      "url": "https://www.ithome.com.tw/news/180641",
+      "publishedAt": "2026-11-19T03:11:50Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "c19ffff319cfc91f",
+      "related": []
+    },
+    {
+      "id": "cb9a487617e7e6eb",
+      "title": "美國NSA高機密通訊網路NSANet傳中斷，官方稱例行維護期間發生異常",
+      "url": "https://www.ithome.com.tw/news/180642",
+      "publishedAt": "2026-11-19T03:11:49Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "cb9a487617e7e6eb",
+      "related": []
+    },
+    {
+      "id": "2e0a231883fe7705",
+      "title": "N0n勒索軟體組織宣稱取得Visa、摩根大通等59家公司資料",
+      "url": "https://www.ithome.com.tw/news/180643",
+      "publishedAt": "2026-11-19T03:11:14Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "2e0a231883fe7705",
+      "related": []
+    },
+    {
+      "id": "afae8a488bdf3a69",
+      "title": "JINS、三菱UFJ銀行等數十家日本企業陸續發布資安事件公告，皆因第三方行銷科技業者PLAID旗下KARTE平臺遭駭",
+      "url": "https://www.ithome.com.tw/news/180640",
+      "publishedAt": "2026-11-19T03:11:01Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "afae8a488bdf3a69",
+      "related": []
+    },
+    {
+      "id": "987a5e23c5605ab8",
+      "title": "Apache Roller反序列化漏洞已遭利用，開發團隊警告漏洞影響範圍涵蓋多個早期版本",
+      "url": "https://www.ithome.com.tw/news/180639",
+      "publishedAt": "2026-11-19T02:11:22Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "987a5e23c5605ab8",
+      "related": []
+    },
     {
       "id": "f2db03fc7184429f",
       "title": "駭客利用AI代理框架ARTEX攻擊資安公司Barracuda，44小時入侵10個雲端帳戶搜刮憑證",
@@ -207,56 +257,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "8fa93014d2d7052b",
-      "related": []
-    },
-    {
-      "id": "acd2071881872f0b",
-      "title": "Node.js修補16個漏洞，包括可能導致伺服器當機與洩漏連線資料的HTTP/2漏洞",
-      "url": "https://www.ithome.com.tw/news/180608",
-      "publishedAt": "2026-11-18T04:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "acd2071881872f0b",
-      "related": []
-    },
-    {
-      "id": "7c83be7724446347",
-      "title": "研究人員公布OpenJDK重大漏洞Java4Shell細節",
-      "url": "https://www.ithome.com.tw/news/180601",
-      "publishedAt": "2026-11-18T03:11:44Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "7c83be7724446347",
-      "related": []
-    },
-    {
-      "id": "b0d6eb9142dc70b5",
-      "title": "Oracle發布11月例行更新，修補640個資安漏洞",
-      "url": "https://www.ithome.com.tw/news/180603",
-      "publishedAt": "2026-11-18T03:11:41Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "b0d6eb9142dc70b5",
-      "related": []
-    },
-    {
-      "id": "7498b44889c8d01d",
-      "title": "Danfoss冷凍控制器傳出6個未修補漏洞，攻擊者可未經身分驗證遠端取得控制權",
-      "url": "https://www.ithome.com.tw/news/180602",
-      "publishedAt": "2026-11-18T03:11:10Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "7498b44889c8d01d",
-      "related": []
-    },
-    {
-      "id": "99dfdba78b40101a",
-      "title": "NuGet.org新增套件上架核准機制，降低自動化憑證遭濫用風險",
-      "url": "https://www.ithome.com.tw/news/180626",
-      "publishedAt": "2026-11-18T02:11:59Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "99dfdba78b40101a",
       "related": []
     }
   ]
