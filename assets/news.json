@@ -1,54 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T22:24:01Z",
-  "contentUpdatedAt": "2026-11-19T22:24:01Z",
+  "generatedAt": "2026-11-19T23:17:24Z",
+  "contentUpdatedAt": "2026-11-19T23:17:24Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-19T22:24:01Z",
+      "lastSuccess": "2026-11-19T23:17:24Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-19T22:24:01Z",
+      "lastSuccess": "2026-11-19T23:17:24Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "86a0ead42a7bb81b",
-      "title": "美光新加坡 HBM 先進封裝廠首部機台進駐，預計 2027 年初進行產出",
-      "url": "https://finance.technews.tw/2026/11/19/micron-singapore-hbm-advanced-packaging-plant-installs-first-machine/",
-      "publishedAt": "2026-11-19T10:00:35Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "86a0ead42a7bb81b",
-      "related": []
-    },
-    {
-      "id": "b32b8281a4059371",
-      "title": "美擴大封殺中國海外算力！傳三星嚴查代工來源，中國 AI 業者壓力山大",
-      "url": "https://technews.tw/2026/11/19/us-china-ai-chip-export/",
-      "publishedAt": "2026-11-19T09:45:55Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b32b8281a4059371",
-      "related": []
-    },
-    {
-      "id": "1aa2273543eb8722",
-      "title": "Disney+ 來台五週年揭台灣觀影趨勢，韓語與華語內容占六成觀看時數",
-      "url": "https://technews.tw/2026/11/19/disney-plus-is-celebrating-its-fifth-anniversary-in-taiwan/",
-      "publishedAt": "2026-11-19T09:44:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "1aa2273543eb8722",
-      "related": []
-    },
     {
       "id": "7721a611ba41ed5a",
       "title": "群聯發表 AI Data Platform，提供企業運用自有資料打造智慧分析應用",
@@ -121,7 +91,7 @@
     },
     {
       "id": "f5ff81e0da069a94",
-      "title": "川普：再等兩三年，或允許輝達 Blackwell 晶片賣中國",
+      "title": "川普：再等 2 至 3 年，或允許輝達 Blackwell 晶片賣中國",
       "url": "https://technews.tw/2026/11/19/trump-2-3-years-or-allow-nvidia-blackwell-chips-china-sales/",
       "publishedAt": "2026-11-19T07:40:10Z",
       "sourceId": "technews",
@@ -147,6 +117,36 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "bb0d0b6634f52e20",
+      "related": []
+    },
+    {
+      "id": "f1938fd36a7d0d63",
+      "title": "傳記電影將上映，奧特曼稱「排不上人生前十怪事」：肩負 AI 重任才瘋狂",
+      "url": "https://technews.tw/2026/11/19/andrew-garfield-will-play-altman/",
+      "publishedAt": "2026-11-19T07:00:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f1938fd36a7d0d63",
+      "related": []
+    },
+    {
+      "id": "59062897ae2cf4b7",
+      "title": "西門子擬收購美商 Breker，拓展系統單晶片驗證產品組合",
+      "url": "https://technews.tw/2026/11/19/siemens-breker-verification-systems/",
+      "publishedAt": "2026-11-19T06:56:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "59062897ae2cf4b7",
+      "related": []
+    },
+    {
+      "id": "74821b383cf4e5a2",
+      "title": "水庫裝光電板真的會污染水質？七大公協會回應荷蘭研究爭議",
+      "url": "https://technews.tw/2026/11/19/solar-panels-reservoirs-water-pollution-seven-associations-respond-dutch-study-controversy/",
+      "publishedAt": "2026-11-19T06:55:28Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "74821b383cf4e5a2",
       "related": []
     },
     {
