@@ -1,24 +1,154 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T08:42:06Z",
-  "contentUpdatedAt": "2026-11-19T08:42:06Z",
+  "generatedAt": "2026-11-19T10:02:10Z",
+  "contentUpdatedAt": "2026-11-19T10:02:10Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-19T08:42:06Z",
+      "lastSuccess": "2026-11-19T10:02:10Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-19T08:42:06Z",
+      "lastSuccess": "2026-11-19T10:02:10Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "7721a611ba41ed5a",
+      "title": "群聯發表 AI Data Platform，提供企業運用自有資料打造智慧分析應用",
+      "url": "https://finance.technews.tw/2026/11/19/phison-releases-ai-data-platform/",
+      "publishedAt": "2026-11-19T09:30:00Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7721a611ba41ed5a",
+      "related": []
+    },
+    {
+      "id": "da7d3a24025ad3a0",
+      "title": "AI 熱潮背後的現實：哈佛研究揭訂閱價格、用戶留存與獲利三大挑戰",
+      "url": "https://technews.tw/2026/11/19/ai-spending-spree-payback-harvard-study-2-9-paid-rate/",
+      "publishedAt": "2026-11-19T09:09:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "da7d3a24025ad3a0",
+      "related": []
+    },
+    {
+      "id": "b22716787d89ee32",
+      "title": "中國晶片管制下另闢蹊徑！改利用美國 AI 模型，訓練本土競爭對手",
+      "url": "https://technews.tw/2026/11/19/china-and-us-ai-models/",
+      "publishedAt": "2026-11-19T08:41:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b22716787d89ee32",
+      "related": []
+    },
+    {
+      "id": "1ff883a66c273fe1",
+      "title": "川普：反對會扼殺 AI 行業的監管措施，管理須謹慎",
+      "url": "https://technews.tw/2026/11/19/trump-opposes-regulations-stifling-ai-industry-urges-cautious-management/",
+      "publishedAt": "2026-11-19T08:20:27Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1ff883a66c273fe1",
+      "related": []
+    },
+    {
+      "id": "0f09fc9013248532",
+      "title": "最常用密碼「123456」第七次登榜首，「starwars」、「pokemon」進榜",
+      "url": "https://infosecu.technews.tw/2026/11/19/123456-tops-most-used-password-list-for-seventh-time/",
+      "publishedAt": "2026-11-19T08:11:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0f09fc9013248532",
+      "related": []
+    },
+    {
+      "id": "9dfc34022cbf106c",
+      "title": "被下達「永不放棄」指令，Gemini 找不到解答竟化身駭客攻擊真實網站",
+      "url": "https://infosecu.technews.tw/2026/11/19/gemini-security-test-spirals-out-of-control-hacking-websites/",
+      "publishedAt": "2026-11-19T08:00:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9dfc34022cbf106c",
+      "related": []
+    },
+    {
+      "id": "1d0df676ad948e46",
+      "title": "賓士純電 GLC 台灣正式發表，定價 254 萬元起",
+      "url": "https://technews.tw/2026/11/19/mercedes-benz-glc-electric-taiwan-debute/",
+      "publishedAt": "2026-11-19T07:48:45Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1d0df676ad948e46",
+      "related": []
+    },
+    {
+      "id": "f5ff81e0da069a94",
+      "title": "川普：再等 2 至 3 年，或允許輝達 Blackwell 晶片賣中國",
+      "url": "https://technews.tw/2026/11/19/trump-2-3-years-or-allow-nvidia-blackwell-chips-china-sales/",
+      "publishedAt": "2026-11-19T07:40:10Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f5ff81e0da069a94",
+      "related": []
+    },
+    {
+      "id": "62f3f9a838c6a318",
+      "title": "Anthropic 轉向自建資料中心，現金流恐承壓牽動台鏈訂單",
+      "url": "https://finance.technews.tw/2026/11/19/anthropic-pivots-self-built-data-centers-cash-flow-pressure-impacting-taiwan-supply-chain-orders/",
+      "publishedAt": "2026-11-19T07:20:54Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "62f3f9a838c6a318",
+      "related": []
+    },
+    {
+      "id": "bb0d0b6634f52e20",
+      "title": "中系 CSP 下修訂單抵銷北美拉貨，2027 年 NAND Flash 供需將反轉走跌",
+      "url": "https://technews.tw/2026/11/19/nand-flash-supply-demand-reverse-decline-2027-chinese-csps-order-cuts-offset-north-america-demand/",
+      "publishedAt": "2026-11-19T07:15:34Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "bb0d0b6634f52e20",
+      "related": []
+    },
+    {
+      "id": "f1938fd36a7d0d63",
+      "title": "傳記電影將上映，奧特曼稱「排不上人生前十怪事」：肩負 AI 重任才瘋狂",
+      "url": "https://technews.tw/2026/11/19/andrew-garfield-will-play-altman/",
+      "publishedAt": "2026-11-19T07:00:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f1938fd36a7d0d63",
+      "related": []
+    },
+    {
+      "id": "59062897ae2cf4b7",
+      "title": "西門子擬收購美商 Breker，拓展系統單晶片驗證產品組合",
+      "url": "https://technews.tw/2026/11/19/siemens-breker-verification-systems/",
+      "publishedAt": "2026-11-19T06:56:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "59062897ae2cf4b7",
+      "related": []
+    },
+    {
+      "id": "74821b383cf4e5a2",
+      "title": "水庫裝光電板真的會污染水質？七大公協會回應荷蘭研究爭議",
+      "url": "https://technews.tw/2026/11/19/solar-panels-reservoirs-water-pollution-seven-associations-respond-dutch-study-controversy/",
+      "publishedAt": "2026-11-19T06:55:28Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "74821b383cf4e5a2",
+      "related": []
+    },
     {
       "id": "21bf81830b778861",
       "title": "Apple多項雲端服務大規模中斷，內部軟體更新問題影響iCloud等服務逾6個小時",
@@ -167,96 +297,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "b5d4bd8ac08ab2cf",
-      "related": []
-    },
-    {
-      "id": "f74dcaeb347ed165",
-      "title": "機器人握得住手卻給不了安慰，共感是 AI 學不會的人類超能力",
-      "url": "https://technews.tw/2026/11/19/sensitivity-ai-will-never-learn/",
-      "publishedAt": "2026-11-18T23:20:59Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f74dcaeb347ed165",
-      "related": []
-    },
-    {
-      "id": "56abc35bb5c7e191",
-      "title": "無密碼登入更安全，LINE「通行金鑰」設定快速上手",
-      "url": "https://infosecu.technews.tw/2026/11/18/how-to-register-a-passkey-in-the-line-app/",
-      "publishedAt": "2026-11-18T10:09:12Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "56abc35bb5c7e191",
-      "related": []
-    },
-    {
-      "id": "b6ae054aa9d9f6f1",
-      "title": "韓中 FTA 談判達成協議，限韓令是否鬆綁仍有待觀察",
-      "url": "https://finance.technews.tw/2026/11/18/korea-china-fta-deal-hallyu-ban-relaxation-uncertain/",
-      "publishedAt": "2026-11-18T10:00:46Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b6ae054aa9d9f6f1",
-      "related": []
-    },
-    {
-      "id": "16000ab4d6365ad4",
-      "title": "希格諾、茂綸展示 Physical AI，機器手臂精準揮桿打高爾夫",
-      "url": "https://technews.tw/2026/11/18/epson-physical-ai-nvidia/",
-      "publishedAt": "2026-11-18T09:45:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "16000ab4d6365ad4",
-      "related": []
-    },
-    {
-      "id": "8a3c200c2c09b9fe",
-      "title": "歐洲綠電面臨輸電瓶頸，歐盟推動電網審批改革",
-      "url": "https://technews.tw/2026/11/18/green-power-increases-grid-lags-eu-accelerates-wind-solar-storage-approvals/",
-      "publishedAt": "2026-11-18T09:23:50Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8a3c200c2c09b9fe",
-      "related": []
-    },
-    {
-      "id": "f0f1e9b3435a2b04",
-      "title": "波士頓動力跨界半導體，人型機器人 Atlas 2027 年進駐格羅方德晶圓廠",
-      "url": "https://technews.tw/2026/11/18/boston-dynamics-enters-semiconductor-industry/",
-      "publishedAt": "2026-11-18T09:20:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f0f1e9b3435a2b04",
-      "related": []
-    },
-    {
-      "id": "a91f69ba3122c825",
-      "title": "Anthropic 啟動上市，將成檢驗全球 AI 投資熱潮關鍵指標",
-      "url": "https://finance.technews.tw/2026/11/18/anthropic-ipo-to-test-the-ai-investment-boom/",
-      "publishedAt": "2026-11-18T08:30:24Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a91f69ba3122c825",
-      "related": []
-    },
-    {
-      "id": "7047e2f771401d7c",
-      "title": "美收緊 AI 晶片管制，傳字節 4.8 億美元貸款遭擱置",
-      "url": "https://technews.tw/2026/11/18/us-tightens-ai-chip-regulations-bytedance-480-million-loan-shelved/",
-      "publishedAt": "2026-11-18T08:20:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7047e2f771401d7c",
-      "related": []
-    },
-    {
-      "id": "b99e4213c1c8b159",
-      "title": "怪物在你背後呼氣，索尼申請 VR 吹風頸圈專利讓恐怖遊戲更真實",
-      "url": "https://ccc.technews.tw/2026/11/18/monsters-breathing-down-your-neck-sony-patents-vr-fan-collar-realistic-horror-games/",
-      "publishedAt": "2026-11-18T08:10:40Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b99e4213c1c8b159",
       "related": []
     }
   ]
