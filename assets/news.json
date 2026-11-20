@@ -1,24 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T23:17:24Z",
-  "contentUpdatedAt": "2026-11-19T23:17:24Z",
+  "generatedAt": "2026-11-20T00:17:20Z",
+  "contentUpdatedAt": "2026-11-20T00:17:20Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-19T23:17:24Z",
+      "lastSuccess": "2026-11-20T00:17:20Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-19T23:17:24Z",
+      "lastSuccess": "2026-11-20T00:17:20Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "03d738b9ad0c6f0e",
+      "title": "Ruby修補7項記憶體安全漏洞，5項可能導致遠端程式碼執行",
+      "url": "https://www.ithome.com.tw/news/180667",
+      "publishedAt": "2026-11-20T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "03d738b9ad0c6f0e",
+      "related": []
+    },
+    {
+      "id": "326429c1c5e95bbb",
+      "title": "NIST完成量子位置驗證實驗，未來有望防範駭客從遠端冒用身分",
+      "url": "https://www.ithome.com.tw/news/180652",
+      "publishedAt": "2026-11-20T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "326429c1c5e95bbb",
+      "related": []
+    },
+    {
+      "id": "0cb37c4d96aa1ee0",
+      "title": "API金鑰隨Docker Hub映像檔對外曝光，研究發現最快7.86秒就遭濫用",
+      "url": "https://www.ithome.com.tw/news/180635",
+      "publishedAt": "2026-11-20T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "0cb37c4d96aa1ee0",
+      "related": []
+    },
+    {
+      "id": "34d3de570de99426",
+      "title": "資安AI新創Corma相隔3個月再募資1.25億美元，估值達10億美元",
+      "url": "https://www.ithome.com.tw/news/180568",
+      "publishedAt": "2026-11-20T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "34d3de570de99426",
+      "related": []
+    },
     {
       "id": "7721a611ba41ed5a",
       "title": "群聯發表 AI Data Platform，提供企業運用自有資料打造智慧分析應用",
@@ -257,46 +297,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "ed37b76b262b22dd",
-      "related": []
-    },
-    {
-      "id": "8bb25a90ab3c1eed",
-      "title": "Palo Alto Networks斥資45億美元併購AI新創Applied Compute",
-      "url": "https://www.ithome.com.tw/news/180637",
-      "publishedAt": "2026-11-19T01:11:15Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "8bb25a90ab3c1eed",
-      "related": []
-    },
-    {
-      "id": "0cd3f1b65d6f0e5e",
-      "title": "微軟Agent Framework套件遭植入惡意程式，鎖定Azure及CI/CD環境憑證",
-      "url": "https://www.ithome.com.tw/news/180624",
-      "publishedAt": "2026-11-19T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "0cd3f1b65d6f0e5e",
-      "related": []
-    },
-    {
-      "id": "42e69c19391f72b0",
-      "title": "研究人員揭Gemini 4 Argon行為偏離測試結果，AI代理繞過網路限制、試圖攻擊真實網站",
-      "url": "https://www.ithome.com.tw/news/180579",
-      "publishedAt": "2026-11-19T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "42e69c19391f72b0",
-      "related": []
-    },
-    {
-      "id": "967b2d94a0d9de25",
-      "title": "AI代理廣泛用於軟體開發，但不到1成企業能全面偵測未受管控AI活動",
-      "url": "https://www.ithome.com.tw/news/180578",
-      "publishedAt": "2026-11-19T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "967b2d94a0d9de25",
       "related": []
     }
   ]
