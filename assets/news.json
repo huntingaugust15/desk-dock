@@ -1,24 +1,44 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T01:46:48Z",
-  "contentUpdatedAt": "2026-11-20T01:46:48Z",
+  "generatedAt": "2026-11-20T02:51:13Z",
+  "contentUpdatedAt": "2026-11-20T02:51:13Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-20T01:46:48Z",
+      "lastSuccess": "2026-11-20T02:51:13Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-20T01:46:48Z",
+      "lastSuccess": "2026-11-20T02:51:13Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "8f6f911a0c9c4e81",
+      "title": "VMware發布資安更新，修補重大等級的vCenter漏洞，警告只能升級沒有其他替代緩解方法",
+      "url": "https://www.ithome.com.tw/news/180673",
+      "publishedAt": "2026-11-20T02:11:42Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "8f6f911a0c9c4e81",
+      "related": []
+    },
+    {
+      "id": "d8fa5b3506905d26",
+      "title": "歐盟執委會遭AI網攻，ARTEX開源工具成駭客利器",
+      "url": "https://www.ithome.com.tw/news/180672",
+      "publishedAt": "2026-11-20T01:11:37Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "d8fa5b3506905d26",
+      "related": []
+    },
     {
       "id": "ee9db1c02fd36119",
       "title": "全球首家前沿AI公司Anthropic上市，首日上漲17%",
@@ -147,26 +167,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "2e0a231883fe7705",
-      "related": []
-    },
-    {
-      "id": "afae8a488bdf3a69",
-      "title": "JINS、三菱UFJ銀行等數十家日本企業陸續發布資安事件公告，皆因第三方行銷科技業者PLAID旗下KARTE平臺遭駭",
-      "url": "https://www.ithome.com.tw/news/180640",
-      "publishedAt": "2026-11-19T03:11:01Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "afae8a488bdf3a69",
-      "related": []
-    },
-    {
-      "id": "987a5e23c5605ab8",
-      "title": "Apache Roller反序列化漏洞已遭利用，開發團隊警告漏洞影響範圍涵蓋近20年的版本",
-      "url": "https://www.ithome.com.tw/news/180639",
-      "publishedAt": "2026-11-19T02:11:22Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "987a5e23c5605ab8",
       "related": []
     },
     {
