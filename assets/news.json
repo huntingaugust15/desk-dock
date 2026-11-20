@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T04:58:38Z",
-  "contentUpdatedAt": "2026-11-20T04:58:38Z",
+  "generatedAt": "2026-11-20T06:00:30Z",
+  "contentUpdatedAt": "2026-11-20T06:00:30Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-20T04:58:38Z",
+      "lastSuccess": "2026-11-20T06:00:30Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-20T04:58:38Z",
+      "lastSuccess": "2026-11-20T06:00:30Z",
       "ok": true
     }
   ],
@@ -30,6 +30,26 @@
       "related": []
     },
     {
+      "id": "d715063d71d86ab3",
+      "title": "蘋果 OLED iMac 計畫生變 傳延後甚至喊卡",
+      "url": "https://technews.tw/2026/11/20/apple-weighs-scrapping-oled-imac-plans/",
+      "publishedAt": "2026-11-20T03:25:15Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d715063d71d86ab3",
+      "related": []
+    },
+    {
+      "id": "9402fedbaebc454e",
+      "title": "Intel 甫獲微軟封裝合作 傳 Google 重新回頭找台積",
+      "url": "https://technews.tw/2026/11/20/intel-microsoft-packaging-partnership-google-return-tsmc/",
+      "publishedAt": "2026-11-20T03:20:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9402fedbaebc454e",
+      "related": []
+    },
+    {
       "id": "64a21dd4ead73c0c",
       "title": "Google跟進OpenAI、Anthropic，Gemini開始支援Mac電腦操作",
       "url": "https://www.ithome.com.tw/news/180677",
@@ -37,6 +57,86 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "64a21dd4ead73c0c",
+      "related": []
+    },
+    {
+      "id": "f15f3cf92de5b031",
+      "title": "Windows 11 爆「FastUnlock」零時差漏洞，實體接觸即可繞過鎖定畫面與 BitLocker",
+      "url": "https://infosecu.technews.tw/2026/11/20/new-windows-11-lock-screen-zero-day-unlocks-bitlocker-protected-pcs-with-just-a-few-keystrokes/",
+      "publishedAt": "2026-11-20T03:00:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f15f3cf92de5b031",
+      "related": []
+    },
+    {
+      "id": "8ea6d9f227f262ef",
+      "title": "不只會寫 Code還要懂脈絡，Slack 開放 AI 存取對話紀錄掌握開發意圖",
+      "url": "https://technews.tw/2026/11/20/ai-software-engineering-collaborative-landscape/",
+      "publishedAt": "2026-11-20T02:50:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8ea6d9f227f262ef",
+      "related": []
+    },
+    {
+      "id": "67d54ba969a3850f",
+      "title": "PlayStation 前高層：〈GTA 6〉已是獨立「經濟體」，規模大到不只是遊戲",
+      "url": "https://finance.technews.tw/2026/11/20/former-playstation-exec-on-grand-theft-auto-vi-debut/",
+      "publishedAt": "2026-11-20T02:40:46Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "67d54ba969a3850f",
+      "related": []
+    },
+    {
+      "id": "a18f831b11cd20b1",
+      "title": "英特爾再掀裁員潮！全球 IT 部門傳大砍雙位數，陳立武接管兩年已砍近 2.8 萬人",
+      "url": "https://technews.tw/2026/11/20/intel-ceo-lip-bu-tan-cuts-jobs/",
+      "publishedAt": "2026-11-20T02:37:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a18f831b11cd20b1",
+      "related": []
+    },
+    {
+      "id": "84598051b870edde",
+      "title": "AI 繁榮物極必反，牛津：下次經濟衰退恐更深更長",
+      "url": "https://technews.tw/2026/11/20/ai-boom-may-reach-a-tipping-point-oxford-warns-next-recession-could-be-deeper-and-longer/",
+      "publishedAt": "2026-11-20T02:35:39Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "84598051b870edde",
+      "related": []
+    },
+    {
+      "id": "4bbef54975e42b6f",
+      "title": "Ubisoft 裁員潮未歇：加拿大工作室再砍 166 人，同步重金押注生成式 AI",
+      "url": "https://technews.tw/2026/11/20/gaming-industry-layoffs-ai-wave/",
+      "publishedAt": "2026-11-20T02:30:50Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4bbef54975e42b6f",
+      "related": []
+    },
+    {
+      "id": "aa70cb9db4b212f8",
+      "title": "PS5 Pro 也跑不動 60FPS，Rockstar Game：〈GTA 6〉不會有效能模式",
+      "url": "https://ccc.technews.tw/2026/11/20/rockstar-says-ps5-pro-can-not-handle-gta-6-at-60-fps/",
+      "publishedAt": "2026-11-20T02:25:36Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "aa70cb9db4b212f8",
+      "related": []
+    },
+    {
+      "id": "7da06d969e32ff4a",
+      "title": "最新財務申報曝光，川普 9 月買進逾 870 萬輝達股票",
+      "url": "https://finance.technews.tw/2026/11/20/trump-bought-8-7-million-nvidia-shares-september-financial-filings/",
+      "publishedAt": "2026-11-20T02:20:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7da06d969e32ff4a",
       "related": []
     },
     {
@@ -57,6 +157,36 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "4f295bd857f0faac",
+      "related": []
+    },
+    {
+      "id": "db3c2d6ebd3633ba",
+      "title": "Visa、萬事達卡與摩根大通用戶個資遭駭，n0n 勒索軟體組織宣稱犯案",
+      "url": "https://infosecu.technews.tw/2026/11/20/visa-mastercard-jpmorgan-user-data-hacked-n0n-ransomware-claims-responsibility/",
+      "publishedAt": "2026-11-20T02:10:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "db3c2d6ebd3633ba",
+      "related": []
+    },
+    {
+      "id": "337647dfbc9cd788",
+      "title": "蘋果高層異動，掌管 iPhone 相機與照片軟體的副總裁離職",
+      "url": "https://technews.tw/2026/11/20/apples-executive-in-charge-of-the-iphones-camera-app-has-left/",
+      "publishedAt": "2026-11-20T02:00:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "337647dfbc9cd788",
+      "related": []
+    },
+    {
+      "id": "2b40bedb848a1fad",
+      "title": "路透：台積電暫停中國 16 奈米以下訂單，替代輝達晶片研發受阻",
+      "url": "https://technews.tw/2026/11/20/tsmc-suspends-china-sub-16nm-orders-alternative-nvidia-chip-rd-stalled/",
+      "publishedAt": "2026-11-20T01:50:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2b40bedb848a1fad",
       "related": []
     },
     {
@@ -130,133 +260,13 @@
       "related": []
     },
     {
-      "id": "86a0ead42a7bb81b",
-      "title": "美光新加坡 HBM 先進封裝廠首部機台進駐，預計 2027 年初進行產出",
-      "url": "https://finance.technews.tw/2026/11/19/micron-singapore-hbm-advanced-packaging-plant-installs-first-machine/",
-      "publishedAt": "2026-11-19T10:00:35Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "86a0ead42a7bb81b",
-      "related": []
-    },
-    {
-      "id": "b32b8281a4059371",
-      "title": "美擴大封殺中國海外算力！傳三星嚴查代工來源，中國 AI 業者壓力山大",
-      "url": "https://technews.tw/2026/11/19/us-china-ai-chip-export/",
-      "publishedAt": "2026-11-19T09:45:55Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b32b8281a4059371",
-      "related": []
-    },
-    {
-      "id": "1aa2273543eb8722",
-      "title": "Disney+ 來台五週年揭台灣觀影趨勢，韓語與華語內容占六成觀看時數",
-      "url": "https://technews.tw/2026/11/19/disney-plus-is-celebrating-its-fifth-anniversary-in-taiwan/",
-      "publishedAt": "2026-11-19T09:44:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "1aa2273543eb8722",
-      "related": []
-    },
-    {
-      "id": "7721a611ba41ed5a",
-      "title": "群聯發表 AI Data Platform，提供企業運用自有資料打造智慧分析應用",
-      "url": "https://finance.technews.tw/2026/11/19/phison-releases-ai-data-platform/",
-      "publishedAt": "2026-11-19T09:30:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7721a611ba41ed5a",
-      "related": []
-    },
-    {
-      "id": "da7d3a24025ad3a0",
-      "title": "AI 熱潮背後的現實：哈佛研究揭訂閱價格、用戶留存與獲利三大挑戰",
-      "url": "https://technews.tw/2026/11/19/ai-spending-spree-payback-harvard-study-2-9-paid-rate/",
-      "publishedAt": "2026-11-19T09:09:37Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "da7d3a24025ad3a0",
-      "related": []
-    },
-    {
-      "id": "b22716787d89ee32",
-      "title": "中國晶片管制下另闢蹊徑！改利用美國 AI 模型，訓練本土競爭對手",
-      "url": "https://technews.tw/2026/11/19/china-and-us-ai-models/",
-      "publishedAt": "2026-11-19T08:41:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b22716787d89ee32",
-      "related": []
-    },
-    {
-      "id": "1ff883a66c273fe1",
-      "title": "川普：反對會扼殺 AI 行業的監管措施，管理須謹慎",
-      "url": "https://technews.tw/2026/11/19/trump-opposes-regulations-stifling-ai-industry-urges-cautious-management/",
-      "publishedAt": "2026-11-19T08:20:27Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "1ff883a66c273fe1",
-      "related": []
-    },
-    {
-      "id": "0f09fc9013248532",
-      "title": "最常用密碼「123456」第七次登榜首，「starwars」、「pokemon」進榜",
-      "url": "https://infosecu.technews.tw/2026/11/19/123456-tops-most-used-password-list-for-seventh-time/",
-      "publishedAt": "2026-11-19T08:11:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "0f09fc9013248532",
-      "related": []
-    },
-    {
-      "id": "9dfc34022cbf106c",
-      "title": "被下達「永不放棄」指令，Gemini 找不到解答竟化身駭客攻擊真實網站",
-      "url": "https://infosecu.technews.tw/2026/11/19/gemini-security-test-spirals-out-of-control-hacking-websites/",
-      "publishedAt": "2026-11-19T08:00:09Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "9dfc34022cbf106c",
-      "related": []
-    },
-    {
-      "id": "1d0df676ad948e46",
-      "title": "賓士純電 GLC 台灣正式發表，定價 254 萬元起",
-      "url": "https://technews.tw/2026/11/19/mercedes-benz-glc-electric-taiwan-debute/",
-      "publishedAt": "2026-11-19T07:48:45Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "1d0df676ad948e46",
-      "related": []
-    },
-    {
-      "id": "f5ff81e0da069a94",
-      "title": "川普：再等兩三年，或允許輝達 Blackwell 晶片賣中國",
-      "url": "https://technews.tw/2026/11/19/trump-2-3-years-or-allow-nvidia-blackwell-chips-china-sales/",
-      "publishedAt": "2026-11-19T07:40:10Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f5ff81e0da069a94",
-      "related": []
-    },
-    {
-      "id": "62f3f9a838c6a318",
-      "title": "Anthropic 轉向自建資料中心，現金流恐承壓牽動台鏈訂單",
-      "url": "https://finance.technews.tw/2026/11/19/anthropic-pivots-self-built-data-centers-cash-flow-pressure-impacting-taiwan-supply-chain-orders/",
-      "publishedAt": "2026-11-19T07:20:54Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "62f3f9a838c6a318",
-      "related": []
-    },
-    {
-      "id": "bb0d0b6634f52e20",
-      "title": "中系 CSP 下修訂單抵銷北美拉貨，2027 年 NAND Flash 供需將反轉走跌",
-      "url": "https://technews.tw/2026/11/19/nand-flash-supply-demand-reverse-decline-2027-chinese-csps-order-cuts-offset-north-america-demand/",
-      "publishedAt": "2026-11-19T07:15:34Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "bb0d0b6634f52e20",
+      "id": "bd7ccad7efdccc00",
+      "title": "微軟全面部署Office in Copilot，Autopilot提供給早鳥用戶",
+      "url": "https://www.ithome.com.tw/news/180679",
+      "publishedAt": "2026-11-19T17:11:16Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "bd7ccad7efdccc00",
       "related": []
     },
     {
@@ -287,16 +297,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "2aa4e6be3d2bcadb",
-      "related": []
-    },
-    {
-      "id": "56b6c71b59ec7a75",
-      "title": "資安業者揭露ARTEX攻擊事件應變過程，AI代理程式取得API金鑰後幾分鐘內即發動攻擊，防守方也用AI加速調查",
-      "url": "https://www.ithome.com.tw/news/180647",
-      "publishedAt": "2026-11-19T04:11:05Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "56b6c71b59ec7a75",
       "related": []
     }
   ]
