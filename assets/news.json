@@ -1,122 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T18:28:51Z",
-  "contentUpdatedAt": "2026-11-20T18:28:51Z",
+  "generatedAt": "2026-11-20T19:34:53Z",
+  "contentUpdatedAt": "2026-11-20T19:34:53Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-20T18:28:51Z",
+      "lastSuccess": "2026-11-20T19:34:53Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-20T18:28:51Z",
+      "lastSuccess": "2026-11-20T19:34:53Z",
       "ok": true
     }
   ],
   "articles": [
     {
-      "id": "3f42983c32f39c0a",
-      "title": "中國 B300 算力長約掀轉售潮，新雲端業者急尋歐美買家接手",
-      "url": "https://technews.tw/2026/11/20/us-ai-compute-neoclouds-china/",
-      "publishedAt": "2026-11-20T09:10:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3f42983c32f39c0a",
-      "related": []
-    },
-    {
-      "id": "929bb66947543ece",
-      "title": "IEA：資料中心用電 2030 年恐倍增，十年內須新建至少 2,500 萬公里電網",
-      "url": "https://technews.tw/2026/11/20/iea-warned-data-center-power-use-could-double-by-2030-straining-grids/",
-      "publishedAt": "2026-11-20T09:10:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "929bb66947543ece",
-      "related": []
-    },
-    {
-      "id": "768b97dc00a8da05",
-      "title": "英飛凌攜手麥格米特布局 800 VDC，SiC 元件導入 AI 三相電源系統",
-      "url": "https://technews.tw/2026/11/20/infineon-megmeet-800-vdc-deployment-sic-components-ai-three-phase-power-systems/",
-      "publishedAt": "2026-11-20T09:03:46Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "768b97dc00a8da05",
-      "related": []
-    },
-    {
-      "id": "23a7b596492da91c",
-      "title": "攜手 Lonestar 推進低地球軌道資料中心建置，群聯推出太空專用 SSD 解決方案",
-      "url": "https://finance.technews.tw/2026/11/20/phison-launches-ssd-solution-designed-for-space/",
-      "publishedAt": "2026-11-20T09:00:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "23a7b596492da91c",
-      "related": []
-    },
-    {
-      "id": "681287519566a6c3",
-      "title": "10 月外銷訂單 1,238 億美元續創高，年增 78.3% 連 21 紅",
-      "url": "https://finance.technews.tw/2026/11/20/october-export-orders-new-record-123-8-billion-usd-up-78-3-percent-21-consecutive-months/",
-      "publishedAt": "2026-11-20T08:50:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "681287519566a6c3",
-      "related": []
-    },
-    {
-      "id": "c6d437c1351d4e8d",
-      "title": "Anthropic 上市難救行情，日股暴跌逾 3,000 點",
-      "url": "https://finance.technews.tw/2026/11/20/nikkei-plunges-more-than-3000-points/",
-      "publishedAt": "2026-11-20T08:40:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c6d437c1351d4e8d",
-      "related": []
-    },
-    {
-      "id": "01a904757797b665",
-      "title": "KDDI 推出極簡 4G 手機 INFOBAR ZERO，只能通話與傳簡訊",
-      "url": "https://ccc.technews.tw/2026/11/20/kddi-au-infobar-zero/",
-      "publishedAt": "2026-11-20T08:20:30Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "01a904757797b665",
-      "related": []
-    },
-    {
-      "id": "110354bfbe4f05cb",
-      "title": "存貨天數拉長！七大網通廠高價搶記憶體，如今恐陷庫存跌價壓力",
-      "url": "https://technews.tw/2026/11/20/networking-equipment-manufacturer-memory/",
-      "publishedAt": "2026-11-20T08:12:58Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "110354bfbe4f05cb",
-      "related": []
-    },
-    {
-      "id": "c2862a90834f81d2",
-      "title": "ChatGPT 推出 Live Dictation 即時語音輸入！打破 10 分鐘限制，全平台免費上線",
-      "url": "https://infosecu.technews.tw/2026/11/20/chatgpt-voice-input-privacy-risks/",
-      "publishedAt": "2026-11-20T08:00:50Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c2862a90834f81d2",
-      "related": []
-    },
-    {
-      "id": "7228efaee9daded6",
-      "title": "輝達共同創辦人員工大會哽咽，批黃仁勳「背叛公司核心價值」",
-      "url": "https://technews.tw/2026/11/20/nvidia-co-founder-choked-up-employee-meeting-criticizes-jensen-huang-betraying-core-values/",
-      "publishedAt": "2026-11-20T07:50:50Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7228efaee9daded6",
+      "id": "b0a6d6c267889906",
+      "title": "尼泊爾揭19家公立醫院開源電子病歷導入經驗，採6階段流程、中央統一開發與更新",
+      "url": "https://www.ithome.com.tw/news/180691",
+      "publishedAt": "2026-11-20T18:11:15Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "b0a6d6c267889906",
       "related": []
     },
     {
@@ -260,13 +170,133 @@
       "related": []
     },
     {
-      "id": "aba5679f4fc63d86",
-      "title": "國內首座6G實驗網正式啟用，串聯歐英與衛星業者打造國際驗測基地，搶攻2029年6G標準商機",
-      "url": "https://www.ithome.com.tw/news/180685",
-      "publishedAt": "2026-11-19T21:11:19Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "aba5679f4fc63d86",
+      "id": "86a0ead42a7bb81b",
+      "title": "美光新加坡 HBM 先進封裝廠首部機台進駐，預計 2027 年初進行產出",
+      "url": "https://finance.technews.tw/2026/11/19/micron-singapore-hbm-advanced-packaging-plant-installs-first-machine/",
+      "publishedAt": "2026-11-19T10:00:35Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "86a0ead42a7bb81b",
+      "related": []
+    },
+    {
+      "id": "b32b8281a4059371",
+      "title": "美擴大封殺中國海外算力！傳三星嚴查代工來源，中國 AI 業者壓力山大",
+      "url": "https://technews.tw/2026/11/19/us-china-ai-chip-export/",
+      "publishedAt": "2026-11-19T09:45:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b32b8281a4059371",
+      "related": []
+    },
+    {
+      "id": "1aa2273543eb8722",
+      "title": "Disney+ 來台五週年揭台灣觀影趨勢，韓語與華語內容占六成觀看時數",
+      "url": "https://technews.tw/2026/11/19/disney-plus-is-celebrating-its-fifth-anniversary-in-taiwan/",
+      "publishedAt": "2026-11-19T09:44:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1aa2273543eb8722",
+      "related": []
+    },
+    {
+      "id": "7721a611ba41ed5a",
+      "title": "群聯發表 AI Data Platform，提供企業運用自有資料打造智慧分析應用",
+      "url": "https://finance.technews.tw/2026/11/19/phison-releases-ai-data-platform/",
+      "publishedAt": "2026-11-19T09:30:00Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7721a611ba41ed5a",
+      "related": []
+    },
+    {
+      "id": "da7d3a24025ad3a0",
+      "title": "AI 熱潮背後的現實：哈佛研究揭訂閱價格、用戶留存與獲利三大挑戰",
+      "url": "https://technews.tw/2026/11/19/ai-spending-spree-payback-harvard-study-2-9-paid-rate/",
+      "publishedAt": "2026-11-19T09:09:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "da7d3a24025ad3a0",
+      "related": []
+    },
+    {
+      "id": "b22716787d89ee32",
+      "title": "中國晶片管制下另闢蹊徑！改利用美國 AI 模型，訓練本土競爭對手",
+      "url": "https://technews.tw/2026/11/19/china-and-us-ai-models/",
+      "publishedAt": "2026-11-19T08:41:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b22716787d89ee32",
+      "related": []
+    },
+    {
+      "id": "1ff883a66c273fe1",
+      "title": "川普：反對會扼殺 AI 行業的監管措施，管理須謹慎",
+      "url": "https://technews.tw/2026/11/19/trump-opposes-regulations-stifling-ai-industry-urges-cautious-management/",
+      "publishedAt": "2026-11-19T08:20:27Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1ff883a66c273fe1",
+      "related": []
+    },
+    {
+      "id": "0f09fc9013248532",
+      "title": "最常用密碼「123456」第七次登榜首，「starwars」、「pokemon」進榜",
+      "url": "https://infosecu.technews.tw/2026/11/19/123456-tops-most-used-password-list-for-seventh-time/",
+      "publishedAt": "2026-11-19T08:11:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0f09fc9013248532",
+      "related": []
+    },
+    {
+      "id": "9dfc34022cbf106c",
+      "title": "被下達「永不放棄」指令，Gemini 找不到解答竟化身駭客攻擊真實網站",
+      "url": "https://infosecu.technews.tw/2026/11/19/gemini-security-test-spirals-out-of-control-hacking-websites/",
+      "publishedAt": "2026-11-19T08:00:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9dfc34022cbf106c",
+      "related": []
+    },
+    {
+      "id": "1d0df676ad948e46",
+      "title": "賓士純電 GLC 台灣正式發表，定價 254 萬元起",
+      "url": "https://technews.tw/2026/11/19/mercedes-benz-glc-electric-taiwan-debute/",
+      "publishedAt": "2026-11-19T07:48:45Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1d0df676ad948e46",
+      "related": []
+    },
+    {
+      "id": "f5ff81e0da069a94",
+      "title": "川普：再等兩三年，或允許輝達 Blackwell 晶片賣中國",
+      "url": "https://technews.tw/2026/11/19/trump-2-3-years-or-allow-nvidia-blackwell-chips-china-sales/",
+      "publishedAt": "2026-11-19T07:40:10Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f5ff81e0da069a94",
+      "related": []
+    },
+    {
+      "id": "62f3f9a838c6a318",
+      "title": "Anthropic 轉向自建資料中心，現金流恐承壓牽動台鏈訂單",
+      "url": "https://finance.technews.tw/2026/11/19/anthropic-pivots-self-built-data-centers-cash-flow-pressure-impacting-taiwan-supply-chain-orders/",
+      "publishedAt": "2026-11-19T07:20:54Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "62f3f9a838c6a318",
+      "related": []
+    },
+    {
+      "id": "bb0d0b6634f52e20",
+      "title": "中系 CSP 下修訂單抵銷北美拉貨，2027 年 NAND Flash 供需將反轉走跌",
+      "url": "https://technews.tw/2026/11/19/nand-flash-supply-demand-reverse-decline-2027-chinese-csps-order-cuts-offset-north-america-demand/",
+      "publishedAt": "2026-11-19T07:15:34Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "bb0d0b6634f52e20",
       "related": []
     }
   ]
