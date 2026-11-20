@@ -1,64 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T09:59:04Z",
-  "contentUpdatedAt": "2026-11-20T09:59:04Z",
+  "generatedAt": "2026-11-20T10:58:59Z",
+  "contentUpdatedAt": "2026-11-20T10:58:59Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-20T09:59:04Z",
+      "lastSuccess": "2026-11-20T10:58:59Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-20T09:59:04Z",
+      "lastSuccess": "2026-11-20T10:58:59Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "baa4f5c0cd1fc545",
-      "title": "美國批准近 88 萬顆高階 AI 晶片輸中，廠商名單曝光促國安爭議升溫",
-      "url": "https://technews.tw/2026/11/20/list-of-companies-approved-by-the-u-s-for-exports-of-nearly-880000-high-end-ai-chips-to-china/",
-      "publishedAt": "2026-11-20T05:15:27Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "baa4f5c0cd1fc545",
-      "related": []
-    },
-    {
-      "id": "c494bbd23f21bd62",
-      "title": "阿里在美遭股東提告 被指隱瞞與 Megaspeed 前高層關聯",
-      "url": "https://technews.tw/2026/11/20/alibaba-sued-shareholders-us-accused-concealing-ties-former-megaspeed-executives/",
-      "publishedAt": "2026-11-20T04:40:27Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c494bbd23f21bd62",
-      "related": []
-    },
-    {
-      "id": "77ac8db71bdf019c",
-      "title": "Intuit 下修財測、市場憂軟體業逆風 盤後崩",
-      "url": "https://finance.technews.tw/2026/11/20/intuit-reports-first-quarter-results-and-enters-agreement-to-sell-mailchimp-to-bending-spoons/",
-      "publishedAt": "2026-11-20T04:30:10Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "77ac8db71bdf019c",
-      "related": []
-    },
-    {
-      "id": "7ebebbddb76d0b4f",
-      "title": "iPhone Duo 最暢銷 蘋果日本摺疊機市占逾 4 成、居冠",
-      "url": "https://technews.tw/2026/11/20/iphone-duo-tops-japan-foldable-phone-sales-ranking/",
-      "publishedAt": "2026-11-20T04:20:44Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7ebebbddb76d0b4f",
-      "related": []
-    },
     {
       "id": "ffa3a28f9cce18f9",
       "title": "PHP釋出安全更新修補18個漏洞，7個為重大等級",
@@ -67,56 +27,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "ffa3a28f9cce18f9",
-      "related": []
-    },
-    {
-      "id": "fb1e1a4688a9afc7",
-      "title": "台積電盤中失守 2,000 元關卡，創 7 個月來新低",
-      "url": "https://finance.technews.tw/2026/11/20/tsmc-1990-stock-price/",
-      "publishedAt": "2026-11-20T04:10:46Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "fb1e1a4688a9afc7",
-      "related": []
-    },
-    {
-      "id": "d9b412c3e0d7e33c",
-      "title": "AI 戰國時代才剛開始，蘋果徵才搶攻 AI 代理人",
-      "url": "https://technews.tw/2026/11/20/the-warring-states-era-of-ai-has-only-just-begun-apple-is-hiring-to-make-a-push-into-ai-agents/",
-      "publishedAt": "2026-11-20T03:57:56Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d9b412c3e0d7e33c",
-      "related": []
-    },
-    {
-      "id": "3ed3fc3600c099f4",
-      "title": "Soitec 財報優、上修矽光子展望 股價飆 12%",
-      "url": "https://finance.technews.tw/2026/11/20/soitec-reports-second-quarter-revenue-and-halfyear-results-of-fiscal-year-2027/",
-      "publishedAt": "2026-11-20T03:50:54Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3ed3fc3600c099f4",
-      "related": []
-    },
-    {
-      "id": "8b0f52fe68f53a64",
-      "title": "四位數 PIN 碼 40 小時內遭攻破，新型漏洞癱瘓 Windows Hello 與 BitLocker 錯誤鎖定",
-      "url": "https://technews.tw/2026/11/20/4-digit-pin-cracked-40-hours-new-vulnerability-disables-windows-hello-bitlocker-lockout/",
-      "publishedAt": "2026-11-20T03:40:23Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8b0f52fe68f53a64",
-      "related": []
-    },
-    {
-      "id": "0f848ac125209943",
-      "title": "當網路不再可靠：美國接連大當機，數位末日準備族聲量暴漲",
-      "url": "https://ccc.technews.tw/2026/11/20/theyre-prepping-for-a-world-where-the-internet-doesnt-work/",
-      "publishedAt": "2026-11-20T03:30:05Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "0f848ac125209943",
       "related": []
     },
     {
@@ -150,6 +60,86 @@
       "related": []
     },
     {
+      "id": "f15f3cf92de5b031",
+      "title": "Windows 11 爆「FastUnlock」零時差漏洞，實體接觸即可繞過鎖定畫面與 BitLocker",
+      "url": "https://infosecu.technews.tw/2026/11/20/new-windows-11-lock-screen-zero-day-unlocks-bitlocker-protected-pcs-with-just-a-few-keystrokes/",
+      "publishedAt": "2026-11-20T03:00:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f15f3cf92de5b031",
+      "related": []
+    },
+    {
+      "id": "8ea6d9f227f262ef",
+      "title": "不只會寫 Code還要懂脈絡，Slack 開放 AI 存取對話紀錄掌握開發意圖",
+      "url": "https://technews.tw/2026/11/20/ai-software-engineering-collaborative-landscape/",
+      "publishedAt": "2026-11-20T02:50:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8ea6d9f227f262ef",
+      "related": []
+    },
+    {
+      "id": "67d54ba969a3850f",
+      "title": "PlayStation 前高層：〈GTA 6〉已是獨立「經濟體」，規模大到不只是遊戲",
+      "url": "https://finance.technews.tw/2026/11/20/former-playstation-exec-on-grand-theft-auto-vi-debut/",
+      "publishedAt": "2026-11-20T02:40:46Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "67d54ba969a3850f",
+      "related": []
+    },
+    {
+      "id": "a18f831b11cd20b1",
+      "title": "英特爾再掀裁員潮！全球 IT 部門傳大砍雙位數，陳立武接管兩年已砍近 2.8 萬人",
+      "url": "https://technews.tw/2026/11/20/intel-ceo-lip-bu-tan-cuts-jobs/",
+      "publishedAt": "2026-11-20T02:37:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a18f831b11cd20b1",
+      "related": []
+    },
+    {
+      "id": "84598051b870edde",
+      "title": "AI 繁榮物極必反，牛津：下次經濟衰退恐更深更長",
+      "url": "https://technews.tw/2026/11/20/ai-boom-may-reach-a-tipping-point-oxford-warns-next-recession-could-be-deeper-and-longer/",
+      "publishedAt": "2026-11-20T02:35:39Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "84598051b870edde",
+      "related": []
+    },
+    {
+      "id": "4bbef54975e42b6f",
+      "title": "Ubisoft 裁員潮未歇：加拿大工作室再砍 166 人，同步重金押注生成式 AI",
+      "url": "https://technews.tw/2026/11/20/gaming-industry-layoffs-ai-wave/",
+      "publishedAt": "2026-11-20T02:30:50Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4bbef54975e42b6f",
+      "related": []
+    },
+    {
+      "id": "aa70cb9db4b212f8",
+      "title": "PS5 Pro 也跑不動 60FPS，Rockstar Game：〈GTA 6〉不會有效能模式",
+      "url": "https://ccc.technews.tw/2026/11/20/rockstar-says-ps5-pro-can-not-handle-gta-6-at-60-fps/",
+      "publishedAt": "2026-11-20T02:25:36Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "aa70cb9db4b212f8",
+      "related": []
+    },
+    {
+      "id": "7da06d969e32ff4a",
+      "title": "最新財務申報曝光，川普 9 月買進逾 870 萬輝達股票",
+      "url": "https://finance.technews.tw/2026/11/20/trump-bought-8-7-million-nvidia-shares-september-financial-filings/",
+      "publishedAt": "2026-11-20T02:20:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7da06d969e32ff4a",
+      "related": []
+    },
+    {
       "id": "8f6f911a0c9c4e81",
       "title": "VMware發布資安更新，修補重大等級的vCenter漏洞，警告只能升級沒有其他替代緩解方法",
       "url": "https://www.ithome.com.tw/news/180673",
@@ -167,6 +157,36 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "4f295bd857f0faac",
+      "related": []
+    },
+    {
+      "id": "db3c2d6ebd3633ba",
+      "title": "Visa、萬事達卡與摩根大通用戶個資遭駭，n0n 勒索軟體組織宣稱犯案",
+      "url": "https://infosecu.technews.tw/2026/11/20/visa-mastercard-jpmorgan-user-data-hacked-n0n-ransomware-claims-responsibility/",
+      "publishedAt": "2026-11-20T02:10:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "db3c2d6ebd3633ba",
+      "related": []
+    },
+    {
+      "id": "337647dfbc9cd788",
+      "title": "蘋果高層異動，掌管 iPhone 相機與照片軟體的副總裁離職",
+      "url": "https://technews.tw/2026/11/20/apples-executive-in-charge-of-the-iphones-camera-app-has-left/",
+      "publishedAt": "2026-11-20T02:00:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "337647dfbc9cd788",
+      "related": []
+    },
+    {
+      "id": "2b40bedb848a1fad",
+      "title": "路透：台積電暫停中國 16 奈米以下訂單，替代輝達晶片研發受阻",
+      "url": "https://technews.tw/2026/11/20/tsmc-suspends-china-sub-16nm-orders-alternative-nvidia-chip-rd-stalled/",
+      "publishedAt": "2026-11-20T01:50:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2b40bedb848a1fad",
       "related": []
     },
     {
@@ -240,6 +260,36 @@
       "related": []
     },
     {
+      "id": "9915e2d91e28a853",
+      "title": "AWS Aurora DSQL開放跨洲多區域叢集，單一區域故障仍可讀寫",
+      "url": "https://www.ithome.com.tw/news/180686",
+      "publishedAt": "2026-11-19T22:11:49Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "9915e2d91e28a853",
+      "related": []
+    },
+    {
+      "id": "e8392694ebff0e36",
+      "title": "PostgreSQL 19支援並行資料表重整，新增查詢計畫控制功能",
+      "url": "https://www.ithome.com.tw/news/180683",
+      "publishedAt": "2026-11-19T22:11:34Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e8392694ebff0e36",
+      "related": []
+    },
+    {
+      "id": "53299232a90ccfb3",
+      "title": "Android手機變詐騙話務中繼站、泡芙箱藏上百張SIM卡！刑事局揭露詐團電話轉接新手法",
+      "url": "https://www.ithome.com.tw/news/180687",
+      "publishedAt": "2026-11-19T22:11:02Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "53299232a90ccfb3",
+      "related": []
+    },
+    {
       "id": "aba5679f4fc63d86",
       "title": "國內首座6G實驗網正式啟用，串聯歐英與衛星業者打造國際驗測基地，搶攻2029年6G標準商機",
       "url": "https://www.ithome.com.tw/news/180685",
@@ -247,36 +297,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "aba5679f4fc63d86",
-      "related": []
-    },
-    {
-      "id": "f452041f3e9b6b3d",
-      "title": "鳳凰旅遊遭駭、部分旅客個資外洩，已發現冒名訂單詐騙行徑",
-      "url": "https://www.ithome.com.tw/news/180684",
-      "publishedAt": "2026-11-19T21:11:11Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "f452041f3e9b6b3d",
-      "related": []
-    },
-    {
-      "id": "1631378c903b954d",
-      "title": "AI趨勢周報第295期：微軟一口氣推出7款AI模型，拚效能也拚Token成本",
-      "url": "https://www.ithome.com.tw/news/180669",
-      "publishedAt": "2026-11-19T21:11:10Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "1631378c903b954d",
-      "related": []
-    },
-    {
-      "id": "68eed25f1a05da7c",
-      "title": "【資安週報】1116～1120，全球第三方供應商遭駭連環爆；Java4Shell、NGINX2Root等重大漏洞揭露引關注",
-      "url": "https://www.ithome.com.tw/news/180681",
-      "publishedAt": "2026-11-19T20:11:07Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "68eed25f1a05da7c",
       "related": []
     }
   ]
