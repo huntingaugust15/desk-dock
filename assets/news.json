@@ -1,154 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T11:18:10Z",
-  "contentUpdatedAt": "2026-11-21T11:18:10Z",
+  "generatedAt": "2026-11-21T12:18:08Z",
+  "contentUpdatedAt": "2026-11-21T12:18:08Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-21T11:18:10Z",
+      "lastSuccess": "2026-11-21T12:18:08Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-21T11:18:10Z",
+      "lastSuccess": "2026-11-21T12:18:08Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "f52702bf9a38b9e6",
-      "title": "〈GTA 6〉暗藏〈GTA 7〉趣味彩蛋，自嘲開發漫長",
-      "url": "https://technews.tw/2026/11/21/gta-6-easter-egg-sees-rockstar-poke-fun-at-its-long-development-process/",
-      "publishedAt": "2026-11-21T09:00:36Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f52702bf9a38b9e6",
-      "related": []
-    },
-    {
-      "id": "59e4834e283b8d63",
-      "title": "從羊毛氈玩偶到虛擬追思空間，韓國寵物紀念商機與告別文化興起",
-      "url": "https://technews.tw/2026/11/21/south-korea-pet-memorial-business-farewell-culture-rise-felt-dolls-virtual-memorial-spaces/",
-      "publishedAt": "2026-11-21T08:00:33Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "59e4834e283b8d63",
-      "related": []
-    },
-    {
-      "id": "10e697f2c5c8c20d",
-      "title": "AI 評分也有「口音偏見」？研究：美英口音最吃香，中文、奈及利亞口音墊底",
-      "url": "https://technews.tw/2026/11/21/ai-voice-model-accent-bias/",
-      "publishedAt": "2026-11-21T07:30:20Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "10e697f2c5c8c20d",
-      "related": []
-    },
-    {
-      "id": "d5de05fe2c7a4d97",
-      "title": "AI 也有雙面性格，研究：AI 得知受監控時會隱藏真實意圖",
-      "url": "https://technews.tw/2026/11/21/ai-surveillance-behavioral-differences-study/",
-      "publishedAt": "2026-11-21T06:30:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d5de05fe2c7a4d97",
-      "related": []
-    },
-    {
-      "id": "34bfb46f9c62fa12",
-      "title": "強鹿推免費 AI 助理「JD」告別繁瑣數據，一句話秒解農場大小事",
-      "url": "https://technews.tw/2026/11/21/john-deere-jd-ai-assistant/",
-      "publishedAt": "2026-11-21T05:30:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "34bfb46f9c62fa12",
-      "related": []
-    },
-    {
-      "id": "daa256703d5a963b",
-      "title": "34 噸車身搭載 120 公釐主砲，捷土合作 Karpat 中型戰車首度公開實彈展示",
-      "url": "https://technews.tw/2026/11/21/csg-and-fnss-collabeorated-cfl-120-karpat-medium-tank-public-demo/",
-      "publishedAt": "2026-11-21T04:50:41Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "daa256703d5a963b",
-      "related": []
-    },
-    {
-      "id": "edefe86e41bed906",
-      "title": "Anthropic 研究員宣稱利用 Claude，解開困擾數學界超過 150 年黎曼猜想難題",
-      "url": "https://technews.tw/2026/11/21/anthropic-solve-riemann-problem-with-claude/",
-      "publishedAt": "2026-11-21T03:29:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "edefe86e41bed906",
-      "related": []
-    },
-    {
-      "id": "aeb04eb9354e4dde",
-      "title": "幾百元小單也不放過，華碩靠「客戶終身價值」將零碎需求變長尾商機",
-      "url": "https://technews.tw/2026/11/21/asus-customer-lifetime-value-small-orders-fragmented-demands-long-tail-opportunities/",
-      "publishedAt": "2026-11-21T03:00:04Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "aeb04eb9354e4dde",
-      "related": []
-    },
-    {
-      "id": "e82c49795441e793",
-      "title": "麻州大學研發生物混合網狀採集器，讓細胞成為植入式醫材的電源",
-      "url": "https://technews.tw/2026/11/21/energy-harvesting-mesh-could-replace-batteries-in-implantable-medical-devices/",
-      "publishedAt": "2026-11-21T02:30:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "e82c49795441e793",
-      "related": []
-    },
-    {
-      "id": "c3eeafd6dea8f980",
-      "title": "堅持「算力留美」！川普揚言對海外建資料中心的美企課重稅",
-      "url": "https://technews.tw/2026/11/21/trump-data-centers-abroad-tax/",
-      "publishedAt": "2026-11-21T02:22:18Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c3eeafd6dea8f980",
-      "related": []
-    },
-    {
-      "id": "4a7f982bf9af5980",
-      "title": "輝達再遭政府盯上！路透：美 SEC 正調查輝達會計處理方式",
-      "url": "https://technews.tw/2026/11/21/nvidia-us-sec-investigation/",
-      "publishedAt": "2026-11-21T02:06:27Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4a7f982bf9af5980",
-      "related": []
-    },
-    {
-      "id": "5974afeaef2ff48d",
-      "title": "無聲 30 年，一出手就換掉 CEO！輝達董事會失職的真相",
-      "url": "https://finance.technews.tw/2026/11/21/nvidia-board-30-years-silence-ceo-replaced-dereliction-duty-truth/",
-      "publishedAt": "2026-11-21T02:00:03Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5974afeaef2ff48d",
-      "related": []
-    },
-    {
-      "id": "a6ae60f4bec2f2cc",
-      "title": "AI 讓詐騙信件不再錯字連篇，資安防線轉向驗證流程",
-      "url": "https://infosecu.technews.tw/2026/11/21/ai-cybersecurity-terms-explained-10-definitions-to-know/",
-      "publishedAt": "2026-11-21T01:30:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a6ae60f4bec2f2cc",
-      "related": []
-    },
     {
       "id": "b0a6d6c267889906",
       "title": "尼泊爾揭19家公立醫院開源電子病歷導入經驗，採6階段流程、中央統一開發與更新",
@@ -157,6 +27,106 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "b0a6d6c267889906",
+      "related": []
+    },
+    {
+      "id": "3f42983c32f39c0a",
+      "title": "中國 B300 算力長約掀轉售潮，新雲端業者急尋歐美買家接手",
+      "url": "https://technews.tw/2026/11/20/us-ai-compute-neoclouds-china/",
+      "publishedAt": "2026-11-20T09:10:25Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "3f42983c32f39c0a",
+      "related": []
+    },
+    {
+      "id": "929bb66947543ece",
+      "title": "IEA：資料中心用電 2030 年恐倍增，十年內須新建至少 2,500 萬公里電網",
+      "url": "https://technews.tw/2026/11/20/iea-warned-data-center-power-use-could-double-by-2030-straining-grids/",
+      "publishedAt": "2026-11-20T09:10:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "929bb66947543ece",
+      "related": []
+    },
+    {
+      "id": "768b97dc00a8da05",
+      "title": "英飛凌攜手麥格米特布局 800 VDC，SiC 元件導入 AI 三相電源系統",
+      "url": "https://technews.tw/2026/11/20/infineon-megmeet-800-vdc-deployment-sic-components-ai-three-phase-power-systems/",
+      "publishedAt": "2026-11-20T09:03:46Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "768b97dc00a8da05",
+      "related": []
+    },
+    {
+      "id": "23a7b596492da91c",
+      "title": "攜手 Lonestar 推進低地球軌道資料中心建置，群聯推出太空專用 SSD 解決方案",
+      "url": "https://finance.technews.tw/2026/11/20/phison-launches-ssd-solution-designed-for-space/",
+      "publishedAt": "2026-11-20T09:00:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "23a7b596492da91c",
+      "related": []
+    },
+    {
+      "id": "681287519566a6c3",
+      "title": "10 月外銷訂單 1,238 億美元續創高，年增 78.3% 連 21 紅",
+      "url": "https://finance.technews.tw/2026/11/20/october-export-orders-new-record-123-8-billion-usd-up-78-3-percent-21-consecutive-months/",
+      "publishedAt": "2026-11-20T08:50:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "681287519566a6c3",
+      "related": []
+    },
+    {
+      "id": "c6d437c1351d4e8d",
+      "title": "Anthropic 上市難救行情，日股暴跌逾 3,000 點",
+      "url": "https://finance.technews.tw/2026/11/20/nikkei-plunges-more-than-3000-points/",
+      "publishedAt": "2026-11-20T08:40:14Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c6d437c1351d4e8d",
+      "related": []
+    },
+    {
+      "id": "01a904757797b665",
+      "title": "KDDI 推出極簡 4G 手機 INFOBAR ZERO，只能通話與傳簡訊",
+      "url": "https://ccc.technews.tw/2026/11/20/kddi-au-infobar-zero/",
+      "publishedAt": "2026-11-20T08:20:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "01a904757797b665",
+      "related": []
+    },
+    {
+      "id": "110354bfbe4f05cb",
+      "title": "存貨天數拉長！七大網通廠高價搶記憶體，如今恐陷庫存跌價壓力",
+      "url": "https://technews.tw/2026/11/20/networking-equipment-manufacturer-memory/",
+      "publishedAt": "2026-11-20T08:12:58Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "110354bfbe4f05cb",
+      "related": []
+    },
+    {
+      "id": "c2862a90834f81d2",
+      "title": "ChatGPT 推出 Live Dictation 即時語音輸入！打破 10 分鐘限制，全平台免費上線",
+      "url": "https://infosecu.technews.tw/2026/11/20/chatgpt-voice-input-privacy-risks/",
+      "publishedAt": "2026-11-20T08:00:50Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c2862a90834f81d2",
+      "related": []
+    },
+    {
+      "id": "7228efaee9daded6",
+      "title": "輝達共同創辦人員工大會哽咽，批黃仁勳「背叛公司核心價值」",
+      "url": "https://technews.tw/2026/11/20/nvidia-co-founder-choked-up-employee-meeting-criticizes-jensen-huang-betraying-core-values/",
+      "publishedAt": "2026-11-20T07:50:50Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7228efaee9daded6",
       "related": []
     },
     {
