@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T23:20:44Z",
-  "contentUpdatedAt": "2026-11-20T23:20:44Z",
+  "generatedAt": "2026-11-21T00:20:04Z",
+  "contentUpdatedAt": "2026-11-21T00:20:04Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-20T23:20:44Z",
+      "lastSuccess": "2026-11-21T00:20:04Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-20T23:20:44Z",
+      "lastSuccess": "2026-11-21T00:20:04Z",
       "ok": true
     }
   ],
@@ -30,116 +30,6 @@
       "related": []
     },
     {
-      "id": "72da9b2978da2a67",
-      "title": "AI 前景疑慮罩頂族群重挫，法人：籌碼沉澱是止跌關鍵",
-      "url": "https://finance.technews.tw/2026/11/20/ai-prospects-doubts-sectors-plunge-institutional-investors-chip-consolidation-key-stop-decline/",
-      "publishedAt": "2026-11-20T10:30:09Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "72da9b2978da2a67",
-      "related": []
-    },
-    {
-      "id": "0daab5a2f56cdab4",
-      "title": "台灣九合一選舉前夕，通報 Meta 近 2,700 個疑中國介選帳號",
-      "url": "https://infosecu.technews.tw/2026/11/20/taiwan-local-elections-2700-suspected-chinese-influence-accounts-reported-meta/",
-      "publishedAt": "2026-11-20T10:00:01Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "0daab5a2f56cdab4",
-      "related": []
-    },
-    {
-      "id": "df4e392914ff54e9",
-      "title": "韓國 AI 作弊爭議，李在明：改革考試制度嚴懲違規",
-      "url": "https://technews.tw/2026/11/20/south-korea-ai-cheating-controversy-lee-jae-myung-urges-exam-system-reform-severe-punishment-violations/",
-      "publishedAt": "2026-11-20T09:50:24Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "df4e392914ff54e9",
-      "related": []
-    },
-    {
-      "id": "218a9c67448c2bec",
-      "title": "macOS 版 Gemini 加入電腦使用功能，化身桌面助理代勞日常任務",
-      "url": "https://technews.tw/2026/11/20/gemini-for-mac-gains-computer-use-capabilities/",
-      "publishedAt": "2026-11-20T09:49:19Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "218a9c67448c2bec",
-      "related": []
-    },
-    {
-      "id": "748fd64a83231ea7",
-      "title": "中華電：沒放棄 AWS 低軌衛星合作，盼協調 28GHz 頻譜",
-      "url": "https://technews.tw/2026/11/20/cht-aws-28ghz/",
-      "publishedAt": "2026-11-20T09:40:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "748fd64a83231ea7",
-      "related": []
-    },
-    {
-      "id": "3f42983c32f39c0a",
-      "title": "中國 B300 算力長約掀轉售潮，新雲端業者急尋歐美買家接手",
-      "url": "https://technews.tw/2026/11/20/us-ai-compute-neoclouds-china/",
-      "publishedAt": "2026-11-20T09:10:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3f42983c32f39c0a",
-      "related": []
-    },
-    {
-      "id": "929bb66947543ece",
-      "title": "IEA：資料中心用電 2030 年恐倍增，十年內須新建至少 2,500 萬公里電網",
-      "url": "https://technews.tw/2026/11/20/iea-warned-data-center-power-use-could-double-by-2030-straining-grids/",
-      "publishedAt": "2026-11-20T09:10:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "929bb66947543ece",
-      "related": []
-    },
-    {
-      "id": "768b97dc00a8da05",
-      "title": "英飛凌攜手麥格米特布局 800 VDC，SiC 元件導入 AI 三相電源系統",
-      "url": "https://technews.tw/2026/11/20/infineon-megmeet-800-vdc-deployment-sic-components-ai-three-phase-power-systems/",
-      "publishedAt": "2026-11-20T09:03:46Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "768b97dc00a8da05",
-      "related": []
-    },
-    {
-      "id": "23a7b596492da91c",
-      "title": "攜手 Lonestar 推進低地球軌道資料中心建置，群聯推出太空專用 SSD 解決方案",
-      "url": "https://finance.technews.tw/2026/11/20/phison-launches-ssd-solution-designed-for-space/",
-      "publishedAt": "2026-11-20T09:00:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "23a7b596492da91c",
-      "related": []
-    },
-    {
-      "id": "681287519566a6c3",
-      "title": "10 月外銷訂單 1,238 億美元續創高，年增 78.3% 連 21 紅",
-      "url": "https://finance.technews.tw/2026/11/20/october-export-orders-new-record-123-8-billion-usd-up-78-3-percent-21-consecutive-months/",
-      "publishedAt": "2026-11-20T08:50:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "681287519566a6c3",
-      "related": []
-    },
-    {
-      "id": "c6d437c1351d4e8d",
-      "title": "Anthropic 上市難救行情，日股暴跌逾 3,000 點",
-      "url": "https://finance.technews.tw/2026/11/20/nikkei-plunges-more-than-3000-points/",
-      "publishedAt": "2026-11-20T08:40:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c6d437c1351d4e8d",
-      "related": []
-    },
-    {
       "id": "ffa3a28f9cce18f9",
       "title": "PHP釋出安全更新修補18個漏洞，7個為重大等級",
       "url": "https://www.ithome.com.tw/news/180678",
@@ -150,6 +40,26 @@
       "related": []
     },
     {
+      "id": "d715063d71d86ab3",
+      "title": "蘋果 OLED iMac 計畫生變 傳延後甚至喊卡",
+      "url": "https://technews.tw/2026/11/20/apple-weighs-scrapping-oled-imac-plans/",
+      "publishedAt": "2026-11-20T03:25:15Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d715063d71d86ab3",
+      "related": []
+    },
+    {
+      "id": "9402fedbaebc454e",
+      "title": "Intel 甫獲微軟封裝合作 傳 Google 重新回頭找台積",
+      "url": "https://technews.tw/2026/11/20/intel-microsoft-packaging-partnership-google-return-tsmc/",
+      "publishedAt": "2026-11-20T03:20:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9402fedbaebc454e",
+      "related": []
+    },
+    {
       "id": "64a21dd4ead73c0c",
       "title": "Google跟進OpenAI、Anthropic，Gemini開始支援Mac電腦操作",
       "url": "https://www.ithome.com.tw/news/180677",
@@ -157,6 +67,86 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "64a21dd4ead73c0c",
+      "related": []
+    },
+    {
+      "id": "f15f3cf92de5b031",
+      "title": "Windows 11 爆「FastUnlock」零時差漏洞，實體接觸即可繞過鎖定畫面與 BitLocker",
+      "url": "https://infosecu.technews.tw/2026/11/20/new-windows-11-lock-screen-zero-day-unlocks-bitlocker-protected-pcs-with-just-a-few-keystrokes/",
+      "publishedAt": "2026-11-20T03:00:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f15f3cf92de5b031",
+      "related": []
+    },
+    {
+      "id": "8ea6d9f227f262ef",
+      "title": "不只會寫 Code還要懂脈絡，Slack 開放 AI 存取對話紀錄掌握開發意圖",
+      "url": "https://technews.tw/2026/11/20/ai-software-engineering-collaborative-landscape/",
+      "publishedAt": "2026-11-20T02:50:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8ea6d9f227f262ef",
+      "related": []
+    },
+    {
+      "id": "67d54ba969a3850f",
+      "title": "PlayStation 前高層：〈GTA 6〉已是獨立「經濟體」，規模大到不只是遊戲",
+      "url": "https://finance.technews.tw/2026/11/20/former-playstation-exec-on-grand-theft-auto-vi-debut/",
+      "publishedAt": "2026-11-20T02:40:46Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "67d54ba969a3850f",
+      "related": []
+    },
+    {
+      "id": "a18f831b11cd20b1",
+      "title": "英特爾再掀裁員潮！全球 IT 部門傳大砍雙位數，陳立武接管兩年已砍近 2.8 萬人",
+      "url": "https://technews.tw/2026/11/20/intel-ceo-lip-bu-tan-cuts-jobs/",
+      "publishedAt": "2026-11-20T02:37:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a18f831b11cd20b1",
+      "related": []
+    },
+    {
+      "id": "84598051b870edde",
+      "title": "AI 繁榮物極必反，牛津：下次經濟衰退恐更深更長",
+      "url": "https://technews.tw/2026/11/20/ai-boom-may-reach-a-tipping-point-oxford-warns-next-recession-could-be-deeper-and-longer/",
+      "publishedAt": "2026-11-20T02:35:39Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "84598051b870edde",
+      "related": []
+    },
+    {
+      "id": "4bbef54975e42b6f",
+      "title": "Ubisoft 裁員潮未歇：加拿大工作室再砍 166 人，同步重金押注生成式 AI",
+      "url": "https://technews.tw/2026/11/20/gaming-industry-layoffs-ai-wave/",
+      "publishedAt": "2026-11-20T02:30:50Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4bbef54975e42b6f",
+      "related": []
+    },
+    {
+      "id": "aa70cb9db4b212f8",
+      "title": "PS5 Pro 也跑不動 60FPS，Rockstar Game：〈GTA 6〉不會有效能模式",
+      "url": "https://ccc.technews.tw/2026/11/20/rockstar-says-ps5-pro-can-not-handle-gta-6-at-60-fps/",
+      "publishedAt": "2026-11-20T02:25:36Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "aa70cb9db4b212f8",
+      "related": []
+    },
+    {
+      "id": "7da06d969e32ff4a",
+      "title": "最新財務申報曝光，川普 9 月買進逾 870 萬輝達股票",
+      "url": "https://finance.technews.tw/2026/11/20/trump-bought-8-7-million-nvidia-shares-september-financial-filings/",
+      "publishedAt": "2026-11-20T02:20:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7da06d969e32ff4a",
       "related": []
     },
     {
@@ -177,6 +167,36 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "4f295bd857f0faac",
+      "related": []
+    },
+    {
+      "id": "db3c2d6ebd3633ba",
+      "title": "Visa、萬事達卡與摩根大通用戶個資遭駭，n0n 勒索軟體組織宣稱犯案",
+      "url": "https://infosecu.technews.tw/2026/11/20/visa-mastercard-jpmorgan-user-data-hacked-n0n-ransomware-claims-responsibility/",
+      "publishedAt": "2026-11-20T02:10:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "db3c2d6ebd3633ba",
+      "related": []
+    },
+    {
+      "id": "337647dfbc9cd788",
+      "title": "蘋果高層異動，掌管 iPhone 相機與照片軟體的副總裁離職",
+      "url": "https://technews.tw/2026/11/20/apples-executive-in-charge-of-the-iphones-camera-app-has-left/",
+      "publishedAt": "2026-11-20T02:00:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "337647dfbc9cd788",
+      "related": []
+    },
+    {
+      "id": "2b40bedb848a1fad",
+      "title": "路透：台積電暫停中國 16 奈米以下訂單，替代輝達晶片研發受阻",
+      "url": "https://technews.tw/2026/11/20/tsmc-suspends-china-sub-16nm-orders-alternative-nvidia-chip-rd-stalled/",
+      "publishedAt": "2026-11-20T01:50:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2b40bedb848a1fad",
       "related": []
     },
     {
