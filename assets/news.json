@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T09:19:22Z",
-  "contentUpdatedAt": "2026-11-22T08:14:49Z",
+  "generatedAt": "2026-11-22T10:21:14Z",
+  "contentUpdatedAt": "2026-11-22T10:21:14Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-22T09:19:22Z",
+      "lastSuccess": "2026-11-22T10:21:14Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-22T09:19:22Z",
+      "lastSuccess": "2026-11-22T10:21:14Z",
       "ok": true
     }
   ],
@@ -127,36 +127,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "c3eeafd6dea8f980",
-      "related": []
-    },
-    {
-      "id": "4a7f982bf9af5980",
-      "title": "輝達再遭政府盯上！路透：美 SEC 正調查輝達會計處理方式",
-      "url": "https://technews.tw/2026/11/21/nvidia-us-sec-investigation/",
-      "publishedAt": "2026-11-21T02:06:27Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4a7f982bf9af5980",
-      "related": []
-    },
-    {
-      "id": "5974afeaef2ff48d",
-      "title": "無聲 30 年，一出手就換掉 CEO！輝達董事會失職的真相",
-      "url": "https://finance.technews.tw/2026/11/21/nvidia-board-30-years-silence-ceo-replaced-dereliction-duty-truth/",
-      "publishedAt": "2026-11-21T02:00:03Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5974afeaef2ff48d",
-      "related": []
-    },
-    {
-      "id": "a6ae60f4bec2f2cc",
-      "title": "AI 讓詐騙信件不再錯字連篇，資安防線轉向驗證流程",
-      "url": "https://infosecu.technews.tw/2026/11/21/ai-cybersecurity-terms-explained-10-definitions-to-know/",
-      "publishedAt": "2026-11-21T01:30:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a6ae60f4bec2f2cc",
       "related": []
     },
     {
