@@ -1,24 +1,44 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T23:16:35Z",
-  "contentUpdatedAt": "2026-11-22T16:18:27Z",
+  "generatedAt": "2026-11-23T00:17:05Z",
+  "contentUpdatedAt": "2026-11-23T00:17:05Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-22T23:16:35Z",
+      "lastSuccess": "2026-11-23T00:17:05Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-22T23:16:35Z",
+      "lastSuccess": "2026-11-23T00:17:05Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "99965f9d29d60338",
+      "title": "微軟揭露GitHub Copilot CLI釣魚攻擊風險，駭客恐藉合法登入程序操控AI代理",
+      "url": "https://www.ithome.com.tw/news/180676",
+      "publishedAt": "2026-11-23T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "99965f9d29d60338",
+      "related": []
+    },
+    {
+      "id": "07c7ea852fdf8c61",
+      "title": "俄羅斯駭客Cold Relic竊取企業資料後，冒充受害組織員工發動網釣攻擊",
+      "url": "https://www.ithome.com.tw/news/180668",
+      "publishedAt": "2026-11-23T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "07c7ea852fdf8c61",
+      "related": []
+    },
     {
       "id": "b3faec58d9798072",
       "title": "台股跌逾 17% 失守年線還未完？安聯投信：後市盯緊四大止穩訊號",
@@ -267,26 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "34d3de570de99426",
-      "related": []
-    },
-    {
-      "id": "9915e2d91e28a853",
-      "title": "AWS Aurora DSQL開放跨洲多區域叢集，單一區域故障仍可讀寫",
-      "url": "https://www.ithome.com.tw/news/180686",
-      "publishedAt": "2026-11-19T22:11:49Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "9915e2d91e28a853",
-      "related": []
-    },
-    {
-      "id": "e8392694ebff0e36",
-      "title": "PostgreSQL 19支援並行資料表重整，新增查詢計畫控制功能",
-      "url": "https://www.ithome.com.tw/news/180683",
-      "publishedAt": "2026-11-19T22:11:34Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "e8392694ebff0e36",
       "related": []
     }
   ]
