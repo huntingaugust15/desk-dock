@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T06:41:57Z",
-  "contentUpdatedAt": "2026-11-23T05:16:22Z",
+  "generatedAt": "2026-11-23T08:35:13Z",
+  "contentUpdatedAt": "2026-11-23T08:35:13Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-23T06:41:57Z",
+      "lastSuccess": "2026-11-23T08:35:13Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-23T06:41:57Z",
+      "lastSuccess": "2026-11-23T08:35:13Z",
       "ok": true
     }
   ],
@@ -27,6 +27,16 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "e851ac4485f94e30",
+      "related": []
+    },
+    {
+      "id": "acee514b952d49b8",
+      "title": "OpenJDK重大漏洞Java4Shell出現嘗試利用活動",
+      "url": "https://www.ithome.com.tw/news/180709",
+      "publishedAt": "2026-11-23T04:11:44Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "acee514b952d49b8",
       "related": []
     },
     {
@@ -157,16 +167,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "08bd1ba8a5b3d9a0",
-      "related": []
-    },
-    {
-      "id": "da26d39c287b3777",
-      "title": "Anthropic數學家攜手Claude破解黎曼猜想，Lean正式確認證明正確",
-      "url": "https://www.ithome.com.tw/news/180696",
-      "publishedAt": "2026-11-23T02:11:22Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "da26d39c287b3777",
       "related": []
     },
     {
