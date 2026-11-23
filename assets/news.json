@@ -1,24 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T01:53:55Z",
-  "contentUpdatedAt": "2026-11-23T00:17:05Z",
+  "generatedAt": "2026-11-23T02:55:27Z",
+  "contentUpdatedAt": "2026-11-23T02:55:27Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-23T01:53:55Z",
+      "lastSuccess": "2026-11-23T02:55:27Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-23T01:53:55Z",
+      "lastSuccess": "2026-11-23T02:55:27Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "08bd1ba8a5b3d9a0",
+      "title": "Signal將封鎖手機版Siri、Gemini螢幕截圖",
+      "url": "https://www.ithome.com.tw/news/180698",
+      "publishedAt": "2026-11-23T02:11:38Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "08bd1ba8a5b3d9a0",
+      "related": []
+    },
+    {
+      "id": "da26d39c287b3777",
+      "title": "Anthropic數學家攜手Claude破解黎曼猜想，Lean正式確認證明正確",
+      "url": "https://www.ithome.com.tw/news/180696",
+      "publishedAt": "2026-11-23T02:11:22Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "da26d39c287b3777",
+      "related": []
+    },
+    {
+      "id": "2ebb100e2f0a35d9",
+      "title": "AI推論供應鏈傳出提示詞外洩，OpenRouter停用3家供應商的服務",
+      "url": "https://www.ithome.com.tw/news/180695",
+      "publishedAt": "2026-11-23T02:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "2ebb100e2f0a35d9",
+      "related": []
+    },
+    {
+      "id": "28c4c8d4f5b27cce",
+      "title": "Fortinet警告AI代理恐成駭客攻擊新目標，提示詞注入可誘使越權操作、誤導SOC事件判斷",
+      "url": "https://www.ithome.com.tw/news/180689",
+      "publishedAt": "2026-11-23T02:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "28c4c8d4f5b27cce",
+      "related": []
+    },
+    {
+      "id": "137d05402106ccd8",
+      "title": "PHP 8.6新增I/O輪詢API改善大量連線監控，並導入部分函式套用",
+      "url": "https://www.ithome.com.tw/news/180690",
+      "publishedAt": "2026-11-23T01:11:46Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "137d05402106ccd8",
+      "related": []
+    },
     {
       "id": "99965f9d29d60338",
       "title": "微軟揭露GitHub Copilot CLI釣魚攻擊風險，駭客恐藉合法登入程序操控AI代理",
@@ -237,56 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "ee9db1c02fd36119",
-      "related": []
-    },
-    {
-      "id": "61a435111ee6565c",
-      "title": "VS Code 1.147讓AI代理操作Chrome與Edge，新增延後發送工作請求",
-      "url": "https://www.ithome.com.tw/news/180670",
-      "publishedAt": "2026-11-20T01:11:02Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "61a435111ee6565c",
-      "related": []
-    },
-    {
-      "id": "03d738b9ad0c6f0e",
-      "title": "Ruby修補7項記憶體安全漏洞，5項可能導致遠端程式碼執行",
-      "url": "https://www.ithome.com.tw/news/180667",
-      "publishedAt": "2026-11-20T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "03d738b9ad0c6f0e",
-      "related": []
-    },
-    {
-      "id": "326429c1c5e95bbb",
-      "title": "NIST完成量子位置驗證實驗，未來有望防範駭客從遠端冒用身分",
-      "url": "https://www.ithome.com.tw/news/180652",
-      "publishedAt": "2026-11-20T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "326429c1c5e95bbb",
-      "related": []
-    },
-    {
-      "id": "0cb37c4d96aa1ee0",
-      "title": "API金鑰隨Docker Hub映像檔對外曝光，研究發現最快7.86秒就遭濫用",
-      "url": "https://www.ithome.com.tw/news/180635",
-      "publishedAt": "2026-11-20T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "0cb37c4d96aa1ee0",
-      "related": []
-    },
-    {
-      "id": "34d3de570de99426",
-      "title": "資安AI新創Corma相隔3個月再募資1.25億美元，估值達10億美元",
-      "url": "https://www.ithome.com.tw/news/180568",
-      "publishedAt": "2026-11-20T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "34d3de570de99426",
       "related": []
     }
   ]
