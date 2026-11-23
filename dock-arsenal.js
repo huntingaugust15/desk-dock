@@ -11,19 +11,19 @@
     const seen=new Set(),articles=[];
     for(const item of value.articles.slice(0,30)){
       try{
-        const url=new URL(item.url),at=Date.parse(item.publishedAt);
-        if(url.protocol!=='https:'||url.hostname!=='arseblog.news'||url.username||url.password||url.port||!Number.isFinite(at)||at<now-30*86400000||at>now+600000||typeof item.title!=='string'||!item.title.trim()||item.title.length>280||seen.has(url.href))continue;
-        seen.add(url.href);articles.push({title:item.title,url:url.href,publishedAt:new Date(at).toISOString()});
+        const url=new URL(item.url),at=Date.parse(item.publishedAt),source=({'arseblog.news':'Arseblog','www.skysports.com':'Sky Sports'})[url.hostname];
+        if(url.protocol!=='https:'||!source||url.username||url.password||url.port||!Number.isFinite(at)||at<now-30*86400000||at>now+600000||typeof item.title!=='string'||!item.title.trim()||item.title.length>280||seen.has(url.href))continue;
+        seen.add(url.href);articles.push({title:item.title,url:url.href,publishedAt:new Date(at).toISOString(),source});
       }catch{}
     }
-    return{version:1,generatedAt:value.generatedAt,articles:articles.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)).slice(0,12)};
+    return{version:1,generatedAt:value.generatedAt,partial:value.partial===true,articles:articles.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)).slice(0,12)};
   }
   function state(){
-    const stale=data&&Date.now()-Date.parse(data.generatedAt)>7200000;
+    const stale=data&&(data.partial||Date.now()-Date.parse(data.generatedAt)>7200000);
     root.classList.toggle('is-paused',paused||document.hidden);
     root.classList.toggle('is-stale',!!stale||failed||!navigator.onLine);
     const checked=data?new Date(data.generatedAt).toLocaleString('zh-HK',{timeZone:'Asia/Hong_Kong',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}):'未取得資料';
-    root.querySelector('.arsenal-label').title='來源 Arseblog · 核對 '+checked+(!navigator.onLine?' · 離線':stale||failed?' · 資料可能過期':'');
+    root.querySelector('.arsenal-label').title='來源 Sky Sports / Arseblog · 核對 '+checked+(!navigator.onLine?' · 離線':stale||failed?' · 資料可能過期':'');
     pause.textContent=paused?'▶':'Ⅱ';pause.setAttribute('aria-label',paused?'播放 Arsenal 轉會新聞':'暫停 Arsenal 轉會新聞');pause.setAttribute('aria-pressed',String(paused));
     pause.disabled=!data?.articles.length;
   }
@@ -42,7 +42,7 @@
         for(const item of data.articles){
           const link=document.createElement('a');link.href=item.url;link.target='_blank';link.rel='noopener noreferrer';
           const date=new Date(item.publishedAt).toLocaleDateString('zh-HK',{timeZone:'Asia/Hong_Kong',day:'numeric',month:'numeric'});
-          link.textContent=item.title+'  ·  Arseblog '+date;group.append(link);
+          link.textContent=item.title+'  ·  '+item.source+' '+date;group.append(link);
         }
         const repeat=group.cloneNode(true);repeat.setAttribute('aria-hidden','true');for(const link of repeat.querySelectorAll('a'))link.tabIndex=-1;
         track.append(group,repeat);viewport.append(track);size();

@@ -1,22 +1,40 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T14:41:04Z",
-  "source": {
-    "name": "Arseblog",
-    "url": "https://arseblog.news/category/transfers/feed/"
-  },
+  "generatedAt": "2026-11-23T14:39:53Z",
+  "sources": [
+    {
+      "name": "Sky Sports",
+      "url": "https://www.skysports.com/rss/11670",
+      "checkedAt": "2026-11-23T14:39:53Z"
+    },
+    {
+      "name": "Arseblog",
+      "url": "https://arseblog.news/category/transfers/feed/",
+      "checkedAt": "2026-11-23T14:39:53Z"
+    }
+  ],
+  "partial": false,
   "articles": [
+    {
+      "id": "86a5965ec1172d3c",
+      "title": "Deal or no deal? Arteta asks to phone a friend when questioned on player contracts",
+      "url": "https://www.skysports.com/watch/video/13614275/atreta-deal-or-no-deal",
+      "publishedAt": "2026-11-20T09:24:00Z",
+      "source": "Sky Sports"
+    },
     {
       "id": "db59965c303dca2a",
       "title": "“There’s absolutely nothing to it” – Zubimendi dismisses exit talk",
       "url": "https://arseblog.news/2026/11/theres-absolutely-nothing-to-it-zubimendi-dismisses-exit-talk/",
-      "publishedAt": "2026-11-11T08:51:49Z"
+      "publishedAt": "2026-11-11T08:51:49Z",
+      "source": "Arseblog"
     },
     {
       "id": "f18abc5e119de3fb",
       "title": "Report: Atletico Madrid eyeing January deal for Zubimendi",
       "url": "https://arseblog.news/2026/11/report-atletico-madrid-eyeing-january-deal-for-zubimendi/",
-      "publishedAt": "2026-11-10T11:00:18Z"
+      "publishedAt": "2026-11-10T11:00:18Z",
+      "source": "Arseblog"
     }
   ]
 }
