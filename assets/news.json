@@ -1,24 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T04:01:55Z",
-  "contentUpdatedAt": "2026-11-23T04:01:55Z",
+  "generatedAt": "2026-11-23T05:16:22Z",
+  "contentUpdatedAt": "2026-11-23T05:16:22Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-23T04:01:55Z",
+      "lastSuccess": "2026-11-23T05:16:22Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-23T04:01:55Z",
+      "lastSuccess": "2026-11-23T05:16:22Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "e851ac4485f94e30",
+      "title": "新加坡CSA警告Apache HTTP/2重大漏洞已遭積極利用，公開PoC也已流傳",
+      "url": "https://www.ithome.com.tw/news/180711",
+      "publishedAt": "2026-11-23T04:11:50Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e851ac4485f94e30",
+      "related": []
+    },
+    {
+      "id": "49679fa915c0329b",
+      "title": "Apache Tomcat傳出重大漏洞，可能導致未經身分驗證攻擊者加入受信任伺服器叢集",
+      "url": "https://www.ithome.com.tw/news/180707",
+      "publishedAt": "2026-11-23T04:11:15Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "49679fa915c0329b",
+      "related": []
+    },
+    {
+      "id": "9516cc5152779b08",
+      "title": "社群交友服務業者尚凡揭露不明IP位址侵入資訊設備，旗下iPair、SweetRing公告系統維護",
+      "url": "https://www.ithome.com.tw/news/180708",
+      "publishedAt": "2026-11-23T04:11:07Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "9516cc5152779b08",
+      "related": []
+    },
+    {
+      "id": "e9771a60509e74f2",
+      "title": "全國電子發布資安重訊，會員收到含真實個資的假訂單釣魚郵件，來源待查",
+      "url": "https://www.ithome.com.tw/news/180706",
+      "publishedAt": "2026-11-23T04:11:07Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e9771a60509e74f2",
+      "related": []
+    },
+    {
+      "id": "e3d16a8121611d26",
+      "title": "倫敦交通局發行的Oyster相片版地鐵卡資料外洩",
+      "url": "https://www.ithome.com.tw/news/180710",
+      "publishedAt": "2026-11-23T04:11:05Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e3d16a8121611d26",
+      "related": []
+    },
     {
       "id": "77e69db338ec4a43",
       "title": "OpenAI將ChatGPT Dots、Space提供給Plus方案用戶",
@@ -27,6 +77,16 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "77e69db338ec4a43",
+      "related": []
+    },
+    {
+      "id": "359b5d3369bf1f83",
+      "title": "Cisco Expressway重大漏洞遭利用，攻擊者入侵企業並內部環境取得Root權限",
+      "url": "https://www.ithome.com.tw/news/180705",
+      "publishedAt": "2026-11-23T03:11:44Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "359b5d3369bf1f83",
       "related": []
     },
     {
@@ -107,56 +167,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "da26d39c287b3777",
-      "related": []
-    },
-    {
-      "id": "2ebb100e2f0a35d9",
-      "title": "AI推論供應鏈傳出提示詞外洩，OpenRouter停用3家供應商的服務",
-      "url": "https://www.ithome.com.tw/news/180695",
-      "publishedAt": "2026-11-23T02:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "2ebb100e2f0a35d9",
-      "related": []
-    },
-    {
-      "id": "28c4c8d4f5b27cce",
-      "title": "Fortinet警告AI代理恐成駭客攻擊新目標，提示詞注入可誘使越權操作、誤導SOC事件判斷",
-      "url": "https://www.ithome.com.tw/news/180689",
-      "publishedAt": "2026-11-23T02:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "28c4c8d4f5b27cce",
-      "related": []
-    },
-    {
-      "id": "137d05402106ccd8",
-      "title": "PHP 8.6新增I/O輪詢API改善大量連線監控，並導入部分函式套用",
-      "url": "https://www.ithome.com.tw/news/180690",
-      "publishedAt": "2026-11-23T01:11:46Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "137d05402106ccd8",
-      "related": []
-    },
-    {
-      "id": "99965f9d29d60338",
-      "title": "微軟揭露GitHub Copilot CLI釣魚攻擊風險，駭客恐藉合法登入程序操控AI代理",
-      "url": "https://www.ithome.com.tw/news/180676",
-      "publishedAt": "2026-11-23T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "99965f9d29d60338",
-      "related": []
-    },
-    {
-      "id": "07c7ea852fdf8c61",
-      "title": "俄羅斯駭客Cold Relic竊取企業資料後，冒充受害組織員工發動網釣攻擊",
-      "url": "https://www.ithome.com.tw/news/180668",
-      "publishedAt": "2026-11-23T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "07c7ea852fdf8c61",
       "related": []
     },
     {
@@ -277,16 +287,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "0d43526efdd7e33a",
-      "related": []
-    },
-    {
-      "id": "46f118a6e39ae5d1",
-      "title": "網擎策略投資微智安聯，臺灣資安業者攜手擴大產品布局、拓展海外市場",
-      "url": "https://www.ithome.com.tw/news/180692",
-      "publishedAt": "2026-11-21T17:11:21Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "46f118a6e39ae5d1",
       "related": []
     }
   ]
