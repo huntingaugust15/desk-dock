@@ -1,154 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T14:42:33Z",
-  "contentUpdatedAt": "2026-11-23T13:14:39Z",
+  "generatedAt": "2026-11-23T14:44:49Z",
+  "contentUpdatedAt": "2026-11-23T14:44:49Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-23T14:42:33Z",
+      "lastSuccess": "2026-11-23T14:44:49Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-23T14:42:33Z",
+      "lastSuccess": "2026-11-23T14:44:49Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "a18929e2d06ab4ab",
-      "title": "美國規劃新建 1 GW 核電，結合地下 HVDC 跨區供電",
-      "url": "https://technews.tw/2026/11/23/us-plans-new-1-gw-nuclear-power-underground-hvdc-inter-regional-supply/",
-      "publishedAt": "2026-11-23T09:14:05Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a18929e2d06ab4ab",
-      "related": []
-    },
-    {
-      "id": "ab31151dce1f1c36",
-      "title": "閃避太空垃圾年耗 5,800 萬美元，新創 BQP 打造「衛星自動駕駛」獲美軍青睞",
-      "url": "https://technews.tw/2026/11/23/satellite-autonomous-driving-saves-astronomical-costs/",
-      "publishedAt": "2026-11-23T09:10:59Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ab31151dce1f1c36",
-      "related": []
-    },
-    {
-      "id": "7312d23e2e759894",
-      "title": "歐洲推動主權雲端漸具成效，美國超大規模雲端服務商仍主導市場",
-      "url": "https://infosecu.technews.tw/2026/11/23/europe-push-for-digital-sovereignty-in-cloud-computing-gains-momentum/",
-      "publishedAt": "2026-11-23T09:00:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7312d23e2e759894",
-      "related": []
-    },
-    {
-      "id": "ade72be717ae6cd4",
-      "title": "台積電注入強心針，AI 長期看好先進製程持續供不應求",
-      "url": "https://technews.tw/2026/11/23/tsmc-boosts-ai-long-term-outlook-advanced-process-supply-shortages/",
-      "publishedAt": "2026-11-23T08:50:42Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ade72be717ae6cd4",
-      "related": []
-    },
-    {
-      "id": "16beb94ae301f751",
-      "title": "零時差攻擊鎖定 vCenter，中國駭客利用 VMware 漏洞竊取企業機密資料",
-      "url": "https://infosecu.technews.tw/2026/11/23/vmware-vulnerability-exploited-hackers-advance/",
-      "publishedAt": "2026-11-23T08:40:10Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "16beb94ae301f751",
-      "related": []
-    },
-    {
-      "id": "236c9458f65c3546",
-      "title": "單日吸金 37.9 億、預售破 3250 萬套！〈GTA 6〉官方銷售數據震撼業界",
-      "url": "https://technews.tw/2026/11/23/gta-6-generates-3790-million-in-first-day-sales/",
-      "publishedAt": "2026-11-23T08:26:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "236c9458f65c3546",
-      "related": []
-    },
-    {
-      "id": "21eccbf7ada0ddcb",
-      "title": "戳破科技業過度樂觀神話，諾華執行長：AI 難在 10 年內治癒癌症",
-      "url": "https://technews.tw/2026/11/23/novartis-rejects-ai-industry-hopes-to-cure-cancer-in-five-to-10-years/",
-      "publishedAt": "2026-11-23T08:20:50Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "21eccbf7ada0ddcb",
-      "related": []
-    },
-    {
-      "id": "42233ce2cf0a28a9",
-      "title": "科林研發攜手 LEGO Education，提升兒童 STEM 教育學習機會",
-      "url": "https://technews.tw/2026/11/23/lam-research-lego-education-stem/",
-      "publishedAt": "2026-11-23T08:20:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "42233ce2cf0a28a9",
-      "related": []
-    },
-    {
-      "id": "965a25a4751306fd",
-      "title": "鈉離子電池也能助攻 AI？LG 結合 SST 打造新一代供電架構",
-      "url": "https://technews.tw/2026/11/23/sodium-ion-batteries-power-ai-lg-combines-sst-create-new-generation-power-architecture/",
-      "publishedAt": "2026-11-23T08:15:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "965a25a4751306fd",
-      "related": []
-    },
-    {
-      "id": "4c1acbe549a502c1",
-      "title": "微軟推 RDMA over USB4 技術，多台 Windows PC 地端執行大模型",
-      "url": "https://technews.tw/2026/11/23/microsoft-introduces-rdma-over-usb4-on-windows/",
-      "publishedAt": "2026-11-23T08:14:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4c1acbe549a502c1",
-      "related": []
-    },
-    {
-      "id": "21f9eabb9c7b34b9",
-      "title": "川普再次力挺黃仁勳，籲輝達董事會重新聘回任執行長",
-      "url": "https://finance.technews.tw/2026/11/23/trump-again-urges-nvidia-board-to-bring-back-jensen/",
-      "publishedAt": "2026-11-23T08:10:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "21f9eabb9c7b34b9",
-      "related": []
-    },
-    {
-      "id": "629353e7a9933921",
-      "title": "美情報總監示警，系統汰舊換新恐釀更多科技當機",
-      "url": "https://infosecu.technews.tw/2026/11/23/us-intelligence-director-system-upgrades-tech-outages/",
-      "publishedAt": "2026-11-23T08:00:51Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "629353e7a9933921",
-      "related": []
-    },
-    {
-      "id": "ff3d1019edd64a5d",
-      "title": "記憶體漲價衝擊印手機市場，銷量暴跌 22%",
-      "url": "https://technews.tw/2026/11/23/memory-phone-cost-india/",
-      "publishedAt": "2026-11-23T07:59:39Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ff3d1019edd64a5d",
-      "related": []
-    },
     {
       "id": "e851ac4485f94e30",
       "title": "新加坡CSA警告Apache HTTP/2重大漏洞已遭積極利用，公開PoC也已流傳",
@@ -297,6 +167,126 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "08bd1ba8a5b3d9a0",
+      "related": []
+    },
+    {
+      "id": "b3faec58d9798072",
+      "title": "台股跌逾 17% 失守年線還未完？安聯投信：後市盯緊四大止穩訊號",
+      "url": "https://finance.technews.tw/2026/11/22/falling-below-the-annual-moving-average/",
+      "publishedAt": "2026-11-22T09:35:50Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b3faec58d9798072",
+      "related": []
+    },
+    {
+      "id": "eadae9c456270170",
+      "title": "輝達遭勒索組織暗網威脅十天後洩漏資料，但官方稱系統未遭入侵",
+      "url": "https://infosecu.technews.tw/2026/11/22/nvidia-ransom-demand-by-the-gentlemen-leak-timer-under-10-days/",
+      "publishedAt": "2026-11-22T09:00:16Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "eadae9c456270170",
+      "related": []
+    },
+    {
+      "id": "f15903603741426e",
+      "title": "AI 顛覆航空收益管理，「訂票後最佳化」啟動營收與滿意度三贏革命",
+      "url": "https://technews.tw/2026/11/22/ai-boosts-post-booking-optimization-aviation-industry/",
+      "publishedAt": "2026-11-22T08:30:47Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f15903603741426e",
+      "related": []
+    },
+    {
+      "id": "fb15cb691ef5f208",
+      "title": "改變全球電腦操作卻沒賺大錢，揭密 1970 年首款「木製滑鼠」誕生史",
+      "url": "https://ccc.technews.tw/2026/11/22/why-mouse-called-mouse/",
+      "publishedAt": "2026-11-22T08:00:32Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "fb15cb691ef5f208",
+      "related": []
+    },
+    {
+      "id": "cf361d5dc58dac9f",
+      "title": "AI 文字偵測器學會邊用邊調整，識破偽裝文字準確率逾九成",
+      "url": "https://technews.tw/2026/11/22/helping-ai-text-detectors-keep-up-with-changing-conditions/",
+      "publishedAt": "2026-11-22T07:30:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "cf361d5dc58dac9f",
+      "related": []
+    },
+    {
+      "id": "53483cf21bcd2dde",
+      "title": "KAIST 讀唇 AI 先抓最清楚的嘴型，無聲辨識詞錯誤率降至 19.4%",
+      "url": "https://technews.tw/2026/11/22/scientists-taught-ai-to-read-lips-in-total-silence-and-the-results-are-pretty-impressive/",
+      "publishedAt": "2026-11-22T06:30:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "53483cf21bcd2dde",
+      "related": []
+    },
+    {
+      "id": "e9ac42dee0fd885d",
+      "title": "跨境匯款今年衝 500 億元！數位至匯 11/25 將以參考價 120 元登錄興櫃",
+      "url": "https://finance.technews.tw/2026/11/22/small-amount-foreign-exchange/",
+      "publishedAt": "2026-11-22T05:09:35Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e9ac42dee0fd885d",
+      "related": []
+    },
+    {
+      "id": "5613b15495a386ee",
+      "title": "玩美移動為何告別美股？訊連揭 4 大原因：市值太小、AI 衝擊 SaaS 估值",
+      "url": "https://finance.technews.tw/2026/11/22/perfect-corp-delists-us-stocks-cyberlink-reveals-4-reasons-small-market-cap-ai-saas-valuation-impact/",
+      "publishedAt": "2026-11-22T03:00:23Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5613b15495a386ee",
+      "related": []
+    },
+    {
+      "id": "dfa49d7f2276f2c6",
+      "title": "Anthropic 史上最大 IPO 難救市！美股 AI 蒸發 4 兆美元背後投資人恐慌",
+      "url": "https://finance.technews.tw/2026/11/22/can-ai-deliver-returns/",
+      "publishedAt": "2026-11-22T02:56:53Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "dfa49d7f2276f2c6",
+      "related": []
+    },
+    {
+      "id": "a023e94b70edbd90",
+      "title": "美國 AI 大管制時代來臨！黃仁勳下台效應：打擊中國算力還是逼出紅色自主供應鏈？",
+      "url": "https://finance.technews.tw/2026/11/22/without-jensen-usa-ai-is-slower/",
+      "publishedAt": "2026-11-22T02:00:36Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a023e94b70edbd90",
+      "related": []
+    },
+    {
+      "id": "9f68d9c773cc96c8",
+      "title": "台股上週崩跌 7,641 點！國安基金證實進場、金管會祭「全面禁空令」救市",
+      "url": "https://finance.technews.tw/2026/11/22/total-no-fly-zone/",
+      "publishedAt": "2026-11-22T01:03:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9f68d9c773cc96c8",
+      "related": []
+    },
+    {
+      "id": "0d43526efdd7e33a",
+      "title": "永豐餘前三季獲利飆新高！業外投資大進補，無懼中國造紙「內捲」逆風",
+      "url": "https://finance.technews.tw/2026/11/22/yfy-losses-deepen-as-it-pushes-for-transformation/",
+      "publishedAt": "2026-11-22T01:00:02Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0d43526efdd7e33a",
       "related": []
     }
   ]
