@@ -60,7 +60,7 @@
     if(busy||document.hidden||!navigator.onLine)return;
     busy=true;attempt=Date.now();
     try{
-      let value;try{value=await fetchData(remote)}catch{value=await fetchData('assets/arsenal-transfers.json')}
+      const bucket=Math.floor(Date.now()/300000),results=await Promise.allSettled([fetchData(remote+'?t='+bucket),fetchData('assets/arsenal-transfers.json?t='+bucket)]);const values=results.filter(r=>r.status==='fulfilled').map(r=>r.value).sort((a,b)=>Date.parse(b.generatedAt)-Date.parse(a.generatedAt));if(!values.length)throw Error('No publisher data');const value=values[0];
       if(!data||Date.parse(value.generatedAt)>=Date.parse(data.generatedAt))data=value;
       failed=Date.now()-Date.parse(data.generatedAt)>7200000;
       try{localStorage.setItem(cacheKey,JSON.stringify(data))}catch{}
