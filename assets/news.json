@@ -1,24 +1,144 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T18:21:47Z",
-  "contentUpdatedAt": "2026-11-24T17:08:10Z",
+  "generatedAt": "2026-11-24T19:33:58Z",
+  "contentUpdatedAt": "2026-11-24T19:33:58Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-24T18:21:47Z",
+      "lastSuccess": "2026-11-24T19:33:58Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-24T18:21:47Z",
+      "lastSuccess": "2026-11-24T19:33:58Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "d184a07a83923176",
+      "title": "川普受訪讚魏哲家是傑出人才，稱台積電將在德州建廠",
+      "url": "https://technews.tw/2026/11/24/trump-praises-cc-wei-exceptional-talent-tsmc-texas-factory-build/",
+      "publishedAt": "2026-11-24T10:20:26Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "d184a07a83923176",
+      "related": []
+    },
+    {
+      "id": "8539e9d01c831a1b",
+      "title": "北韓首公開自研 AI 聊天機器人：介面神似 ChatGPT、禁問政治與「不文明」話題",
+      "url": "https://technews.tw/2026/11/24/north-korea-unveils-first-self-developed-ai/",
+      "publishedAt": "2026-11-24T10:00:53Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8539e9d01c831a1b",
+      "related": []
+    },
+    {
+      "id": "468d086fcdcca4a9",
+      "title": "馬來西亞防規避出口管制，籲資料中心勿服務美國列名企業",
+      "url": "https://technews.tw/2026/11/24/malaysia-prevents-export-control-evasion-data-centers-us-entities/",
+      "publishedAt": "2026-11-24T09:50:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "468d086fcdcca4a9",
+      "related": []
+    },
+    {
+      "id": "274602244b92d94a",
+      "title": "鎖定 AMR 機器人與邊緣視覺商機！博來科技預計明年 1 月中掛牌上櫃",
+      "url": "https://finance.technews.tw/2026/11/24/edge-vision/",
+      "publishedAt": "2026-11-24T09:42:57Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "274602244b92d94a",
+      "related": []
+    },
+    {
+      "id": "26032ce638d0cd2f",
+      "title": "黃仁勳回鍋掀白宮與國會裂痕，美兩黨議員同聲抨擊",
+      "url": "https://technews.tw/2026/11/24/jensen-huang-return-stirs-white-house-congress-rift-bipartisan-criticism-us-lawmakers/",
+      "publishedAt": "2026-11-24T09:40:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "26032ce638d0cd2f",
+      "related": []
+    },
+    {
+      "id": "6de082a4559cdfe6",
+      "title": "才剛拋售輝達！女股神扼腕，錯失黃仁勳回歸「32% 慶祝行情」",
+      "url": "https://finance.technews.tw/2026/11/24/cathie-wood-miss-nvidia-stock/",
+      "publishedAt": "2026-11-24T09:36:17Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6de082a4559cdfe6",
+      "related": []
+    },
+    {
+      "id": "a35c317a30d7cf19",
+      "title": "核廢料處置走向商業化，美國砸 2,000 萬美元發展深鑽孔技術",
+      "url": "https://technews.tw/2026/11/24/nuclear-waste-disposal-commercialization-us-funds-deep-borehole-technology-20-million/",
+      "publishedAt": "2026-11-24T09:28:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a35c317a30d7cf19",
+      "related": []
+    },
+    {
+      "id": "cd562f9a6cbd036d",
+      "title": "智崴 IAAPA 重磅合作 Sony、東寶！狂攬超人氣 IP〈地平線〉、〈哥吉拉〉",
+      "url": "https://finance.technews.tw/2026/11/24/iaapa/",
+      "publishedAt": "2026-11-24T09:19:18Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "cd562f9a6cbd036d",
+      "related": []
+    },
+    {
+      "id": "0720bb8732886b85",
+      "title": "黃仁勳回歸帶動韓股反彈，業者：AI 投資信心回升",
+      "url": "https://finance.technews.tw/2026/11/24/jensen-huang-return-boosts-korean-stocks-ai-investment-confidence-recovery/",
+      "publishedAt": "2026-11-24T09:10:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0720bb8732886b85",
+      "related": []
+    },
+    {
+      "id": "fddc24b916b998af",
+      "title": "黃仁勳辭輝達執行長後 11 天復職，台積電股東人數創新高",
+      "url": "https://finance.technews.tw/2026/11/24/jensen-huang-controversy-drives-tsmc-shareholders-to-record-high/",
+      "publishedAt": "2026-11-24T08:50:55Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "fddc24b916b998af",
+      "related": []
+    },
+    {
+      "id": "9a1012076913dec6",
+      "title": "台股有望挑戰 46,000 點？黃仁勳回歸輝達，分析師這樣看後市",
+      "url": "https://technews.tw/2026/11/24/market-see-jensen-comeback/",
+      "publishedAt": "2026-11-24T08:32:02Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "9a1012076913dec6",
+      "related": []
+    },
+    {
+      "id": "7a992a246b0ac375",
+      "title": "黃仁勳重掌輝達股市狂飆，台廠 AI 供應鏈影響一次看",
+      "url": "https://technews.tw/2026/11/24/jensen-return-and-its-impact-on-taiwan-ai-supply-chain/",
+      "publishedAt": "2026-11-24T08:30:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7a992a246b0ac375",
+      "related": []
+    },
     {
       "id": "423e66d8de4520b5",
       "title": "Google發布Chrome穩定版及延伸穩定版更新，修補重大等級的輸入驗證不當漏洞",
@@ -167,136 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "6898fc09a2c3032f",
-      "related": []
-    },
-    {
-      "id": "920de40be1de5f82",
-      "title": "快訊》董事會宣布立即恢復黃仁勳職位，輝達股價暴漲逾 25%",
-      "url": "https://finance.technews.tw/2026/11/23/the-board-of-directors-announces-the-immediate-reinstatement-of-jensen-huang/",
-      "publishedAt": "2026-11-23T14:20:28Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "920de40be1de5f82",
-      "related": []
-    },
-    {
-      "id": "58b5a8c1a0d4fabe",
-      "title": "Google 打造「鏡像維度」模擬網路，為 Chrome Agent 建立安全訓練沙盒",
-      "url": "https://infosecu.technews.tw/2026/11/23/google-chrome-introduces-mirror-dimension-to-safely-test-ai-agents/",
-      "publishedAt": "2026-11-23T13:04:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "58b5a8c1a0d4fabe",
-      "related": []
-    },
-    {
-      "id": "a18929e2d06ab4ab",
-      "title": "美國規劃新建 1 GW 核電，結合地下 HVDC 跨區供電",
-      "url": "https://technews.tw/2026/11/23/us-plans-new-1-gw-nuclear-power-underground-hvdc-inter-regional-supply/",
-      "publishedAt": "2026-11-23T09:14:05Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a18929e2d06ab4ab",
-      "related": []
-    },
-    {
-      "id": "ab31151dce1f1c36",
-      "title": "閃避太空垃圾年耗 5,800 萬美元，新創 BQP 打造「衛星自動駕駛」獲美軍青睞",
-      "url": "https://technews.tw/2026/11/23/satellite-autonomous-driving-saves-astronomical-costs/",
-      "publishedAt": "2026-11-23T09:10:59Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ab31151dce1f1c36",
-      "related": []
-    },
-    {
-      "id": "7312d23e2e759894",
-      "title": "歐洲推動主權雲端漸具成效，美國超大規模雲端服務商仍主導市場",
-      "url": "https://infosecu.technews.tw/2026/11/23/europe-push-for-digital-sovereignty-in-cloud-computing-gains-momentum/",
-      "publishedAt": "2026-11-23T09:00:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7312d23e2e759894",
-      "related": []
-    },
-    {
-      "id": "ade72be717ae6cd4",
-      "title": "台積電注入強心針，AI 長期看好先進製程持續供不應求",
-      "url": "https://technews.tw/2026/11/23/tsmc-boosts-ai-long-term-outlook-advanced-process-supply-shortages/",
-      "publishedAt": "2026-11-23T08:50:42Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "ade72be717ae6cd4",
-      "related": []
-    },
-    {
-      "id": "16beb94ae301f751",
-      "title": "零時差攻擊鎖定 vCenter，中國駭客利用 VMware 漏洞竊取企業機密資料",
-      "url": "https://infosecu.technews.tw/2026/11/23/vmware-vulnerability-exploited-hackers-advance/",
-      "publishedAt": "2026-11-23T08:40:10Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "16beb94ae301f751",
-      "related": []
-    },
-    {
-      "id": "236c9458f65c3546",
-      "title": "單日吸金 37.9 億、預售破 3250 萬套！〈GTA 6〉官方銷售數據震撼業界",
-      "url": "https://technews.tw/2026/11/23/gta-6-generates-3790-million-in-first-day-sales/",
-      "publishedAt": "2026-11-23T08:26:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "236c9458f65c3546",
-      "related": []
-    },
-    {
-      "id": "21eccbf7ada0ddcb",
-      "title": "戳破科技業過度樂觀神話，諾華執行長：AI 難在 10 年內治癒癌症",
-      "url": "https://technews.tw/2026/11/23/novartis-rejects-ai-industry-hopes-to-cure-cancer-in-five-to-10-years/",
-      "publishedAt": "2026-11-23T08:20:50Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "21eccbf7ada0ddcb",
-      "related": []
-    },
-    {
-      "id": "42233ce2cf0a28a9",
-      "title": "科林研發攜手 LEGO Education，提升兒童 STEM 教育學習機會",
-      "url": "https://technews.tw/2026/11/23/lam-research-lego-education-stem/",
-      "publishedAt": "2026-11-23T08:20:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "42233ce2cf0a28a9",
-      "related": []
-    },
-    {
-      "id": "965a25a4751306fd",
-      "title": "鈉離子電池也能助攻 AI？LG 結合 SST 打造新一代供電架構",
-      "url": "https://technews.tw/2026/11/23/sodium-ion-batteries-power-ai-lg-combines-sst-create-new-generation-power-architecture/",
-      "publishedAt": "2026-11-23T08:15:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "965a25a4751306fd",
-      "related": []
-    },
-    {
-      "id": "4c1acbe549a502c1",
-      "title": "微軟推 RDMA over USB4 技術，多台 Windows PC 地端執行大模型",
-      "url": "https://technews.tw/2026/11/23/microsoft-introduces-rdma-over-usb4-on-windows/",
-      "publishedAt": "2026-11-23T08:14:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4c1acbe549a502c1",
-      "related": []
-    },
-    {
-      "id": "21f9eabb9c7b34b9",
-      "title": "川普再次力挺黃仁勳，籲輝達董事會重新聘回任執行長",
-      "url": "https://finance.technews.tw/2026/11/23/trump-again-urges-nvidia-board-to-bring-back-jensen/",
-      "publishedAt": "2026-11-23T08:10:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "21f9eabb9c7b34b9",
       "related": []
     }
   ]
