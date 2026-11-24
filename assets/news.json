@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T08:43:40Z",
-  "contentUpdatedAt": "2026-11-24T08:43:40Z",
+  "generatedAt": "2026-11-24T10:07:58Z",
+  "contentUpdatedAt": "2026-11-24T10:07:58Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-24T08:43:40Z",
+      "lastSuccess": "2026-11-24T10:07:58Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-24T08:43:40Z",
+      "lastSuccess": "2026-11-24T10:07:58Z",
       "ok": true
     }
   ],
@@ -140,6 +140,26 @@
       "related": []
     },
     {
+      "id": "82f345976e875248",
+      "title": "車麗屋購物網站遭自動化攻擊，部分會員個資疑似外洩",
+      "url": "https://www.ithome.com.tw/news/180759",
+      "publishedAt": "2026-11-23T21:11:28Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "82f345976e875248",
+      "related": []
+    },
+    {
+      "id": "3d8c0c9c2208444e",
+      "title": "挪威天然氣與電力公司遭駭，當局指出攻擊者利用Azure API管理服務漏洞得逞",
+      "url": "https://www.ithome.com.tw/news/180758",
+      "publishedAt": "2026-11-23T20:11:39Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "3d8c0c9c2208444e",
+      "related": []
+    },
+    {
       "id": "6898fc09a2c3032f",
       "title": "CISA警告醫療影像軟體、N-able郵件防護平臺漏洞遭積極利用",
       "url": "https://www.ithome.com.tw/news/180757",
@@ -147,26 +167,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "6898fc09a2c3032f",
-      "related": []
-    },
-    {
-      "id": "20c0a72288444510",
-      "title": "韓國電力公社兩套系統遭入侵，約152萬人個資外洩，部分涉及銀行帳號及信用卡卡號",
-      "url": "https://www.ithome.com.tw/news/180753",
-      "publishedAt": "2026-11-23T20:11:08Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "20c0a72288444510",
-      "related": []
-    },
-    {
-      "id": "37442af12e3d12fc",
-      "title": "電商資訊服務業者再傳資安事件，立富康內部管理帳密遭盜用",
-      "url": "https://www.ithome.com.tw/news/180755",
-      "publishedAt": "2026-11-23T19:11:08Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "37442af12e3d12fc",
       "related": []
     },
     {
