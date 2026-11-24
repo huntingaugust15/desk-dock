@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T11:25:30Z",
-  "contentUpdatedAt": "2026-11-24T10:07:58Z",
+  "generatedAt": "2026-11-24T12:32:02Z",
+  "contentUpdatedAt": "2026-11-24T12:32:02Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-24T11:25:30Z",
+      "lastSuccess": "2026-11-24T12:32:02Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-24T11:25:30Z",
+      "lastSuccess": "2026-11-24T12:32:02Z",
       "ok": true
     }
   ],
@@ -170,26 +170,6 @@
       "related": []
     },
     {
-      "id": "920de40be1de5f82",
-      "title": "快訊》董事會宣布立即恢復黃仁勳職位，輝達股價暴漲逾 25%",
-      "url": "https://finance.technews.tw/2026/11/23/the-board-of-directors-announces-the-immediate-reinstatement-of-jensen-huang/",
-      "publishedAt": "2026-11-23T14:20:28Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "920de40be1de5f82",
-      "related": []
-    },
-    {
-      "id": "58b5a8c1a0d4fabe",
-      "title": "Google 打造「鏡像維度」模擬網路，為 Chrome Agent 建立安全訓練沙盒",
-      "url": "https://infosecu.technews.tw/2026/11/23/google-chrome-introduces-mirror-dimension-to-safely-test-ai-agents/",
-      "publishedAt": "2026-11-23T13:04:16Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "58b5a8c1a0d4fabe",
-      "related": []
-    },
-    {
       "id": "a18929e2d06ab4ab",
       "title": "美國規劃新建 1 GW 核電，結合地下 HVDC 跨區供電",
       "url": "https://technews.tw/2026/11/23/us-plans-new-1-gw-nuclear-power-underground-hvdc-inter-regional-supply/",
@@ -297,6 +277,26 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "21f9eabb9c7b34b9",
+      "related": []
+    },
+    {
+      "id": "629353e7a9933921",
+      "title": "美情報總監示警，系統汰舊換新恐釀更多科技當機",
+      "url": "https://infosecu.technews.tw/2026/11/23/us-intelligence-director-system-upgrades-tech-outages/",
+      "publishedAt": "2026-11-23T08:00:51Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "629353e7a9933921",
+      "related": []
+    },
+    {
+      "id": "ff3d1019edd64a5d",
+      "title": "記憶體漲價衝擊印手機市場，銷量暴跌 22%",
+      "url": "https://technews.tw/2026/11/23/memory-phone-cost-india/",
+      "publishedAt": "2026-11-23T07:59:39Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "ff3d1019edd64a5d",
       "related": []
     }
   ]
