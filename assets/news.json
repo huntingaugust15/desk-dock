@@ -1,24 +1,104 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T22:54:31Z",
-  "contentUpdatedAt": "2026-11-25T10:10:42Z",
+  "generatedAt": "2026-11-25T23:49:55Z",
+  "contentUpdatedAt": "2026-11-25T23:49:55Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-25T22:54:31Z",
+      "lastSuccess": "2026-11-25T23:49:55Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-25T22:54:31Z",
+      "lastSuccess": "2026-11-25T23:49:55Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "e9d7eef184fc6a25",
+      "title": "光焱科技董座對 2027 年展望極為樂觀，矽光子檢測可望加速放量",
+      "url": "https://finance.technews.tw/2026/11/25/enlitech-chairman-highly-optimistic-about-2027-outlook/",
+      "publishedAt": "2026-11-25T13:15:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e9d7eef184fc6a25",
+      "related": []
+    },
+    {
+      "id": "eae1176c03cef8a1",
+      "title": "搶攻大尺寸 CoP 封裝商機！K&S 首套 FTC 設備已出貨台灣兩間客戶",
+      "url": "https://technews.tw/2026/11/25/kulicke-soffa-ftc-aptura-wsx/",
+      "publishedAt": "2026-11-25T09:56:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "eae1176c03cef8a1",
+      "related": []
+    },
+    {
+      "id": "df554532bb8d5f5d",
+      "title": "突破生成式 AI 高耗能瓶頸，台學研團隊打造高能效學習晶片",
+      "url": "https://technews.tw/2026/11/25/generative-ai-chip-transformer/",
+      "publishedAt": "2026-11-25T09:56:20Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "df554532bb8d5f5d",
+      "related": []
+    },
+    {
+      "id": "c3510256a053481d",
+      "title": "韓國防堵 AI 作弊，擬試卷中嵌入提示指令及浮水印",
+      "url": "https://technews.tw/2026/11/25/south-korea-ai-cheating-prevention-embed-prompts-watermarks-exams/",
+      "publishedAt": "2026-11-25T09:30:58Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c3510256a053481d",
+      "related": []
+    },
+    {
+      "id": "3681dead680195b9",
+      "title": "碳化矽真是多功能，核燃料也少不了它",
+      "url": "https://technews.tw/2026/11/25/silicon-carbide-versatile-essential-nuclear-fuel/",
+      "publishedAt": "2026-11-25T08:54:06Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "3681dead680195b9",
+      "related": []
+    },
+    {
+      "id": "b199ae65dd07a03f",
+      "title": "iPhone 瀏覽器引擎開放形同虛設？Mozilla 籲歐盟介入蘋果限制",
+      "url": "https://technews.tw/2026/11/25/webkit-dma/",
+      "publishedAt": "2026-11-25T08:52:54Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b199ae65dd07a03f",
+      "related": []
+    },
+    {
+      "id": "7147ab6d36a100d0",
+      "title": "華碩 Maestro 打通智慧協作斷點，拓實體 AI 應用場域",
+      "url": "https://technews.tw/2026/11/25/asus-maestro-physical-ai/",
+      "publishedAt": "2026-11-25T08:29:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7147ab6d36a100d0",
+      "related": []
+    },
+    {
+      "id": "dfe327614393c68a",
+      "title": "地面機器人設置反無人機感測器，美國陸軍在摩洛哥再度測試 FireAnt",
+      "url": "https://technews.tw/2026/11/25/us-army-is-testing-fireant-ugv-for-deploying-sensors-on-the-ground/",
+      "publishedAt": "2026-11-25T07:39:26Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "dfe327614393c68a",
+      "related": []
+    },
     {
       "id": "1f28a02d238b16f9",
       "title": "Google修補Nest Hub裝置53個漏洞，包括可能導致遠端執行程式碼的藍牙重大漏洞",
@@ -167,126 +247,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "4af8661da2c267cf",
-      "related": []
-    },
-    {
-      "id": "d184a07a83923176",
-      "title": "川普受訪讚魏哲家是傑出人才，稱台積電將在德州建廠",
-      "url": "https://technews.tw/2026/11/24/trump-praises-cc-wei-exceptional-talent-tsmc-texas-factory-build/",
-      "publishedAt": "2026-11-24T10:20:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d184a07a83923176",
-      "related": []
-    },
-    {
-      "id": "8539e9d01c831a1b",
-      "title": "北韓首公開自研 AI 聊天機器人：介面神似 ChatGPT、禁問政治與「不文明」話題",
-      "url": "https://technews.tw/2026/11/24/north-korea-unveils-first-self-developed-ai/",
-      "publishedAt": "2026-11-24T10:00:53Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8539e9d01c831a1b",
-      "related": []
-    },
-    {
-      "id": "468d086fcdcca4a9",
-      "title": "馬來西亞防規避出口管制，籲資料中心勿服務美國列名企業",
-      "url": "https://technews.tw/2026/11/24/malaysia-prevents-export-control-evasion-data-centers-us-entities/",
-      "publishedAt": "2026-11-24T09:50:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "468d086fcdcca4a9",
-      "related": []
-    },
-    {
-      "id": "274602244b92d94a",
-      "title": "鎖定 AMR 機器人與邊緣視覺商機！博來科技預計明年 1 月中掛牌上櫃",
-      "url": "https://finance.technews.tw/2026/11/24/edge-vision/",
-      "publishedAt": "2026-11-24T09:42:57Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "274602244b92d94a",
-      "related": []
-    },
-    {
-      "id": "26032ce638d0cd2f",
-      "title": "黃仁勳回鍋掀白宮與國會裂痕，美兩黨議員同聲抨擊",
-      "url": "https://technews.tw/2026/11/24/jensen-huang-return-stirs-white-house-congress-rift-bipartisan-criticism-us-lawmakers/",
-      "publishedAt": "2026-11-24T09:40:38Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "26032ce638d0cd2f",
-      "related": []
-    },
-    {
-      "id": "6de082a4559cdfe6",
-      "title": "才剛拋售輝達！女股神扼腕，錯失黃仁勳回歸「32% 慶祝行情」",
-      "url": "https://finance.technews.tw/2026/11/24/cathie-wood-miss-nvidia-stock/",
-      "publishedAt": "2026-11-24T09:36:17Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6de082a4559cdfe6",
-      "related": []
-    },
-    {
-      "id": "a35c317a30d7cf19",
-      "title": "核廢料處置走向商業化，美國砸 2,000 萬美元發展深鑽孔技術",
-      "url": "https://technews.tw/2026/11/24/nuclear-waste-disposal-commercialization-us-funds-deep-borehole-technology-20-million/",
-      "publishedAt": "2026-11-24T09:28:51Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a35c317a30d7cf19",
-      "related": []
-    },
-    {
-      "id": "cd562f9a6cbd036d",
-      "title": "智崴 IAAPA 重磅合作 Sony、東寶！狂攬超人氣 IP〈地平線〉、〈哥吉拉〉",
-      "url": "https://finance.technews.tw/2026/11/24/iaapa/",
-      "publishedAt": "2026-11-24T09:19:18Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "cd562f9a6cbd036d",
-      "related": []
-    },
-    {
-      "id": "0720bb8732886b85",
-      "title": "黃仁勳回歸帶動韓股反彈，業者：AI 投資信心回升",
-      "url": "https://finance.technews.tw/2026/11/24/jensen-huang-return-boosts-korean-stocks-ai-investment-confidence-recovery/",
-      "publishedAt": "2026-11-24T09:10:55Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "0720bb8732886b85",
-      "related": []
-    },
-    {
-      "id": "fddc24b916b998af",
-      "title": "黃仁勳辭輝達執行長後 11 天復職，台積電股東人數創新高",
-      "url": "https://finance.technews.tw/2026/11/24/jensen-huang-controversy-drives-tsmc-shareholders-to-record-high/",
-      "publishedAt": "2026-11-24T08:50:55Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "fddc24b916b998af",
-      "related": []
-    },
-    {
-      "id": "9a1012076913dec6",
-      "title": "台股有望挑戰 46,000 點？黃仁勳回歸輝達，分析師這樣看後市",
-      "url": "https://technews.tw/2026/11/24/market-see-jensen-comeback/",
-      "publishedAt": "2026-11-24T08:32:02Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "9a1012076913dec6",
-      "related": []
-    },
-    {
-      "id": "7a992a246b0ac375",
-      "title": "黃仁勳重掌輝達股市狂飆，台廠 AI 供應鏈影響一次看",
-      "url": "https://technews.tw/2026/11/24/jensen-return-and-its-impact-on-taiwan-ai-supply-chain/",
-      "publishedAt": "2026-11-24T08:30:38Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7a992a246b0ac375",
       "related": []
     }
   ]
