@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T08:49:08Z",
-  "contentUpdatedAt": "2026-11-25T08:49:08Z",
+  "generatedAt": "2026-11-25T10:10:42Z",
+  "contentUpdatedAt": "2026-11-25T10:10:42Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-25T08:49:08Z",
+      "lastSuccess": "2026-11-25T10:10:42Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-25T08:49:08Z",
+      "lastSuccess": "2026-11-25T10:10:42Z",
       "ok": true
     }
   ],
@@ -150,23 +150,23 @@
       "related": []
     },
     {
-      "id": "1b5e5df81d374d58",
-      "title": "CISA警告Drupal等3種應用系統的漏洞遭積極利用",
-      "url": "https://www.ithome.com.tw/news/180796",
-      "publishedAt": "2026-11-24T20:11:23Z",
+      "id": "dea366cc5a903924",
+      "title": "DeepMind推出AI可靠性評測，揭頂尖模型仍難穩定完成簡單任務",
+      "url": "https://www.ithome.com.tw/news/180797",
+      "publishedAt": "2026-11-24T21:11:57Z",
       "sourceId": "ithome",
       "sourceName": "iThome",
-      "clusterId": "1b5e5df81d374d58",
+      "clusterId": "dea366cc5a903924",
       "related": []
     },
     {
-      "id": "56ce3defabfd0844",
-      "title": "美國防堵AI晶片違規轉運，阿里巴巴子公司等7家企業遭列出口管制清單",
-      "url": "https://www.ithome.com.tw/news/180794",
-      "publishedAt": "2026-11-24T19:11:24Z",
+      "id": "4af8661da2c267cf",
+      "title": "數發部建立風險分級與內控制度，協助各部會展開AI治理",
+      "url": "https://www.ithome.com.tw/news/178458",
+      "publishedAt": "2026-11-24T21:11:56Z",
       "sourceId": "ithome",
       "sourceName": "iThome",
-      "clusterId": "56ce3defabfd0844",
+      "clusterId": "4af8661da2c267cf",
       "related": []
     },
     {
