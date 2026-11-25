@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T21:56:43Z",
+  "generatedAt": "2026-11-25T22:54:32Z",
   "sources": [
     {
       "name": "Sky Sports",
       "url": "https://www.skysports.com/rss/11670",
-      "checkedAt": "2026-11-25T21:56:43Z"
+      "checkedAt": "2026-11-25T22:54:32Z"
     },
     {
       "name": "Arseblog",
       "url": "https://arseblog.news/category/transfers/feed/",
-      "checkedAt": "2026-11-25T21:56:43Z"
+      "checkedAt": "2026-11-25T22:54:32Z"
     }
   ],
   "partial": false,
