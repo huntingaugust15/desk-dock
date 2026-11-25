@@ -1,24 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T02:54:57Z",
-  "contentUpdatedAt": "2026-11-25T02:54:57Z",
+  "generatedAt": "2026-11-25T04:00:20Z",
+  "contentUpdatedAt": "2026-11-25T04:00:20Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-25T02:54:57Z",
+      "lastSuccess": "2026-11-25T04:00:20Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-25T02:54:57Z",
+      "lastSuccess": "2026-11-25T04:00:20Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "62706fe19ca06295",
+      "title": "音樂串流平臺Tidal將全面封殺純AI生成音樂",
+      "url": "https://www.ithome.com.tw/news/180783",
+      "publishedAt": "2026-11-25T03:11:31Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "62706fe19ca06295",
+      "related": []
+    },
+    {
+      "id": "3a48caf42d24d2a5",
+      "title": "微軟啟動紅色警戒計畫，目標1小時內修復全球服務故障",
+      "url": "https://www.ithome.com.tw/news/180785",
+      "publishedAt": "2026-11-25T03:11:23Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "3a48caf42d24d2a5",
+      "related": []
+    },
+    {
+      "id": "42226951174c3c4a",
+      "title": "駭客公布竊取的摩根大通、Visa、Mastercard資料",
+      "url": "https://www.ithome.com.tw/news/180784",
+      "publishedAt": "2026-11-25T03:11:23Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "42226951174c3c4a",
+      "related": []
+    },
+    {
+      "id": "4a3eb948c6d38ef9",
+      "title": "Broadcom修補VMware產品23個漏洞，含影響vCenter的身分驗證繞過重大漏洞",
+      "url": "https://www.ithome.com.tw/news/180786",
+      "publishedAt": "2026-11-25T03:11:15Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "4a3eb948c6d38ef9",
+      "related": []
+    },
     {
       "id": "3c6ebee0613de41a",
       "title": "AWS開源Strands Decider v2模型，改善AI代理人決策準確度與推論成本",
@@ -247,46 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "edcf9b6f2e76da86",
-      "related": []
-    },
-    {
-      "id": "5810af646f24fe14",
-      "title": "Nvidia董事會宣布黃仁勳回鍋，離職11天後重掌執行長職務",
-      "url": "https://www.ithome.com.tw/news/180739",
-      "publishedAt": "2026-11-24T00:11:42Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "5810af646f24fe14",
-      "related": []
-    },
-    {
-      "id": "e88ca0082bc0ed59",
-      "title": "CrowdStrike以439億美元併購Zscaler，創下資安界交易紀錄",
-      "url": "https://www.ithome.com.tw/news/180740",
-      "publishedAt": "2026-11-24T00:11:37Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "e88ca0082bc0ed59",
-      "related": []
-    },
-    {
-      "id": "54af40f9014629a8",
-      "title": "微軟Entra Connect Health漏洞遭利用，企業管理員聯絡資訊與租用戶資料外洩",
-      "url": "https://www.ithome.com.tw/news/180716",
-      "publishedAt": "2026-11-24T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "54af40f9014629a8",
-      "related": []
-    },
-    {
-      "id": "0e21aad279fb3762",
-      "title": "2026年工控資安事故比例增至去年的1.7倍，逾7成事故期間廠區或系統曾停機",
-      "url": "https://www.ithome.com.tw/news/180694",
-      "publishedAt": "2026-11-24T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "0e21aad279fb3762",
       "related": []
     }
   ]
