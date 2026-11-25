@@ -1,24 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T04:00:20Z",
-  "contentUpdatedAt": "2026-11-25T04:00:20Z",
+  "generatedAt": "2026-11-25T05:07:02Z",
+  "contentUpdatedAt": "2026-11-25T05:07:02Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-25T04:00:20Z",
+      "lastSuccess": "2026-11-25T05:07:02Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-25T04:00:20Z",
+      "lastSuccess": "2026-11-25T05:07:02Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "1f28a02d238b16f9",
+      "title": "Google修補Nest Hub裝置53個漏洞，包括可能導致遠端執行程式碼的藍牙重大漏洞",
+      "url": "https://www.ithome.com.tw/news/180789",
+      "publishedAt": "2026-11-25T04:11:58Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "1f28a02d238b16f9",
+      "related": []
+    },
+    {
+      "id": "4556ad965f8ccdaa",
+      "title": "Google公布全新AI代理人安全控管介面",
+      "url": "https://www.ithome.com.tw/news/180788",
+      "publishedAt": "2026-11-25T04:11:44Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "4556ad965f8ccdaa",
+      "related": []
+    },
+    {
+      "id": "1b28ef732a10a0c5",
+      "title": "SolarWinds修補Serv-U重大權限提升漏洞",
+      "url": "https://www.ithome.com.tw/news/180790",
+      "publishedAt": "2026-11-25T04:11:31Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "1b28ef732a10a0c5",
+      "related": []
+    },
+    {
+      "id": "7230063575cca4bf",
+      "title": "網擎揭露AI應用布局，從郵件產品功能創新到加速軟體開發與測試",
+      "url": "https://www.ithome.com.tw/news/180693",
+      "publishedAt": "2026-11-25T04:11:06Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "7230063575cca4bf",
+      "related": []
+    },
     {
       "id": "62706fe19ca06295",
       "title": "音樂串流平臺Tidal將全面封殺純AI生成音樂",
@@ -247,46 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "ae31917a8b2654c3",
-      "related": []
-    },
-    {
-      "id": "068c8e28b91253e3",
-      "title": "資安研究員公布Windows零時差漏洞FastUnlock，攻擊者有機會以此在鎖定螢幕的電腦執行程式",
-      "url": "https://www.ithome.com.tw/news/180746",
-      "publishedAt": "2026-11-24T03:11:48Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "068c8e28b91253e3",
-      "related": []
-    },
-    {
-      "id": "5e01f700b983c4e8",
-      "title": "韓國三星證券客戶申訴系統遭駭，逾8,200名客戶個資外洩",
-      "url": "https://www.ithome.com.tw/news/180744",
-      "publishedAt": "2026-11-24T03:11:21Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "5e01f700b983c4e8",
-      "related": []
-    },
-    {
-      "id": "7a4e93147b0da492",
-      "title": "思科、OpenAI合作推出開源AI基礎架構防護技術Shirudo",
-      "url": "https://www.ithome.com.tw/news/180742",
-      "publishedAt": "2026-11-24T02:11:22Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "7a4e93147b0da492",
-      "related": []
-    },
-    {
-      "id": "edcf9b6f2e76da86",
-      "title": "Anthropic推出Claude Ship，AI自動審查、修正及核准程式碼",
-      "url": "https://www.ithome.com.tw/news/180741",
-      "publishedAt": "2026-11-24T01:11:16Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "edcf9b6f2e76da86",
       "related": []
     }
   ]
