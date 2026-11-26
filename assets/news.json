@@ -1,24 +1,44 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T01:09:41Z",
-  "contentUpdatedAt": "2026-11-26T01:09:41Z",
+  "generatedAt": "2026-11-26T02:37:54Z",
+  "contentUpdatedAt": "2026-11-26T02:37:54Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-26T01:09:41Z",
+      "lastSuccess": "2026-11-26T02:37:54Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-26T01:09:41Z",
+      "lastSuccess": "2026-11-26T02:37:54Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "e787e0f7a1074288",
+      "title": "紐約州長簽署禁止銷售AI聊天機器人玩具的5年禁令",
+      "url": "https://www.ithome.com.tw/news/180803",
+      "publishedAt": "2026-11-26T02:11:58Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e787e0f7a1074288",
+      "related": []
+    },
+    {
+      "id": "1addf43b4f7a7a7a",
+      "title": "SpaceX取得100萬顆衛星部署許可，以打造太空資料中心",
+      "url": "https://www.ithome.com.tw/news/180802",
+      "publishedAt": "2026-11-26T01:11:07Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "1addf43b4f7a7a7a",
+      "related": []
+    },
     {
       "id": "bf3d3ba1a91a475b",
       "title": "英國NCSC示警AI輔助網路攻擊顯著增加，駭客數分鐘內就可能利用企業既有資安弱點",
@@ -227,26 +247,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "29eea01477ec340b",
-      "related": []
-    },
-    {
-      "id": "09e19b1dd2bdd959",
-      "title": "日本麥當勞App資料庫被駭，用戶消費紀錄恐外洩",
-      "url": "https://www.ithome.com.tw/news/180782",
-      "publishedAt": "2026-11-25T02:11:02Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "09e19b1dd2bdd959",
-      "related": []
-    },
-    {
-      "id": "570b889333e72cf9",
-      "title": "美國FCC擬強化物聯網資安標章制度，獲認證產品每3年須更新認證",
-      "url": "https://www.ithome.com.tw/news/180738",
-      "publishedAt": "2026-11-25T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "570b889333e72cf9",
       "related": []
     }
   ]
