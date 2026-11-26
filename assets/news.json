@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T12:35:06Z",
-  "contentUpdatedAt": "2026-11-26T12:35:06Z",
+  "generatedAt": "2026-11-26T13:52:58Z",
+  "contentUpdatedAt": "2026-11-26T13:52:58Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-26T12:35:06Z",
+      "lastSuccess": "2026-11-26T13:52:58Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-26T12:35:06Z",
+      "lastSuccess": "2026-11-26T13:52:58Z",
       "ok": true
     }
   ],
@@ -110,6 +110,16 @@
       "related": []
     },
     {
+      "id": "ddefb93750756870",
+      "title": "香帥蛋糕、一事製菓揭露資安事件，電子發票服務商PayNow對外API遭異常存取，波及500商家",
+      "url": "https://www.ithome.com.tw/news/180833",
+      "publishedAt": "2026-11-26T01:11:15Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "ddefb93750756870",
+      "related": []
+    },
+    {
       "id": "1addf43b4f7a7a7a",
       "title": "SpaceX取得100萬顆衛星部署許可，以打造太空資料中心",
       "url": "https://www.ithome.com.tw/news/180802",
@@ -157,16 +167,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "a9a2ee283299253a",
-      "related": []
-    },
-    {
-      "id": "93f48f0e4d09125b",
-      "title": "臺南市探索無人載具應用於城市巡檢與消防救災，評估熱影像及氣體感測技術",
-      "url": "https://www.ithome.com.tw/news/180832",
-      "publishedAt": "2026-11-25T22:11:25Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "93f48f0e4d09125b",
       "related": []
     },
     {
