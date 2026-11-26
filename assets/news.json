@@ -1,24 +1,54 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T02:37:54Z",
-  "contentUpdatedAt": "2026-11-26T02:37:54Z",
+  "generatedAt": "2026-11-26T03:58:08Z",
+  "contentUpdatedAt": "2026-11-26T03:58:08Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-26T02:37:54Z",
+      "lastSuccess": "2026-11-26T03:58:08Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-26T02:37:54Z",
+      "lastSuccess": "2026-11-26T03:58:08Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "06456b78d0a70a41",
+      "title": "泰味國際委外雲端發票平臺遭異常存取，290人受影響",
+      "url": "https://www.ithome.com.tw/news/180806",
+      "publishedAt": "2026-11-26T03:11:22Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "06456b78d0a70a41",
+      "related": []
+    },
+    {
+      "id": "ff9f0911fb6ecd2b",
+      "title": "ChatGPT開始合併Chat、Work，預定12月擴大部署",
+      "url": "https://www.ithome.com.tw/news/180807",
+      "publishedAt": "2026-11-26T03:11:20Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "ff9f0911fb6ecd2b",
+      "related": []
+    },
+    {
+      "id": "c6fb68a67cd4dace",
+      "title": "SecurityScorecard示警Copeland XWEB PRO冷凍控制器遭劫持，淪為垃圾郵件與代理節點",
+      "url": "https://www.ithome.com.tw/news/180809",
+      "publishedAt": "2026-11-26T03:11:02Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "c6fb68a67cd4dace",
+      "related": []
+    },
     {
       "id": "e787e0f7a1074288",
       "title": "紐約州長簽署禁止銷售AI聊天機器人玩具的5年禁令",
@@ -27,6 +57,16 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "e787e0f7a1074288",
+      "related": []
+    },
+    {
+      "id": "ebc03b9b22ea54cf",
+      "title": "Claude新功能可將物件變成獨立Mac、Windows App",
+      "url": "https://www.ithome.com.tw/news/180804",
+      "publishedAt": "2026-11-26T02:11:05Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "ebc03b9b22ea54cf",
       "related": []
     },
     {
@@ -67,6 +107,36 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "06a1ba1c22f94756",
+      "related": []
+    },
+    {
+      "id": "68eb566a076554e4",
+      "title": "你的伺服器只是 AI 的解題捷徑？尖端模型越權案例敲響企業警鐘",
+      "url": "https://infosecu.technews.tw/2026/11/26/emerging-ai-agent-cybersecurity-threats-prevention/",
+      "publishedAt": "2026-11-25T23:40:59Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "68eb566a076554e4",
+      "related": []
+    },
+    {
+      "id": "1981bfab553ef964",
+      "title": "日本把晶圓廠搬上卡車：mobileFab 巡迴學校與企業，現場教做晶片",
+      "url": "https://technews.tw/2026/11/26/japan-puts-chipmaking-labs-inside-trucks-with-mobilefab/",
+      "publishedAt": "2026-11-25T23:20:04Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1981bfab553ef964",
+      "related": []
+    },
+    {
+      "id": "2808d9cc09185bc9",
+      "title": "AI 運算的轉折：從算力擴充至架構優化與先進封裝的商業賽局",
+      "url": "https://technews.tw/2026/11/26/ai-computing-turning-point-commercial-race-compute-expansion-architecture-optimization-advanced-packaging/",
+      "publishedAt": "2026-11-25T23:00:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2808d9cc09185bc9",
       "related": []
     },
     {
@@ -130,26 +200,6 @@
       "related": []
     },
     {
-      "id": "7147ab6d36a100d0",
-      "title": "華碩 Maestro 打通智慧協作斷點，拓實體 AI 應用場域",
-      "url": "https://technews.tw/2026/11/25/asus-maestro-physical-ai/",
-      "publishedAt": "2026-11-25T08:29:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7147ab6d36a100d0",
-      "related": []
-    },
-    {
-      "id": "dfe327614393c68a",
-      "title": "地面機器人設置反無人機感測器，美國陸軍在摩洛哥再度測試 FireAnt",
-      "url": "https://technews.tw/2026/11/25/us-army-is-testing-fireant-ugv-for-deploying-sensors-on-the-ground/",
-      "publishedAt": "2026-11-25T07:39:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "dfe327614393c68a",
-      "related": []
-    },
-    {
       "id": "1f28a02d238b16f9",
       "title": "Google修補Nest Hub裝置53個漏洞，包括可能導致遠端執行程式碼的藍牙重大漏洞",
       "url": "https://www.ithome.com.tw/news/180789",
@@ -207,46 +257,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "3a48caf42d24d2a5",
-      "related": []
-    },
-    {
-      "id": "42226951174c3c4a",
-      "title": "駭客公布竊取的摩根大通、Visa、Mastercard資料",
-      "url": "https://www.ithome.com.tw/news/180784",
-      "publishedAt": "2026-11-25T03:11:23Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "42226951174c3c4a",
-      "related": []
-    },
-    {
-      "id": "4a3eb948c6d38ef9",
-      "title": "Broadcom修補VMware產品23個漏洞，含影響vCenter的身分驗證繞過重大漏洞",
-      "url": "https://www.ithome.com.tw/news/180786",
-      "publishedAt": "2026-11-25T03:11:15Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "4a3eb948c6d38ef9",
-      "related": []
-    },
-    {
-      "id": "3c6ebee0613de41a",
-      "title": "AWS開源Strands Decider v2模型，改善AI代理人決策準確度與推論成本",
-      "url": "https://www.ithome.com.tw/news/180761",
-      "publishedAt": "2026-11-25T02:11:22Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "3c6ebee0613de41a",
-      "related": []
-    },
-    {
-      "id": "29eea01477ec340b",
-      "title": "因應AI網攻威脅，資安署強調遭駭及早通知上下游，並要提升漏洞處置效率及復原速度",
-      "url": "https://www.ithome.com.tw/news/180762",
-      "publishedAt": "2026-11-25T02:11:08Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "29eea01477ec340b",
       "related": []
     }
   ]
