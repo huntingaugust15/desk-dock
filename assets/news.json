@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T06:03:36Z",
-  "contentUpdatedAt": "2026-11-26T06:03:36Z",
+  "generatedAt": "2026-11-26T07:18:01Z",
+  "contentUpdatedAt": "2026-11-26T07:18:01Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-26T06:03:36Z",
+      "lastSuccess": "2026-11-26T07:18:01Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-26T06:03:36Z",
+      "lastSuccess": "2026-11-26T07:18:01Z",
       "ok": true
     }
   ],
@@ -71,7 +71,7 @@
     },
     {
       "id": "c6fb68a67cd4dace",
-      "title": "SecurityScorecard示警Copeland XWEB PRO冷凍控制器遭劫持，淪為垃圾郵件與代理節點",
+      "title": "Copeland XWEB PRO冷凍控制器遭劫持，淪為垃圾郵件與代理節點",
       "url": "https://www.ithome.com.tw/news/180809",
       "publishedAt": "2026-11-26T03:11:02Z",
       "sourceId": "ithome",
@@ -140,6 +140,46 @@
       "related": []
     },
     {
+      "id": "68eb566a076554e4",
+      "title": "你的伺服器只是 AI 的解題捷徑？尖端模型越權案例敲響企業警鐘",
+      "url": "https://infosecu.technews.tw/2026/11/26/emerging-ai-agent-cybersecurity-threats-prevention/",
+      "publishedAt": "2026-11-25T23:40:59Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "68eb566a076554e4",
+      "related": []
+    },
+    {
+      "id": "1981bfab553ef964",
+      "title": "日本把晶圓廠搬上卡車：mobileFab 巡迴學校與企業，現場教做晶片",
+      "url": "https://technews.tw/2026/11/26/japan-puts-chipmaking-labs-inside-trucks-with-mobilefab/",
+      "publishedAt": "2026-11-25T23:20:04Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1981bfab553ef964",
+      "related": []
+    },
+    {
+      "id": "2808d9cc09185bc9",
+      "title": "AI 運算的轉折：從算力擴充至架構優化與先進封裝的商業賽局",
+      "url": "https://technews.tw/2026/11/26/ai-computing-turning-point-commercial-race-compute-expansion-architecture-optimization-advanced-packaging/",
+      "publishedAt": "2026-11-25T23:00:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2808d9cc09185bc9",
+      "related": []
+    },
+    {
+      "id": "e6cde2940789ca38",
+      "title": "FBI疑似再發生資安事故，犯罪資料庫被駭",
+      "url": "https://www.ithome.com.tw/news/180822",
+      "publishedAt": "2026-11-25T18:11:48Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "e6cde2940789ca38",
+      "related": []
+    },
+    {
       "id": "bd342237d30d2b19",
       "title": "駭客入侵1Password員工GitHub帳號竊走公司原始碼，植入惡意程式碼下載客戶資料",
       "url": "https://www.ithome.com.tw/news/180820",
@@ -157,16 +197,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "808737bf8989cb89",
-      "related": []
-    },
-    {
-      "id": "a4323f7e75d04687",
-      "title": "JetBrains推出Go by GoLand擴充套件，讓Cursor與VS Code跨模組分析大型Go專案",
-      "url": "https://www.ithome.com.tw/news/180812",
-      "publishedAt": "2026-11-25T17:11:32Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "a4323f7e75d04687",
       "related": []
     },
     {
@@ -227,26 +257,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "b199ae65dd07a03f",
-      "related": []
-    },
-    {
-      "id": "7147ab6d36a100d0",
-      "title": "華碩 Maestro 打通智慧協作斷點，拓實體 AI 應用場域",
-      "url": "https://technews.tw/2026/11/25/asus-maestro-physical-ai/",
-      "publishedAt": "2026-11-25T08:29:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7147ab6d36a100d0",
-      "related": []
-    },
-    {
-      "id": "dfe327614393c68a",
-      "title": "地面機器人設置反無人機感測器，美國陸軍在摩洛哥再度測試 FireAnt",
-      "url": "https://technews.tw/2026/11/25/us-army-is-testing-fireant-ugv-for-deploying-sensors-on-the-ground/",
-      "publishedAt": "2026-11-25T07:39:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "dfe327614393c68a",
       "related": []
     }
   ]
