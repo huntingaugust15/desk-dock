@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T16:00:21Z",
-  "contentUpdatedAt": "2026-11-26T16:00:21Z",
+  "generatedAt": "2026-11-26T17:06:44Z",
+  "contentUpdatedAt": "2026-11-26T17:06:44Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-26T16:00:21Z",
+      "lastSuccess": "2026-11-26T17:06:44Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-26T16:00:21Z",
+      "lastSuccess": "2026-11-26T17:06:44Z",
       "ok": true
     }
   ],
@@ -90,6 +90,36 @@
       "related": []
     },
     {
+      "id": "05c9d6419dcde5b2",
+      "title": "公開資料庫曝 35 億筆帳密與文件，Google、亞馬遜、Netflix 等主流服務受波及",
+      "url": "https://infosecu.technews.tw/2026/11/26/google-amazon-and-netflix-logins-turn-up-in-a-staggering-password-leak/",
+      "publishedAt": "2026-11-26T02:25:33Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "05c9d6419dcde5b2",
+      "related": []
+    },
+    {
+      "id": "fb484808432bc2bf",
+      "title": "中介層、電源管理 IC 雙引擎助攻！花旗喊買世界先進，目標價 160 元",
+      "url": "https://technews.tw/2026/11/26/citi-see-vis-2026/",
+      "publishedAt": "2026-11-26T02:20:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "fb484808432bc2bf",
+      "related": []
+    },
+    {
+      "id": "a9af79be9a584b04",
+      "title": "先進封裝能見度強勁，花旗給日月光投控 908 元目標價",
+      "url": "https://finance.technews.tw/2026/11/26/citi-sets-a-target-price-of-nt908-for-ase-technology-holding/",
+      "publishedAt": "2026-11-26T02:15:53Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a9af79be9a584b04",
+      "related": []
+    },
+    {
       "id": "e787e0f7a1074288",
       "title": "紐約州長簽署禁止銷售AI聊天機器人玩具的5年禁令",
       "url": "https://www.ithome.com.tw/news/180803",
@@ -110,6 +140,76 @@
       "related": []
     },
     {
+      "id": "6c7105f4e71cb750",
+      "title": "黃仁勳強勢回歸輝達總部，馬斯克攜子現身合體慶賀",
+      "url": "https://technews.tw/2026/11/26/jensen-huang-triumphant-return-nvidia-hq-elon-musk-son-celebrate/",
+      "publishedAt": "2026-11-26T02:10:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6c7105f4e71cb750",
+      "related": []
+    },
+    {
+      "id": "0e615260d4e9381b",
+      "title": "華爾街日報：美方證據顯示，黃仁勳婚外情屬戀愛關係非間諜",
+      "url": "https://technews.tw/2026/11/26/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress/",
+      "publishedAt": "2026-11-26T02:00:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0e615260d4e9381b",
+      "related": []
+    },
+    {
+      "id": "1c47af7d2bfc735f",
+      "title": "台積電亞利桑那廠 12/4 辦擴建典禮，彭博：川普將親自出席",
+      "url": "https://technews.tw/2026/11/26/trump-to-lead-tsmc-groundbreaking-in-arizona-after-nvidia-gambit/",
+      "publishedAt": "2026-11-26T01:45:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1c47af7d2bfc735f",
+      "related": []
+    },
+    {
+      "id": "5a3a732cabb00b44",
+      "title": "范斯：未見黃仁勳犯罪證據，輝達晶片對 AI 領先至關重要",
+      "url": "https://technews.tw/2026/11/26/vance-no-criminal-evidence-found-jensen-huang-nvidia-chips-crucial-ai-leadership/",
+      "publishedAt": "2026-11-26T01:40:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5a3a732cabb00b44",
+      "related": []
+    },
+    {
+      "id": "3a2b95a4df76f5c8",
+      "title": "黃仁勳回鍋引分歧，標普列降級觀察、穆迪維持評等",
+      "url": "https://finance.technews.tw/2026/11/26/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks/",
+      "publishedAt": "2026-11-26T01:30:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "3a2b95a4df76f5c8",
+      "related": []
+    },
+    {
+      "id": "8801fde6b6681e49",
+      "title": "AI 舉債疑慮未消 甲骨文長債殖利率升至 9%",
+      "url": "https://finance.technews.tw/2026/11/26/oracle-bonds-yield-a-towering-9-on-debt-and-data-center-concerns/",
+      "publishedAt": "2026-11-26T01:20:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8801fde6b6681e49",
+      "related": []
+    },
+    {
+      "id": "62e2fab97672d1fb",
+      "title": "液冷設備也掀擴產潮，施耐德電機 CDU 產能明年翻倍",
+      "url": "https://technews.tw/2026/11/26/liquid-cooling-equipment-expansion-schneider-electric-cdu-capacity-doubles-next-year/",
+      "publishedAt": "2026-11-26T01:14:41Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "62e2fab97672d1fb",
+      "related": []
+    },
+    {
       "id": "ddefb93750756870",
       "title": "香帥蛋糕、一事製菓揭露資安事件，電子發票服務商PayNow對外API遭異常存取，波及500商家",
       "url": "https://www.ithome.com.tw/news/180833",
@@ -127,6 +227,16 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "1addf43b4f7a7a7a",
+      "related": []
+    },
+    {
+      "id": "082574c3b1e67a4c",
+      "title": "Suzuki IGNIS 復活，加上純電動力重返市場",
+      "url": "https://technews.tw/2026/11/26/suzuki-ignis-ev-return/",
+      "publishedAt": "2026-11-26T01:03:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "082574c3b1e67a4c",
       "related": []
     },
     {
@@ -167,86 +277,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "a9a2ee283299253a",
-      "related": []
-    },
-    {
-      "id": "e9d7eef184fc6a25",
-      "title": "光焱科技董座對 2027 年展望極為樂觀，矽光子檢測可望加速放量",
-      "url": "https://finance.technews.tw/2026/11/25/enlitech-chairman-highly-optimistic-about-2027-outlook/",
-      "publishedAt": "2026-11-25T13:15:30Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "e9d7eef184fc6a25",
-      "related": []
-    },
-    {
-      "id": "eae1176c03cef8a1",
-      "title": "搶攻大尺寸 CoP 封裝商機！K&S 首套 FTC 設備已出貨台灣兩間客戶",
-      "url": "https://technews.tw/2026/11/25/kulicke-soffa-ftc-aptura-wsx/",
-      "publishedAt": "2026-11-25T09:56:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "eae1176c03cef8a1",
-      "related": []
-    },
-    {
-      "id": "df554532bb8d5f5d",
-      "title": "突破生成式 AI 高耗能瓶頸，台學研團隊打造高能效學習晶片",
-      "url": "https://technews.tw/2026/11/25/generative-ai-chip-transformer/",
-      "publishedAt": "2026-11-25T09:56:20Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "df554532bb8d5f5d",
-      "related": []
-    },
-    {
-      "id": "c3510256a053481d",
-      "title": "韓國防堵 AI 作弊，擬試卷中嵌入提示指令及浮水印",
-      "url": "https://technews.tw/2026/11/25/south-korea-ai-cheating-prevention-embed-prompts-watermarks-exams/",
-      "publishedAt": "2026-11-25T09:30:58Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c3510256a053481d",
-      "related": []
-    },
-    {
-      "id": "3681dead680195b9",
-      "title": "碳化矽真是多功能，核燃料也少不了它",
-      "url": "https://technews.tw/2026/11/25/silicon-carbide-versatile-essential-nuclear-fuel/",
-      "publishedAt": "2026-11-25T08:54:06Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3681dead680195b9",
-      "related": []
-    },
-    {
-      "id": "b199ae65dd07a03f",
-      "title": "iPhone 瀏覽器引擎開放形同虛設？Mozilla 籲歐盟介入蘋果限制",
-      "url": "https://technews.tw/2026/11/25/webkit-dma/",
-      "publishedAt": "2026-11-25T08:52:54Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b199ae65dd07a03f",
-      "related": []
-    },
-    {
-      "id": "7147ab6d36a100d0",
-      "title": "華碩 Maestro 打通智慧協作斷點，拓實體 AI 應用場域",
-      "url": "https://technews.tw/2026/11/25/asus-maestro-physical-ai/",
-      "publishedAt": "2026-11-25T08:29:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7147ab6d36a100d0",
-      "related": []
-    },
-    {
-      "id": "dfe327614393c68a",
-      "title": "地面機器人設置反無人機感測器，美國陸軍在摩洛哥再度測試 FireAnt",
-      "url": "https://technews.tw/2026/11/25/us-army-is-testing-fireant-ugv-for-deploying-sensors-on-the-ground/",
-      "publishedAt": "2026-11-25T07:39:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "dfe327614393c68a",
       "related": []
     }
   ]
