@@ -1,24 +1,54 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T23:49:55Z",
-  "contentUpdatedAt": "2026-11-25T23:49:55Z",
+  "generatedAt": "2026-11-26T01:09:41Z",
+  "contentUpdatedAt": "2026-11-26T01:09:41Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-25T23:49:55Z",
+      "lastSuccess": "2026-11-26T01:09:41Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-25T23:49:55Z",
+      "lastSuccess": "2026-11-26T01:09:41Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "bf3d3ba1a91a475b",
+      "title": "英國NCSC示警AI輔助網路攻擊顯著增加，駭客數分鐘內就可能利用企業既有資安弱點",
+      "url": "https://www.ithome.com.tw/news/180781",
+      "publishedAt": "2026-11-26T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "bf3d3ba1a91a475b",
+      "related": []
+    },
+    {
+      "id": "22eb3047e3b481ab",
+      "title": "盤點2027年七大供應鏈資安風險，企業防護範圍從開源軟體擴及AI模型與代理",
+      "url": "https://www.ithome.com.tw/news/180745",
+      "publishedAt": "2026-11-26T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "22eb3047e3b481ab",
+      "related": []
+    },
+    {
+      "id": "06a1ba1c22f94756",
+      "title": "Google擴充AI代理安全防護，新增執行前政策檢查機制",
+      "url": "https://www.ithome.com.tw/news/180723",
+      "publishedAt": "2026-11-26T00:11:00Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "06a1ba1c22f94756",
+      "related": []
+    },
     {
       "id": "e9d7eef184fc6a25",
       "title": "光焱科技董座對 2027 年展望極為樂觀，矽光子檢測可望加速放量",
@@ -217,36 +247,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "570b889333e72cf9",
-      "related": []
-    },
-    {
-      "id": "232ab23f47491626",
-      "title": "BADBOX 3.0殭屍網路捲土重來，假廣告流量高峰時每天產生400億次競價請求",
-      "url": "https://www.ithome.com.tw/news/180729",
-      "publishedAt": "2026-11-25T00:11:00Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "232ab23f47491626",
-      "related": []
-    },
-    {
-      "id": "dea366cc5a903924",
-      "title": "DeepMind推出AI可靠性評測，揭頂尖模型仍難穩定完成簡單任務",
-      "url": "https://www.ithome.com.tw/news/180797",
-      "publishedAt": "2026-11-24T21:11:57Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "dea366cc5a903924",
-      "related": []
-    },
-    {
-      "id": "4af8661da2c267cf",
-      "title": "數發部建立風險分級與內控制度，協助各部會展開AI治理",
-      "url": "https://www.ithome.com.tw/news/178458",
-      "publishedAt": "2026-11-24T21:11:56Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "4af8661da2c267cf",
       "related": []
     }
   ]
