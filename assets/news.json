@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T10:06:01Z",
-  "contentUpdatedAt": "2026-11-27T10:06:01Z",
+  "generatedAt": "2026-11-27T10:57:41Z",
+  "contentUpdatedAt": "2026-11-27T10:57:41Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-27T10:06:01Z",
+      "lastSuccess": "2026-11-27T10:57:41Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-27T10:06:01Z",
+      "lastSuccess": "2026-11-27T10:57:41Z",
       "ok": true
     }
   ],
@@ -260,6 +260,16 @@
       "related": []
     },
     {
+      "id": "8351def48527dca5",
+      "title": "西班牙要求大型資料中心符合能源與水效率標準，強化AI算力基礎建設的永續監管",
+      "url": "https://www.ithome.com.tw/news/180859",
+      "publishedAt": "2026-11-26T22:11:32Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "8351def48527dca5",
+      "related": []
+    },
+    {
       "id": "2169e6d2d6809018",
       "title": "假求職測驗暗藏惡意NuGet套件，駭客藉開發人員應徵流程散布惡意軟體",
       "url": "https://www.ithome.com.tw/news/180860",
@@ -277,16 +287,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "943219bd2cf8c2a9",
-      "related": []
-    },
-    {
-      "id": "e18cdb6b449e2fc3",
-      "title": "北韓駭客從事供應鏈攻擊PolinRider，污染逾375個GitHub儲存庫以散布惡意軟體",
-      "url": "https://www.ithome.com.tw/news/180858",
-      "publishedAt": "2026-11-26T20:11:03Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "e18cdb6b449e2fc3",
       "related": []
     }
   ]
