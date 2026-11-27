@@ -1,24 +1,144 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T15:32:02Z",
-  "contentUpdatedAt": "2026-11-27T15:32:02Z",
+  "generatedAt": "2026-11-27T16:37:44Z",
+  "contentUpdatedAt": "2026-11-27T16:37:44Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-27T15:32:02Z",
+      "lastSuccess": "2026-11-27T16:37:44Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-27T15:32:02Z",
+      "lastSuccess": "2026-11-27T16:37:44Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "7d8db03f93247fae",
+      "title": "AI 仍供不應求，主計總處估明年出口破 1 兆美元創新高",
+      "url": "https://finance.technews.tw/2026/11/27/ai-supply-shortage-dgbass-forecasts-next-year-exports-1-trillion-record-high/",
+      "publishedAt": "2026-11-27T10:10:06Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7d8db03f93247fae",
+      "related": []
+    },
+    {
+      "id": "5fc111e1e95d20d6",
+      "title": "整合感測通訊！愛立信推 ISAC 系統，將無人機偵測導入行動網路",
+      "url": "https://technews.tw/2026/11/27/ericsson-isac/",
+      "publishedAt": "2026-11-27T09:29:47Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5fc111e1e95d20d6",
+      "related": []
+    },
+    {
+      "id": "cb8904d340eb33a4",
+      "title": "美出口限令加速轉變！瑞銀：中國產 AI 晶片 2028 年市占率將突破 88%",
+      "url": "https://technews.tw/2026/11/27/ubs-see-chinese-ai-chip-market-by-2028/",
+      "publishedAt": "2026-11-27T09:12:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "cb8904d340eb33a4",
+      "related": []
+    },
+    {
+      "id": "446534a36f6228b2",
+      "title": "10 月景氣燈號連 11 紅，刷新史上最長紅燈紀錄",
+      "url": "https://finance.technews.tw/2026/11/27/october-economic-indicator-stays-red-for-11th-straight-month/",
+      "publishedAt": "2026-11-27T08:50:00Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "446534a36f6228b2",
+      "related": []
+    },
+    {
+      "id": "f32adb13ec28d258",
+      "title": "哈佛開發微型紫外光晶片，輸出功率提升 120 倍、助量子電腦微縮",
+      "url": "https://technews.tw/2026/11/27/harvard-micro-uv-chip/",
+      "publishedAt": "2026-11-27T08:20:14Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f32adb13ec28d258",
+      "related": []
+    },
+    {
+      "id": "e0cfeded10a670e5",
+      "title": "日本提國防 AI 願景，判斷與責任由人類承擔",
+      "url": "https://technews.tw/2026/11/27/japan-defense-ai-vision-human-judgment-responsibility/",
+      "publishedAt": "2026-11-27T08:10:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e0cfeded10a670e5",
+      "related": []
+    },
+    {
+      "id": "b446eb34ee456bda",
+      "title": "專訪》第四代核能來敲門，X-energy 眼中台灣的新機會",
+      "url": "https://technews.tw/2026/11/27/exclusive-interview-fourth-generation-nuclear-energy-x-energy-taiwan-new-opportunities/",
+      "publishedAt": "2026-11-27T08:00:05Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b446eb34ee456bda",
+      "related": []
+    },
+    {
+      "id": "de534805f8d44848",
+      "title": "半導體晶片成為新石油，全球出口總值首度超越油氣",
+      "url": "https://technews.tw/2026/11/27/semiconductor-chips-are-the-new-oil/",
+      "publishedAt": "2026-11-27T07:50:32Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "de534805f8d44848",
+      "related": []
+    },
+    {
+      "id": "177858c7649eec2b",
+      "title": "碩禾今年營收拚破百億，看好明年美國太陽能市場成長",
+      "url": "https://technews.tw/2026/11/27/giga-solar-revenue-targets-10-billion-this-year-us-solar-growth-next-year/",
+      "publishedAt": "2026-11-27T07:45:57Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "177858c7649eec2b",
+      "related": []
+    },
+    {
+      "id": "579b7dabb1cdfe33",
+      "title": "帶近半公斤摺疊機去旅行，iPhone Duo、Galaxy Z Fold8 實拍心得",
+      "url": "https://technews.tw/2026/11/27/iphone-duo-galaxy-z-fold8/",
+      "publishedAt": "2026-11-27T07:43:17Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "579b7dabb1cdfe33",
+      "related": []
+    },
+    {
+      "id": "a2281729871bfa10",
+      "title": "中東不平靜、沙烏地煉油廠遭襲 油價跳高",
+      "url": "https://finance.technews.tw/2026/11/27/middle-east-unrest-saudi-refinery-attack-surging-oil-prices/",
+      "publishedAt": "2026-11-27T07:30:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a2281729871bfa10",
+      "related": []
+    },
+    {
+      "id": "8646a0dd63a4d81e",
+      "title": "需求能見度低、供應鏈轉趨保守，2028 年 DRAM 合約價走跌風險升溫",
+      "url": "https://technews.tw/2026/11/27/low-demand-visibility-conservative-supply-chains-2028-dram-contract-price-decline-risk/",
+      "publishedAt": "2026-11-27T07:25:39Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8646a0dd63a4d81e",
+      "related": []
+    },
     {
       "id": "57f3dd87d46c9e41",
       "title": "Character.AI擬拍賣用戶聊天紀錄，美國42名檢察長反對",
@@ -67,116 +187,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "a625a3b3c87888f2",
-      "related": []
-    },
-    {
-      "id": "703b8eaaae9deead",
-      "title": "Character.AI 破產擬拍賣 2,100 萬用戶聊天紀錄，美國 42 州檢察長聯手阻擋",
-      "url": "https://infosecu.technews.tw/2026/11/27/ai-company-bankruptcy-triggers-privacy-crisis/",
-      "publishedAt": "2026-11-27T03:10:46Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "703b8eaaae9deead",
-      "related": []
-    },
-    {
-      "id": "a6d850840d084d05",
-      "title": "Anthropic 揭露 AI 時代工程師升遷關鍵：看重「協調力」與實際成果",
-      "url": "https://technews.tw/2026/11/27/anthropic-team-leader-says-ai-is-changing-how-engineers-get-promoted/",
-      "publishedAt": "2026-11-27T03:00:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a6d850840d084d05",
-      "related": []
-    },
-    {
-      "id": "5238a4eb7356e692",
-      "title": "X 首度推出家長監護功能：可限制使用時間、核准追蹤者，但不能讀私訊",
-      "url": "https://technews.tw/2026/11/27/x-implements-parental-controls-for-teen-users/",
-      "publishedAt": "2026-11-27T02:55:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5238a4eb7356e692",
-      "related": []
-    },
-    {
-      "id": "c86d00de4b9f880b",
-      "title": "伸縮自如的 AI 算力，模組化資料中心究竟是什麼？",
-      "url": "https://technews.tw/2026/11/27/data-centers-flexible-scalable-exploring-appeal-modular-design/",
-      "publishedAt": "2026-11-27T02:50:38Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c86d00de4b9f880b",
-      "related": []
-    },
-    {
-      "id": "3a1ac05110ebf409",
-      "title": "不到 3 小時奪取特權，微軟揭中國與北韓駭客濫用開源 AI 框架 ARTEX",
-      "url": "https://infosecu.technews.tw/2026/11/27/microsoft-warns-hackers-leveraging-ai-tools-cyberattacks/",
-      "publishedAt": "2026-11-27T02:50:10Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3a1ac05110ebf409",
-      "related": []
-    },
-    {
-      "id": "51babbcd1951bb1d",
-      "title": "記憶體漲價重創 Android 陣營，iPhone 在美市占攀升至 57%",
-      "url": "https://technews.tw/2026/11/27/q326-us-smartphone-market/",
-      "publishedAt": "2026-11-27T02:36:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "51babbcd1951bb1d",
-      "related": []
-    },
-    {
-      "id": "f75ec1e7af82ad02",
-      "title": "AI 駭客逼銀行加速修補漏洞，系統更新反而成了當機風險",
-      "url": "https://infosecu.technews.tw/2026/11/27/banks-sprint-to-fight-ai-threats-with-quick-fixes-raising-risk-of-outages/",
-      "publishedAt": "2026-11-27T02:35:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f75ec1e7af82ad02",
-      "related": []
-    },
-    {
-      "id": "8d647070d25c7181",
-      "title": "記憶體價格暴漲 500%，中小電子廠翻遍 eBay、聯繫數百家掮客找貨",
-      "url": "https://technews.tw/2026/11/27/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history/",
-      "publishedAt": "2026-11-27T02:30:38Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8d647070d25c7181",
-      "related": []
-    },
-    {
-      "id": "123d1489667a7c7a",
-      "title": "三星半導體成立專責機器人團隊！預計 2028 年進駐晶圓廠，全面降低產線人工依賴",
-      "url": "https://technews.tw/2026/11/27/samsung-roadmap-reportedly-puts-unmanned-vehicles-self-driving-robots-and-robotic-arms-inside-its-chip-fabs-by-2028/",
-      "publishedAt": "2026-11-27T02:25:24Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "123d1489667a7c7a",
-      "related": []
-    },
-    {
-      "id": "96a7b124e2557f68",
-      "title": "「iPod 之父」揭 OpenAI 聯手強尼艾夫做硬體內幕：蘋果死守隱私不放行環境資料",
-      "url": "https://technews.tw/2026/11/27/openai-hardware-inside-story/",
-      "publishedAt": "2026-11-27T02:20:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "96a7b124e2557f68",
-      "related": []
-    },
-    {
-      "id": "dd0212d07e45d745",
-      "title": "手機貼膜就能看 3D，台灣萊雅攜光影立方攻智慧零售",
-      "url": "https://finance.technews.tw/2026/11/27/loreal-optiqb-big-bang/",
-      "publishedAt": "2026-11-27T02:17:58Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "dd0212d07e45d745",
       "related": []
     },
     {
