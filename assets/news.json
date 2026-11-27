@@ -1,24 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T03:59:49Z",
-  "contentUpdatedAt": "2026-11-27T03:59:49Z",
+  "generatedAt": "2026-11-27T05:05:37Z",
+  "contentUpdatedAt": "2026-11-27T05:05:37Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-27T03:59:49Z",
+      "lastSuccess": "2026-11-27T05:05:37Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-27T03:59:49Z",
+      "lastSuccess": "2026-11-27T05:05:37Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "57f3dd87d46c9e41",
+      "title": "Character.AI擬拍賣用戶聊天紀錄，美國42名檢察長反對",
+      "url": "https://www.ithome.com.tw/news/180847",
+      "publishedAt": "2026-11-27T04:11:54Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "57f3dd87d46c9e41",
+      "related": []
+    },
+    {
+      "id": "a37f77f6ccb50ddb",
+      "title": "WPIDE修補未經驗證遠端程式碼執行漏洞，未更新可能導致管理員遭誘使執行惡意PHP",
+      "url": "https://www.ithome.com.tw/news/180848",
+      "publishedAt": "2026-11-27T04:11:37Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "a37f77f6ccb50ddb",
+      "related": []
+    },
+    {
+      "id": "b3848ead46b2016c",
+      "title": "幣安解除63.4億美元數位資產竊案相關提款限制",
+      "url": "https://www.ithome.com.tw/news/180845",
+      "publishedAt": "2026-11-27T04:11:37Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "b3848ead46b2016c",
+      "related": []
+    },
+    {
+      "id": "ad988126996c9734",
+      "title": "Drupal揭露已遭利用的安裝程式新漏洞",
+      "url": "https://www.ithome.com.tw/news/180846",
+      "publishedAt": "2026-11-27T04:11:16Z",
+      "sourceId": "ithome",
+      "sourceName": "iThome",
+      "clusterId": "ad988126996c9734",
+      "related": []
+    },
     {
       "id": "a625a3b3c87888f2",
       "title": "近4,200個AI自主攻擊框架暴露於公開網路，臺灣也發現10個",
@@ -100,106 +140,6 @@
       "related": []
     },
     {
-      "id": "595f16be76636601",
-      "title": "美國封堵中國 AI 算力漏洞，輝達緊急喊停東南亞四國伺服器出貨",
-      "url": "https://technews.tw/2026/11/26/nvidia-halts-server-shipments-to-four-southeast-asian-countries/",
-      "publishedAt": "2026-11-26T08:15:20Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "595f16be76636601",
-      "related": []
-    },
-    {
-      "id": "7506f98c382af3bb",
-      "title": "走著瞧明年「高機率」配息！AI 防詐拓新商機，海外市場扛成長重任",
-      "url": "https://infosecu.technews.tw/2026/11/26/gogolook-dividend/",
-      "publishedAt": "2026-11-26T07:53:05Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7506f98c382af3bb",
-      "related": []
-    },
-    {
-      "id": "c203f8aa318a3c3b",
-      "title": "3Q26 新能源車銷量年增 7.6%，BEV、PHEV 走勢分歧",
-      "url": "https://technews.tw/2026/11/26/q3-2026-new-energy-vehicle-sales-7-6-yoy-bev-phev-divergent-trends/",
-      "publishedAt": "2026-11-26T07:50:58Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c203f8aa318a3c3b",
-      "related": []
-    },
-    {
-      "id": "4ec9545eda703c79",
-      "title": "穎崴董事長王嘉煌：上半年已發 10 個月獎金，2027 年拚兩位數成長",
-      "url": "https://finance.technews.tw/2026/11/26/winway-has-already-paid-out-10-months-worth-of-bonuses-in-the-first-half-of-the-year/",
-      "publishedAt": "2026-11-26T07:30:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4ec9545eda703c79",
-      "related": []
-    },
-    {
-      "id": "09c06e437c5d1874",
-      "title": "東元拿下渢妙二期變電站合約，離岸風電承攬實績突破 3 GW",
-      "url": "https://technews.tw/2026/11/26/teco-secures-fengmiao-phase-2-substation-offshore-wind-3gw-track-record/",
-      "publishedAt": "2026-11-26T07:26:43Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "09c06e437c5d1874",
-      "related": []
-    },
-    {
-      "id": "5e108fd648872bd9",
-      "title": "台積電傳擬建德州廠 Wedbush：暗示 AI 需求未放緩",
-      "url": "https://technews.tw/2026/11/26/tsmc-asking-for-tax-incentives-at-texas-fab-suggests-no-ai-slowdown/",
-      "publishedAt": "2026-11-26T07:00:18Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5e108fd648872bd9",
-      "related": []
-    },
-    {
-      "id": "0887b66f22c0098f",
-      "title": "AI 解理論物理難題正確率 98%，每題成本不到 3 美元",
-      "url": "https://technews.tw/2026/11/26/ai-reshaping-theoretical-physics/",
-      "publishedAt": "2026-11-26T06:50:25Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "0887b66f22c0098f",
-      "related": []
-    },
-    {
-      "id": "b369cb0d310d1207",
-      "title": "輝達前業務主管娶美超微高層，牽動對中晶片走私調查成焦點",
-      "url": "https://technews.tw/2026/11/26/nvidia-executive-romance-and-chip-smuggling-scandal/",
-      "publishedAt": "2026-11-26T06:40:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b369cb0d310d1207",
-      "related": []
-    },
-    {
-      "id": "4f87ed2321aece6e",
-      "title": "美 AI 資料中心擴張受阻 至少 4 州喊停機率達 57%",
-      "url": "https://technews.tw/2026/11/26/kalshi-traders-say-state-data-center-moratoriums-are-more-likely-than-not/",
-      "publishedAt": "2026-11-26T06:30:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4f87ed2321aece6e",
-      "related": []
-    },
-    {
-      "id": "2a620bfdac5e6615",
-      "title": "假追劇 App 藏木馬遙控用戶網銀，逾百帳戶受害遭盜轉 1,742 萬",
-      "url": "https://infosecu.technews.tw/2026/11/26/fake-streaming-app-trojan-controls-user-online-banking-100-accounts-defrauded-17-42-million/",
-      "publishedAt": "2026-11-26T06:20:17Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "2a620bfdac5e6615",
-      "related": []
-    },
-    {
       "id": "c9ae87f1b8a8deac",
       "title": "全球22家企業組織Check Point管理伺服器被入侵，駭客利用已知漏洞取得管理員權限",
       "url": "https://www.ithome.com.tw/news/180811",
@@ -230,43 +170,113 @@
       "related": []
     },
     {
-      "id": "06456b78d0a70a41",
-      "title": "泰味國際委外雲端發票平臺遭異常存取，290人受影響",
-      "url": "https://www.ithome.com.tw/news/180806",
-      "publishedAt": "2026-11-26T03:11:22Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "06456b78d0a70a41",
+      "id": "05c9d6419dcde5b2",
+      "title": "公開資料庫曝 35 億筆帳密與文件，Google、亞馬遜、Netflix 等主流服務受波及",
+      "url": "https://infosecu.technews.tw/2026/11/26/google-amazon-and-netflix-logins-turn-up-in-a-staggering-password-leak/",
+      "publishedAt": "2026-11-26T02:25:33Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "05c9d6419dcde5b2",
       "related": []
     },
     {
-      "id": "ff9f0911fb6ecd2b",
-      "title": "OpenAI開始合併ChatGPT的Chat與Work介面，預定12月擴大部署共用配額",
-      "url": "https://www.ithome.com.tw/news/180807",
-      "publishedAt": "2026-11-26T03:11:20Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "ff9f0911fb6ecd2b",
+      "id": "fb484808432bc2bf",
+      "title": "中介層、電源管理 IC 雙引擎助攻！花旗喊買世界先進，目標價 160 元",
+      "url": "https://technews.tw/2026/11/26/citi-see-vis-2026/",
+      "publishedAt": "2026-11-26T02:20:37Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "fb484808432bc2bf",
       "related": []
     },
     {
-      "id": "1b820423cd55513f",
-      "title": "Palo Alto Networks修補防火牆已遭利用的Linux核心漏洞Fragnesia",
-      "url": "https://www.ithome.com.tw/news/180808",
-      "publishedAt": "2026-11-26T03:11:06Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "1b820423cd55513f",
+      "id": "a9af79be9a584b04",
+      "title": "先進封裝能見度強勁，花旗給日月光投控 908 元目標價",
+      "url": "https://finance.technews.tw/2026/11/26/citi-sets-a-target-price-of-nt908-for-ase-technology-holding/",
+      "publishedAt": "2026-11-26T02:15:53Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a9af79be9a584b04",
       "related": []
     },
     {
-      "id": "c6fb68a67cd4dace",
-      "title": "Copeland XWEB PRO冷凍控制器遭劫持，淪為垃圾郵件發送與代理節點",
-      "url": "https://www.ithome.com.tw/news/180809",
-      "publishedAt": "2026-11-26T03:11:02Z",
-      "sourceId": "ithome",
-      "sourceName": "iThome",
-      "clusterId": "c6fb68a67cd4dace",
+      "id": "6c7105f4e71cb750",
+      "title": "黃仁勳強勢回歸輝達總部，馬斯克攜子現身合體慶賀",
+      "url": "https://technews.tw/2026/11/26/jensen-huang-triumphant-return-nvidia-hq-elon-musk-son-celebrate/",
+      "publishedAt": "2026-11-26T02:10:22Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6c7105f4e71cb750",
+      "related": []
+    },
+    {
+      "id": "0e615260d4e9381b",
+      "title": "華爾街日報：美方證據顯示，黃仁勳婚外情屬戀愛關係非間諜",
+      "url": "https://technews.tw/2026/11/26/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress/",
+      "publishedAt": "2026-11-26T02:00:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0e615260d4e9381b",
+      "related": []
+    },
+    {
+      "id": "1c47af7d2bfc735f",
+      "title": "台積電亞利桑那廠 12/4 辦擴建典禮，彭博：川普將親自出席",
+      "url": "https://technews.tw/2026/11/26/trump-to-lead-tsmc-groundbreaking-in-arizona-after-nvidia-gambit/",
+      "publishedAt": "2026-11-26T01:45:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "1c47af7d2bfc735f",
+      "related": []
+    },
+    {
+      "id": "5a3a732cabb00b44",
+      "title": "范斯：未見黃仁勳犯罪證據，輝達晶片對 AI 領先至關重要",
+      "url": "https://technews.tw/2026/11/26/vance-no-criminal-evidence-found-jensen-huang-nvidia-chips-crucial-ai-leadership/",
+      "publishedAt": "2026-11-26T01:40:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5a3a732cabb00b44",
+      "related": []
+    },
+    {
+      "id": "3a2b95a4df76f5c8",
+      "title": "黃仁勳回鍋引分歧，標普列降級觀察、穆迪維持評等",
+      "url": "https://finance.technews.tw/2026/11/26/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks/",
+      "publishedAt": "2026-11-26T01:30:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "3a2b95a4df76f5c8",
+      "related": []
+    },
+    {
+      "id": "8801fde6b6681e49",
+      "title": "AI 舉債疑慮未消 甲骨文長債殖利率升至 9%",
+      "url": "https://finance.technews.tw/2026/11/26/oracle-bonds-yield-a-towering-9-on-debt-and-data-center-concerns/",
+      "publishedAt": "2026-11-26T01:20:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8801fde6b6681e49",
+      "related": []
+    },
+    {
+      "id": "62e2fab97672d1fb",
+      "title": "液冷設備也掀擴產潮，施耐德電機 CDU 產能明年翻倍",
+      "url": "https://technews.tw/2026/11/26/liquid-cooling-equipment-expansion-schneider-electric-cdu-capacity-doubles-next-year/",
+      "publishedAt": "2026-11-26T01:14:41Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "62e2fab97672d1fb",
+      "related": []
+    },
+    {
+      "id": "082574c3b1e67a4c",
+      "title": "Suzuki IGNIS 復活，加上純電動力重返市場",
+      "url": "https://technews.tw/2026/11/26/suzuki-ignis-ev-return/",
+      "publishedAt": "2026-11-26T01:03:31Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "082574c3b1e67a4c",
       "related": []
     }
   ]
