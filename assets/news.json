@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T06:05:55Z",
-  "contentUpdatedAt": "2026-11-27T06:05:55Z",
+  "generatedAt": "2026-11-27T07:21:17Z",
+  "contentUpdatedAt": "2026-11-27T07:21:17Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-27T06:05:55Z",
+      "lastSuccess": "2026-11-27T07:21:17Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-27T06:05:55Z",
+      "lastSuccess": "2026-11-27T07:21:17Z",
       "ok": true
     }
   ],
@@ -67,116 +67,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "a625a3b3c87888f2",
-      "related": []
-    },
-    {
-      "id": "703b8eaaae9deead",
-      "title": "Character.AI 破產擬拍賣 2,100 萬用戶聊天紀錄，美國 42 州檢察長聯手阻擋",
-      "url": "https://infosecu.technews.tw/2026/11/27/ai-company-bankruptcy-triggers-privacy-crisis/",
-      "publishedAt": "2026-11-27T03:10:46Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "703b8eaaae9deead",
-      "related": []
-    },
-    {
-      "id": "a6d850840d084d05",
-      "title": "Anthropic 揭露 AI 時代工程師升遷關鍵：看重「協調力」與實際成果",
-      "url": "https://technews.tw/2026/11/27/anthropic-team-leader-says-ai-is-changing-how-engineers-get-promoted/",
-      "publishedAt": "2026-11-27T03:00:13Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a6d850840d084d05",
-      "related": []
-    },
-    {
-      "id": "5238a4eb7356e692",
-      "title": "X 首度推出家長監護功能：可限制使用時間、核准追蹤者，但不能讀私訊",
-      "url": "https://technews.tw/2026/11/27/x-implements-parental-controls-for-teen-users/",
-      "publishedAt": "2026-11-27T02:55:49Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5238a4eb7356e692",
-      "related": []
-    },
-    {
-      "id": "c86d00de4b9f880b",
-      "title": "伸縮自如的 AI 算力，模組化資料中心究竟是什麼？",
-      "url": "https://technews.tw/2026/11/27/data-centers-flexible-scalable-exploring-appeal-modular-design/",
-      "publishedAt": "2026-11-27T02:50:38Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "c86d00de4b9f880b",
-      "related": []
-    },
-    {
-      "id": "3a1ac05110ebf409",
-      "title": "不到 3 小時奪取特權，微軟揭中國與北韓駭客濫用開源 AI 框架 ARTEX",
-      "url": "https://infosecu.technews.tw/2026/11/27/microsoft-warns-hackers-leveraging-ai-tools-cyberattacks/",
-      "publishedAt": "2026-11-27T02:50:10Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "3a1ac05110ebf409",
-      "related": []
-    },
-    {
-      "id": "51babbcd1951bb1d",
-      "title": "記憶體漲價重創 Android 陣營，iPhone 在美市占攀升至 57%",
-      "url": "https://technews.tw/2026/11/27/q326-us-smartphone-market/",
-      "publishedAt": "2026-11-27T02:36:21Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "51babbcd1951bb1d",
-      "related": []
-    },
-    {
-      "id": "f75ec1e7af82ad02",
-      "title": "AI 駭客逼銀行加速修補漏洞，系統更新反而成了當機風險",
-      "url": "https://infosecu.technews.tw/2026/11/27/banks-sprint-to-fight-ai-threats-with-quick-fixes-raising-risk-of-outages/",
-      "publishedAt": "2026-11-27T02:35:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f75ec1e7af82ad02",
-      "related": []
-    },
-    {
-      "id": "8d647070d25c7181",
-      "title": "記憶體價格暴漲 500%，中小電子廠翻遍 eBay、聯繫數百家掮客找貨",
-      "url": "https://technews.tw/2026/11/27/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history/",
-      "publishedAt": "2026-11-27T02:30:38Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8d647070d25c7181",
-      "related": []
-    },
-    {
-      "id": "123d1489667a7c7a",
-      "title": "三星半導體成立專責機器人團隊！預計 2028 年進駐晶圓廠，全面降低產線人工依賴",
-      "url": "https://technews.tw/2026/11/27/samsung-roadmap-reportedly-puts-unmanned-vehicles-self-driving-robots-and-robotic-arms-inside-its-chip-fabs-by-2028/",
-      "publishedAt": "2026-11-27T02:25:24Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "123d1489667a7c7a",
-      "related": []
-    },
-    {
-      "id": "96a7b124e2557f68",
-      "title": "「iPod 之父」揭 OpenAI 聯手強尼艾夫做硬體內幕：蘋果死守隱私不放行環境資料",
-      "url": "https://technews.tw/2026/11/27/openai-hardware-inside-story/",
-      "publishedAt": "2026-11-27T02:20:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "96a7b124e2557f68",
-      "related": []
-    },
-    {
-      "id": "dd0212d07e45d745",
-      "title": "手機貼膜就能看 3D，台灣萊雅攜光影立方攻智慧零售",
-      "url": "https://finance.technews.tw/2026/11/27/loreal-optiqb-big-bang/",
-      "publishedAt": "2026-11-27T02:17:58Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "dd0212d07e45d745",
       "related": []
     },
     {
@@ -250,33 +140,133 @@
       "related": []
     },
     {
-      "id": "c9ae87f1b8a8deac",
-      "title": "全球22家企業組織Check Point管理伺服器被入侵，駭客利用已知漏洞取得管理員權限",
-      "url": "https://www.ithome.com.tw/news/180811",
-      "publishedAt": "2026-11-26T04:11:35Z",
+      "id": "ef6d711c3524b625",
+      "title": "OpenAI修正GPT-6.2計費系統錯誤，Astra、Sol模型將更快用罄使用限額",
+      "url": "https://www.ithome.com.tw/news/180853",
+      "publishedAt": "2026-11-26T19:11:04Z",
       "sourceId": "ithome",
       "sourceName": "iThome",
-      "clusterId": "c9ae87f1b8a8deac",
+      "clusterId": "ef6d711c3524b625",
       "related": []
     },
     {
-      "id": "cacbd054cf9acd80",
-      "title": "React Server Components修補未經身分驗證RCE漏洞",
-      "url": "https://www.ithome.com.tw/news/180810",
-      "publishedAt": "2026-11-26T04:11:20Z",
+      "id": "79fa2a968bc764df",
+      "title": "美國鈾礦場因資安事件暫停運作",
+      "url": "https://www.ithome.com.tw/news/180852",
+      "publishedAt": "2026-11-26T18:11:49Z",
       "sourceId": "ithome",
       "sourceName": "iThome",
-      "clusterId": "cacbd054cf9acd80",
+      "clusterId": "79fa2a968bc764df",
       "related": []
     },
     {
-      "id": "6ef4dfd762578ff6",
-      "title": "多國警方聯手瓦解Gootloader等惡意程式基礎設施，查獲640萬筆遭竊憑證",
-      "url": "https://www.ithome.com.tw/news/180813",
-      "publishedAt": "2026-11-26T04:11:10Z",
+      "id": "d0448343ae096bf0",
+      "title": "美CIA等情報機構傳遭駭，外洩非機密資料",
+      "url": "https://www.ithome.com.tw/news/180850",
+      "publishedAt": "2026-11-26T18:11:21Z",
       "sourceId": "ithome",
       "sourceName": "iThome",
-      "clusterId": "6ef4dfd762578ff6",
+      "clusterId": "d0448343ae096bf0",
+      "related": []
+    },
+    {
+      "id": "595f16be76636601",
+      "title": "美國封堵中國 AI 算力漏洞，輝達緊急喊停東南亞四國伺服器出貨",
+      "url": "https://technews.tw/2026/11/26/nvidia-halts-server-shipments-to-four-southeast-asian-countries/",
+      "publishedAt": "2026-11-26T08:15:20Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "595f16be76636601",
+      "related": []
+    },
+    {
+      "id": "7506f98c382af3bb",
+      "title": "走著瞧明年「高機率」配息！AI 防詐拓新商機，海外市場扛成長重任",
+      "url": "https://infosecu.technews.tw/2026/11/26/gogolook-dividend/",
+      "publishedAt": "2026-11-26T07:53:05Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7506f98c382af3bb",
+      "related": []
+    },
+    {
+      "id": "c203f8aa318a3c3b",
+      "title": "3Q26 新能源車銷量年增 7.6%，BEV、PHEV 走勢分歧",
+      "url": "https://technews.tw/2026/11/26/q3-2026-new-energy-vehicle-sales-7-6-yoy-bev-phev-divergent-trends/",
+      "publishedAt": "2026-11-26T07:50:58Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c203f8aa318a3c3b",
+      "related": []
+    },
+    {
+      "id": "4ec9545eda703c79",
+      "title": "穎崴董事長王嘉煌：上半年已發 10 個月獎金，2027 年拚兩位數成長",
+      "url": "https://finance.technews.tw/2026/11/26/winway-has-already-paid-out-10-months-worth-of-bonuses-in-the-first-half-of-the-year/",
+      "publishedAt": "2026-11-26T07:30:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4ec9545eda703c79",
+      "related": []
+    },
+    {
+      "id": "09c06e437c5d1874",
+      "title": "東元拿下渢妙二期變電站合約，離岸風電承攬實績突破 3 GW",
+      "url": "https://technews.tw/2026/11/26/teco-secures-fengmiao-phase-2-substation-offshore-wind-3gw-track-record/",
+      "publishedAt": "2026-11-26T07:26:43Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "09c06e437c5d1874",
+      "related": []
+    },
+    {
+      "id": "5e108fd648872bd9",
+      "title": "台積電傳擬建德州廠 Wedbush：暗示 AI 需求未放緩",
+      "url": "https://technews.tw/2026/11/26/tsmc-asking-for-tax-incentives-at-texas-fab-suggests-no-ai-slowdown/",
+      "publishedAt": "2026-11-26T07:00:18Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5e108fd648872bd9",
+      "related": []
+    },
+    {
+      "id": "0887b66f22c0098f",
+      "title": "AI 解理論物理難題正確率 98%，每題成本不到 3 美元",
+      "url": "https://technews.tw/2026/11/26/ai-reshaping-theoretical-physics/",
+      "publishedAt": "2026-11-26T06:50:25Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "0887b66f22c0098f",
+      "related": []
+    },
+    {
+      "id": "b369cb0d310d1207",
+      "title": "輝達前業務主管娶美超微高層，牽動對中晶片走私調查成焦點",
+      "url": "https://technews.tw/2026/11/26/nvidia-executive-romance-and-chip-smuggling-scandal/",
+      "publishedAt": "2026-11-26T06:40:48Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b369cb0d310d1207",
+      "related": []
+    },
+    {
+      "id": "4f87ed2321aece6e",
+      "title": "美 AI 資料中心擴張受阻 至少 4 州喊停機率達 57%",
+      "url": "https://technews.tw/2026/11/26/kalshi-traders-say-state-data-center-moratoriums-are-more-likely-than-not/",
+      "publishedAt": "2026-11-26T06:30:00Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "4f87ed2321aece6e",
+      "related": []
+    },
+    {
+      "id": "2a620bfdac5e6615",
+      "title": "假追劇 App 藏木馬遙控用戶網銀，逾百帳戶受害遭盜轉 1,742 萬",
+      "url": "https://infosecu.technews.tw/2026/11/26/fake-streaming-app-trojan-controls-user-online-banking-100-accounts-defrauded-17-42-million/",
+      "publishedAt": "2026-11-26T06:20:17Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "2a620bfdac5e6615",
       "related": []
     }
   ]
