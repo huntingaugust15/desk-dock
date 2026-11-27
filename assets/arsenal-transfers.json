@@ -1,20 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T16:37:44Z",
+  "generatedAt": "2026-11-27T17:54:26Z",
   "sources": [
     {
       "name": "Sky Sports",
       "url": "https://www.skysports.com/rss/11670",
-      "checkedAt": "2026-11-27T16:37:44Z"
+      "checkedAt": "2026-11-27T17:54:26Z"
     },
     {
       "name": "Arseblog",
       "url": "https://arseblog.news/category/transfers/feed/",
-      "checkedAt": "2026-11-27T16:37:44Z"
+      "checkedAt": "2026-11-27T17:54:26Z"
     }
   ],
   "partial": false,
   "articles": [
+    {
+      "id": "5403e4420de20b1e",
+      "title": "Arsenal latest: Arteta gives Raya update with Odegaard confident on new deal",
+      "url": "https://www.skysports.com/football/live-blog/11670/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "publishedAt": "2026-11-27T17:41:00Z",
+      "source": "Sky Sports"
+    },
     {
       "id": "db59965c303dca2a",
       "title": "“There’s absolutely nothing to it” – Zubimendi dismisses exit talk",
