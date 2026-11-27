@@ -1,144 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T14:33:38Z",
-  "contentUpdatedAt": "2026-11-27T14:33:38Z",
+  "generatedAt": "2026-11-27T15:32:02Z",
+  "contentUpdatedAt": "2026-11-27T15:32:02Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-27T14:33:38Z",
+      "lastSuccess": "2026-11-27T15:32:02Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-27T14:33:38Z",
+      "lastSuccess": "2026-11-27T15:32:02Z",
       "ok": true
     }
   ],
   "articles": [
-    {
-      "id": "a2281729871bfa10",
-      "title": "中東不平靜、沙烏地煉油廠遭襲 油價跳高",
-      "url": "https://finance.technews.tw/2026/11/27/middle-east-unrest-saudi-refinery-attack-surging-oil-prices/",
-      "publishedAt": "2026-11-27T07:30:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a2281729871bfa10",
-      "related": []
-    },
-    {
-      "id": "8646a0dd63a4d81e",
-      "title": "需求能見度低、供應鏈轉趨保守，2028 年 DRAM 合約價走跌風險升溫",
-      "url": "https://technews.tw/2026/11/27/low-demand-visibility-conservative-supply-chains-2028-dram-contract-price-decline-risk/",
-      "publishedAt": "2026-11-27T07:25:39Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8646a0dd63a4d81e",
-      "related": []
-    },
-    {
-      "id": "efb01eab650f1997",
-      "title": "防美企「斷電開關」、追趕美中腳步！歐盟祭 500 億歐元主權基金與《量子法》拚技術自主",
-      "url": "https://technews.tw/2026/11/27/eu-50-billion-fund-quantum-act-counter-us-kill-switches-catch-up-us-china-tech-autonomy/",
-      "publishedAt": "2026-11-27T07:20:07Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "efb01eab650f1997",
-      "related": []
-    },
-    {
-      "id": "9f9535bdb38cbc08",
-      "title": "三星傳 CES 秀人型機器人 韓多檔概念股漲停 30%",
-      "url": "https://finance.technews.tw/2026/11/27/south-korean-robotics-stocks-hit-limit-up/",
-      "publishedAt": "2026-11-27T07:10:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "9f9535bdb38cbc08",
-      "related": []
-    },
-    {
-      "id": "88482a481606e8a6",
-      "title": "通吃 AI 晶片測試與日系航太專案！英柏得科技預計 12 月中掛牌上市",
-      "url": "https://finance.technews.tw/2026/11/27/industrial-grade-data-storage/",
-      "publishedAt": "2026-11-27T07:02:57Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "88482a481606e8a6",
-      "related": []
-    },
-    {
-      "id": "d561329c3e805ed7",
-      "title": "美收緊先進 AI 晶片出口管制，東南亞 AI 基礎建設面臨考驗",
-      "url": "https://technews.tw/2026/11/27/us-tightens-ai-chip-export-controls-southeast-asia-ai-infrastructure-challenge/",
-      "publishedAt": "2026-11-27T07:00:33Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d561329c3e805ed7",
-      "related": []
-    },
-    {
-      "id": "b7fdc0e4282f2ab2",
-      "title": "涉向未成年人傳性暗示訊息，蘋果下架 AI 聊天機器人 Talkie",
-      "url": "https://technews.tw/2026/11/27/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns/",
-      "publishedAt": "2026-11-27T06:50:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b7fdc0e4282f2ab2",
-      "related": []
-    },
-    {
-      "id": "4717c3986d8d78a9",
-      "title": "美國防堵中國租用遠端算力，新規加查緝爭搶 AI 競賽優勢",
-      "url": "https://technews.tw/2026/11/27/us-curbs-china-remote-compute-rentals-new-regulations-crackdowns-secure-ai-race-advantage/",
-      "publishedAt": "2026-11-27T06:40:47Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4717c3986d8d78a9",
-      "related": []
-    },
-    {
-      "id": "5ae683218730f1a8",
-      "title": "馬斯克搶記憶體傳碰壁 李在鎔問：還能給什麼？",
-      "url": "https://finance.technews.tw/2026/11/27/samsungs-lee-rejects-musks-memory-chip-offer/",
-      "publishedAt": "2026-11-27T06:35:17Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5ae683218730f1a8",
-      "related": []
-    },
-    {
-      "id": "821f6adfa153f5dc",
-      "title": "川普稱黃仁勳絕非國安威脅，稱助他復職對世界是件好事",
-      "url": "https://technews.tw/2026/11/27/trump-jensen-huang-not-national-security-threat-return-office-good-world/",
-      "publishedAt": "2026-11-27T06:30:01Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "821f6adfa153f5dc",
-      "related": []
-    },
-    {
-      "id": "6e032c434790759a",
-      "title": "川普投顧發言：美股大跌有點擔心、市場挺黃仁勳",
-      "url": "https://finance.technews.tw/2026/11/27/trump-says-wednesdays-market-had-him-briefly-concerned-before-stocks-recovered/",
-      "publishedAt": "2026-11-27T06:10:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6e032c434790759a",
-      "related": []
-    },
-    {
-      "id": "18e7ea980f6cd34a",
-      "title": "韓國指中國長鑫存儲 4F² 架構 DRAM 晶片尺寸沒優勢，量產不容易",
-      "url": "https://technews.tw/2026/11/27/south-korea-believes-changxin-memory-technologies-4f%c2%b2-dram-architecture-lacks-a-size-advantage/",
-      "publishedAt": "2026-11-27T06:00:15Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "18e7ea980f6cd34a",
-      "related": []
-    },
     {
       "id": "57f3dd87d46c9e41",
       "title": "Character.AI擬拍賣用戶聊天紀錄，美國42名檢察長反對",
@@ -187,6 +67,116 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "a625a3b3c87888f2",
+      "related": []
+    },
+    {
+      "id": "703b8eaaae9deead",
+      "title": "Character.AI 破產擬拍賣 2,100 萬用戶聊天紀錄，美國 42 州檢察長聯手阻擋",
+      "url": "https://infosecu.technews.tw/2026/11/27/ai-company-bankruptcy-triggers-privacy-crisis/",
+      "publishedAt": "2026-11-27T03:10:46Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "703b8eaaae9deead",
+      "related": []
+    },
+    {
+      "id": "a6d850840d084d05",
+      "title": "Anthropic 揭露 AI 時代工程師升遷關鍵：看重「協調力」與實際成果",
+      "url": "https://technews.tw/2026/11/27/anthropic-team-leader-says-ai-is-changing-how-engineers-get-promoted/",
+      "publishedAt": "2026-11-27T03:00:13Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a6d850840d084d05",
+      "related": []
+    },
+    {
+      "id": "5238a4eb7356e692",
+      "title": "X 首度推出家長監護功能：可限制使用時間、核准追蹤者，但不能讀私訊",
+      "url": "https://technews.tw/2026/11/27/x-implements-parental-controls-for-teen-users/",
+      "publishedAt": "2026-11-27T02:55:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5238a4eb7356e692",
+      "related": []
+    },
+    {
+      "id": "c86d00de4b9f880b",
+      "title": "伸縮自如的 AI 算力，模組化資料中心究竟是什麼？",
+      "url": "https://technews.tw/2026/11/27/data-centers-flexible-scalable-exploring-appeal-modular-design/",
+      "publishedAt": "2026-11-27T02:50:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "c86d00de4b9f880b",
+      "related": []
+    },
+    {
+      "id": "3a1ac05110ebf409",
+      "title": "不到 3 小時奪取特權，微軟揭中國與北韓駭客濫用開源 AI 框架 ARTEX",
+      "url": "https://infosecu.technews.tw/2026/11/27/microsoft-warns-hackers-leveraging-ai-tools-cyberattacks/",
+      "publishedAt": "2026-11-27T02:50:10Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "3a1ac05110ebf409",
+      "related": []
+    },
+    {
+      "id": "51babbcd1951bb1d",
+      "title": "記憶體漲價重創 Android 陣營，iPhone 在美市占攀升至 57%",
+      "url": "https://technews.tw/2026/11/27/q326-us-smartphone-market/",
+      "publishedAt": "2026-11-27T02:36:21Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "51babbcd1951bb1d",
+      "related": []
+    },
+    {
+      "id": "f75ec1e7af82ad02",
+      "title": "AI 駭客逼銀行加速修補漏洞，系統更新反而成了當機風險",
+      "url": "https://infosecu.technews.tw/2026/11/27/banks-sprint-to-fight-ai-threats-with-quick-fixes-raising-risk-of-outages/",
+      "publishedAt": "2026-11-27T02:35:14Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f75ec1e7af82ad02",
+      "related": []
+    },
+    {
+      "id": "8d647070d25c7181",
+      "title": "記憶體價格暴漲 500%，中小電子廠翻遍 eBay、聯繫數百家掮客找貨",
+      "url": "https://technews.tw/2026/11/27/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history/",
+      "publishedAt": "2026-11-27T02:30:38Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8d647070d25c7181",
+      "related": []
+    },
+    {
+      "id": "123d1489667a7c7a",
+      "title": "三星半導體成立專責機器人團隊！預計 2028 年進駐晶圓廠，全面降低產線人工依賴",
+      "url": "https://technews.tw/2026/11/27/samsung-roadmap-reportedly-puts-unmanned-vehicles-self-driving-robots-and-robotic-arms-inside-its-chip-fabs-by-2028/",
+      "publishedAt": "2026-11-27T02:25:24Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "123d1489667a7c7a",
+      "related": []
+    },
+    {
+      "id": "96a7b124e2557f68",
+      "title": "「iPod 之父」揭 OpenAI 聯手強尼艾夫做硬體內幕：蘋果死守隱私不放行環境資料",
+      "url": "https://technews.tw/2026/11/27/openai-hardware-inside-story/",
+      "publishedAt": "2026-11-27T02:20:32Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "96a7b124e2557f68",
+      "related": []
+    },
+    {
+      "id": "dd0212d07e45d745",
+      "title": "手機貼膜就能看 3D，台灣萊雅攜光影立方攻智慧零售",
+      "url": "https://finance.technews.tw/2026/11/27/loreal-optiqb-big-bang/",
+      "publishedAt": "2026-11-27T02:17:58Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "dd0212d07e45d745",
       "related": []
     },
     {
