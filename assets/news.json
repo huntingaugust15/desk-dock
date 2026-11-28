@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T06:30:15Z",
-  "contentUpdatedAt": "2026-11-28T06:30:15Z",
+  "generatedAt": "2026-11-28T07:48:58Z",
+  "contentUpdatedAt": "2026-11-28T07:48:58Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-28T06:30:15Z",
+      "lastSuccess": "2026-11-28T07:48:58Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-28T06:30:15Z",
+      "lastSuccess": "2026-11-28T07:48:58Z",
       "ok": true
     }
   ],
@@ -117,6 +117,26 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "579b7dabb1cdfe33",
+      "related": []
+    },
+    {
+      "id": "a2281729871bfa10",
+      "title": "中東不平靜、沙烏地煉油廠遭襲 油價跳高",
+      "url": "https://finance.technews.tw/2026/11/27/middle-east-unrest-saudi-refinery-attack-surging-oil-prices/",
+      "publishedAt": "2026-11-27T07:30:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a2281729871bfa10",
+      "related": []
+    },
+    {
+      "id": "8646a0dd63a4d81e",
+      "title": "需求能見度低、供應鏈轉趨保守，2028 年 DRAM 合約價走跌風險升溫",
+      "url": "https://technews.tw/2026/11/27/low-demand-visibility-conservative-supply-chains-2028-dram-contract-price-decline-risk/",
+      "publishedAt": "2026-11-27T07:25:39Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "8646a0dd63a4d81e",
       "related": []
     },
     {
