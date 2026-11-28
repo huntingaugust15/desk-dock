@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T09:52:26Z",
+  "generatedAt": "2026-11-28T10:51:01Z",
   "contentUpdatedAt": "2026-11-28T09:52:26Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-28T09:52:26Z",
+      "lastSuccess": "2026-11-28T10:51:01Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-28T09:52:26Z",
+      "lastSuccess": "2026-11-28T10:51:01Z",
       "ok": true
     }
   ],
