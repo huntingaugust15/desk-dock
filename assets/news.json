@@ -1,24 +1,124 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T08:51:19Z",
-  "contentUpdatedAt": "2026-11-28T08:51:19Z",
+  "generatedAt": "2026-11-28T09:52:26Z",
+  "contentUpdatedAt": "2026-11-28T09:52:26Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-28T08:51:19Z",
+      "lastSuccess": "2026-11-28T09:52:26Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-28T08:51:19Z",
+      "lastSuccess": "2026-11-28T09:52:26Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "e3d97fdefc1e375b",
+      "title": "Google 攜手聯發科推進新 TPU 客製化 HBM5 基礎晶片，韓國憂心主導權弱化",
+      "url": "https://finance.technews.tw/2026/11/28/google-partners-with-mediatek-to-advance-new-tpu-custom-hbm5-base-die/",
+      "publishedAt": "2026-11-28T08:00:29Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e3d97fdefc1e375b",
+      "related": []
+    },
+    {
+      "id": "a850acecb78fe69b",
+      "title": "普渡大學生打造防 AI 作弊編輯器 Syntax！不看成品改追蹤打字與游標，已獲美 40 所大專院校採用",
+      "url": "https://technews.tw/2026/11/28/purdue-university-students-develop-ai-writing-monitoring-software/",
+      "publishedAt": "2026-11-28T08:00:09Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "a850acecb78fe69b",
+      "related": []
+    },
+    {
+      "id": "f8b00b39baee2060",
+      "title": "日本市議員補選四張海報全是 AI 生成，暴露選舉法規落後科技現實",
+      "url": "https://technews.tw/2026/11/28/japanese-election-candidate-uses-ai-to-generate-campaign-posters/",
+      "publishedAt": "2026-11-28T07:30:52Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f8b00b39baee2060",
+      "related": []
+    },
+    {
+      "id": "6ea3af0dc2af1dea",
+      "title": "三星侵犯 Maxell 相機專利，Galaxy S25 系列面臨美國進口禁令危機",
+      "url": "https://technews.tw/2026/11/28/samsung-infringes-on-maxell-camera-patents/",
+      "publishedAt": "2026-11-28T07:00:15Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "6ea3af0dc2af1dea",
+      "related": []
+    },
+    {
+      "id": "e02797fc06e115dd",
+      "title": "黃仁勳回鍋輝達談話全紀錄：坦承不忠、檢討高壓管理、撇清白宮干預，五大重點直擊",
+      "url": "https://finance.technews.tw/2026/11/28/jensen-huang-first-town-hall-return-stabilize-morale-boost-spirit-5-key-points/",
+      "publishedAt": "2026-11-28T06:30:48Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e02797fc06e115dd",
+      "related": []
+    },
+    {
+      "id": "7251b4df64ad049d",
+      "title": "台積電 3 奈米與 CoWoS 雙重吃緊，AI 產能爭奪戰白熱化",
+      "url": "https://finance.technews.tw/2026/11/28/the-battle-for-ai-production-capacity-intensifies/",
+      "publishedAt": "2026-11-28T06:00:14Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7251b4df64ad049d",
+      "related": []
+    },
+    {
+      "id": "55e839650d099733",
+      "title": "台積電宣布 A14 製程生態系就緒，0.9 版 PDK 登場並攜手兩大 EDA 廠完成驗證",
+      "url": "https://finance.technews.tw/2026/11/28/tsmc-announces-a14-process-ecosystem-is-ready/",
+      "publishedAt": "2026-11-28T03:00:49Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "55e839650d099733",
+      "related": []
+    },
+    {
+      "id": "54aa0bafad19c84b",
+      "title": "主動標示 AI、手寫 POP 留給店員！唐吉訶德如何靠「近藤愛」加速行銷，又不失招牌「店的味道」？",
+      "url": "https://technews.tw/2026/11/28/don-don-donki-launches-ai-employee-but-keeps-posters-handwritten/",
+      "publishedAt": "2026-11-28T03:00:03Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "54aa0bafad19c84b",
+      "related": []
+    },
+    {
+      "id": "efb89f737f0598d8",
+      "title": "野村：Rubin 量產進度低於預期，雖短期出貨面臨修正但長期仍看漲",
+      "url": "https://finance.technews.tw/2026/11/28/rubin-mass-production-progress-falls-short-of-expectations/",
+      "publishedAt": "2026-11-28T02:00:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "efb89f737f0598d8",
+      "related": []
+    },
+    {
+      "id": "bb0666a2d498d8cd",
+      "title": "AI 會安慰人不是天性，研究指聊天機器人的同理心是刻意設計",
+      "url": "https://technews.tw/2026/11/28/ai-empathy-not-innate-research-chatbot-compassion-deliberate-design/",
+      "publishedAt": "2026-11-28T01:30:54Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "bb0666a2d498d8cd",
+      "related": []
+    },
     {
       "id": "0ca9c12576906ff7",
       "title": "萬家福網購系統遭攻擊，會員及訂單資料恐外洩，目前未發現金融資料外洩",
@@ -27,126 +127,6 @@
       "sourceId": "ithome",
       "sourceName": "iThome",
       "clusterId": "0ca9c12576906ff7",
-      "related": []
-    },
-    {
-      "id": "7d8db03f93247fae",
-      "title": "AI 仍供不應求，主計總處估明年出口破 1 兆美元創新高",
-      "url": "https://finance.technews.tw/2026/11/27/ai-supply-shortage-dgbass-forecasts-next-year-exports-1-trillion-record-high/",
-      "publishedAt": "2026-11-27T10:10:06Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "7d8db03f93247fae",
-      "related": []
-    },
-    {
-      "id": "5fc111e1e95d20d6",
-      "title": "整合感測通訊！愛立信推 ISAC 系統，將無人機偵測導入行動網路",
-      "url": "https://technews.tw/2026/11/27/ericsson-isac/",
-      "publishedAt": "2026-11-27T09:29:47Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5fc111e1e95d20d6",
-      "related": []
-    },
-    {
-      "id": "cb8904d340eb33a4",
-      "title": "美出口限令加速轉變！瑞銀：中國產 AI 晶片 2028 年市占率將突破 88%",
-      "url": "https://technews.tw/2026/11/27/ubs-see-chinese-ai-chip-market-by-2028/",
-      "publishedAt": "2026-11-27T09:12:30Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "cb8904d340eb33a4",
-      "related": []
-    },
-    {
-      "id": "446534a36f6228b2",
-      "title": "10 月景氣燈號連 11 紅，刷新史上最長紅燈紀錄",
-      "url": "https://finance.technews.tw/2026/11/27/october-economic-indicator-stays-red-for-11th-straight-month/",
-      "publishedAt": "2026-11-27T08:50:00Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "446534a36f6228b2",
-      "related": []
-    },
-    {
-      "id": "f32adb13ec28d258",
-      "title": "哈佛開發微型紫外光晶片，輸出功率提升 120 倍、助量子電腦微縮",
-      "url": "https://technews.tw/2026/11/27/harvard-micro-uv-chip/",
-      "publishedAt": "2026-11-27T08:20:14Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "f32adb13ec28d258",
-      "related": []
-    },
-    {
-      "id": "e0cfeded10a670e5",
-      "title": "日本提國防 AI 願景，判斷與責任由人類承擔",
-      "url": "https://technews.tw/2026/11/27/japan-defense-ai-vision-human-judgment-responsibility/",
-      "publishedAt": "2026-11-27T08:10:30Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "e0cfeded10a670e5",
-      "related": []
-    },
-    {
-      "id": "b446eb34ee456bda",
-      "title": "專訪》第四代核能來敲門，X-energy 眼中台灣的新機會",
-      "url": "https://technews.tw/2026/11/27/exclusive-interview-fourth-generation-nuclear-energy-x-energy-taiwan-new-opportunities/",
-      "publishedAt": "2026-11-27T08:00:05Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b446eb34ee456bda",
-      "related": []
-    },
-    {
-      "id": "de534805f8d44848",
-      "title": "半導體晶片成為新石油，全球出口總值首度超越油氣",
-      "url": "https://technews.tw/2026/11/27/semiconductor-chips-are-the-new-oil/",
-      "publishedAt": "2026-11-27T07:50:32Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "de534805f8d44848",
-      "related": []
-    },
-    {
-      "id": "177858c7649eec2b",
-      "title": "碩禾今年營收拚破百億，看好明年美國太陽能市場成長",
-      "url": "https://technews.tw/2026/11/27/giga-solar-revenue-targets-10-billion-this-year-us-solar-growth-next-year/",
-      "publishedAt": "2026-11-27T07:45:57Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "177858c7649eec2b",
-      "related": []
-    },
-    {
-      "id": "579b7dabb1cdfe33",
-      "title": "帶近半公斤摺疊機去旅行，iPhone Duo、Galaxy Z Fold8 實拍心得",
-      "url": "https://technews.tw/2026/11/27/iphone-duo-galaxy-z-fold8/",
-      "publishedAt": "2026-11-27T07:43:17Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "579b7dabb1cdfe33",
-      "related": []
-    },
-    {
-      "id": "a2281729871bfa10",
-      "title": "中東不平靜、沙烏地煉油廠遭襲 油價跳高",
-      "url": "https://finance.technews.tw/2026/11/27/middle-east-unrest-saudi-refinery-attack-surging-oil-prices/",
-      "publishedAt": "2026-11-27T07:30:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "a2281729871bfa10",
-      "related": []
-    },
-    {
-      "id": "8646a0dd63a4d81e",
-      "title": "需求能見度低、供應鏈轉趨保守，2028 年 DRAM 合約價走跌風險升溫",
-      "url": "https://technews.tw/2026/11/27/low-demand-visibility-conservative-supply-chains-2028-dram-contract-price-decline-risk/",
-      "publishedAt": "2026-11-27T07:25:39Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "8646a0dd63a4d81e",
       "related": []
     },
     {
