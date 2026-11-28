@@ -1,24 +1,124 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T23:51:36Z",
-  "contentUpdatedAt": "2026-11-27T22:56:09Z",
+  "generatedAt": "2026-11-28T01:09:33Z",
+  "contentUpdatedAt": "2026-11-28T01:09:33Z",
   "sources": [
     {
       "id": "technews",
       "name": "科技新報",
       "url": "https://technews.tw/tn-rss/",
-      "lastSuccess": "2026-11-27T23:51:36Z",
+      "lastSuccess": "2026-11-28T01:09:33Z",
       "ok": true
     },
     {
       "id": "ithome",
       "name": "iThome",
       "url": "https://www.ithome.com.tw/rss",
-      "lastSuccess": "2026-11-27T23:51:36Z",
+      "lastSuccess": "2026-11-28T01:09:33Z",
       "ok": true
     }
   ],
   "articles": [
+    {
+      "id": "7d8db03f93247fae",
+      "title": "AI 仍供不應求，主計總處估明年出口破 1 兆美元創新高",
+      "url": "https://finance.technews.tw/2026/11/27/ai-supply-shortage-dgbass-forecasts-next-year-exports-1-trillion-record-high/",
+      "publishedAt": "2026-11-27T10:10:06Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "7d8db03f93247fae",
+      "related": []
+    },
+    {
+      "id": "5fc111e1e95d20d6",
+      "title": "整合感測通訊！愛立信推 ISAC 系統，將無人機偵測導入行動網路",
+      "url": "https://technews.tw/2026/11/27/ericsson-isac/",
+      "publishedAt": "2026-11-27T09:29:47Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "5fc111e1e95d20d6",
+      "related": []
+    },
+    {
+      "id": "cb8904d340eb33a4",
+      "title": "美出口限令加速轉變！瑞銀：中國產 AI 晶片 2028 年市占率將突破 88%",
+      "url": "https://technews.tw/2026/11/27/ubs-see-chinese-ai-chip-market-by-2028/",
+      "publishedAt": "2026-11-27T09:12:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "cb8904d340eb33a4",
+      "related": []
+    },
+    {
+      "id": "446534a36f6228b2",
+      "title": "10 月景氣燈號連 11 紅，刷新史上最長紅燈紀錄",
+      "url": "https://finance.technews.tw/2026/11/27/october-economic-indicator-stays-red-for-11th-straight-month/",
+      "publishedAt": "2026-11-27T08:50:00Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "446534a36f6228b2",
+      "related": []
+    },
+    {
+      "id": "f32adb13ec28d258",
+      "title": "哈佛開發微型紫外光晶片，輸出功率提升 120 倍、助量子電腦微縮",
+      "url": "https://technews.tw/2026/11/27/harvard-micro-uv-chip/",
+      "publishedAt": "2026-11-27T08:20:14Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "f32adb13ec28d258",
+      "related": []
+    },
+    {
+      "id": "e0cfeded10a670e5",
+      "title": "日本提國防 AI 願景，判斷與責任由人類承擔",
+      "url": "https://technews.tw/2026/11/27/japan-defense-ai-vision-human-judgment-responsibility/",
+      "publishedAt": "2026-11-27T08:10:30Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "e0cfeded10a670e5",
+      "related": []
+    },
+    {
+      "id": "b446eb34ee456bda",
+      "title": "專訪》第四代核能來敲門，X-energy 眼中台灣的新機會",
+      "url": "https://technews.tw/2026/11/27/exclusive-interview-fourth-generation-nuclear-energy-x-energy-taiwan-new-opportunities/",
+      "publishedAt": "2026-11-27T08:00:05Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "b446eb34ee456bda",
+      "related": []
+    },
+    {
+      "id": "de534805f8d44848",
+      "title": "半導體晶片成為新石油，全球出口總值首度超越油氣",
+      "url": "https://technews.tw/2026/11/27/semiconductor-chips-are-the-new-oil/",
+      "publishedAt": "2026-11-27T07:50:32Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "de534805f8d44848",
+      "related": []
+    },
+    {
+      "id": "177858c7649eec2b",
+      "title": "碩禾今年營收拚破百億，看好明年美國太陽能市場成長",
+      "url": "https://technews.tw/2026/11/27/giga-solar-revenue-targets-10-billion-this-year-us-solar-growth-next-year/",
+      "publishedAt": "2026-11-27T07:45:57Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "177858c7649eec2b",
+      "related": []
+    },
+    {
+      "id": "579b7dabb1cdfe33",
+      "title": "帶近半公斤摺疊機去旅行，iPhone Duo、Galaxy Z Fold8 實拍心得",
+      "url": "https://technews.tw/2026/11/27/iphone-duo-galaxy-z-fold8/",
+      "publishedAt": "2026-11-27T07:43:17Z",
+      "sourceId": "technews",
+      "sourceName": "科技新報",
+      "clusterId": "579b7dabb1cdfe33",
+      "related": []
+    },
     {
       "id": "a2281729871bfa10",
       "title": "中東不平靜、沙烏地煉油廠遭襲 油價跳高",
@@ -37,106 +137,6 @@
       "sourceId": "technews",
       "sourceName": "科技新報",
       "clusterId": "8646a0dd63a4d81e",
-      "related": []
-    },
-    {
-      "id": "efb01eab650f1997",
-      "title": "防美企「斷電開關」、追趕美中腳步！歐盟祭 500 億歐元主權基金與《量子法》拚技術自主",
-      "url": "https://technews.tw/2026/11/27/eu-50-billion-fund-quantum-act-counter-us-kill-switches-catch-up-us-china-tech-autonomy/",
-      "publishedAt": "2026-11-27T07:20:07Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "efb01eab650f1997",
-      "related": []
-    },
-    {
-      "id": "9f9535bdb38cbc08",
-      "title": "三星傳 CES 秀人型機器人 韓多檔概念股漲停 30%",
-      "url": "https://finance.technews.tw/2026/11/27/south-korean-robotics-stocks-hit-limit-up/",
-      "publishedAt": "2026-11-27T07:10:52Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "9f9535bdb38cbc08",
-      "related": []
-    },
-    {
-      "id": "88482a481606e8a6",
-      "title": "通吃 AI 晶片測試與日系航太專案！英柏得科技預計 12 月中掛牌上市",
-      "url": "https://finance.technews.tw/2026/11/27/industrial-grade-data-storage/",
-      "publishedAt": "2026-11-27T07:02:57Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "88482a481606e8a6",
-      "related": []
-    },
-    {
-      "id": "d561329c3e805ed7",
-      "title": "美收緊先進 AI 晶片出口管制，東南亞 AI 基礎建設面臨考驗",
-      "url": "https://technews.tw/2026/11/27/us-tightens-ai-chip-export-controls-southeast-asia-ai-infrastructure-challenge/",
-      "publishedAt": "2026-11-27T07:00:33Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "d561329c3e805ed7",
-      "related": []
-    },
-    {
-      "id": "b7fdc0e4282f2ab2",
-      "title": "涉向未成年人傳性暗示訊息，蘋果下架 AI 聊天機器人 Talkie",
-      "url": "https://technews.tw/2026/11/27/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns/",
-      "publishedAt": "2026-11-27T06:50:48Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "b7fdc0e4282f2ab2",
-      "related": []
-    },
-    {
-      "id": "4717c3986d8d78a9",
-      "title": "美國防堵中國租用遠端算力，新規加查緝爭搶 AI 競賽優勢",
-      "url": "https://technews.tw/2026/11/27/us-curbs-china-remote-compute-rentals-new-regulations-crackdowns-secure-ai-race-advantage/",
-      "publishedAt": "2026-11-27T06:40:47Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "4717c3986d8d78a9",
-      "related": []
-    },
-    {
-      "id": "5ae683218730f1a8",
-      "title": "馬斯克搶記憶體傳碰壁 李在鎔問：還能給什麼？",
-      "url": "https://finance.technews.tw/2026/11/27/samsungs-lee-rejects-musks-memory-chip-offer/",
-      "publishedAt": "2026-11-27T06:35:17Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "5ae683218730f1a8",
-      "related": []
-    },
-    {
-      "id": "821f6adfa153f5dc",
-      "title": "川普稱黃仁勳絕非國安威脅，稱助他復職對世界是件好事",
-      "url": "https://technews.tw/2026/11/27/trump-jensen-huang-not-national-security-threat-return-office-good-world/",
-      "publishedAt": "2026-11-27T06:30:01Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "821f6adfa153f5dc",
-      "related": []
-    },
-    {
-      "id": "6e032c434790759a",
-      "title": "川普投顧發言：美股大跌有點擔心、市場挺黃仁勳",
-      "url": "https://finance.technews.tw/2026/11/27/trump-says-wednesdays-market-had-him-briefly-concerned-before-stocks-recovered/",
-      "publishedAt": "2026-11-27T06:10:26Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "6e032c434790759a",
-      "related": []
-    },
-    {
-      "id": "18e7ea980f6cd34a",
-      "title": "韓國指中國長鑫存儲 4F² 架構 DRAM 晶片尺寸沒優勢，量產不容易",
-      "url": "https://technews.tw/2026/11/27/south-korea-believes-changxin-memory-technologies-4f%c2%b2-dram-architecture-lacks-a-size-advantage/",
-      "publishedAt": "2026-11-27T06:00:15Z",
-      "sourceId": "technews",
-      "sourceName": "科技新報",
-      "clusterId": "18e7ea980f6cd34a",
       "related": []
     },
     {
